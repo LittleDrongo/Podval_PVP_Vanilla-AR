@@ -9,6 +9,9 @@ PS_GameModeCoop PS_GameMode_Lobby2 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
 SCR_ChimeraCharacter : "{01385D3080F99EC6}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_MortarLeader.et" {
  coords 133 1 133.226
 }
+Vehicle M923A1_engineer1 : "{2D74C39A650A3030}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer.et" {
+ coords 123.217 1 151.644
+}
 GameEntity : "{6113990D163E5249}Prefabs/Items/Equipment/BalisticTable/BalisticTable_US.et" {
  coords 126.312 1 143.496
 }
