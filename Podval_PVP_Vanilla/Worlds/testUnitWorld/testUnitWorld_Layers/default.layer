@@ -1,3 +1,11 @@
+PS_GameModeCoop PS_GameMode_Lobby2 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_AdditionalGameModeSettingsComponent "{6170E11C3C452ACC}" {
+   m_bProjectileBallisticInfoVisibility 0
+  }
+ }
+ coords 131.909 1 134.102
+}
 SCR_ChimeraCharacter : "{01385D3080F99EC6}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_MortarLeader.et" {
  coords 133 1 133.226
 }
@@ -9,4 +17,7 @@ SCR_ChimeraCharacter : "{AC39405FAA8502FF}Prefabs/Characters/Factions/BLUFOR/US_
 }
 GameEntity : "{B41607EAB58A4252}Prefabs/Items/Equipment/BalisticTable/BalisticTable_USSR.et" {
  coords 125.358 1 143.266
+}
+Turret : "{D1FFE458E8AC4BDB}Prefabs/Weapons/Mortars/2B14/Mortar_2B14.et" {
+ coords 134.463 1 135.328
 }
