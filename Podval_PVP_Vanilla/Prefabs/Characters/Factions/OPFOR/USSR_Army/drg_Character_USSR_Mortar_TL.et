@@ -10,5 +10,15 @@ SCR_ChimeraCharacter : "{1ADC4934980AA91A}Prefabs/Characters/Factions/OPFOR/USSR
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{FA5C25BF66A53DCF}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et"
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{64CF280CD92D46A9}" {
+     TargetStorage "Jacket/Jacket_M88_rolledup.et"
+     PrefabsToSpawn {
+      "{B41607EAB58A4252}Prefabs/Items/Equipment/BalisticTable/BalisticTable_USSR.et"
+     }
+    }
+   }
+  }
  }
 }

@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{01385D3080F99EC6}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_MortarLeader.et" {
+ coords 133 1 133.226
+}
+GameEntity : "{6113990D163E5249}Prefabs/Items/Equipment/BalisticTable/BalisticTable_US.et" {
+ coords 126.312 1 143.496
+}
+SCR_ChimeraCharacter : "{AC39405FAA8502FF}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_MortarGunner.et" {
+ coords 134.154 1 131.073
+}
+GameEntity : "{B41607EAB58A4252}Prefabs/Items/Equipment/BalisticTable/BalisticTable_USSR.et" {
+ coords 125.358 1 143.266
+}
