@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{62C5ADCC5B5F78A7}Worlds/_dev_Campaing_Roles/dev_Campaing_Roles.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

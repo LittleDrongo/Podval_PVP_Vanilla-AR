@@ -1,0 +1,230 @@
+SCR_AIGroup US_3_0_0_DEF : "{0727ADE18EE48E64}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_MedicalTeam.et" {
+ components {
+  PS_GroupCallsignAssigner "{64607D043396154A}" {
+   m_iCompanyCallsign 3
+  }
+ }
+ coords 1440.401 2.006 760.902
+ angleX 0.713
+ angleY 52.786
+ angleZ -0.541
+}
+SCR_AIGroup US_1_0_3_DEF : "{119A3C5BF9D14C80}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_MG_Squad.et" {
+ components {
+  PS_GroupCallsignAssigner "{64607D040E149AD9}" {
+   m_iCompanyCallsign 1
+   m_iSquadCallsign 3
+  }
+ }
+ coords 1494.249 2 828.99
+ angleY -33.623
+}
+Vehicle M923A1_engineer1 : "{2D74C39A650A3030}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+   MultiSlots {
+    MultiSlotConfiguration "{64CB51EB4067CC8A}" {
+     SlotTemplate InventoryStorageSlot "{64CB51EB39A8A282}" {
+      Prefab "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et"
+     }
+     NumSlots 40
+    }
+   }
+  }
+ }
+ coords 1472.561 2 842.688
+ angleY -60.21
+ m_sAttachmentGroupName "US_2_0_0_DEF"
+ m_bEnableMoveOnFreeze 1
+}
+Vehicle M997_maxi_ambulance_MERDC1 : "{3B1EB924602C7A07}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_MERDC.et" {
+ coords 1439.359 1.979 756.154
+ angleX -0.744
+ angleY 56.199
+ angleZ 0.498
+ m_sAttachmentGroupName "US_3_0_0_DEF"
+ m_bEnableMoveOnFreeze 1
+}
+$grp Vehicle : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
+ M1 {
+  coords 1517.755 2.062 847.026
+  angleY -120.272
+  m_sAttachmentGroupName "US_4_0_0_DEF"
+  m_bEnableMoveOnFreeze 1
+ }
+ M2 {
+  coords 1523.267 2.093 850.244
+  angleY -120.272
+  m_sAttachmentGroupName "US_4_0_0_DEF"
+  m_bEnableMoveOnFreeze 1
+ }
+ M3 {
+  coords 1492.627 2 831.806
+  angleY -120.272
+  m_sAttachmentGroupName "US_1_0_3_DEF"
+  m_bEnableMoveOnFreeze 1
+ }
+ M4 {
+  coords 1498.139 2 835.024
+  angleY -120.272
+  m_sAttachmentGroupName "US_1_0_3_DEF"
+  m_bEnableMoveOnFreeze 1
+ }
+}
+SCR_AIGroup US_0_0_0_DEF : "{68D5E3B6F7C86BD0}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_CompanyHQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation " "
+  }
+ }
+ coords 1458.028 2.258 768.511
+ angleX -0.68
+ angleY -77.47
+ angleZ -1.068
+ m_aUnitPrefabSlots {
+  "{F81AEF796B932D96}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_CL.et"
+ }
+ m_bSnapToTerrain 0
+}
+SCR_AIGroup US_6_0_0 : "{8AE885D9508D0CB7}Prefabs/Groups/BLUFOR/Campaign/S_US_drg_ReconSquad.et" {
+ components {
+  PS_GroupCallsignAssigner "{6460980981A09BD7}" {
+   m_iCompanyCallsign 6
+  }
+ }
+ coords 1510.755 2.004 844.068
+ angleY 151.024
+}
+$grp SCR_AIGroup : "{8D21AAF73F41E8F6}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_RifleSquad.et" {
+ US_1_0_0_DEF {
+  components {
+   PS_GroupCallsignAssigner "{646098080991B56F}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 1451.074 2.031 747.946
+  angleY -78.976
+  m_aUnitPrefabSlots {
+   "{069E238FD5C16DFC}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_SL.et" "{C2101FF9EC237FBA}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{AC046B05DDBE646B}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{6B16D290E745CFEF}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{C42B6C8C59509617}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et" "{C2101FF9EC237FBA}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{AC046B05DDBE646B}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{6B16D290E745CFEF}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{C42B6C8C59509617}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ US_1_0_1_DEF {
+  components {
+   PS_GroupCallsignAssigner "{646098080991B56F}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1459.727 2.409 780.456
+  angleX -0.239
+  angleY -55.882
+  angleZ -1.243
+  m_aUnitPrefabSlots {
+   "{069E238FD5C16DFC}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_SL.et" "{C2101FF9EC237FBA}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{AC046B05DDBE646B}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{6B16D290E745CFEF}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{C42B6C8C59509617}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et" "{C2101FF9EC237FBA}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{AC046B05DDBE646B}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{6B16D290E745CFEF}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{C42B6C8C59509617}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ US_1_0_2_DEF {
+  components {
+   PS_GroupCallsignAssigner "{646098080991B56F}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1473.036 2.293 809.252
+  angleX -0.651
+  angleY -75.959
+  angleZ -1.086
+  m_aUnitPrefabSlots {
+   "{069E238FD5C16DFC}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_SL.et" "{C2101FF9EC237FBA}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{AC046B05DDBE646B}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{6B16D290E745CFEF}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{C42B6C8C59509617}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et" "{C2101FF9EC237FBA}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{AC046B05DDBE646B}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{6B16D290E745CFEF}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{C42B6C8C59509617}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et"
+  }
+  m_bSnapToTerrain 0
+ }
+}
+SCR_AIGroup US_4_0_0_DEF : "{983EB2C5F6E84CD7}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_MortarCrew.et" {
+ components {
+  PS_GroupCallsignAssigner "{64607D07A7096E4D}" {
+   m_iCompanyCallsign 4
+  }
+ }
+ coords 1517.335 2.043 854.604
+ angleX 1.249
+ angleY 144.464
+ angleZ 0.208
+}
+$grp Vehicle : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" {
+ M923A1_transport1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    MultiSlots {
+     MultiSlotConfiguration "{64CB51EF90ACA152}" {
+      SlotTemplate InventoryStorageSlot "{64CB51EF86678406}" {
+       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+      }
+      NumSlots 6
+     }
+    }
+   }
+  }
+  coords 1448.249 2.093 752.708
+  angleY 9.898
+  m_sAttachmentGroupName "US_1_0_0_DEF"
+  m_bEnableMoveOnFreeze 1
+ }
+ M923A1_transport2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    MultiSlots {
+     MultiSlotConfiguration "{64CB51EF90ACA152}" {
+      SlotTemplate InventoryStorageSlot "{64CB51EF86678406}" {
+       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+      }
+      NumSlots 6
+     }
+    }
+   }
+  }
+  coords 1459.919 2.498 787.97
+  angleX 1.237
+  angleY 32.808
+  angleZ -0.267
+  m_sAttachmentGroupName "US_1_0_1_DEF"
+  m_bEnableMoveOnFreeze 1
+ }
+ M923A1_transport3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    MultiSlots {
+     MultiSlotConfiguration "{64CB51EF90ACA152}" {
+      SlotTemplate InventoryStorageSlot "{64CB51EF86678406}" {
+       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+      }
+      NumSlots 6
+     }
+    }
+   }
+  }
+  coords 1470.482 2.184 814.873
+  angleX -1.965
+  angleY 15.64
+  angleZ 0.379
+  m_sAttachmentGroupName "US_1_0_2_DEF"
+  m_bEnableMoveOnFreeze 1
+ }
+}
+Vehicle M151A1 : "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et" {
+ coords 1508.059 2.031 845.659
+ angleY -119.345
+ m_sAttachmentGroupName "US_6_0_0"
+ m_bEnableMoveOnFreeze 1
+}
+SCR_AIGroup US_2_0_0_DEF : "{F7B1E883643FF4A3}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_DemolitionTeam.et" {
+ components {
+  PS_GroupCallsignAssigner "{64607D0CB31C3FB0}" {
+   m_iCompanyCallsign 2
+  }
+ }
+ coords 1473.821 2 846.003
+ angleY -146.561
+}

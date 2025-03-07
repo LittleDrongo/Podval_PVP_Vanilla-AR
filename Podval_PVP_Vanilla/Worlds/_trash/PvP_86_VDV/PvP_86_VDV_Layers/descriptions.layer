@@ -1,0 +1,73 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ RULES {
+  coords 5534.73 61.71 10496.381
+  m_sTitle "#PS-Description_HeaderRules"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "ОБЩИЕ ПРАВИЛА "\
+  "— Всем запрещено надевать форму, головные уборы, разгрузки, бронежилеты противника (рюкзаки можно) "\
+  "— Количество радиостанций ограничено до 2-3 шт. в отделении. "\
+  ""\
+  "УСЛОВНОСТИ ДЛЯ ВС СССР "\
+  "— Разрешено осуществить высадку ТОЛЬКО на территории военного аэродрома. (см. красную линию)"\
+  ""\
+  "УСЛОВНОСТИ ДЛ ПАРТИЗАН FIA "\
+  "— Вазгену запрещено покидать позиции аэродрома."\
+  "— Вазген вооружен только одним пистолетом."\
+  ""\
+  "СПОСОБЫ ПОБЕДЫ ВС СССР "\
+  "— 1. Занять и удержать диспетчерскую вышку (25)."\
+  "— 2. Занять и удержать склад (25)."\
+  "— 3. Нанести серьёзный урон FIA (25). "\
+  "— 4. Пленить сторожа (10). "\
+  ""\
+  "СПОСОБЫ ПОБЕДЫ ДЛЯ ПАРТИЗАН FIA "\
+  "— 1. Отбить диспетчерскую вышку (25)."\
+  "— 2. Отбить склад (25)."\
+  "— 3. Нанести серьёзный урон ВС СССР. (25) "\
+  "— 4. Сторож остался на свободе и жив(10). "\
+  ""\
+  "Внимание! в качестве подтверждения контроля объекта над объектом будет размещен флаг стороны контролирующий объект, в случае успешного захвата будет висеть ФЛАГ СССР, если партизаны смогут отбить объект фраг сменится на FIA"
+  m_aVisibleForFactions {
+   "US" "USSR" "FIA"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ FIA {
+  coords 5159.505 56.132 10322.095
+  m_sTitle "#PS-Description_HeaderFIA"
+  m_sTextData "Выбить противника с аэродрома"
+  m_aVisibleForFactions {
+   "FIA"
+  }
+ }
+ USSR {
+  coords 5534.418 43.503 10540.239
+  m_sTitle "#PS-Description_HeaderUSSR"
+  m_sTextData "ВВОДНАЯ ИНФОРМАЦИЯ:"\
+  "Мы осуществляем высадку на аэродром."\
+  ""\
+  "НАША ЗАДАЧА:"\
+  "Занять и удержать аэродром"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ USA {
+  coords 5626.204 38.464 10536.691
+  m_sTitle "#PS-Description_HeaderUS"
+  m_sTextData "---"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ ABOUT {
+  coords 5568.057 56.802 10524.196
+  m_sTitle "#PS-Description_HeaderAboutMission"
+  m_sTextData "Бой за военный аэродром"\
+  ""
+  m_aVisibleForFactions {
+   "US" "USSR" "FIA"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+}
