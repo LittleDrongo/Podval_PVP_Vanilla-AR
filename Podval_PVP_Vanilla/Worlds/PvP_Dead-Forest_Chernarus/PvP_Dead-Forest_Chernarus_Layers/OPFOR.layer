@@ -1,5 +1,5 @@
 $grp SCR_AIGroup : "{728E2FD8168A5314}Prefabs/Groups/OPFOR/drg_Group_USSR_Squad.et" {
- USSR_0 {
+ USSR_0_0 {
   components {
    PS_GroupCallsignAssigner "{61B543EBC5B38209}" {
     Enabled 1
