@@ -17,6 +17,14 @@ StringTable {
    Author "hasta"
    LastChanged "hasta"
   }
+  CustomStringTableItem "{64D6E6063F14BF63}" {
+   Id "DRG-Role-Milita"
+   Target_en_us "Rebel"
+   Target_ru_ru "Ополченец"
+   Modified 1691811174
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{645CD4E0A9C7C030}" {
    Id "DRG-Role-Mortar-TL"
    Target_en_us "Mortar crew commander"
@@ -46,6 +54,14 @@ StringTable {
    Target_en_us "Mortar loader"
    Target_ru_ru "Заряжающий миномёта"
    Modified 1683827857
+   Author "hasta"
+   LastChanged "hasta"
+  }
+  CustomStringTableItem "{64D6E606FA027633}" {
+   Id "DRG-Role-Rebel"
+   Target_en_us "Rebel"
+   Target_ru_ru "Ополченец"
+   Modified 1691812308
    Author "hasta"
    LastChanged "hasta"
   }
