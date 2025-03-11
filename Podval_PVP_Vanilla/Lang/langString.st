@@ -17,6 +17,14 @@ StringTable {
    Author "hasta"
    LastChanged "hasta"
   }
+  CustomStringTableItem "{64D6E60496F5ECAB}" {
+   Id "DRG-Role-LeaderRebel"
+   Target_en_us "Rebel TeamLeader"
+   Target_ru_ru "Командир группы ополчения"
+   Modified 1691812563
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{64D6E6063F14BF63}" {
    Id "DRG-Role-Milita"
    Target_en_us "Rebel"
