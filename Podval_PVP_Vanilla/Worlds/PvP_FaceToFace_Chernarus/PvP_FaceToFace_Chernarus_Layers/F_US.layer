@@ -10,6 +10,12 @@ SCR_AIGroup : "{68D5E3B6F7C86BD0}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_Company
   "{F81AEF796B932D96}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_CL.et"
  }
 }
+Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
+ coords 5231.775 341.49 8623.576
+ angleX 3.684
+ angleY -106.072
+ angleZ -0.131
+}
 $grp SCR_AIGroup : "{8D21AAF73F41E8F6}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_RifleSquad.et" {
  {
   components {

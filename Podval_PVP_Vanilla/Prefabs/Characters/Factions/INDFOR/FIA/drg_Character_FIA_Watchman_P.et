@@ -4,7 +4,11 @@ SCR_ChimeraCharacter : "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#DRG-Role_Watchman"
+    Icon "{D578ED3D438AE38F}UI/Icons/watchman.edds"
    }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate ""
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate ""
