@@ -17,7 +17,16 @@ PolylineShapeEntity {
  coords 1804.083 -1.419 1318.787
  Points {
   ShapePoint "{64CE75336AA51273}" {
-   Position 0 0.001 0
+   Position 54.93 0.001 -6.91
+  }
+  ShapePoint "{64DCE9F355B8BF8E}" {
+   Position 182.272 -0 70.133
+  }
+  ShapePoint "{64DCE9F35D5A1BE9}" {
+   Position 302.205 38.783 265.728
+  }
+  ShapePoint "{64DCE9F35F7D4AEA}" {
+   Position 261.585 -1.081 360.938
   }
   ShapePoint "{64CE75336AA56DB4}" {
    Position -13.514 13.257 81.288
@@ -37,8 +46,23 @@ PolylineShapeEntity {
   ShapePoint "{64CE7533665DA95C}" {
    Position -410.691 16.88 400.756
   }
+  ShapePoint "{64DCE9F35234117D}" {
+   Position -347.091 0.009 641.941
+  }
+  ShapePoint "{64DCE9F34CF78509}" {
+   Position -233.445 -0 746.08
+  }
+  ShapePoint "{64DCE9F34EC23785}" {
+   Position -345.209 -0 836.578
+  }
+  ShapePoint "{64DCE9F34E3F4642}" {
+   Position -477.063 -0 698.673
+  }
+  ShapePoint "{64DCE9F3497F007E}" {
+   Position -532.824 -0.607 562.95
+  }
   ShapePoint "{64CE753362E4E468}" {
-   Position -532.946 0.331 398.12
+   Position -546.534 1.545 415.274
   }
   ShapePoint "{64CE7533626E2EDD}" {
    Position -532.479 -4.304 332.264
