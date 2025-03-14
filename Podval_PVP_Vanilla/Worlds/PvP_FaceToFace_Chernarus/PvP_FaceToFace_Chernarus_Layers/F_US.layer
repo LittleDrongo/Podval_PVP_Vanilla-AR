@@ -93,10 +93,10 @@ SCR_AIGroup US_5_0_0 : "{983EB2C5F6E84CD7}Prefabs/Groups/BLUFOR/Campaign/F_US_dr
  angleY 172.076
  angleZ -4.424
 }
-Vehicle M923A1_transport1 : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" {
- coords 5235.2 341.332 8619.941
- angleX 3.664
- angleY -97.73
- angleZ 0.405
+Vehicle M923A1_transport_Mortar1 : "{E3CB6FEDDDA25ADF}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_Mortar.et" {
+ coords 5234.285 341.386 8620.205
+ angleX 3.675
+ angleY -99.568
+ angleZ 0.287
  m_sAttachmentGroupName "US_5_0_0"
 }
