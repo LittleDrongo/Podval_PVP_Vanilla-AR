@@ -225,10 +225,15 @@ Vehicle Ural4320_transport_Mortar1 : "{CD6AA14FA304EC31}Prefabs/Vehicles/Wheeled
  angleZ 0.394
  m_sAttachmentGroupName "USSR_6_0_0"
 }
+Turret : "{D1FFE458E8AC4BDB}Prefabs/Weapons/Mortars/2B14/Mortar_2B14.et" {
+ coords 3886.118 115.003 4921.255
+ angleY -58.541
+}
 Vehicle M923A1_transport4 : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" {
  coords 992.392 2.74 6027.331
  angleX -0.082
  angleY 95.245
  angleZ 0.891
  m_sAttachmentGroupName "US_0_0_3_DEF"
+ m_bEnableMoveOnFreeze 1
 }

@@ -1,149 +1,3 @@
-$grp GenericEntity : "{5B1ACF5EB4596820}Prefabs/Items/supplie_box.et" {
- {
-  coords 1067.935 2.813 6178.162
-  angleY -114.198
- }
- {
-  coords 1067.77 2.813 6178.528
-  angleY -114.198
- }
- {
-  coords 1067.453 2.813 6179.234
-  angleY -114.198
- }
- {
-  coords 1067.618 2.813 6178.868
-  angleY -114.198
- }
- {
-  coords 1067.136 2.813 6179.94
-  angleY -114.198
- }
- {
-  coords 1067.301 2.813 6179.574
-  angleY -114.198
- }
- {
-  coords 1068.399 2.813 6178.37
-  angleY -114.198
- }
- {
-  coords 1068.234 2.813 6178.736
-  angleY -114.198
- }
- {
-  coords 1067.917 2.813 6179.443
-  angleY -114.198
- }
- {
-  coords 1068.082 2.813 6179.076
-  angleY -114.198
- }
- {
-  coords 1067.6 2.813 6180.149
-  angleY -114.198
- }
- {
-  coords 1067.765 2.813 6179.782
-  angleY -114.198
- }
- {
-  coords 1068.836 2.813 6178.566
-  angleY -114.198
- }
- {
-  coords 1068.671 2.813 6178.933
-  angleY -114.198
- }
- {
-  coords 1068.354 2.813 6179.639
-  angleY -114.198
- }
- {
-  coords 1068.519 2.813 6179.272
-  angleY -114.198
- }
- {
-  coords 1068.037 2.813 6180.345
-  angleY -114.198
- }
- {
-  coords 1068.202 2.813 6179.978
-  angleY -114.198
- }
- {
-  coords 1059.838 2.811 6156.84
-  angleY -114.198
- }
- {
-  coords 1059.672 2.811 6157.207
-  angleY -114.198
- }
- {
-  coords 1059.355 2.811 6157.913
-  angleY -114.198
- }
- {
-  coords 1059.52 2.811 6157.547
-  angleY -114.198
- }
- {
-  coords 1059.038 2.811 6158.619
-  angleY -114.198
- }
- {
-  coords 1059.203 2.811 6158.253
-  angleY -114.198
- }
- {
-  coords 1060.301 2.811 6157.049
-  angleY -114.198
- }
- {
-  coords 1060.136 2.811 6157.415
-  angleY -114.198
- }
- {
-  coords 1059.819 2.811 6158.122
-  angleY -114.198
- }
- {
-  coords 1059.984 2.811 6157.755
-  angleY -114.198
- }
- {
-  coords 1059.502 2.811 6158.828
-  angleY -114.198
- }
- {
-  coords 1059.667 2.811 6158.461
-  angleY -114.198
- }
- {
-  coords 1060.738 2.811 6157.245
-  angleY -114.198
- }
- {
-  coords 1060.573 2.811 6157.611
-  angleY -114.198
- }
- {
-  coords 1060.256 2.811 6158.317
-  angleY -114.198
- }
- {
-  coords 1060.421 2.811 6157.951
-  angleY -114.198
- }
- {
-  coords 1059.939 2.811 6159.024
-  angleY -114.198
- }
- {
-  coords 1060.104 2.811 6158.657
-  angleY -114.198
- }
-}
 $grp GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign.et" {
  {
   coords 1103.349 42.832 11465.864
@@ -177,6 +31,54 @@ $grp GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyC
   angleZ 5.119
   {
    PS_ManualMarker supplies5 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 22.351 1.567 26.107
+    angleX 3.566
+    angleY 54.588
+    angleZ 4.467
+    m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+    m_sImageSetGlow ""
+    m_sQuadName "SupplyDepot"
+    m_fWorldSize 35
+    m_sDescription "Ресурсы"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "US"
+    }
+    m_aHideOnGameModeStates {
+    }
+   }
+  }
+ }
+ {
+  coords 1069.259 2.812 6181.27
+  angleY 63.206
+  {
+   PS_ManualMarker supplies3 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 22.351 1.567 26.107
+    angleX 3.566
+    angleY 54.588
+    angleZ 4.467
+    m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+    m_sImageSetGlow ""
+    m_sQuadName "SupplyDepot"
+    m_fWorldSize 35
+    m_sDescription "Ресурсы"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "US"
+    }
+    m_aHideOnGameModeStates {
+    }
+   }
+  }
+ }
+ {
+  coords 1058.981 2.789 6156.465
+  angleX 0.375
+  angleY 65.267
+  angleZ 0.813
+  {
+   PS_ManualMarker supplies6 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
     coords 22.351 1.567 26.107
     angleX 3.566
     angleY 54.588

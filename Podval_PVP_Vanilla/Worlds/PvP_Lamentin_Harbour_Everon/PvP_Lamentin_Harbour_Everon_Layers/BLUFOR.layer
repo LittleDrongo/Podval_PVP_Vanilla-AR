@@ -215,16 +215,19 @@ $grp Vehicle : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transpo
   coords 1088.718 2.781 6030.288
   angleY -89.007
   m_sAttachmentGroupName "US_0_0_1_DEF"
+  m_bEnableMoveOnFreeze 1
  }
  M923A1_transport2 {
   coords 1088.873 2.781 6039.24
   angleY -89.007
   m_sAttachmentGroupName "US_0_0_2_DEF"
+  m_bEnableMoveOnFreeze 1
  }
  M923A1_transport3 {
   coords 1089.017 2.781 6047.552
   angleY -89.007
   m_sAttachmentGroupName "US_0_0_4_DEF"
+  m_bEnableMoveOnFreeze 1
  }
  M923A1_transport5 {
   coords 1088.529 39.79 11513.684
