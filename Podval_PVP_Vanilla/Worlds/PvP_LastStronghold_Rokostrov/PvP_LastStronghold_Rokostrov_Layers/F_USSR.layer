@@ -248,6 +248,32 @@ Vehicle Ural4320_ammo1 : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ur
  angleY 142.911
  angleZ -1.085
 }
+$grp Vehicle : "{3C6B3ED0C3AC30D5}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_HE.et" {
+ Mi8MT_armed_gunship_HE1 {
+  coords 4367.618 4 -357.139
+  angleY -34.161
+  m_sAttachmentGroupName "USSR_5_0_0"
+ }
+ Mi8MT_armed_gunship_HE2 {
+  coords 4396.478 3.988 -399.67
+  angleX 0.843
+  angleY -34.144
+  angleZ 1.13
+  m_sAttachmentGroupName "USSR_5_0_1"
+ }
+ Mi8MT_armed_gunship_HE3 {
+  coords 4436.653 4 -454.736
+  angleY -37.236
+  m_sAttachmentGroupName "USSR_5_0_2"
+ }
+ Mi8MT_armed_gunship_HE4 {
+  coords 4471.747 3.999 -501.151
+  angleX -0.627
+  angleY -36.081
+  angleZ -0.783
+  m_sAttachmentGroupName "USSR_5_0_3"
+ }
+}
 Vehicle Ural4320_tanker1 : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et" {
  coords 4364.31 3.973 -325.872
  angleX -0.895
@@ -296,34 +322,6 @@ $grp Vehicle : "{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed
   angleY -35.563
   angleZ 1.101
   m_sAttachmentGroupName "USSR_6_0_5"
- }
-}
-$grp Vehicle : "{98225ED6D5F724D7}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship.et" {
- Mi8MT_armed_gunship3 {
-  coords 4369.51 3.966 -359.192
-  angleX 0.895
-  angleY -36.675
-  angleZ 0.008
-  m_sAttachmentGroupName "USSR_5_0_0"
- }
- Mi8MT_armed_gunship2 {
-  coords 4401.816 3.999 -403.262
-  angleX 0.022
-  angleY -34.454
-  angleZ -0.783
-  m_sAttachmentGroupName "USSR_5_0_1"
- }
- Mi8MT_armed_gunship4 {
-  coords 4437.819 4 -452.464
-  angleY -35.852
-  m_sAttachmentGroupName "USSR_5_0_2"
- }
- Mi8MT_armed_gunship5 {
-  coords 4471.563 3.995 -499.48
-  angleX 0.007
-  angleY -35.578
-  angleZ -0.783
-  m_sAttachmentGroupName "USSR_5_0_4"
  }
 }
 Vehicle Ural4320_repair1 : "{A5647958579A4149}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair.et" {
