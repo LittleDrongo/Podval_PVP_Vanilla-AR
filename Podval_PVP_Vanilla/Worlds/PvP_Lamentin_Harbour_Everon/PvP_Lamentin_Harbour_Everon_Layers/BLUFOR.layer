@@ -1,4 +1,4 @@
-$grp Vehicle : "{137DCF41459A89BE}Prefabs/Vehicles/Helicopters/UH1H/UH1H_gunship.et" {
+$grp Vehicle : "{137DCF41459A89BE}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_empty.et" {
  UH1H_gunship1 {
   coords 1117.028 41.779 11528.681
   angleX -0.897
@@ -16,9 +16,10 @@ $grp Vehicle : "{137DCF41459A89BE}Prefabs/Vehicles/Helicopters/UH1H/UH1H_gunship
 }
 Vehicle M923A1_tanker1 : "{2BE1F8B9299B67C1}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker.et" {
  coords 1089.218 40.225 11520.092
- angleX -0.549
- angleY 98.824
- angleZ 3.534
+ angleX -0.165
+ angleY 92.651
+ angleZ 3.572
+ m_bEnableMoveOnFreeze 1
 }
 $grp Vehicle : "{2D74C39A650A3030}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer.et" {
  M923A1_engineer1 {
@@ -189,11 +190,19 @@ $grp SCR_AIGroup : "{360C6407B466DFE8}Prefabs/Groups/BLUFOR/drg_Group_US_RifleSq
   }
  }
 }
+Vehicle M923A1_ammo1 : "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et" {
+ coords 1087.269 39.718 11506.497
+ angleX -1.654
+ angleY 82.324
+ angleZ 1.126
+ m_bEnableMoveOnFreeze 1
+}
 Vehicle M923A1_repair1 : "{A042ACE5C2B13206}Prefabs/Vehicles/Wheeled/M923A1/M923A1_repair.et" {
- coords 1089.884 40.771 11525.751
- angleX 0.53
- angleY 97.984
- angleZ 9.038
+ coords 1089.694 40.84 11526.196
+ angleX 0.29
+ angleY 97.938
+ angleZ 10.759
+ m_bEnableMoveOnFreeze 1
 }
 Vehicle UH1H_armed1 : "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et" {
  coords 11009.856 29.581 11517.642
@@ -216,5 +225,12 @@ $grp Vehicle : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transpo
   coords 1089.017 2.781 6047.552
   angleY -89.007
   m_sAttachmentGroupName "US_0_0_4_DEF"
+ }
+ M923A1_transport5 {
+  coords 1088.529 39.79 11513.684
+  angleX -0.855
+  angleY 89.145
+  angleZ 2.697
+  m_bEnableMoveOnFreeze 1
  }
 }

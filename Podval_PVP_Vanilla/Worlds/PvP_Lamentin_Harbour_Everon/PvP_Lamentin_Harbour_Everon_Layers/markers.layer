@@ -19,20 +19,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
  }
- supplies {
-  coords 1109.559 40.95 11507.058
-  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
-  m_sImageSetGlow ""
-  m_sQuadName "SupplyDepot"
-  m_fWorldSize 35
-  m_sDescription "Ресурсы"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "US"
-  }
-  m_aHideOnGameModeStates {
-  }
- }
  supplies2 {
   coords 1060.102 4.426 6158.377
   m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
