@@ -1,70 +1,117 @@
-SCR_ChimeraCharacter : "{01385D3080F99EC6}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_MortarLeader.et" {
- coords 147.158 1 132.366
+SCR_ChimeraCharacter : "{069E238FD5C16DFC}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_SL.et" {
+ coords 106.892 1 112.672
 }
-SCR_ChimeraCharacter : "{19D560184F0A377F}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_MGAB.et" {
- coords 152.276 1 131.793
+SCR_ChimeraCharacter : "{12470395DB7683C0}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_SeniorEngineer.et" {
+ coords 109.566 1 111.722
 }
-SCR_ChimeraCharacter : "{39010C8A890ADB0C}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_MG.et" {
- coords 154.812 1 132.095
+SCR_ChimeraCharacter : "{1757CD5AA2D8A4F8}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_AR.et" {
+ coords 100.774 1 117.438
 }
-SCR_ChimeraCharacter : "{49734327564F4C54}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_MortarAmmoBearer.et" {
- coords 150.704 1 131.981
-}
-SCR_ChimeraCharacter : "{4CD15F71E43CBEA6}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Driver.et" {
- coords 165.696 1 130.173
-}
-SCR_ChimeraCharacter : "{52B3CB912522A390}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Engineer.et" {
- coords 164.322 1 130.756
-}
-SCR_ChimeraCharacter : "{6B16D290E745CFEF}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" {
- coords 175.776 1 128.557
-}
-SCR_ChimeraCharacter : "{71B242C4EBBAF81C}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_HeliCrew.et" {
+SCR_ChimeraCharacter : "{196F44033C9BE717}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Bearer.et" {
  components {
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{61B87867EA32507F}" {
+    ItemsInitConfigurationItem "{61B87CCA62BE05FA}" {
+     TargetStorage "Back/Backpack_IIFS_FieldPack.et"
+    }
+   }
+  }
+ }
+ coords 98.553 1 118.123
+}
+SCR_ChimeraCharacter : "{27BEF07908F77017}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Pilot_Radio.et" {
+ coords 116.044 1 108.968
+}
+SCR_ChimeraCharacter : "{3D56107B6DFC8B43}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Officer.et" {
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Officer"
+    Icon "{B0B3E06A17B8AC6D}UI/Icons/officer.edds"
+   }
+  }
+ }
+ coords 118.568 1 108.832
+}
+SCR_ChimeraCharacter : "{4438AEFF45A8CE9E}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Rifleman.et" {
+ coords 84.503 1 120.14
+}
+SCR_ChimeraCharacter : "{45A7044945C5D39D}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Rifleman_LAT.et" {
+ coords 81.428 1 120.471
+}
+SCR_ChimeraCharacter : "{4F4A16468D0D3CAA}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_SeniorSapper.et" {
+ coords 108.498 1 112.246
+}
+SCR_ChimeraCharacter : "{4F6C9EDA416D83D3}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_CrewDriver.et" {
+ coords 96.045 1 117.5
+}
+SCR_ChimeraCharacter : "{52B3CB912522A38F}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Sapper.et" {
+ coords 110.489 1 110.88
+}
+$grp SCR_ChimeraCharacter : "{72B2FE631E2E9AA4}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Sapper.et" {
+ {
+  coords 78.391 1 120.361
+ }
+ {
+  coords 76.721 1 120.354
+ }
+}
+SCR_ChimeraCharacter : "{782D3558D8572AB1}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_RTO.et" {
+ coords 80.013 1 120.641
+}
+SCR_ChimeraCharacter : "{8A242D399692B223}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_SeniorRifleman.et" {
+ coords 75.146 1 120.812
+}
+SCR_ChimeraCharacter : "{9225DEC70CB5A7CE}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_RTO.et" {
+ coords 111.692 1 110.277
+}
+SCR_ChimeraCharacter : "{9E0647E647A7EFCD}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Sniper.et" {
+ coords 73.1 1 120.027
+}
+SCR_ChimeraCharacter : "{9E0647E647A7EFCE}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Medic.et" {
+ coords 91.058 1 119.851
+}
+SCR_ChimeraCharacter : "{9E981A3B207C7653}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Officer.et" {
+ coords 88.648 1 119.002
+}
+$grp SCR_ChimeraCharacter : "{9F809A16C8265C6C}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_PL.et" {
+ {
+  coords 120.262 1 108.586
+ }
+ {
+  coords 114.273 1 109.149
+ }
+}
+SCR_ChimeraCharacter : "{A847393A699A8A7E}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_CrewGunner.et" {
+ coords 94.738 1 118.227
+}
+SCR_ChimeraCharacter : "{ABF09C1FF1D412D8}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Pilot.et" {
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B75C981AA2A498}" {
      TargetStorage "Jacket/Suit_Pilot_US_01.et"
     }
    }
   }
  }
- coords 158.187 1 131.499
+ coords 117.409 1 109.11
 }
-SCR_ChimeraCharacter : "{749CC8EDA102C70D}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_BaseLoadout.et" {
- coords 167.962 1 130.066
+SCR_ChimeraCharacter : "{C2101FF9EC237FBA}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" {
+ coords 103.92 1 113.199
 }
-$grp SCR_ChimeraCharacter : "{AC046B05DDBE646B}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" {
- {
-  coords 162.638 1 131.186
- }
- {
-  coords 160.469 1 130.272
- }
+SCR_ChimeraCharacter : "{C42B6C8C59509617}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et" {
+ coords 113.542 1 109.959
 }
-SCR_ChimeraCharacter : "{AC39405FAA8502FF}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_MortarGunner.et" {
- coords 149.006 1 132.393
+SCR_ChimeraCharacter : "{CBED715857D6D899}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Leader.et" {
+ coords 92.846 1 119.055
 }
-SCR_ChimeraCharacter : "{B4AF7D0D98A7AD6E}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_MGA.et" {
- coords 153.34 1 131.697
+SCR_ChimeraCharacter : "{CE2C005A0F9D7E23}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AAT_P.et" {
+ coords 71.295 1 119.672
 }
-SCR_ChimeraCharacter : "{D30A563C1D7C8333}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_HeliCrewRadio.et" {
- coords 157.025 1 131.544
+SCR_ChimeraCharacter : "{D129F2A4986026E5}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Sniper.et" {
+ coords 105.319 1 112.764
 }
-SCR_ChimeraCharacter : "{ED7C02DBC8B7FECA}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Medic.et" {
- coords 155.956 1 132.109
-}
-SCR_ChimeraCharacter : "{EFE86C20EBCD5157}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Armored.et" {
- coords 172.151 1 128.963
-}
-SCR_ChimeraCharacter : "{F81AEF796B932D96}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_CL.et" {
- components {
-  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
-   InitialInventoryItems {
-    ItemsInitConfigurationItem "{61B87867FBB32E7F}" {
-    }
-   }
-  }
- }
- coords 166.863 1 130.043
+SCR_ChimeraCharacter : "{E3C185DC8DBB377B}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_PL.et" {
+ coords 86.852 1 119.598
 }
