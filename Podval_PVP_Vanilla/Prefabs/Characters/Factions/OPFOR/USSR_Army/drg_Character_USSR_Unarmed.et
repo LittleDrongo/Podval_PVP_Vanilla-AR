@@ -14,7 +14,7 @@ SCR_ChimeraCharacter : "{0A094940386CC0EF}Prefabs/Characters/Factions/OPFOR/USSR
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61B543E7DB56B026}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Jacket_M88_rolledup.et"
+     TargetStorage "Jacket/Jacket_M88_base.et"
      TargetPurpose 64
      PrefabsToSpawn {
       "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"

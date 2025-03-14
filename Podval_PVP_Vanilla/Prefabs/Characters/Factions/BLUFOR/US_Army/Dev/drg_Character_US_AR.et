@@ -25,22 +25,28 @@ SCR_ChimeraCharacter : "{903097F658A99BE3}Prefabs/Characters/Factions/BLUFOR/US_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B75C986066B4C1}" {
+     TargetStorage "Vest/Vest_ALICE_AR.et"
+    }
     ItemsInitConfigurationItem "{61B87867EA32507F}" {
      TargetStorage "Prefabs/Characters/Uniforms/Jacket_US_BDU.et"
      PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{61B87867AD2AC1E7}" {
-     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Pouch_ALICE_200rnd_M249.et"
+     TargetStorage "Vest/Vest_ALICE_AR.et/MagPouch/Pouch_ALICE_200rnd_M249.et"
      PrefabsToSpawn {
       "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{61B87867ADF0F768}" {
-     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Pouch_ALICE_200rnd_M249.et"
+     TargetStorage "Vest/Vest_ALICE_AR.et/MagPouch2/Pouch_ALICE_200rnd_M249.et"
      PrefabsToSpawn {
       "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
      }
+    }
+    ItemsInitConfigurationItem "{61B87867B1643253}" {
+     TargetStorage "Vest/Vest_ALICE_AR.et/Suspenders/Vest_ALICE_suspenders_2.et"
     }
     ItemsInitConfigurationItem "{61B87867FBB32E7F}" {
      PrefabsToSpawn {

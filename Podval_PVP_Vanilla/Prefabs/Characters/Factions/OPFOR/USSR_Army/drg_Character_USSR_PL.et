@@ -34,12 +34,13 @@ SCR_ChimeraCharacter : "{83C2F0AD85ED988A}Prefabs/Characters/Factions/OPFOR/USSR
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61B543E55260DECA}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et"
+     TargetStorage "Vest/Vest_Lifchik.et"
      PrefabsToSpawn {
-      "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+      "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{61B543EAEB9BD049}" {
+     TargetStorage "Jacket/Jacket_M88_base.et"
      PrefabsToSpawn {
       "{92B819C350698359}Prefabs/Items/Equipment/Radios/Radio_R148_rprv.et"
      }

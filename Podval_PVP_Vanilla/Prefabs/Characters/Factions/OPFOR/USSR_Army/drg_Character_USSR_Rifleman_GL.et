@@ -20,10 +20,13 @@ SCR_ChimeraCharacter : "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61B543E7DB56B026}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_GL.et"
+     TargetStorage "Vest/Vest_Lifchik_GL.et"
+    }
+    ItemsInitConfigurationItem "{61B543E4F8901B0E}" {
+     TargetStorage "Vest/Vest_Lifchik_GL.et"
     }
     ItemsInitConfigurationItem "{61B543E550602935}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_GL.et"
+     TargetStorage "Vest/Vest_Lifchik_GL.et"
     }
     ItemsInitConfigurationItem "{61B543E55260DECA}" {
      PrefabsToSpawn + {
@@ -31,7 +34,7 @@ SCR_ChimeraCharacter : "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR
      }
     }
     ItemsInitConfigurationItem "{61B543D19BE585DB}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_GL.et"
+     TargetStorage "Vest/Vest_Lifchik_GL.et"
      PrefabsToSpawn {
       "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
      }

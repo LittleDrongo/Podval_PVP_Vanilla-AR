@@ -31,16 +31,19 @@ SCR_ChimeraCharacter : "{903097F658A99BE3}Prefabs/Characters/Factions/BLUFOR/US_
      }
     }
     ItemsInitConfigurationItem "{61B87867AD2AC1E7}" {
-     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Pouch_ALICE_200rnd_M249.et"
+     TargetStorage "Vest/Vest_ALICE_MG.et/MagPouch/Pouch_ALICE_200rnd_M249.et"
      PrefabsToSpawn {
       "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{61B87867ADF0F768}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack.et"
+     TargetStorage "Vest/Vest_ALICE_MG.et/Buttpack/Vest_ALICE_buttpack.et"
      PrefabsToSpawn {
       "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
      }
+    }
+    ItemsInitConfigurationItem "{61B87867B1643253}" {
+     TargetStorage "Vest/Vest_ALICE_MG.et/Suspenders/Vest_ALICE_suspenders_2.et"
     }
     ItemsInitConfigurationItem "{61B87867FBB32E7F}" {
      PrefabsToSpawn {

@@ -22,7 +22,7 @@ SCR_ChimeraCharacter : "{749CC8EDA102C70E}Prefabs/Characters/Factions/BLUFOR/US_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61B75C986066B4C1}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_suspenders_2.et"
+     TargetStorage "Vest/Vest_ALICE_rifleman.et"
     }
    }
   }
