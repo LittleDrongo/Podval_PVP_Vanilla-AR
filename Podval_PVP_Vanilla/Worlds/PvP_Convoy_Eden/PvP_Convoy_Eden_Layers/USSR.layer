@@ -49,6 +49,7 @@ $grp Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   coords 4905.016 28.593 11969.464
   angleY 177.219
   m_sAttachmentGroupName "USSR_6_0_0_STOP"
+  m_bEnableMoveOnFreeze 1
  }
 }
 Vehicle Ural4320_command1 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
@@ -57,40 +58,42 @@ Vehicle Ural4320_command1 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320
  m_sAttachmentGroupName "USSR_0_0_0_STOP"
 }
 Vehicle Ural4320_ammo1 : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et" {
- coords 4904.937 28.594 11936.88
- angleY 179.656
+ coords 4904.761 28.594 11935.939
+ angleY 178.891
  m_sAttachmentGroupName "USSR_6_0_0_STOP"
+ m_bEnableMoveOnFreeze 1
 }
 Vehicle Ural4320_tanker1 : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et" {
  coords 4904.957 28.594 11946.961
  angleY -178.325
  m_sAttachmentGroupName "USSR_6_0_0_STOP"
+ m_bEnableMoveOnFreeze 1
 }
-$grp Vehicle : "{98225ED6D5F724D7}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship.et" {
- Mi8MT_armed_gunship1 {
-  coords 4848.808 27.609 11957.721
-  angleX 1.779
-  angleY -179.769
-  angleZ 2.69
+$grp Vehicle : "{98225ED6D5F724D7}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_empty.et" {
+ Mi8MT_armed_gunship_empty1 {
+  coords 4848.913 27.612 11957.765
+  angleX 1.715
+  angleY -178.412
+  angleZ 2.731
   m_sAttachmentGroupName "USSR_5_0_3"
  }
- Mi8MT_armed_gunship2 {
-  coords 4848.649 28.542 11910.903
-  angleX -0.003
-  angleY -179.797
+ Mi8MT_armed_gunship_empty2 {
+  coords 4848.151 28.534 11910.756
+  angleX -0.024
+  angleY -178.439
   angleZ 0.895
   m_sAttachmentGroupName "USSR_5_0_2"
  }
- Mi8MT_armed_gunship3 {
-  coords 4848.485 28.571 11864.789
-  angleX -0.002
-  angleY -179.838
-  angleZ 0.895
+ Mi8MT_armed_gunship_empty3 {
+  coords 4847.633 28.584 11862.608
+  angleX 0.895
+  angleY -178.439
+  angleZ 0.024
   m_sAttachmentGroupName "USSR_5_0_1"
  }
- Mi8MT_armed_gunship4 {
-  coords 4848.331 28.594 11815.064
-  angleY -179.824
+ Mi8MT_armed_gunship_empty4 {
+  coords 4847.071 28.593 11815.049
+  angleY -177.98
   m_sAttachmentGroupName "USSR_5_0_0"
  }
 }
@@ -98,6 +101,7 @@ Vehicle Ural4320_repair1 : "{A5647958579A4149}Prefabs/Vehicles/Wheeled/Ural4320/
  coords 4905.052 28.593 11957.663
  angleY 179.89
  m_sAttachmentGroupName "USSR_6_0_0_STOP"
+ m_bEnableMoveOnFreeze 1
 }
 $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
  BTR1 {
@@ -177,6 +181,10 @@ $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
   angleZ -0.681
   m_sAttachmentGroupName "USSR_3_0_2_STOP"
  }
+}
+GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign.et" {
+ coords 4910.608 28.593 11864.027
+ angleY -90.042
 }
 $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad_p.et" {
  USSR_0_0_0_STOP {
@@ -2468,7 +2476,7 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
   coords 4918.792 28.594 11930.94
   angleY -91.805
   m_aUnitPrefabSlots {
-   "{83C2F0AD85ED988A}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SL.et" "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et" "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et" "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et"
+   "{8A4A609629748183}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SeniorEngineer.et" "{93E8316FB3FD3827}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Engineer.et" "{93E8316FB3FD3827}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Engineer.et" "{93E8316FB3FD3827}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Engineer.et"
   }
   m_bDeleteWhenEmpty 0
   m_sCustomNameSet "Отделение МТО"

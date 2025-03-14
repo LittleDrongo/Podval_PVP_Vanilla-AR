@@ -1,8 +1,0 @@
-GenericEntity : "{402274CE2FB0720D}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_ammo_box.et" {
- ID "4B42E71698F5739C"
- components {
-  SCR_ArsenalComponent "{5CDEEA63CA961245}" {
-   m_bArsenalEnabled 0
-  }
- }
-}

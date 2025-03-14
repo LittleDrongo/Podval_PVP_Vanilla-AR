@@ -1,218 +1,86 @@
-$grp Vehicle : "{86D830868F026D54}Prefabs/Vehicles/Wheeled/M151A2/M151A2_MERDC.et" {
- M151A2_MERDC1 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5E86A8C9E63820A9}" {
-      SlotTemplate InventoryStorageSlot Jerrycan {
-       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
-      }
-     }
-    }
-   }
-  }
-  coords 3335.524 116.401 4386.11
-  angleX -3.203
-  angleY 130.247
-  angleZ -0.368
+$grp Vehicle : "{696EE11B55350C75}Prefabs/Vehicles/Wheeled/M151A2/M151A2_MERDC_mines.et" {
+ M151A2_MERDC_mines2 {
+  coords 3335.693 116.374 4385.504
+  angleX -3.187
+  angleY 132.494
+  angleZ -0.493
   m_sAttachmentGroupName "FIA_1_0_0"
  }
- M151A2_MERDC2 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5E86A8C9E63820A9}" {
-      SlotTemplate InventoryStorageSlot Jerrycan {
-       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
-      }
-     }
-    }
-   }
-  }
-  coords 3331.543 116.686 4389.48
-  angleX -2.522
-  angleY 130.249
-  angleZ 0.209
+ M151A2_MERDC_mines3 {
+  coords 3331.572 116.678 4389.281
+  angleX -2.528
+  angleY 132.495
+  angleZ 0.111
   m_sAttachmentGroupName "FIA_1_0_0"
  }
- M151A2_MERDC3 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5E86A8C9E63820A9}" {
-      SlotTemplate InventoryStorageSlot Jerrycan {
-       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
-      }
-     }
-    }
-   }
-  }
-  coords 3320.595 117.422 4399.1
-  angleX -2.523
-  angleY 130.678
-  angleZ 0.191
+ M151A2_MERDC_mines4 {
+  coords 3324.685 117.194 4395.48
+  angleX -3.789
+  angleY 132.465
+  angleZ 0.168
   m_sAttachmentGroupName "FIA_1_0_1"
  }
- M151A2_MERDC4 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5E86A8C9E63820A9}" {
-      SlotTemplate InventoryStorageSlot Jerrycan {
-       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
-      }
-     }
-    }
-   }
-  }
-  coords 3324.551 117.21 4395.7
-  angleX -3.782
-  angleY 130.663
-  angleZ 0.287
+ M151A2_MERDC_mines5 {
+  coords 3320.424 117.436 4399.379
+  angleX -2.528
+  angleY 132.468
+  angleZ 0.112
   m_sAttachmentGroupName "FIA_1_0_1"
  }
- M151A2_MERDC5 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5E86A8C9E63820A9}" {
-      SlotTemplate InventoryStorageSlot Jerrycan {
-       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
-      }
-     }
-    }
-   }
-  }
-  coords 3309.964 118.349 4408.232
-  angleX -2.523
-  angleY 130.678
-  angleZ 0.191
+ M151A2_MERDC_mines6 {
+  coords 3313.962 117.839 4404.787
+  angleX -3.187
+  angleY 132.473
+  angleZ -0.492
   m_sAttachmentGroupName "FIA_1_0_2"
  }
- M151A2_MERDC6 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5E86A8C9E63820A9}" {
-      SlotTemplate InventoryStorageSlot Jerrycan {
-       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
-      }
-     }
-    }
-   }
-  }
-  coords 3313.92 118.137 4404.833
-  angleX -3.782
-  angleY 130.663
-  angleZ 0.287
+ M151A2_MERDC_mines7 {
+  coords 3310.082 118.096 4408.338
+  angleX -1.925
+  angleY 132.461
+  angleZ -0.548
   m_sAttachmentGroupName "FIA_1_0_2"
  }
- M151A2_MERDC7 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5E86A8C9E63820A9}" {
-      SlotTemplate InventoryStorageSlot Jerrycan {
-       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
-      }
-     }
-    }
-   }
-  }
-  coords 4289.406 136.078 6729.749
-  angleX -4.452
-  angleY -94.671
-  angleZ 0.363
-  m_sAttachmentGroupName "FIA_2_0_2"
- }
- M151A2_MERDC8 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5E86A8C9E63820A9}" {
-      SlotTemplate InventoryStorageSlot Jerrycan {
-       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
-      }
-     }
-    }
-   }
-  }
-  coords 4295.231 136.515 6730.225
-  angleX -3.565
-  angleY -94.666
-  angleZ 0.291
-  m_sAttachmentGroupName "FIA_2_0_2"
- }
- M151A2_MERDC9 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5E86A8C9E63820A9}" {
-      SlotTemplate InventoryStorageSlot Jerrycan {
-       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
-      }
-     }
-    }
-   }
-  }
-  coords 4304.063 137.192 6730.946
-  angleX -4.452
-  angleY -94.672
-  angleZ 0.363
-  m_sAttachmentGroupName "FIA_2_0_1"
- }
- M151A2_MERDC10 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5E86A8C9E63820A9}" {
-      SlotTemplate InventoryStorageSlot Jerrycan {
-       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
-      }
-     }
-    }
-   }
-  }
-  coords 4309.686 137.631 6731.405
-  angleX -4.452
-  angleY -94.672
-  angleZ 0.363
-  m_sAttachmentGroupName "FIA_2_0_1"
- }
- M151A2_MERDC11 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5E86A8C9E63820A9}" {
-      SlotTemplate InventoryStorageSlot Jerrycan {
-       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
-      }
-     }
-    }
-   }
-  }
-  coords 4317.161 138.216 6732.015
+ M151A2_MERDC_mines1 {
+  coords 4289.33 136.074 6730.097
   angleX -4.525
-  angleY -94.671
-  angleZ -0.526
+  angleY -94.74
+  angleZ -0.521
+  m_sAttachmentGroupName "FIA_2_0_2"
+ }
+ M151A2_MERDC_mines8 {
+  coords 4295.265 136.517 6730.767
+  angleX -4.525
+  angleY -94.74
+  angleZ -0.521
+  m_sAttachmentGroupName "FIA_2_0_2"
+ }
+ M151A2_MERDC_mines9 {
+  coords 4304.844 137.253 6731.084
+  angleX -4.465
+  angleY -91.601
+  angleZ 0.125
+  m_sAttachmentGroupName "FIA_2_0_1"
+ }
+ M151A2_MERDC_mines10 {
+  coords 4309.881 137.646 6731.225
+  angleX -4.465
+  angleY -91.601
+  angleZ 0.125
+  m_sAttachmentGroupName "FIA_2_0_1"
+ }
+ M151A2_MERDC_mines11 {
+  coords 4318.233 138.299 6731.53
+  angleX -4.465
+  angleY -91.601
+  angleZ 0.125
   m_sAttachmentGroupName "FIA_2_0_0"
  }
- M151A2_MERDC12 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5E86A8C9E63820A9}" {
-      SlotTemplate InventoryStorageSlot Jerrycan {
-       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
-      }
-     }
-    }
-   }
-  }
-  coords 4323.238 138.698 6732.511
-  angleX -4.525
-  angleY -94.671
-  angleZ -0.526
+ M151A2_MERDC_mines12 {
+  coords 4323.494 138.71 6731.677
+  angleX -4.465
+  angleY -91.601
+  angleZ 0.125
   m_sAttachmentGroupName "FIA_2_0_0"
  }
 }
