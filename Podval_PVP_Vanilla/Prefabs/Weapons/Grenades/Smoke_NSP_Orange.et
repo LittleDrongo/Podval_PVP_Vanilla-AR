@@ -44,6 +44,8 @@ GenericEntity : "{0DCE9A9A4F31BE1C}Prefabs/Weapons/Core/SmokeGrenade_Base.et" {
       CameraOrbitAngles -25 25 0
       CameraDistanceToItem 1.2
       FOV 10
+      PreviewModel "{86F1A44DABF20904}Assets/Weapons/Grenades/NSP/nsp.xob"
+      LodModel 0
      }
     }
    }

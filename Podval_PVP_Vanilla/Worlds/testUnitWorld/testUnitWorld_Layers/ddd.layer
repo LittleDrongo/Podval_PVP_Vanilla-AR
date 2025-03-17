@@ -1,3 +1,11 @@
+GenericEntity {
+ components {
+  MeshObject "{64E34147486FF109}" {
+   Object "{86F1A44DABF20904}Assets/Weapons/Grenades/NSP/nsp.xob"
+  }
+ }
+ coords 75.549 1 128.97
+}
 GenericEntity : "{0C6056970C640273}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_PL.et" {
  coords 90.276 1 141.073
 }
@@ -49,5 +57,19 @@ $grp GenericEntity : "{E4D45E4C68E52CF0}Prefabs/Weapons/Grenades/Smoke_NSP_Orang
  }
  {
   coords 83.755 1 127.561
+ }
+ {
+  components {
+   WeaponComponent "{6D23670EA18BF513}" {
+    components {
+     AttachmentSlotComponent "{64E1233A2B91C82E}" {
+      AttachmentSlot InventoryStorageSlot NSP {
+       Offset 0 0.035 0
+      }
+     }
+    }
+   }
+  }
+  coords 75.624 1.085 128.844
  }
 }
