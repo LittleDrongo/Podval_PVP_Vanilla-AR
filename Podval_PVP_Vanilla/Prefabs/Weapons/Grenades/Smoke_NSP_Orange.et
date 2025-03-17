@@ -15,10 +15,12 @@ GenericEntity : "{0DCE9A9A4F31BE1C}Prefabs/Weapons/Core/SmokeGrenade_Base.et" {
    }
    TIMER 0
   }
+  BaseAttachmentSlotComponent "{64E1233BE6115356}" {
+  }
   GrenadeMoveComponent "{1F80A73ADE35BFF1}" {
    InitSpeed 30
    Mass 0.397
-   BallisticTableConfig "{900E362C5B4A1B69}Configs/Weapons/AIBallisiticTables/AIBT_Smoke_RDG2.conf"
+   BallisticTableConfig "{900E362C5B4A1B69}Configs/Weapons/AIBallisticTables/AIBT_Smoke_RDG2.conf"
    SingleSafety 1
   }
   InventoryItemComponent "{51FAA3E3CF6F087A}" {
@@ -49,9 +51,9 @@ GenericEntity : "{0DCE9A9A4F31BE1C}Prefabs/Weapons/Core/SmokeGrenade_Base.et" {
   MeshObject "{51EC93F29BA5F234}" {
    Object "{0A614AE28850F9BA}Assets/Weapons/Grenades/RDG2/Smoke_RDG2.xob"
    Materials {
-    MaterialAssignClass "{61CB0A087262D0BA}" {
+    MaterialAssignClass "{64E1233B386ECF68}" {
      SourceMaterial "RDG2"
-     AssignedMaterial "{EF6FA65C2980CB7E}Assets/Weapons/Grenades/RDG2/Data/NSP.emat"
+     AssignedMaterial "{1E4FC06AB6DBB3AD}Assets/Characters/Vests/Vest_Common/Data/EmptyMaterial.emat"
     }
    }
   }
@@ -105,6 +107,16 @@ GenericEntity : "{0DCE9A9A4F31BE1C}Prefabs/Weapons/Core/SmokeGrenade_Base.et" {
   }
   WeaponComponent "{6D23670EA18BF513}" {
    components {
+    AttachmentSlotComponent "{64E1233A2B91C82E}" {
+     AttachmentSlot InventoryStorageSlot NSP {
+      PivotID "g_root"
+      Offset 0 0.0469 0
+      ChildPivotID "snap_weapon"
+      Prefab "{83066BB264D05D84}Prefabs/Weapons/Grenades/NSP_PrefabAttach.et"
+     }
+     AttachmentType AttachmentMuzzle "{64E1233AE2F99C9C}" {
+     }
+    }
     BaseItemAnimationComponent "{61CAF7F4E702305E}" {
      AnimGraph "{55A20911FA0F2BC0}Assets/Weapons/Grenades/workspaces/Grenade_RGD2.agr"
      AnimInstance "{EC8525C4EF9B04A6}Assets/Weapons/Grenades/workspaces/Grenade_RDG2.asi"

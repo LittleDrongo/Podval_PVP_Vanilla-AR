@@ -1,0 +1,53 @@
+GenericEntity : "{0C6056970C640273}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_PL.et" {
+ coords 90.276 1 141.073
+}
+GenericEntity : "{1B332B99C72DAF8B}Prefabs/Weapons/Rifles/AK74/Variants/Rifle_AK74N_PBS4_1P29.et" {
+ coords 83.11 1 126.835
+ angleY 87.14
+}
+$grp GenericEntity : "{46FD263F0F368A92}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_base.et" {
+ {
+  coords 80.641 1 122.758
+ }
+ {
+  coords 76.771 1 132.429
+ }
+ {
+  coords 92.665 1 139.904
+ }
+ {
+  coords 91.499 1 140.743
+ }
+ {
+  coords 92.64 1 142.52
+ }
+}
+Vehicle M1 : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   Attributes SCR_ItemAttributeCollection "{5916C587FF082FC8}" {
+   }
+  }
+ }
+ coords 81.468 1 133.474
+}
+GenericEntity : "{83066BB264D05D84}Prefabs/Weapons/Grenades/NSP_PrefabAttach.et" {
+ coords 84.094 1 127.616
+}
+SCR_AIGroup : "{88C5372DBC94D00A}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_ReconPlatoonHQ.et" {
+ coords 91.194 1 138.222
+}
+GenericEntity : "{B31D9C2465D00D93}Prefabs/Items/Equipment/Radios/Radio_R107M_PL.et" {
+ coords 89.069 1 141.496
+}
+SCR_AIGroup : "{C1F556377EBDFCAF}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_ReconSquad.et" {
+ coords 88.342 1 133.185
+}
+$grp GenericEntity : "{E4D45E4C68E52CF0}Prefabs/Weapons/Grenades/Smoke_NSP_Orange.et" {
+ {
+  coords 83.871 1.173 127.642
+ }
+ {
+  coords 83.755 1 127.561
+ }
+}

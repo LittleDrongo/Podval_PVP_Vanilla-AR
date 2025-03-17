@@ -1,0 +1,26 @@
+GenericEntity : "{C95E11C60810F432}Prefabs/Items/Core/Item_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  SCR_ArsenalComponent "{5E3CC268A92CDE62}" {
+   Enabled 0
+  }
+  SCR_HealSupportStationComponent "{5E68A54C698EFD84}" {
+   m_iSupplyCostDamageHealed 3
+  }
+  SCR_ResourceComponent "{5E4A957708B43723}" {
+   m_aConsumers {
+    SCR_ResourceConsumer "{5E4EDEA541710E5E}" {
+     m_fSellMultiplier 0
+    }
+   }
+  }
+  SCR_ResupplyMedicalGadgetSupportStationComponent "{5E3CC26A2C28361C}" {
+   Enabled 0
+  }
+  SCR_SupportStationGadgetComponent "{5DF4D9A1113FBAD9}" {
+   m_aSupportStationTypes {
+    300
+   }
+  }
+ }
+}
