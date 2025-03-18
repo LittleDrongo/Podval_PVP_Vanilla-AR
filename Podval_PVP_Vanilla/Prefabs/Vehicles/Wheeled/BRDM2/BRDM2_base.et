@@ -1,0 +1,10 @@
+Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{607E9AA3D83AA29D}" {
+   Attributes SCR_ItemAttributeCollection "{613AE029E7FE897C}" {
+    m_bDraggable 0
+   }
+  }
+ }
+}
