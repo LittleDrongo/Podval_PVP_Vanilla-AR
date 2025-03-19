@@ -1,5 +1,24 @@
 GenericEntity : "{071B55C2A5E0346F}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V2_US.et" {
  components {
+  MeshObject "{5472A771D2979ECD}" {
+   Object "{9109A8975C3E96DA}Assets/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1.xob"
+  }
+  RigidBody "{5472A771D2979EF1}" {
+   ResponseIndex "TinyDestructible"
+  }
+  SCR_EditableEntityComponent "{5EF0BDF2D0DC19D6}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_FlagPole_02_V2_US_Name"
+    m_Image "{3E05704D0D9E5715}UI/Textures/EditorPreviews/Auto/Structures/Military/Flags/E_FlagPole_02_V2_US.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     11
+    }
+    m_aAutoLabels {
+     108 1 122
+    }
+   }
+  }
   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
    m_aFlagData {
     PS_FlagData "{64C89A5BE502D7A9}" {
@@ -12,14 +31,44 @@ GenericEntity : "{071B55C2A5E0346F}PrefabsEditable/Auto/Structures/Military/Flag
    }
    m_sFactionKey "US"
   }
+  SCR_PreviewEntityComponent "{5EF0BDF2D0DCB4DA}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{5EF0BDF2D0DC8582}" {
+     m_iParentID -1
+     m_Mesh "{9109A8975C3E96DA}Assets/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1.xob"
+     m_Flags 257
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{5EF0BDF2D0DF0B2F}" {
+     m_iParentID 0
+     m_Mesh "{94F7CE276B05E84B}Assets/Props/Fabric/Flags/Flag_1_2.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 4.396 -0.083
+     m_vAngles 0 0 0
+    }
+   }
+  }
+  RplComponent "{5EF0BDF2D0DC330C}" : "{B193E926C1935A4C}Prefabs/Editor/Components/Default_RplComponent.ct" {
+  }
  }
- coords 4480.585 300.586 6455.591
- angleX 22.565
- angleY -88.599
- angleZ -37.998
+ coords 4786.732 276.346 6799.536
+ angleX 24.733
+ angleY -77.878
+ angleZ -20.874
 }
 GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR.et" {
  components {
+  RigidBody "{5472A771D2979EF1}" {
+   Enabled 0
+  }
   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
    m_aFlagData {
     PS_FlagData "{64C89A5B04EC766F}" {
@@ -32,9 +81,43 @@ GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flag
    }
    m_sFactionKey "USSR"
   }
+  SCR_PreviewEntityComponent "{5EF0BDF2D0A3A69C}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{5EF0BDF2D0A3B7C1}" {
+     m_iParentID -1
+     m_Mesh "{E9A0740046C9DFA1}Assets/Structures/Military/Flags/FlagPole_02/FlagPole_02.xob"
+     m_Flags 257
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{5EF0BDF2D0A23F2B}" {
+     m_iParentID 0
+     m_Mesh "{94F7CE276B05E84B}Assets/Props/Fabric/Flags/Flag_1_2.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 4.396 -0.083
+     m_vAngles 0 0 0
+    }
+   }
+  }
+  SlotManagerComponent "{55DAE04E55ECE7FA}" {
+   Slots {
+    EntitySlotInfo Flag {
+     Prefab "{CB81BF6576E682D3}Prefabs/Props/Fabric/Flags/Flag_1_2_USSR_01.et"
+    }
+   }
+  }
+  RplComponent "{5EF0BDF2D0A33D18}" : "{B193E926C1935A4C}Prefabs/Editor/Components/Default_RplComponent.ct" {
+  }
  }
- coords 4786.732 276.346 6799.536
- angleX 24.733
- angleY -77.878
- angleZ -20.874
+ coords 4480.585 300.586 6455.591
+ angleX 22.565
+ angleY -88.599
+ angleZ -37.998
 }
