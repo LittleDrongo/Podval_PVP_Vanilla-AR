@@ -11,6 +11,11 @@ SCR_AIGroup : "{68D5E3B6F7C86BD0}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_Company
  }
 }
 Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
+ components {
+  PS_GroupAttachmentComponent "{64EEEE2B44860F7C}" {
+   m_sAttachmentGroupName "US_5_0_0"
+  }
+ }
  coords 5231.775 341.49 8623.576
  angleX 3.684
  angleY -106.072

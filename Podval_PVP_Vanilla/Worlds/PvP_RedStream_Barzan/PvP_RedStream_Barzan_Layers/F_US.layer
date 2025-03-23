@@ -99,6 +99,20 @@ SCR_AIGroup US_0_0_0_DEF : "{68D5E3B6F7C86BD0}Prefabs/Groups/BLUFOR/Campaign/F_U
  }
  m_bSnapToTerrain 0
 }
+Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
+ components {
+  PS_GroupAttachmentComponent "{64EEEE2F8E083104}" {
+   m_sAttachmentGroupName "US_4_0_0_DEF"
+  }
+  SCR_EditableVehicleComponent "{617CC5661216D3D8}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{E897433F42FEC3C0}UI/Icons/mortar.edds"
+   }
+  }
+ }
+ coords 1516.568 2.062 850.692
+ angleY -108.536
+}
 SCR_AIGroup US_6_0_0 : "{8AE885D9508D0CB7}Prefabs/Groups/BLUFOR/Campaign/S_US_drg_ReconSquad.et" {
  components {
   PS_GroupCallsignAssigner "{6460980981A09BD7}" {

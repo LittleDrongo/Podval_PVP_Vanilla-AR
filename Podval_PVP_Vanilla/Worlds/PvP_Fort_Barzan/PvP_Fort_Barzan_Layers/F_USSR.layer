@@ -157,6 +157,11 @@ Vehicle Ural4320_transport_Mortar1 : "{CD6AA14FA304EC31}Prefabs/Vehicles/Wheeled
  m_sAttachmentGroupName "USSR_5_0_0"
 }
 Turret : "{D1FFE458E8AC4BDB}Prefabs/Weapons/Mortars/2B14/Mortar_2B14.et" {
+ components {
+  PS_GroupAttachmentComponent "{64EEEE2BD923B536}" {
+   m_sAttachmentGroupName "USSR_5_0_0"
+  }
+ }
  coords 1214.167 6.8 2671.396
  angleX -2.529
  angleY -137.252

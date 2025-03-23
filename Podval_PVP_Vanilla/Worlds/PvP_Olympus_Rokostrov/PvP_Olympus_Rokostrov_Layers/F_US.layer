@@ -397,6 +397,19 @@ $grp GenericEntity : "{75F437DA749FDF0D}Prefabs/Props/Military/AmmoBoxes/drg_Amm
  }
 }
 Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
+ components {
+  PS_GroupAttachmentComponent "{64ECE3F87CAF42FB}" {
+   m_sAttachmentGroupName "US_5_0_0"
+  }
+  PS_GroupAttachmentComponent "{64EEEE290481ACC7}" {
+   m_sAttachmentGroupName "US_5_0_0"
+  }
+  SCR_EditableVehicleComponent "{617CC5661216D3D8}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{E897433F42FEC3C0}UI/Icons/mortar.edds"
+   }
+  }
+ }
  coords 1460.829 3.124 1425.541
 }
 $grp SCR_AIGroup : "{8AE885D9508D0CB7}Prefabs/Groups/BLUFOR/Campaign/S_US_drg_ReconSquad.et" {
@@ -502,7 +515,4 @@ SCR_AIGroup US_5_0_0 : "{983EB2C5F6E84CD7}Prefabs/Groups/BLUFOR/Campaign/F_US_dr
  m_aUnitPrefabSlots + {
   "{49734327564F4C54}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_MortarAmmoBearer.et"
  }
-}
-Vehicle M923A1_transport_Mortar1 : "{E3CB6FEDDDA25ADF}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_Mortar.et" {
- coords 1443.048 1.144 1426.01
 }

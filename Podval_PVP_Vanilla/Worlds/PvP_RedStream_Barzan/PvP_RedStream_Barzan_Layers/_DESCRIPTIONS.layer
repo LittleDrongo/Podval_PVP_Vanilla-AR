@@ -94,7 +94,3 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_bShowForAnyFaction 1
  }
 }
-Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
- coords 1516.568 2.062 850.692
- angleY -108.536
-}

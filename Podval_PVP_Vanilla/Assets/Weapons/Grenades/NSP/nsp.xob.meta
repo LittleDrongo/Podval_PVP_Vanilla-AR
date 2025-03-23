@@ -5,7 +5,7 @@ MetaFileClass {
    MaterialAssigns {
     MaterialAssignClass "{64E11DB873EAAB3E}" {
      SourceMaterial "uzhas_ebaniy"
-     AssignedMaterial "{ACD9647BB04A0E8C}Assets/Weapons/Grenades/NSP/Data/uzhas_ebaniy.emat"
+     AssignedMaterial "{ACD9647BB04A0E8C}Assets/Weapons/Grenades/NSP/Data/nsp_mat.emat"
     }
    }
    MeshParams {

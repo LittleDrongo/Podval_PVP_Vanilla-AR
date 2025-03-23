@@ -156,13 +156,23 @@ $grp Vehicle : "{CD6AA14FA304EC31}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
  }
 }
 $grp Turret : "{D1FFE458E8AC4BDB}Prefabs/Weapons/Mortars/2B14/Mortar_2B14.et" {
- {
+ Mortar_2 {
+  components {
+   PS_GroupAttachmentComponent "{64EEE8DCB02EDC78}" {
+    m_sAttachmentGroupName "USSR_3_0_1"
+   }
+  }
   coords 1271.962 6.093 2199.647
   angleX -0.25
   angleY -171.959
   angleZ 1.772
  }
- {
+ Mortar_1 {
+  components {
+   PS_GroupAttachmentComponent "{64EEE8DD29268C4A}" {
+    m_sAttachmentGroupName "USSR_3_0_0"
+   }
+  }
   coords 1262.517 5.798 2200.983
   angleX -0.25
   angleY -171.959
