@@ -8,7 +8,7 @@ SCR_AIGroup : "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et" 
   }
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
-    Name "#DRG-Sq-MedicalTeam"
+    Name "#DRG-Sq-PlatoonHQ"
    }
   }
  }
