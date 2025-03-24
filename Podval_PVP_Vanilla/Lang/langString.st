@@ -313,6 +313,14 @@ StringTable {
    Author "hasta"
    LastChanged "hasta"
   }
+  CustomStringTableItem "{64F127C553117A4D}" {
+   Id "DRG-Sq-Rebels"
+   Target_en_us "Rebel squad"
+   Target_ru_ru "Отряд партизан"
+   Modified 1693543266
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{64CE7531F3425609}" {
    Id "DRG-Sq-ReconCompanyHQ"
    Target_en_us "Recon Company HQ"
