@@ -1,0 +1,124 @@
+Vehicle M997_maxi_ambulance1 : "{00C9BBE426F7D459}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance.et" {
+ coords 4778.105 27.102 11837.397
+ angleX -0.018
+ angleY 88.879
+ angleZ -0.895
+}
+Vehicle M923A1_engineer_mines1 : "{08D6BDBA15947EB0}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer_mines.et" {
+ coords 4778.152 27.228 11827.405
+ angleX 0.012
+ angleY 90.786
+ angleZ -0.895
+}
+Vehicle LAV1 : "{0FBF8F010F81A4E5}Prefabs/Vehicles/Wheeled/LAV25/LAV25.et" {
+ coords 4779.331 25.397 11946.606
+ angleX 0.033
+ angleY 92.138
+ angleZ -0.895
+}
+Vehicle M923A1_tanker1 : "{2BE1F8B9299B67C1}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker.et" {
+ coords 4778.39 26.512 11877.209
+ angleX 0.021
+ angleY 91.318
+ angleZ -0.895
+}
+Vehicle M923A1_command2 : "{36BDCC88B17B3BFA}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command.et" {
+ coords 4778.409 27.399 11816.42
+ angleX -0.015
+ angleY 89.036
+ angleZ -0.895
+}
+$grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
+ M1025_armed_M2HB2 {
+  coords 4778.091 26.656 11867.422
+  angleY 90.429
+ }
+ M1025_armed_M2HB3 {
+  coords 4780.234 26.354 11887.33
+  angleX 0.007
+  angleY 90.429
+  angleZ -0.895
+ }
+ M1025_armed_M2HB4 {
+  coords 4773.338 26.354 11887.321
+  angleX 0.007
+  angleY 90.429
+  angleZ -0.895
+ }
+}
+$grp Vehicle : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
+ M2 {
+  coords 4778.544 26.949 11847.308
+  angleX 0.014
+  angleY 90.878
+  angleZ -0.895
+ }
+ M3 {
+  coords 4770.925 26.947 11847.324
+  angleX 0.014
+  angleY 90.878
+  angleZ -0.895
+ }
+}
+Vehicle UH1H1 : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
+ coords 4779.415 25.925 11917.301
+ angleX 0.004
+ angleY 90.285
+ angleZ -0.895
+}
+Vehicle M923A1_ammo1 : "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et" {
+ coords 4778.162 26.581 11872.864
+ angleX -0.012
+ angleY 89.217
+ angleZ -0.895
+}
+Vehicle M923A1_repair1 : "{A042ACE5C2B13206}Prefabs/Vehicles/Wheeled/M923A1/M923A1_repair.et" {
+ coords 4764.891 26.508 11877.446
+ angleX 0.027
+ angleY 91.736
+ angleZ -0.895
+}
+Vehicle UH1H_armed_gunship_HEDP1 : "{CB4D4CF7E887B2D0}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP.et" {
+ coords 4778.841 25.572 11937.405
+ angleX 0.001
+ angleY 90.086
+ angleZ -0.895
+}
+Vehicle UH1H_armed1 : "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et" {
+ coords 4778.965 25.755 11927.664
+ angleX 0.035
+ angleY 92.233
+ angleZ -0.895
+}
+Vehicle M923A1_transport_Mortar1 : "{E3CB6FEDDDA25ADF}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_Mortar.et" {
+ coords 4779.1 26.79 11857.464
+ angleX 0.037
+ angleY 92.369
+ angleZ -0.894
+}
+$grp Vehicle : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" {
+ M923A1_transport1 {
+  coords 4764.542 26.586 11872.48
+  angleX -0.001
+  angleY 89.931
+  angleZ -0.895
+ }
+ M923A1_transport2 {
+  coords 4779.134 26.238 11897.301
+  angleX -0.001
+  angleY 89.931
+  angleZ -0.895
+ }
+ M923A1_transport3 {
+  coords 4779.632 26.081 11907.33
+  angleX -0.001
+  angleY 89.931
+  angleZ -0.895
+ }
+}
+Vehicle M151A1 : "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et" {
+ coords 4780.779 25.213 11956.374
+ angleX 0.005
+ angleY 90.345
+ angleZ -0.895
+}

@@ -1,0 +1,92 @@
+Vehicle UAZ469_uncovered1 : "{16A674FE31B0921C}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered.et" {
+ coords 4779.861 28.5 11557.475
+ angleY 91.932
+}
+$grp Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+ Ural4320_transport1 {
+  coords 4778.857 28.687 11666.662
+  angleY 89.314
+ }
+ Ural4320_transport2 {
+  coords 4769.58 28.687 11633.306
+  angleY 89.314
+ }
+ Ural4320_transport3 {
+  coords 4778.756 28.625 11626.822
+  angleY 87.612
+ }
+ Ural4320_transport4 {
+  coords 4779.225 28.577 11606.938
+  angleX 0.002
+  angleY 89.837
+  angleZ 0.895
+ }
+}
+$grp Vehicle : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
+ Ural4320_command2 {
+  coords 4777.885 28.732 11707.287
+  angleX -0.898
+  angleY 89.831
+  angleZ -0.892
+ }
+ Ural4320_command3 {
+  coords 4778.3 28.746 11697.526
+  angleX -0.895
+  angleY 89.831
+  angleZ 0.003
+ }
+}
+$grp Vehicle : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
+ BRDM1 {
+  coords 4780.129 28.5 11565.88
+  angleY 89.598
+ }
+ BRDM2 {
+  coords 4772.79 28.5 11565.879
+  angleY 89.598
+ }
+}
+Vehicle Ural4320_ammo1 : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et" {
+ coords 4778.718 28.625 11633.394
+ angleY 90.314
+}
+Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" {
+ coords 4779.493 28.687 11676.923
+ angleY 90.587
+}
+Vehicle Ural4320_tanker1 : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et" {
+ coords 4778.358 28.625 11637.604
+ angleY 89.05
+}
+Vehicle Mi8MT_armed2 : "{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et" {
+ coords 4778.197 28.562 11597.338
+ angleY 91.175
+}
+Vehicle Ural4320_repair1 : "{A5647958579A4149}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair.et" {
+ coords 4769.521 28.649 11637.558
+ angleX 0.023
+ angleY 88.504
+ angleZ 0.895
+}
+Vehicle BTR2 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ coords 4779.552 28.594 11617.273
+ angleY 87.175
+}
+Vehicle Ural4320_transport_Mortar1 : "{CD6AA14FA304EC31}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_Mortar.et" {
+ coords 4779.685 28.668 11657.394
+ angleY 91.365
+}
+Vehicle Mi8MT_armed_gunship_HEDP1 : "{DBEC63C9DEE4358C}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_HEDP.et" {
+ coords 4777.824 28.553 11572.676
+ angleY 90.065
+}
+Vehicle Mi8MT_unarmed_transport1 : "{DF5CCB7C0FF049F4}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_transport.et" {
+ coords 4778.213 28.544 11584.854
+ angleX -0.059
+ angleY 93.795
+ angleZ 0.893
+}
+Vehicle Ural4320_engineer_mine1 : "{FB95FB39F0AE06E9}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer_mine.et" {
+ coords 4778.56 28.718 11687.348
+ angleY 91.234
+}
