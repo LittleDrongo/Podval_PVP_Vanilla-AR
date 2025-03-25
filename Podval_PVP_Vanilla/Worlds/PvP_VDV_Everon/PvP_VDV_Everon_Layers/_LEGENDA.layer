@@ -244,10 +244,10 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 11248.423 31.881 11526.053
-  angleX 0.344
-  angleY -60.766
-  angleZ 1.218
+  coords 11024.384 23.803 11688.914
+  angleX -2.173
+  angleY -60.938
+  angleZ 3.904
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.855 0.031 0.028 1
@@ -265,10 +265,10 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 11255.848 32.149 11521.992
-  angleX -0.477
-  angleY -61.872
-  angleZ 2.788
+  coords 11031.809 24.178 11684.854
+  angleX -2.556
+  angleY -62.117
+  angleZ 6.712
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.855 0.031 0.028 1
@@ -286,10 +286,10 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 11263.259 32.464 11518.108
-  angleX -0.396
-  angleY -63.525
-  angleZ 2.801
+  coords 11039.22 24.224 11680.973
+  angleX 0.399
+  angleY -63.425
+  angleZ 7.169
   m_sImageSet "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
   m_sImageSetGlow "{67B3A6DC2D712B52}UI/Textures/Icons/icons_mapMarkersUI-glow.imageset"
   m_MarkerColor 0.855 0.031 0.028 1
@@ -306,10 +306,10 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 11271.773 33.011 11513.146
-  angleX 1.578
-  angleY -57.523
-  angleZ 4.18
+  coords 11047.734 24.563 11676.008
+  angleX 0.789
+  angleY -57.69
+  angleZ 11.972
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.855 0.031 0.028 1

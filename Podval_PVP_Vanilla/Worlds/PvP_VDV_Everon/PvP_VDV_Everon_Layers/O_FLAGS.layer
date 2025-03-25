@@ -15,7 +15,7 @@ $grp GenericEntity : "{37FF769500E5C13C}PrefabsEditable/Auto/Structures/Military
     m_sFactionKey "FIA"
    }
   }
-  coords 4915.062 44.022 11792.512
+  coords 4915.033 44.022 11792.351
   {
    PS_ManualMarker flag : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
     coords 0 0 0

@@ -1,5 +1,5 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
- RULES {
+ "_1_RULES" {
   m_sTitle "#PS-Description_HeaderRules"
   m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
   m_sTextData "ОБЩИЕ ПРАВИЛА "\
@@ -20,7 +20,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_bEmptyFactionVisibility 1
   m_iOrder 1
  }
- FIA {
+ "_2_FIA" {
   m_sTitle "#PS-Description_HeaderFIA"
   m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
   m_sTextData "Нам необходимо недопустить американцев на остров."\
@@ -35,7 +35,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 2
  }
- USSR {
+ "_2_USSR" {
   m_sTitle "#PS-Description_HeaderUSSR"
   m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
   m_sTextData "Нам необходимо захватить Рогово и удержать Погорёвку."
@@ -44,7 +44,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 2
  }
- USA {
+ "_2_USA" {
   m_sTitle "#PS-Description_HeaderUS"
   m_sTextData "Авиамобильная операция по захвату острова."\
   ""\
@@ -58,7 +58,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 2
  }
- ABOUT {
+ "_1_ABOUT" {
   m_sTitle "#PS-Description_HeaderAboutMission"
   m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
   m_sTextData "Операция Армии США по овладению островом Айл-д'Эрки"

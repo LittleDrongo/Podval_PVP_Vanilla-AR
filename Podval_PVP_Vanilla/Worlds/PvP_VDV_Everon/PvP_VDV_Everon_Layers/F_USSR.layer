@@ -79,10 +79,10 @@ $grp SCR_AIGroup : "{096E2AA151C3580D}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_R
  }
 }
 Vehicle Ural4320_transport1 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
- coords 11271.773 33.011 11513.146
- angleX 1.578
- angleY -147.523
- angleZ 4.18
+ coords 11047.734 24.563 11676.008
+ angleX 11.974
+ angleY -147.661
+ angleZ -0.766
 }
 SCR_AIGroup USSR_0_0_0 : "{2797EDBC47A47C2F}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_CompanyHQ.et" {
  coords 11025.048 23.4 11832.239
@@ -160,16 +160,16 @@ $grp SCR_AIGroup : "{2B2FE71BC66E6041}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_R
  }
 }
 Vehicle Ural4320_ammo1 : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et" {
- coords 11248.423 31.881 11526.053
- angleX 0.344
- angleY -150.766
- angleZ 1.218
+ coords 11024.384 23.803 11688.914
+ angleX 3.895
+ angleY -150.63
+ angleZ 2.189
 }
 Vehicle Ural4320_tanker1 : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et" {
- coords 11263.259 32.464 11518.108
- angleX -0.396
- angleY -153.525
- angleZ 2.801
+ coords 11039.22 24.224 11680.973
+ angleX 7.168
+ angleY -153.58
+ angleZ -0.415
 }
 $grp SCR_AIGroup : "{7A8CA920227BCBA8}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_PlatoonHQ.et" {
  USSR_2_0_0 {
@@ -218,8 +218,8 @@ $grp Vehicle : "{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed
  }
 }
 Vehicle Ural4320_repair1 : "{A5647958579A4149}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair.et" {
- coords 11255.848 32.149 11521.992
- angleX -0.477
- angleY -151.872
- angleZ 2.788
+ coords 11031.809 24.178 11684.854
+ angleX 6.693
+ angleY -151.547
+ angleZ 2.605
 }
