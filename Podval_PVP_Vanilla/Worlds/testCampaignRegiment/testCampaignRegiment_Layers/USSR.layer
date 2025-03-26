@@ -2,49 +2,55 @@ $grp Vehicle : "{16A674FE31B0921C}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncover
  UAZ469_uncovered1 {
   coords 1126.748 39 2360.665
   angleY -35.33
-  m_sAttachmentGroupName "F_USSR_6_1_1"
+  m_sAttachmentGroupName "S_USSR_6_1_1"
+  m_bEnableMoveOnFreeze 1
  }
  UAZ469_uncovered2 {
   coords 1124.051 39 2358.753
   angleY -35.33
-  m_sAttachmentGroupName "F_USSR_6_1_2"
+  m_sAttachmentGroupName "S_USSR_6_1_2"
+  m_bEnableMoveOnFreeze 1
  }
  UAZ469_uncovered3 {
   coords 1121.076 39 2356.644
   angleY -35.33
-  m_sAttachmentGroupName "F_USSR_6_1_3"
+  m_sAttachmentGroupName "S_USSR_6_1_3"
+  m_bEnableMoveOnFreeze 1
  }
  UAZ469_uncovered4 {
   coords 1108.603 39 2380.728
   angleY -35.33
-  m_sAttachmentGroupName "F_USSR_6_2_2"
+  m_sAttachmentGroupName "S_USSR_6_2_2"
+  m_bEnableMoveOnFreeze 1
  }
  UAZ469_uncovered5 {
   coords 1105.628 39 2378.618
   angleY -35.33
-  m_sAttachmentGroupName "F_USSR_6_2_3"
+  m_sAttachmentGroupName "S_USSR_6_2_3"
+  m_bEnableMoveOnFreeze 1
  }
  UAZ469_uncovered6 {
   coords 1111.3 39 2382.639
   angleY -35.33
-  m_sAttachmentGroupName "F_USSR_6_2_1"
+  m_sAttachmentGroupName "S_USSR_6_2_1"
+  m_bEnableMoveOnFreeze 1
  }
  UAZ469_uncovered7 {
   coords 1094.9 39 2400.22
   angleY -35.33
-  m_sAttachmentGroupName "F_USSR_6_3_2"
+  m_sAttachmentGroupName "S_USSR_6_3_2"
   m_bEnableMoveOnFreeze 1
  }
  UAZ469_uncovered8 {
   coords 1091.925 39 2398.11
   angleY -35.33
-  m_sAttachmentGroupName "F_USSR_6_3_3"
+  m_sAttachmentGroupName "S_USSR_6_3_3"
   m_bEnableMoveOnFreeze 1
  }
  UAZ469_uncovered9 {
   coords 1097.597 39 2402.131
   angleY -35.33
-  m_sAttachmentGroupName "F_USSR_6_3_1"
+  m_sAttachmentGroupName "S_USSR_6_3_1"
   m_bEnableMoveOnFreeze 1
  }
 }
@@ -132,37 +138,37 @@ $grp Vehicle : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
  BRDM1 {
   coords 1138.314 39 2356.097
   angleY -35.107
-  m_sAttachmentGroupName "F_USSR_6_1_0"
+  m_sAttachmentGroupName "S_USSR_6_1_0"
   m_bEnableMoveOnFreeze 1
  }
  BRDM2 {
   coords 1134.875 39 2353.68
   angleY -35.107
-  m_sAttachmentGroupName "F_USSR_6_1_0"
+  m_sAttachmentGroupName "S_USSR_6_1_0"
   m_bEnableMoveOnFreeze 1
  }
  BRDM3 {
   coords 1122.866 39 2378.073
   angleY -35.107
-  m_sAttachmentGroupName "F_USSR_6_2_0"
+  m_sAttachmentGroupName "S_USSR_6_2_0"
   m_bEnableMoveOnFreeze 1
  }
  BRDM4 {
   coords 1119.427 39 2375.656
   angleY -35.107
-  m_sAttachmentGroupName "F_USSR_6_2_0"
+  m_sAttachmentGroupName "S_USSR_6_2_0"
   m_bEnableMoveOnFreeze 1
  }
  BRDM5 {
   coords 1105.724 39 2395.148
   angleY -35.107
-  m_sAttachmentGroupName "F_USSR_6_3_0"
+  m_sAttachmentGroupName "S_USSR_6_3_0"
   m_bEnableMoveOnFreeze 1
  }
  BRDM6 {
   coords 1109.163 39 2397.565
   angleY -35.107
-  m_sAttachmentGroupName "F_USSR_6_3_0"
+  m_sAttachmentGroupName "S_USSR_6_3_0"
   m_bEnableMoveOnFreeze 1
  }
 }
@@ -196,7 +202,7 @@ $grp SCR_AIGroup : "{2797EDBC47A47C2F}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_C
  }
 }
 $grp SCR_AIGroup : "{2B2FE71BC66E6041}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_RocketHelicopter.et" {
- F_USSR_7_2_0 {
+ S_USSR_7_2_0 {
   components {
    PS_GroupCallsignAssigner "{645CD4F6A6B4891B}" {
     m_iCompanyCallsign 7
@@ -239,7 +245,7 @@ $grp SCR_AIGroup : "{2B2FE71BC66E6041}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_R
   coords 995.738 39 2568.504
   angleY 55.28
  }
- F_USSR_7_3_0 {
+ S_USSR_7_3_0 {
   components {
    PS_GroupCallsignAssigner "{645CD4F6A6B4891B}" {
     m_iCompanyCallsign 7
@@ -251,7 +257,7 @@ $grp SCR_AIGroup : "{2B2FE71BC66E6041}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_R
   angleY 56.628
   angleZ 5.983
  }
- F_USSR_7_3_1 {
+ S_USSR_7_3_1 {
   components {
    PS_GroupCallsignAssigner "{645CD4F6A6B4891B}" {
     m_iCompanyCallsign 7
@@ -264,7 +270,7 @@ $grp SCR_AIGroup : "{2B2FE71BC66E6041}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_R
   angleY 56.655
   angleZ 3.003
  }
- F_USSR_7_3_2 {
+ S_USSR_7_3_2 {
   components {
    PS_GroupCallsignAssigner "{645CD4F6A6B4891B}" {
     m_iCompanyCallsign 7
@@ -277,7 +283,7 @@ $grp SCR_AIGroup : "{2B2FE71BC66E6041}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_R
   angleY 55.631
   angleZ 2.408
  }
- F_USSR_7_3_3 {
+ S_USSR_7_3_3 {
   components {
    PS_GroupCallsignAssigner "{645CD4F6A6B4891B}" {
     m_iCompanyCallsign 7
@@ -431,7 +437,7 @@ $grp SCR_AIGroup : "{6CD75003D4565B9C}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_M
  }
 }
 $grp SCR_AIGroup : "{78959D0FFDA6DBB5}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_HeliTransport.et" {
- F_USSR_7_0_0 {
+ S_USSR_7_0_0 {
   components {
    PS_GroupCallsignAssigner "{645CD4F62FEE676B}" {
     m_iCompanyCallsign 7
@@ -440,7 +446,7 @@ $grp SCR_AIGroup : "{78959D0FFDA6DBB5}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_H
   coords 1094.572 39 2425.754
   angleY 55.681
  }
- F_USSR_7_0_1 {
+ S_USSR_7_0_1 {
   components {
    PS_GroupCallsignAssigner "{645CD4F62FEE676B}" {
     m_iCompanyCallsign 7
@@ -450,7 +456,7 @@ $grp SCR_AIGroup : "{78959D0FFDA6DBB5}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_H
   coords 1081.675 39 2444.647
   angleY 55.681
  }
- F_USSR_7_0_2 {
+ S_USSR_7_0_2 {
   components {
    PS_GroupCallsignAssigner "{645CD4F62FEE676B}" {
     m_iCompanyCallsign 7
@@ -460,7 +466,7 @@ $grp SCR_AIGroup : "{78959D0FFDA6DBB5}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_H
   coords 1069.403 39 2462.625
   angleY 55.681
  }
- F_USSR_7_0_3 {
+ S_USSR_7_0_3 {
   components {
    PS_GroupCallsignAssigner "{645CD4F62FEE676B}" {
     m_iCompanyCallsign 7
@@ -470,7 +476,7 @@ $grp SCR_AIGroup : "{78959D0FFDA6DBB5}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_H
   coords 1056.606 39 2481.372
   angleY 55.681
  }
- F_USSR_7_1_0 {
+ S_USSR_7_1_0 {
   components {
    PS_GroupCallsignAssigner "{645CD4F62FEE676B}" {
     m_iCompanyCallsign 7
@@ -482,7 +488,7 @@ $grp SCR_AIGroup : "{78959D0FFDA6DBB5}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_H
   angleY 55.702
   angleZ 0.47
  }
- F_USSR_7_1_1 {
+ S_USSR_7_1_1 {
   components {
    PS_GroupCallsignAssigner "{645CD4F62FEE676B}" {
     m_iCompanyCallsign 7
@@ -495,7 +501,7 @@ $grp SCR_AIGroup : "{78959D0FFDA6DBB5}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_H
   angleY 55.645
   angleZ -0.776
  }
- F_USSR_7_1_2 {
+ S_USSR_7_1_2 {
   components {
    PS_GroupCallsignAssigner "{645CD4F62FEE676B}" {
     m_iCompanyCallsign 7
@@ -508,7 +514,7 @@ $grp SCR_AIGroup : "{78959D0FFDA6DBB5}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_H
   angleY 55.941
   angleZ 1.563
  }
- F_USSR_7_1_3 {
+ S_USSR_7_1_3 {
   components {
    PS_GroupCallsignAssigner "{645CD4F62FEE676B}" {
     m_iCompanyCallsign 7
@@ -618,7 +624,7 @@ $grp Vehicle : "{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed
  Mi8MT_armed1 {
   coords 1026.012 39 2507.962
   angleY 54.391
-  m_sAttachmentGroupName "F_USSR_7_2_0"
+  m_sAttachmentGroupName "S_USSR_7_2_0"
  }
  Mi8MT_armed2 {
   coords 1012.505 39 2526.822
@@ -663,7 +669,7 @@ $grp Vehicle : "{7CAFDAE560A668A2}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
  }
 }
 $grp SCR_AIGroup : "{88C5372DBC94D00A}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_ReconPlatoonHQ.et" {
- F_USSR_6_1_0 {
+ S_USSR_6_1_0 {
   components {
    PS_GroupCallsignAssigner "{645CD4F5122CA354}" {
     m_iCompanyCallsign 6
@@ -673,7 +679,7 @@ $grp SCR_AIGroup : "{88C5372DBC94D00A}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_R
   coords 1138.973 39 2361.395
   angleY 54.722
  }
- F_USSR_6_2_0 {
+ S_USSR_6_2_0 {
   components {
    PS_GroupCallsignAssigner "{645CD4F5122CA354}" {
     m_iCompanyCallsign 6
@@ -683,7 +689,7 @@ $grp SCR_AIGroup : "{88C5372DBC94D00A}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_R
   coords 1123.525 39 2383.369
   angleY 54.722
  }
- F_USSR_6_3_0 {
+ S_USSR_6_3_0 {
   components {
    PS_GroupCallsignAssigner "{645CD4F5122CA354}" {
     m_iCompanyCallsign 6
@@ -1312,7 +1318,7 @@ $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
  }
 }
 $grp SCR_AIGroup : "{C1F556377EBDFCAF}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_ReconSquad.et" {
- F_USSR_6_1_1 {
+ S_USSR_6_1_1 {
   components {
    PS_GroupCallsignAssigner "{645CD4F737623E55}" {
     m_iCompanyCallsign 6
@@ -1323,7 +1329,7 @@ $grp SCR_AIGroup : "{C1F556377EBDFCAF}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_R
   coords 1134.444 39 2368.164
   angleY 54.582
  }
- F_USSR_6_1_2 {
+ S_USSR_6_1_2 {
   components {
    PS_GroupCallsignAssigner "{645CD4F737623E55}" {
     m_iCompanyCallsign 6
@@ -1334,7 +1340,7 @@ $grp SCR_AIGroup : "{C1F556377EBDFCAF}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_R
   coords 1132.026 39 2366.444
   angleY 54.582
  }
- F_USSR_6_1_3 {
+ S_USSR_6_1_3 {
   components {
    PS_GroupCallsignAssigner "{645CD4F737623E55}" {
     m_iCompanyCallsign 6
@@ -1345,7 +1351,7 @@ $grp SCR_AIGroup : "{C1F556377EBDFCAF}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_R
   coords 1129.33 39 2364.527
   angleY 54.582
  }
- F_USSR_6_2_2 {
+ S_USSR_6_2_2 {
   components {
    PS_GroupCallsignAssigner "{645CD4F737623E55}" {
     m_iCompanyCallsign 6
@@ -1356,7 +1362,7 @@ $grp SCR_AIGroup : "{C1F556377EBDFCAF}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_R
   coords 1116.578 39 2388.418
   angleY 54.582
  }
- F_USSR_6_2_1 {
+ S_USSR_6_2_1 {
   components {
    PS_GroupCallsignAssigner "{645CD4F737623E55}" {
     m_iCompanyCallsign 6
@@ -1367,7 +1373,7 @@ $grp SCR_AIGroup : "{C1F556377EBDFCAF}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_R
   coords 1118.996 39 2390.138
   angleY 54.582
  }
- F_USSR_6_2_3 {
+ S_USSR_6_2_3 {
   components {
    PS_GroupCallsignAssigner "{645CD4F737623E55}" {
     m_iCompanyCallsign 6
@@ -1378,7 +1384,7 @@ $grp SCR_AIGroup : "{C1F556377EBDFCAF}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_R
   coords 1113.882 39 2386.501
   angleY 54.582
  }
- F_USSR_6_3_3 {
+ S_USSR_6_3_3 {
   components {
    PS_GroupCallsignAssigner "{645CD4F737623E55}" {
     m_iCompanyCallsign 6
@@ -1389,7 +1395,7 @@ $grp SCR_AIGroup : "{C1F556377EBDFCAF}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_R
   coords 1100.179 39 2405.993
   angleY 54.582
  }
- F_USSR_6_3_2 {
+ S_USSR_6_3_2 {
   components {
    PS_GroupCallsignAssigner "{645CD4F737623E55}" {
     m_iCompanyCallsign 6
@@ -1400,7 +1406,7 @@ $grp SCR_AIGroup : "{C1F556377EBDFCAF}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_R
   coords 1102.875 39 2407.91
   angleY 54.582
  }
- F_USSR_6_3_1 {
+ S_USSR_6_3_1 {
   components {
    PS_GroupCallsignAssigner "{645CD4F737623E55}" {
     m_iCompanyCallsign 6
@@ -1530,74 +1536,74 @@ $grp Vehicle : "{DBEC63C9DEE4358C}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed
   angleX -1.997
   angleY 59.966
   angleZ 0.121
-  m_sAttachmentGroupName "F_USSR_7_3_0"
+  m_sAttachmentGroupName "S_USSR_7_3_0"
  }
  Mi8MT_armed_gunship_HEDP2 {
   coords 1049.283 38.029 2550.889
   angleX -1.223
   angleY 59.962
   angleZ -0.327
-  m_sAttachmentGroupName "F_USSR_7_3_1"
+  m_sAttachmentGroupName "S_USSR_7_3_1"
  }
  Mi8MT_armed_gunship_HEDP3 {
   coords 1038.575 37.969 2569.413
   angleY 59.966
-  m_sAttachmentGroupName "F_USSR_7_3_2"
+  m_sAttachmentGroupName "S_USSR_7_3_2"
  }
  Mi8MT_armed_gunship_HEDP4 {
   coords 1028.322 37.714 2587.15
   angleX -0.897
   angleY 59.936
   angleZ -1.549
-  m_sAttachmentGroupName "F_USSR_7_3_3"
+  m_sAttachmentGroupName "S_USSR_7_3_3"
  }
 }
 $grp Vehicle : "{DF5CCB7C0FF049F4}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_transport.et" {
  Mi8MT_unarmed_transport2 {
   coords 1087.305 39 2419.423
   angleY 54.386
-  m_sAttachmentGroupName "F_USSR_7_0_0"
+  m_sAttachmentGroupName "S_USSR_7_0_0"
  }
  Mi8MT_unarmed_transport3 {
   coords 1074.408 39 2438.316
   angleY 54.386
-  m_sAttachmentGroupName "F_USSR_7_0_1"
+  m_sAttachmentGroupName "S_USSR_7_0_1"
  }
  Mi8MT_unarmed_transport4 {
   coords 1062.136 39 2456.294
   angleY 54.386
-  m_sAttachmentGroupName "F_USSR_7_0_2"
+  m_sAttachmentGroupName "S_USSR_7_0_2"
  }
  Mi8MT_unarmed_transport5 {
   coords 1049.339 39 2475.041
   angleY 54.386
-  m_sAttachmentGroupName "F_USSR_7_0_3"
+  m_sAttachmentGroupName "S_USSR_7_0_3"
  }
  Mi8MT_unarmed_transport6 {
   coords 1120.134 38.196 2445.134
   angleX 2.497
   angleY 54.404
   angleZ 0.413
-  m_sAttachmentGroupName "F_USSR_7_1_0"
+  m_sAttachmentGroupName "S_USSR_7_1_0"
  }
  Mi8MT_unarmed_transport7 {
   coords 1107.237 38.195 2464.028
   angleX 1.455
   angleY 54.359
   angleZ -1.043
-  m_sAttachmentGroupName "F_USSR_7_1_1"
+  m_sAttachmentGroupName "S_USSR_7_1_1"
  }
  Mi8MT_unarmed_transport8 {
   coords 1094.964 37.921 2482.005
   angleX 0.728
   angleY 54.379
   angleZ -0.521
-  m_sAttachmentGroupName "F_USSR_7_1_2"
+  m_sAttachmentGroupName "S_USSR_7_1_2"
  }
  Mi8MT_unarmed_transport9 {
   coords 1082.167 37.843 2500.752
   angleY 54.386
-  m_sAttachmentGroupName "F_USSR_7_1_3"
+  m_sAttachmentGroupName "S_USSR_7_1_3"
  }
 }
 SCR_AIGroup F_USSR_0_0_0 : "{E8ADB840FBFAF008}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_BattalionHQ.et" {
