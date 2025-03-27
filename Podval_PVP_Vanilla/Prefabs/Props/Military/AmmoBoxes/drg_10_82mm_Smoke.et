@@ -1,0 +1,51 @@
+GenericEntity : "{8EFDFF8205A28E26}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_82mm_mortar_3rnd_Smoke.et" {
+ ID "F0DBA538AC2A0552"
+ coords 1272.216 6.119 2196.848
+ angleX -0.51
+ angleY 11.807
+ angleZ -1.935
+ {
+  $grp GenericEntity : "{8EFDFF8205A28E26}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_82mm_mortar_3rnd_Smoke.et" {
+   {
+    ID "64F715A989CD6502"
+    coords 0 0.446 0
+   }
+   {
+    ID "64F715A989CD6FB8"
+    coords 0 0.265 0
+   }
+   {
+    ID "64F715A989CD6FB9"
+    coords 0 0.18 0
+   }
+   {
+    ID "64F715A989CD7AFD"
+    coords 0 0.354 0
+   }
+   {
+    ID "64F715A989CE216C"
+    coords 0 0.633 0
+   }
+   {
+    ID "64F715A989CE216D"
+    coords 0 0.732 0
+   }
+   {
+    ID "64F715A989CE66DC"
+    coords 0 0.831 0
+   }
+   {
+    ID "64F715A989CED0A4"
+    coords 0 0.541 0
+   }
+   {
+    ID "64F715A989CFDCF6"
+    coords 0 0.926 0
+   }
+   {
+    ID "64F715A989CFE45E"
+    coords 0 0.086 0
+   }
+  }
+ }
+}

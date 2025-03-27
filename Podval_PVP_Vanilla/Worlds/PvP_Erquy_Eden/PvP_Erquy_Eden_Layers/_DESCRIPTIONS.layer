@@ -66,3 +66,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_bShowForAnyFaction 1
  }
 }
+Vehicle M923A1_transport_covered_closed1 : "{48A6D4372444B85A}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered_closed.et" {
+ coords 5345.633 43.513 10533.236
+ angleY -16.87
+ m_sAttachmentGroupName "US_3_0_0"
+ m_bEnableMoveOnFreeze 1
+}

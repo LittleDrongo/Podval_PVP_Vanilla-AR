@@ -1,0 +1,459 @@
+StaticModelEntity : "{4862CD3623FE4E31}PrefabsEditable/Auto/Props/Military/Furniture/E_TableMilitary_USSR_01.et" {
+ ID "5272E314F01B2DBE"
+ coords 5341.102 43.422 10529.063
+ angleY -13.875
+ {
+  $grp Projectile : "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et" {
+   {
+    ID "64F71A13F320F9B8"
+    coords 0.041 0.911 0.157
+    angleY -0.78
+    {
+     $grp Projectile : "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et" {
+      {
+       ID "64F71A13F3211EEE"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F3211EEF"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F3216F15"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F321A2D9"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F321F06A"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F32262A0"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F32262A7"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F32289F9"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F322B443"
+       coords 0 0 0
+      }
+     }
+    }
+   }
+   {
+    ID "64F71A13F323356C"
+    coords -0.076 0.911 0.153
+    angleY -0.78
+    {
+     $grp Projectile : "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et" {
+      {
+       ID "64F71A13F3234532"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F323F4FE"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F323F4FF"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33C3844"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33C5119"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33C6038"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33C9478"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33C947B"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33D0DE3"
+       coords 0 0 0
+      }
+     }
+    }
+   }
+   {
+    ID "64F71A13F3259BB7"
+    coords 0.275 0.911 0.161
+    angleY -0.78
+    {
+     $grp Projectile : "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et" {
+      {
+       ID "64F71A13F325C82B"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F325D882"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F325D883"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F3266CF7"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F326BA1F"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F326E553"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F326E55C"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F32716E2"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F32723C3"
+       coords 0 0 0
+      }
+     }
+    }
+   }
+   {
+    ID "64F71A13F3276B4F"
+    coords 0.159 0.911 0.158
+    angleY -0.78
+    {
+     $grp Projectile : "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et" {
+      {
+       ID "64F71A13F32005FF"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F3200DDD"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F32082E5"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F32082E6"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F3209D3E"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F320BE31"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F320E2B0"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F3279C36"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F3279C37"
+       coords 0 0 0
+      }
+     }
+    }
+   }
+   {
+    ID "64F71A13F32B0935"
+    coords 0.386 0.911 0.162
+    angleY -0.78
+    {
+     $grp Projectile : "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et" {
+      {
+       ID "64F71A13F3246E36"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F3246E37"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F3248005"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F3253705"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F3257B5B"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F3259BB4"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F32BB9C3"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F32BB9C5"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F32BCEBB"
+       coords 0 0 0
+      }
+     }
+    }
+   }
+   {
+    ID "64F71A13F334400F"
+    coords 0.502 0.911 0.164
+    angleY -0.78
+    {
+     $grp Projectile : "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et" {
+      {
+       ID "64F71A13F334F81A"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F335176C"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F335973A"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F335973B"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33617F4"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33650C0"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F336555B"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F3368017"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F3368018"
+       coords 0 0 0
+      }
+     }
+    }
+   }
+   {
+    ID "64F71A13F338BFC9"
+    coords -0.322 0.911 0.151
+    angleY -0.78
+    {
+     $grp Projectile : "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et" {
+      {
+       ID "64F71A13F338C567"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F338D02A"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F338D02B"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33917F3"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F3393D00"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F339574A"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F339DAAB"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33A6542"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33A6545"
+       coords 0 0 0
+      }
+     }
+    }
+   }
+   {
+    ID "64F71A13F33A8847"
+    coords -0.566 0.911 0.148
+    angleY -0.78
+    {
+     $grp Projectile : "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et" {
+      {
+       ID "64F71A13F3341878"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33B0E6A"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33B0E6B"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33B201F"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33B818F"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33BACBC"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33BBFCB"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33BEB29"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33BEB2A"
+       coords 0 0 0
+      }
+     }
+    }
+   }
+   {
+    ID "64F71A13F33D6C35"
+    coords -0.201 0.911 0.149
+    angleY -0.78
+    {
+     $grp Projectile : "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et" {
+      {
+       ID "64F71A13F33D99E8"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33D99E9"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33E088F"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33E2D41"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33E31BC"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33E640B"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33E6414"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33E78B7"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33EA4EE"
+       coords 0 0 0
+      }
+     }
+    }
+   }
+   {
+    ID "64F71A13F33EE91B"
+    coords -0.442 0.911 0.148
+    angleY -0.78
+    {
+     $grp Projectile : "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et" {
+      {
+       ID "64F71A13F3380D62"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33ED118"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33ED119"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33EF7F1"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33F0AF5"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33F498F"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33FA519"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33FD7FC"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A13F33FD7FF"
+       coords 0 0 0
+      }
+     }
+    }
+   }
+  }
+ }
+}

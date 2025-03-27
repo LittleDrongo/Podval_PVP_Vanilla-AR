@@ -137,23 +137,96 @@ SCR_AIGroup USSR_0_0_0 : "{2797EDBC47A47C2F}Prefabs/Groups/OPFOR/Campaign/F_USSR
   "{7D463C5B3BBFD8E0}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_CL.et"
  }
 }
-$grp Vehicle : "{CD6AA14FA304EC31}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_Mortar.et" {
- Ural4320_transport_Mortar1 {
-  coords 1259.591 5.737 2201.987
-  angleX -1.127
-  angleY -172.315
-  angleZ 1.654
-  m_sAttachmentGroupName "USSR_3_0_0"
-  m_bEnableMoveOnFreeze 1
+$grp GenericEntity : "{5A5A35F2937802B8}Prefabs/Props/Military/AmmoBoxes/drg_ammobox_82mm_100rnd_Smoke.et" {
+ {
+  coords 1262.462 5.795 2203.185
+  angleX 0
+  angleY -82.159
+  angleZ 0
  }
- Ural4320_transport_Mortar2 {
-  coords 1269.459 6.015 2200.65
-  angleX -0.24
-  angleY -172.287
-  angleZ 1.774
+ {
+  coords 1272.295 6.099 2202.255
+  angleX -1.895
+  angleY -82.18
+  angleZ 0.643
+ }
+}
+$grp GenericEntity : "{645F518F95682567}Prefabs/Props/Military/AmmoBoxes/drg_ammobox_82mm_100rnd_HE.et" {
+ {
+  coords 1261.835 5.778 2203.24
+  angleX -0.884
+  angleY -80.991
+  angleZ -0.14
+ }
+ {
+  coords 1261.757 5.777 2202.745
+  angleX -0.884
+  angleY -80.991
+  angleZ -0.14
+ }
+ {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5EBE9BE3CEFB5AFA}" {
+      NumSlots 40
+     }
+    }
+   }
+  }
+  coords 1261.678 5.776 2202.247
+  angleX -0.884
+  angleY -80.991
+  angleZ -0.14
+ }
+ {
+  coords 1271.59 6.081 2201.815
+  angleX -1.768
+  angleY -80.986
+  angleZ -0.28
+ }
+ {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5EBE9BE3CEFB5AFA}" {
+      NumSlots 40
+     }
+    }
+   }
+  }
+  coords 1271.511 6.078 2201.317
+  angleX -1.768
+  angleY -80.986
+  angleZ -0.28
+ }
+ {
+  coords 1271.668 6.083 2202.31
+  angleX -1.768
+  angleY -80.986
+  angleZ -0.28
+ }
+}
+$grp Vehicle : "{9DD4FD3527CB46C8}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_closed.et" {
+ Ural4320_transport_covered_closed1 {
+  coords 1269.061 6.002 2199.223
+  angleX -0.205
+  angleY -173.413
+  angleZ 1.778
   m_sAttachmentGroupName "USSR_3_0_1"
   m_bEnableMoveOnFreeze 1
  }
+ Ural4320_transport_covered_closed2 {
+  coords 1259.578 5.712 2200.319
+  angleX -0.103
+  angleY -173.408
+  angleZ 0.889
+  m_sAttachmentGroupName "USSR_3_0_0"
+  m_bEnableMoveOnFreeze 1
+ }
+}
+Projectile : "{A544A2C131DE2C64}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_Smoke_D832DU.et" {
+ coords 1264.902 5.872 2199.656
 }
 $grp Turret : "{D1FFE458E8AC4BDB}Prefabs/Weapons/Mortars/2B14/Mortar_2B14.et" {
  Mortar_2 {

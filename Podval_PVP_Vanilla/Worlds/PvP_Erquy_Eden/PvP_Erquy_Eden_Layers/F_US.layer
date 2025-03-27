@@ -259,6 +259,20 @@ $grp Vehicle : "{CB4D4CF7E887B2D0}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_g
   m_sAttachmentGroupName "US_5_0_1"
  }
 }
+$grp GenericEntity : "{CD62F06653C03448}Prefabs/Props/Military/AmmoBoxes/drg_ammobox_81mm_100rnd_HE.et" {
+ {
+  coords 5341.895 43.436 10529.511
+  angleX 0.556
+  angleY -18.943
+  angleZ -1.138
+ }
+ {
+  coords 5341.448 43.426 10529.355
+  angleX 0.556
+  angleY -18.943
+  angleZ -1.138
+ }
+}
 $grp SCR_AIGroup : "{D5A29BB215DD0637}Prefabs/Groups/BLUFOR/Campaign/S_US_drg_RocketHelicopter.et" {
  US_5_0_0 {
   components {
@@ -290,6 +304,20 @@ $grp SCR_AIGroup : "{D5A29BB215DD0637}Prefabs/Groups/BLUFOR/Campaign/S_US_drg_Ro
   }
  }
 }
+$grp GenericEntity : "{D6D8F271391B1A6E}Prefabs/Props/Military/AmmoBoxes/drg_ammobox_81mm_100rnd_Smoke.et" {
+ {
+  coords 5340.968 43.414 10529.093
+  angleX 0.527
+  angleY -20.378
+  angleZ -1.151
+ }
+ {
+  coords 5340.488 43.403 10528.913
+  angleX 0.527
+  angleY -20.378
+  angleZ -1.151
+ }
+}
 $grp Vehicle : "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et" {
  UH1H_armed1 {
   coords 4848.629 28.325 11932.232
@@ -316,9 +344,4 @@ $grp Vehicle : "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.e
   angleZ -0.895
   m_sAttachmentGroupName "US_4_0_3"
  }
-}
-Vehicle M923A1_transport_Mortar1 : "{E3CB6FEDDDA25ADF}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_Mortar.et" {
- coords 5344.562 43.593 10535.642
- angleY -21.153
- m_sAttachmentGroupName "US_3_0_0"
 }

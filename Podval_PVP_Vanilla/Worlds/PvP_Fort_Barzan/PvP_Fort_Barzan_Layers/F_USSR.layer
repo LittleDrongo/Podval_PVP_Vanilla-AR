@@ -113,10 +113,10 @@ Vehicle Ural4320_command1 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320
  m_sAttachmentGroupName "USSR_0_0_0"
 }
 SCR_AIGroup USSR_5_0_0 : "{1C713293986AFC2C}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_MortarCrew.et" {
- coords 1217.086 8.76 2675.33
- angleX -15.785
- angleY 130.241
- angleZ -0.31
+ coords 1216.928 6.918 2675.453
+ angleX 0.197
+ angleY 130.528
+ angleZ 2.523
 }
 SCR_AIGroup USSR_0_0_0 : "{2797EDBC47A47C2F}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_CompanyHQ.et" {
  coords 1198.276 5.871 2651.481
@@ -126,6 +126,45 @@ SCR_AIGroup USSR_0_0_0 : "{2797EDBC47A47C2F}Prefabs/Groups/OPFOR/Campaign/F_USSR
  m_aUnitPrefabSlots {
   "{7D463C5B3BBFD8E0}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_CL.et"
  }
+}
+GenericEntity : "{5A5A35F2937802B8}Prefabs/Props/Military/AmmoBoxes/drg_ammobox_82mm_100rnd_Smoke.et" {
+ coords 1216.792 6.842 2673.099
+ angleX -0.058
+ angleY -47.602
+ angleZ -1.265
+}
+$grp GenericEntity : "{645F518F95682567}Prefabs/Props/Military/AmmoBoxes/drg_ammobox_82mm_100rnd_HE.et" {
+ {
+  coords 1215.48 6.784 2671.615
+  angleX -0.11
+  angleY -47.48
+  angleZ -2.528
+ }
+ {
+  coords 1215.83 6.808 2671.997
+  angleX -0.11
+  angleY -47.48
+  angleZ -2.528
+ }
+ {
+  coords 1215.83 6.808 2671.997
+  angleX -0.11
+  angleY -47.48
+  angleZ -2.528
+ }
+ {
+  coords 1216.176 6.821 2672.375
+  angleX -0.055
+  angleY -47.484
+  angleZ -1.265
+ }
+}
+Vehicle Ural4320_transport_covered_closed1 : "{9DD4FD3527CB46C8}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_closed.et" {
+ coords 1218.936 6.89 2672.528
+ angleX -2.525
+ angleY -138.74
+ angleZ 0.165
+ m_sAttachmentGroupName "USSR_5_0_0"
 }
 $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
  BTR1 {
@@ -148,13 +187,6 @@ $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
   angleY -71.58
   m_sAttachmentGroupName "USSR_1_0_3"
  }
-}
-Vehicle Ural4320_transport_Mortar1 : "{CD6AA14FA304EC31}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_Mortar.et" {
- coords 1218.903 6.893 2672.641
- angleX -2.527
- angleY -138.025
- angleZ 0.133
- m_sAttachmentGroupName "USSR_5_0_0"
 }
 Turret : "{D1FFE458E8AC4BDB}Prefabs/Weapons/Mortars/2B14/Mortar_2B14.et" {
  components {

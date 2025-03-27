@@ -1,3 +1,10 @@
+Vehicle M923A1_transport_covered_closed1 : "{48A6D4372444B85A}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered_closed.et" {
+ coords 5236.402 341.227 8621.076
+ angleX 5.426
+ angleY -97.555
+ angleZ 0.181
+ m_sAttachmentGroupName "US_5_0_0"
+}
 SCR_AIGroup : "{68D5E3B6F7C86BD0}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_CompanyHQ.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
@@ -104,10 +111,29 @@ SCR_AIGroup US_5_0_0 : "{983EB2C5F6E84CD7}Prefabs/Groups/BLUFOR/Campaign/F_US_dr
  angleY 172.076
  angleZ -4.424
 }
-Vehicle M923A1_transport_Mortar1 : "{E3CB6FEDDDA25ADF}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_Mortar.et" {
- coords 5234.285 341.386 8620.205
- angleX 3.675
- angleY -99.568
- angleZ 0.287
- m_sAttachmentGroupName "US_5_0_0"
+$grp GenericEntity : "{CD62F06653C03448}Prefabs/Props/Military/AmmoBoxes/drg_ammobox_81mm_100rnd_HE.et" {
+ {
+  coords 5237.591 341.109 8623.079
+  angleX 0.089
+  angleY -12.426
+  angleZ 4.554
+ }
+ {
+  coords 5237.148 341.145 8622.981
+  angleX 0.089
+  angleY -12.426
+  angleZ 4.554
+ }
+ {
+  coords 5238.033 341.072 8623.177
+  angleX 0.28
+  angleY -12.408
+  angleZ 5.422
+ }
+}
+GenericEntity : "{D6D8F271391B1A6E}Prefabs/Props/Military/AmmoBoxes/drg_ammobox_81mm_100rnd_Smoke.et" {
+ coords 5236.369 341.21 8622.828
+ angleX 0
+ angleY -13.969
+ angleZ 0
 }

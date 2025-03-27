@@ -1,0 +1,459 @@
+StaticModelEntity : "{B94D11DD03097D5E}PrefabsEditable/Auto/Props/Military/Furniture/E_TableMilitary_US_01.et" {
+ ID "5272E314F01B2DBE"
+ coords 5339.428 43.401 10530.737
+ angleY -16.313
+ {
+  $grp Projectile : "{F7807293E94D3C88}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_M819.et" {
+   {
+    ID "64F71A144F714869"
+    coords 0.164 0.926 0.014
+    angleY -0.211
+    {
+     $grp Projectile : "{F7807293E94D3C88}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_M819.et" {
+      {
+       ID "64F71A144F700C96"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F700C97"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7044D7"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F704B3C"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F706581"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F70CF0A"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F71486E"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F73B3D6"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F73E00B"
+       coords 0 0 0
+      }
+     }
+    }
+   }
+   {
+    ID "64F71A144F7337C9"
+    coords 0.062 0.926 0.015
+    angleY -0.211
+    {
+     $grp Projectile : "{F7807293E94D3C88}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_M819.et" {
+      {
+       ID "64F71A144F7250F1"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F72A8EE"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F72FE84"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F72FE87"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F758846"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F75D5D0"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F75E5C5"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F75E9AC"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F75E9AD"
+       coords 0 0 0
+      }
+     }
+    }
+   }
+   {
+    ID "64F71A144F759090"
+    coords -0.163 0.926 0.014
+    angleY -0.211
+    {
+     $grp Projectile : "{F7807293E94D3C88}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_M819.et" {
+      {
+       ID "64F71A144F746842"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F74F4EC"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F74F4ED"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F752B21"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7530F4"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F753D2E"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F754414"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F754F25"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F754F2A"
+       coords 0 0 0
+      }
+     }
+    }
+   }
+   {
+    ID "64F71A144F77EEB0"
+    coords -0.265 0.926 0.012
+    angleY -0.211
+    {
+     $grp Projectile : "{F7807293E94D3C88}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_M819.et" {
+      {
+       ID "64F71A144F76555D"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F76B6D4"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F76B6D5"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F76E922"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F76F510"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F777F03"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F77A0D7"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F77AC21"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F77AC22"
+       coords 0 0 0
+      }
+     }
+    }
+   }
+   {
+    ID "64F71A144F7B2438"
+    coords 0.48 0.926 0.017
+    angleY -0.211
+    {
+     $grp Projectile : "{F7807293E94D3C88}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_M819.et" {
+      {
+       ID "64F71A144F7A02B4"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7A02B5"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7A6434"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7AA4EB"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7B02C1"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7B02C2"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7B02C3"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7B243F"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7DCABC"
+       coords 0 0 0
+      }
+     }
+    }
+   }
+   {
+    ID "64F71A144F7D4AC9"
+    coords 0.373 0.926 0.016
+    angleY -0.211
+    {
+     $grp Projectile : "{F7807293E94D3C88}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_M819.et" {
+      {
+       ID "64F71A144F7C32B3"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7C3B0A"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7C764C"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7C764D"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7CA80E"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7CAD8B"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7CFDA1"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7CFDBE"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7FA1D9"
+       coords 0 0 0
+      }
+     }
+    }
+   }
+   {
+    ID "64F71A144F7F6ACF"
+    coords 0.267 0.926 0.016
+    angleY -0.211
+    {
+     $grp Projectile : "{F7807293E94D3C88}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_M819.et" {
+      {
+       ID "64F71A144F71A28D"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F71EECE"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7E1DEA"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7E64EE"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7E64EF"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7EA3C1"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7EC88C"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7F0BCC"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F7F6ACC"
+       coords 0 0 0
+      }
+     }
+    }
+   }
+   {
+    ID "64F71A144F884696"
+    coords -0.057 0.926 0.015
+    angleY -0.211
+    {
+     $grp Projectile : "{F7807293E94D3C88}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_M819.et" {
+      {
+       ID "64F71A144F8816CF"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F884955"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F8B0557"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F8B2D24"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F8B3D36"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F8B7F38"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F8BA075"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F8BA076"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F8BFB34"
+       coords 0 0 0
+      }
+     }
+    }
+   }
+   {
+    ID "64F71A144F89E3E3"
+    coords -0.367 0.926 0.013
+    angleY -0.211
+    {
+     $grp Projectile : "{F7807293E94D3C88}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_M819.et" {
+      {
+       ID "64F71A144F884697"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F888272"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F8890BA"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F89153E"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F89452E"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F896A33"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F896A34"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F89809C"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F89CCAD"
+       coords 0 0 0
+      }
+     }
+    }
+   }
+   {
+    ID "64F71A144F8B0556"
+    coords -0.479 0.926 0.009
+    angleY -0.211
+    {
+     $grp Projectile : "{F7807293E94D3C88}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_M819.et" {
+      {
+       ID "64F71A144F8A30ED"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F8A9EF7"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F8AD7CB"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F8AE8DE"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F8D239A"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F8D26CA"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F8D85EC"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F8DDAC2"
+       coords 0 0 0
+      }
+      {
+       ID "64F71A144F8DDAFD"
+       coords 0 0 0
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -7,7 +7,7 @@ PolylineShapeEntity {
    m_cPolygonBorderColor 0 0.125 0.502 1
    m_fPolygonBorderWidth 5
    m_aVisibleForFactions {
-    "US" "USSR" ""
+    "US"
    }
    m_aHideOnGameModeStates {
     0 1
@@ -20,7 +20,7 @@ PolylineShapeEntity {
    Position 54.93 0.001 -6.91
   }
   ShapePoint "{64DCE9F355B8BF8E}" {
-   Position 182.272 -0 70.133
+   Position 182.272 0 70.133
   }
   ShapePoint "{64DCE9F35D5A1BE9}" {
    Position 302.205 38.783 265.728
@@ -50,13 +50,13 @@ PolylineShapeEntity {
    Position -347.091 0.009 641.941
   }
   ShapePoint "{64DCE9F34CF78509}" {
-   Position -233.445 -0 746.08
+   Position -233.445 0 746.08
   }
   ShapePoint "{64DCE9F34EC23785}" {
-   Position -345.209 -0 836.578
+   Position -345.209 0 836.578
   }
   ShapePoint "{64DCE9F34E3F4642}" {
-   Position -477.063 -0 698.673
+   Position -477.063 0 698.673
   }
   ShapePoint "{64DCE9F3497F007E}" {
    Position -532.824 -0.607 562.95

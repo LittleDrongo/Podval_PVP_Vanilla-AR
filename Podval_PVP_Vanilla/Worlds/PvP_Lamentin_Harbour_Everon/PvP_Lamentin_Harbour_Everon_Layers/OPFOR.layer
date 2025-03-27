@@ -5,6 +5,41 @@ Vehicle Ural4320_command2 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320
  angleZ 0.544
  m_sAttachmentGroupName "USSR_0_0_0"
 }
+GenericEntity : "{5A5A35F2937802B8}Prefabs/Props/Military/AmmoBoxes/drg_ammobox_82mm_100rnd_Smoke.et" {
+ coords 3886.303 115.04 4922.615
+ angleX 0
+ angleY -150.525
+ angleZ 0
+}
+$grp GenericEntity : "{645F518F95682567}Prefabs/Props/Military/AmmoBoxes/drg_ammobox_82mm_100rnd_HE.et" {
+ {
+  coords 3884.497 115.151 4923.612
+  angleX -0.275
+  angleY -151.202
+  angleZ -3.213
+ }
+ {
+  coords 3884.954 115.122 4923.361
+  angleX -0.275
+  angleY -151.202
+  angleZ -3.213
+ }
+ {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5EBE9BE3CEFB5AFA}" {
+      NumSlots 40
+     }
+    }
+   }
+  }
+  coords 3885.425 115.092 4923.102
+  angleX -0.275
+  angleY -151.202
+  angleZ -3.213
+ }
+}
 $grp SCR_AIGroup : "{8C9DF519F9649420}Prefabs/Groups/OPFOR/drg_Group_USSR_RifleSquad.et" {
  USSR_0_0_0 {
   components {
@@ -169,6 +204,13 @@ $grp SCR_AIGroup : "{8C9DF519F9649420}Prefabs/Groups/OPFOR/drg_Group_USSR_RifleS
   }
  }
 }
+Vehicle Ural4320_transport_covered_closed1 : "{9DD4FD3527CB46C8}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_closed.et" {
+ coords 3883.748 115.267 4926.33
+ angleX 2.771
+ angleY -59.939
+ angleZ 0.57
+ m_sAttachmentGroupName "USSR_6_0_0"
+}
 $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
  BTR1 {
   coords 3752.054 114.601 4987.696
@@ -217,13 +259,6 @@ $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
   angleY -63.063
   m_sAttachmentGroupName "USSR_2_0_3"
  }
-}
-Vehicle Ural4320_transport_Mortar1 : "{CD6AA14FA304EC31}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_Mortar.et" {
- coords 3883.334 115.294 4926.844
- angleX 2.801
- angleY -63.545
- angleZ 0.394
- m_sAttachmentGroupName "USSR_6_0_0"
 }
 Turret : "{D1FFE458E8AC4BDB}Prefabs/Weapons/Mortars/2B14/Mortar_2B14.et" {
  components {

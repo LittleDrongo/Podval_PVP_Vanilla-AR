@@ -77,11 +77,37 @@ SCR_AIGroup : "{2797EDBC47A47C2F}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_Compan
   "{7D463C5B3BBFD8E0}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_CL.et"
  }
 }
-Vehicle Ural4320_transport_Mortar1 : "{CD6AA14FA304EC31}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_Mortar.et" {
- coords 3476.866 246.17 4927.056
- angleX 0.669
- angleY 131.681
- angleZ 0.595
+GenericEntity : "{5A5A35F2937802B8}Prefabs/Props/Military/AmmoBoxes/drg_ammobox_82mm_100rnd_Smoke.et" {
+ coords 3475.514 246.196 4930.976
+ angleX 1.233
+ angleY 31.896
+ angleZ -0.287
+}
+$grp GenericEntity : "{645F518F95682567}Prefabs/Props/Military/AmmoBoxes/drg_ammobox_82mm_100rnd_HE.et" {
+ {
+  coords 3474.474 246.195 4931.622
+  angleX 0
+  angleY 31.59
+  angleZ 0
+ }
+ {
+  coords 3474.929 246.192 4931.342
+  angleX 1.231
+  angleY 31.584
+  angleZ -0.294
+ }
+ {
+  coords 3474.011 246.186 4931.906
+  angleX 1.231
+  angleY 31.584
+  angleZ -0.294
+ }
+}
+Vehicle Ural4320_transport_covered_closed1 : "{9DD4FD3527CB46C8}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_closed.et" {
+ coords 3475.383 246.147 4927.887
+ angleX 0.75
+ angleY 123.07
+ angleZ 0.488
  m_sAttachmentGroupName "USSR_5_0_0"
 }
 Turret : "{D1FFE458E8AC4BDB}Prefabs/Weapons/Mortars/2B14/Mortar_2B14.et" {
