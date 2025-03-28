@@ -89,6 +89,11 @@ $grp Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   angleY -178.515
  }
 }
+Vehicle BRDM1 : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
+ coords 2605.064 15.594 2774.799
+ angleY -90.986
+ m_sAttachmentGroupName "USSR_6_0_0"
+}
 SCR_AIGroup USSR_0_0_0_DEF : "{2797EDBC47A47C2F}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_CompanyHQ.et" {
  coords 2540.114 15.594 2796.951
  angleY 91.543
@@ -96,6 +101,11 @@ SCR_AIGroup USSR_0_0_0_DEF : "{2797EDBC47A47C2F}Prefabs/Groups/OPFOR/Campaign/F_
   "{7D463C5B3BBFD8E0}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_CL.et"
  }
  m_bSnapToTerrain 0
+}
+Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" {
+ coords 2602.111 15.593 2789.693
+ angleY -90.056
+ m_sAttachmentGroupName "USSR_5_0_0"
 }
 SCR_AIGroup USSR_1_0_3_DEF : "{6CD75003D4565B9C}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_MG_Squad.et" {
  components {
@@ -106,6 +116,17 @@ SCR_AIGroup USSR_1_0_3_DEF : "{6CD75003D4565B9C}Prefabs/Groups/OPFOR/Campaign/F_
  }
  coords 2563.188 15.594 2744.531
  angleY -1.136
+}
+SCR_AIGroup USSR_6_0_0 : "{88C5372DBC94D00A}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_ReconPlatoonHQ.et" {
+ components {
+  PS_GroupCallsignAssigner "{645CD4F5122CA354}" {
+   m_iCompanyCallsign 6
+  }
+ }
+ coords 2603.177 15.594 2777.572
+ m_aUnitPrefabSlots {
+  "{C6960782BEAA6B07}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_SL.et" "{072F75BB5AA0200E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_SeniorScout.et" "{B6FE3479F0ED092C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_RTO.et" "{ACD9575EDC2C034D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Medic.et"
+ }
 }
 $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
  BTR1 {
@@ -141,4 +162,12 @@ $grp SCR_AIGroup : "{C1F556377EBDFCAF}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_R
   coords 2544.245 15.594 2814.105
   angleY 90.743
  }
+}
+SCR_AIGroup USSR_5_0_0 : "{F76E780A7F24ED76}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_MedicalTeam.et" {
+ components {
+  PS_GroupCallsignAssigner "{645CD4FD089E97A1}" {
+   m_iCompanyCallsign 5
+  }
+ }
+ coords 2600.572 15.594 2787.313
 }

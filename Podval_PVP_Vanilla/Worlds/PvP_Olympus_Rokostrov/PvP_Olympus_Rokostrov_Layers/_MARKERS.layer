@@ -16,7 +16,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sImageSetGlow ""
   m_sQuadName "US_Relay"
   m_fWorldSize 35
-  m_sDescription "Оборудование"
+  m_sDescription "Оборудование станции  «Реясильвия»"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
