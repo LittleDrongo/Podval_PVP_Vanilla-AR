@@ -1,3 +1,21 @@
+Vehicle M997_maxi_ambulance1 : "{00C9BBE426F7D459}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance.et" {
+ coords 1999.768 59.625 1990.642
+ angleY 64.714
+ m_sAttachmentGroupName "US_2_0_0"
+ m_bEnableMoveOnFreeze 1
+}
+SCR_AIGroup US_2_0_0 : "{0727ADE18EE48E64}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_MedicalTeam.et" {
+ components {
+  PS_GroupCallsignAssigner "{64607D043396154A}" {
+   m_iCompanyCallsign 2
+  }
+ }
+ coords 1998.724 59.625 1993.205
+ angleY -25.965
+ m_aUnitPrefabSlots + {
+  "{ED7C02DBC8B7FECA}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Medic.et"
+ }
+}
 SCR_AIGroup US_1_0_3 : "{119A3C5BF9D14C80}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_MG_Squad.et" {
  components {
   PS_GroupCallsignAssigner "{64607D040E149AD9}" {
@@ -102,9 +120,6 @@ $grp SCR_AIGroup : "{8D21AAF73F41E8F6}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_Ri
   }
   coords 2002.313 59.625 2040.231
   angleY 54.123
-  m_aUnitPrefabSlots {
-   "{069E238FD5C16DFC}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_SL.et" "{C2101FF9EC237FBA}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{AC046B05DDBE646B}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{6B16D290E745CFEF}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{C2101FF9EC237FBA}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{AC046B05DDBE646B}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{6B16D290E745CFEF}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_AR.et"
-  }
  }
 }
 $grp Vehicle : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" {
