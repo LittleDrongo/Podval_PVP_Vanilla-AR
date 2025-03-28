@@ -73,6 +73,14 @@ StringTable {
    Author "hasta"
    LastChanged "hasta"
   }
+  CustomStringTableItem "{64F8ACC0FDF4F7E8}" {
+   Id "Drg-Role-SeniorEngineer"
+   Target_en_us "Senior Engineer"
+   Target_ru_ru "Старший инженер"
+   Modified 1694019164
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{61B543EF74F189EC}" {
    Id "DRG-Role_AntiTank"
    Target_en_us "Anti-Tank Specialist"

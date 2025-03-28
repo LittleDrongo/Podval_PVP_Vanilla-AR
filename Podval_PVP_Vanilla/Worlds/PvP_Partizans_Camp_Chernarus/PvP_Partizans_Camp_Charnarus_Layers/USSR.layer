@@ -1,78 +1,49 @@
+Vehicle Ural4320_ammo1 : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et" {
+ coords 4240.297 339.125 10531.71
+ angleY -32.119
+ m_sAttachmentGroupName "USSR_7_0_0"
+}
+$grp Vehicle : "{3C6B3ED0C3AC30D5}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_HE.et" {
+ Mi8MT_armed_gunship_HE1 {
+  coords 4276.544 339.125 10580.918
+  angleY 149.653
+  m_sAttachmentGroupName "USSR_1_0_2"
+  m_bEnableMoveOnFreeze 1
+ }
+ Mi8MT_armed_gunship_HE2 {
+  coords 4254.294 339.125 10618.922
+  angleY 149.653
+  m_sAttachmentGroupName "USSR_1_0_5"
+  m_bEnableMoveOnFreeze 1
+ }
+ Mi8MT_armed_gunship_HE3 {
+  coords 4233.722 339.128 10654.062
+  angleY 149.653
+  m_sAttachmentGroupName "USSR_1_0_6"
+  m_bEnableMoveOnFreeze 1
+ }
+}
+SCR_AIGroup USSR_7_0_0 : "{45FCAB49E5D9D711}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_RepairDetachment.et" {
+ components {
+  PS_GroupCallsignAssigner "{645CD4E3869C2162}" {
+   m_iCompanyCallsign 7
+  }
+ }
+ coords 4232.786 339.125 10553.392
+ angleY 60.644
+ m_aUnitPrefabSlots {
+  "{8A4A609629748183}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SeniorEngineer.et" "{93E8316FB3FD3827}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Engineer.et"
+ }
+}
+Vehicle Ural4320_tanker1 : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et" {
+ coords 4228.038 339.125 10551.937
+ angleY -29.707
+ m_sAttachmentGroupName "USSR_7_0_0"
+}
 Vehicle Ural4320_repair1 : "{A5647958579A4149}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair.et" {
- coords 4262.275 339.125 10552.896
+ coords 4234.503 339.125 10541.383
  angleY -29.15
-}
-Vehicle Ural4320_FIA_tanker1 : "{DC1C2350CF665F9E}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_tanker.et" {
- coords 4253.393 339.125 10568.646
- angleY -30.885
-}
-$grp Vehicle : "{DF5CCB7C0FF049F4}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_transport.et" {
- Mi8MT1 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5E1E99434B3A7648}" {
-    MultiSlots {
-     MultiSlotConfiguration "{61453B72E5AD80D9}" {
-      SlotTemplate InventoryStorageSlot "{61453B72FE4A75EC}" {
-       Prefab "{FA5C25BF66A53DCF}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et"
-      }
-      NumSlots 2
-     }
-     MultiSlotConfiguration "{61453B72D3264D7E}" {
-      SlotTemplate InventoryStorageSlot "{61453B72FE4A75EC}" {
-       Prefab "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
-      }
-      NumSlots 14
-     }
-    }
-   }
-  }
-  coords 4277.786 339.125 10582.995
-  angleY 153.773
- }
- Mi8MT2 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5E1E99434B3A7648}" {
-    MultiSlots {
-     MultiSlotConfiguration "{61453B72E5AD80D9}" {
-      SlotTemplate InventoryStorageSlot "{61453B72FE4A75EC}" {
-       Prefab "{FA5C25BF66A53DCF}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et"
-      }
-      NumSlots 2
-     }
-     MultiSlotConfiguration "{61453B72D3264D7E}" {
-      SlotTemplate InventoryStorageSlot "{61453B72FE4A75EC}" {
-       Prefab "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
-      }
-      NumSlots 14
-     }
-    }
-   }
-  }
-  coords 4255.01 339.125 10618.878
-  angleY 151.51
- }
- Mi8MT3 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5E1E99434B3A7648}" {
-    MultiSlots {
-     MultiSlotConfiguration "{61453B72E5AD80D9}" {
-      SlotTemplate InventoryStorageSlot "{61453B72FE4A75EC}" {
-       Prefab "{FA5C25BF66A53DCF}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et"
-      }
-      NumSlots 2
-     }
-     MultiSlotConfiguration "{61453B72D3264D7E}" {
-      SlotTemplate InventoryStorageSlot "{61453B72FE4A75EC}" {
-       Prefab "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
-      }
-      NumSlots 14
-     }
-    }
-   }
-  }
-  coords 4233.374 339.125 10656.022
-  angleY 148.954
- }
+ m_sAttachmentGroupName "USSR_7_0_0"
 }
 $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad_P.et" {
  USSR_1_0_0 {
