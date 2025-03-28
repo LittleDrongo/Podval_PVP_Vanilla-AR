@@ -87,6 +87,20 @@ $grp SCR_AIGroup : "{096E2AA151C3580D}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_R
    "{FBFF6922C0194CA6}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SL_GL.et" "{DBC2E2FDC3D25C0F}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SR_Optic.et" "{EE4A01B2B7693A99}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_AR.et" "{36E26873CEE024C5}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_AT.et" "{EF5410A6E1379176}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_AAT.et" "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et" "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et" "{96B44E4B03427129}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_CrewGunner.et" "{CF75C616AFC95FE8}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_CrewDriver.et"
   }
  }
+ USSR_4_0_0 {
+  components {
+   PS_GroupCallsignAssigner "{645CD4F530E5119A}" {
+    m_iCompanyCallsign 4
+   }
+  }
+  coords 3028.193 8.365 2213.865
+  angleX 6.467
+  angleY -117.637
+  angleZ 4.644
+  m_aUnitPrefabSlots {
+   "{FBFF6922C0194CA6}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SL_GL.et" "{DBC2E2FDC3D25C0F}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SR_Optic.et" "{EE4A01B2B7693A99}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_AR.et" "{36E26873CEE024C5}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_AT.et" "{EF5410A6E1379176}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_AAT.et" "{F0534BE840748288}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman_GL.et" "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et" "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et"
+  }
+ }
 }
 Vehicle Ural4320_command1 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
  coords 2947.368 3.346 2329.232
@@ -195,4 +209,11 @@ $grp SCR_AIGroup : "{C1F556377EBDFCAF}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_R
    "{C6960782BEAA6B07}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_SL.et" "{43CED484D075F274}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Rifleman.et" "{82040C2F7734F9B3}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Sapper.et" "{ACD9575EDC2C034D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Medic.et"
   }
  }
+}
+Vehicle Ural4320_transport_covered1 : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ coords 3021.917 4.35 2213.603
+ angleX -0.759
+ angleY -32.012
+ angleZ 0.475
+ m_sAttachmentGroupName "USSR_4_0_0"
 }

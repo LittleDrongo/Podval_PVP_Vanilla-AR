@@ -73,15 +73,27 @@ $grp Vehicle : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
 }
 $grp Vehicle : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et" {
  M1 {
-  coords 1523.118 2.093 850.172
-  angleY -120.382
+  coords 1525.12 2.093 849.511
+  angleY -122.185
   m_sAttachmentGroupName "US_4_0_0_DEF"
   m_bEnableMoveOnFreeze 1
  }
  M2 {
-  coords 1517.969 2.062 847.162
-  angleY -119.694
+  coords 1520.068 2.062 846.34
+  angleY -121.497
   m_sAttachmentGroupName "US_4_0_0_DEF"
+  m_bEnableMoveOnFreeze 1
+ }
+ M5 {
+  coords 1512.677 2.031 841.77
+  angleY -120.382
+  m_sAttachmentGroupName "US_4_0_1_DEF"
+  m_bEnableMoveOnFreeze 1
+ }
+ M6 {
+  coords 1507.528 2 838.76
+  angleY -119.694
+  m_sAttachmentGroupName "US_4_0_1_DEF"
   m_bEnableMoveOnFreeze 1
  }
 }
@@ -100,19 +112,35 @@ SCR_AIGroup US_0_0_0_DEF : "{68D5E3B6F7C86BD0}Prefabs/Groups/BLUFOR/Campaign/F_U
  }
  m_bSnapToTerrain 0
 }
-Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
- components {
-  PS_GroupAttachmentComponent "{64EEEE2F8E083104}" {
-   m_sAttachmentGroupName "US_4_0_0_DEF"
-  }
-  SCR_EditableVehicleComponent "{617CC5661216D3D8}" {
-   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Icon "{E897433F42FEC3C0}UI/Icons/mortar.edds"
+$grp Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
+ {
+  components {
+   PS_GroupAttachmentComponent "{64EEEE2F8E083104}" {
+    m_sAttachmentGroupName "US_4_0_0_DEF"
+   }
+   SCR_EditableVehicleComponent "{617CC5661216D3D8}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+     Icon "{E897433F42FEC3C0}UI/Icons/mortar.edds"
+    }
    }
   }
+  coords 1519.035 2.09 850.351
+  angleY -116.371
  }
- coords 1516.568 2.062 850.692
- angleY -108.536
+ {
+  components {
+   PS_GroupAttachmentComponent "{64EEEE2F8E083104}" {
+    m_sAttachmentGroupName "US_4_0_1_DEF"
+   }
+   SCR_EditableVehicleComponent "{617CC5661216D3D8}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+     Icon "{E897433F42FEC3C0}UI/Icons/mortar.edds"
+    }
+   }
+  }
+  coords 1505.935 2 840.948
+  angleY -113.723
+ }
 }
 SCR_AIGroup US_6_0_0 : "{8AE885D9508D0CB7}Prefabs/Groups/BLUFOR/Campaign/S_US_drg_ReconSquad.et" {
  components {
@@ -120,8 +148,8 @@ SCR_AIGroup US_6_0_0 : "{8AE885D9508D0CB7}Prefabs/Groups/BLUFOR/Campaign/S_US_dr
    m_iCompanyCallsign 6
   }
  }
- coords 1510.755 2.004 844.068
- angleY 151.024
+ coords 1464.634 2 845.357
+ angleY -148.385
 }
 $grp SCR_AIGroup : "{8D21AAF73F41E8F6}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_RifleSquad.et" {
  US_1_0_0_DEF {
@@ -170,29 +198,58 @@ $grp SCR_AIGroup : "{8D21AAF73F41E8F6}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_Ri
   m_bSnapToTerrain 0
  }
 }
-SCR_AIGroup US_4_0_0_DEF : "{983EB2C5F6E84CD7}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_MortarCrew.et" {
- components {
-  PS_GroupCallsignAssigner "{64607D07A7096E4D}" {
-   m_iCompanyCallsign 4
+$grp SCR_AIGroup : "{983EB2C5F6E84CD7}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_MortarCrew.et" {
+ US_4_0_0_DEF {
+  components {
+   PS_GroupCallsignAssigner "{64607D07A7096E4D}" {
+    m_iCompanyCallsign 4
+   }
+  }
+  coords 1517.335 2.043 854.604
+  angleX 1.249
+  angleY 144.464
+  angleZ 0.208
+  m_aUnitPrefabSlots + {
+   "{49734327564F4C54}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_MortarAmmoBearer.et"
   }
  }
- coords 1517.335 2.043 854.604
- angleX 1.249
- angleY 144.464
- angleZ 0.208
- m_aUnitPrefabSlots + {
-  "{49734327564F4C54}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_MortarAmmoBearer.et"
+ US_4_0_1_DEF {
+  components {
+   PS_GroupCallsignAssigner "{64607D07A7096E4D}" {
+    m_iCompanyCallsign 4
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1509.306 2.065 845.201
+  angleX 1.209
+  angleY 152.364
+  angleZ 0.378
+  m_aUnitPrefabSlots + {
+   "{49734327564F4C54}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_MortarAmmoBearer.et"
+  }
  }
 }
 $grp GenericEntity : "{CD62F06653C03448}Prefabs/Props/Military/AmmoBoxes/drg_ammobox_81mm_100rnd_HE.et" {
  _ammobox {
-  coords 1518.441 2.062 849.839
+  coords 1519.691 2.062 848.342
   angleX 0
   angleY -28.717
   angleZ 0
  }
  _ammobox2 {
-  coords 1522.393 2.062 851.778
+  coords 1524.836 2.062 851.31
+  angleX 0
+  angleY -28.717
+  angleZ 0
+ }
+ _ammobox3 {
+  coords 1511.952 2.031 843.376
+  angleX 0
+  angleY -28.717
+  angleZ 0
+ }
+ _ammobox4 {
+  coords 1508 2 841.437
   angleX 0
   angleY -28.717
   angleZ 0
@@ -200,21 +257,33 @@ $grp GenericEntity : "{CD62F06653C03448}Prefabs/Props/Military/AmmoBoxes/drg_amm
 }
 $grp GenericEntity : "{D6D8F271391B1A6E}Prefabs/Props/Military/AmmoBoxes/drg_ammobox_81mm_100rnd_Smoke.et" {
  {
-  coords 1517.984 2.062 849.552
+  coords 1519.234 2.062 848.055
   angleX 0
   angleY -29.222
   angleZ 0
  }
  {
-  coords 1521.93 2.093 851.544
+  coords 1524.373 2.093 851.076
+  angleX 0
+  angleY -29.222
+  angleZ 0
+ }
+ {
+  coords 1507.543 2 841.15
+  angleX 0
+  angleY -29.222
+  angleZ 0
+ }
+ {
+  coords 1511.439 2.031 843.076
   angleX 0
   angleY -29.222
   angleZ 0
  }
 }
 Vehicle M151A1 : "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et" {
- coords 1508.059 2.031 845.659
- angleY -119.345
+ coords 1462.247 2 843.963
+ angleY -56.964
  m_sAttachmentGroupName "US_6_0_0"
  m_bEnableMoveOnFreeze 1
 }
@@ -226,7 +295,4 @@ SCR_AIGroup US_2_0_0_DEF : "{F7B1E883643FF4A3}Prefabs/Groups/BLUFOR/Campaign/F_U
  }
  coords 1473.821 2 846.003
  angleY -146.561
- m_aUnitPrefabSlots {
-  "{4F4A16468D0D3CAA}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_SeniorSapper.et" "{52B3CB912522A38F}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Sapper.et"
- }
 }
