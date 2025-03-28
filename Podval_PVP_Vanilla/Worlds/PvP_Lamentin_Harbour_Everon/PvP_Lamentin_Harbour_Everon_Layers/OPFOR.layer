@@ -5,6 +5,13 @@ Vehicle Ural4320_command2 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320
  angleZ 0.544
  m_sAttachmentGroupName "USSR_0_0_0"
 }
+Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" {
+ coords 3894.538 114.624 4921.77
+ angleX 3.194
+ angleY -64.226
+ angleZ -0.444
+ m_sAttachmentGroupName "USSR_4_0_0"
+}
 GenericEntity : "{5A5A35F2937802B8}Prefabs/Props/Military/AmmoBoxes/drg_ammobox_82mm_100rnd_Smoke.et" {
  coords 3886.303 115.04 4922.615
  angleX 0
@@ -38,6 +45,18 @@ $grp GenericEntity : "{645F518F95682567}Prefabs/Props/Military/AmmoBoxes/drg_amm
   angleX -0.275
   angleY -151.202
   angleZ -3.213
+ }
+}
+SCR_AIGroup USSR_3_0_0 : "{6CD75003D4565B9C}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_MG_Squad.et" {
+ components {
+  PS_GroupCallsignAssigner "{645CD4FCA5EDAF11}" {
+   m_iCompanyCallsign 3
+  }
+ }
+ coords 3866.466 116.224 4931.021
+ angleY 27.441
+ m_aUnitPrefabSlots {
+  "{0A46A3DC9FF5E2E0}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_MG_Opt.et" "{8D15D76B163B42E6}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_MGA_B.et" "{15453D336EC875EF}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_MGA.et"
  }
 }
 $grp SCR_AIGroup : "{8C9DF519F9649420}Prefabs/Groups/OPFOR/drg_Group_USSR_RifleSquad.et" {
@@ -274,6 +293,13 @@ Turret : "{D1FFE458E8AC4BDB}Prefabs/Weapons/Mortars/2B14/Mortar_2B14.et" {
  coords 3886.118 115.003 4921.255
  angleY -58.541
 }
+Vehicle Ural4320_transport_covered1 : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ coords 3871.528 115.95 4933.413
+ angleX 2.804
+ angleY -63.935
+ angleZ 0.375
+ m_sAttachmentGroupName "USSR_3_0_0"
+}
 Vehicle M923A1_transport4 : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" {
  coords 992.392 2.74 6027.331
  angleX -0.082
@@ -281,4 +307,16 @@ Vehicle M923A1_transport4 : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M
  angleZ 0.891
  m_sAttachmentGroupName "US_0_0_3_DEF"
  m_bEnableMoveOnFreeze 1
+}
+SCR_AIGroup USSR_4_0_0 : "{F76E780A7F24ED76}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_MedicalTeam.et" {
+ components {
+  PS_GroupCallsignAssigner "{645CD4FD089E97A1}" {
+   m_iCompanyCallsign 4
+  }
+ }
+ coords 3890.955 114.642 4917.26
+ angleY 32.843
+ m_aUnitPrefabSlots + {
+  "{C8917EA9B578E2CE}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Medic.et"
+ }
 }

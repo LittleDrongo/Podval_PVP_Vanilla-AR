@@ -3,6 +3,7 @@ $grp Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   coords 999.96 2.843 6033.115
   angleY 96.875
   m_sAttachmentGroupName "USSR_0_0_2_STOP"
+  m_bEnableMoveOnFreeze 1
  }
  Ural4320_transport2 {
   coords 986.461 2.904 6026.677
@@ -10,16 +11,19 @@ $grp Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   angleY 95.613
   angleZ 4.533
   m_sAttachmentGroupName "USSR_0_0_2_STOP"
+  m_bEnableMoveOnFreeze 1
  }
  Ural4320_transport3 {
   coords 987.298 2.844 6033.875
   angleY 96.889
   m_sAttachmentGroupName "USSR_0_0_2_STOP"
+  m_bEnableMoveOnFreeze 1
  }
  Ural4320_transport4 {
   coords 1067.435 2.718 6025.343
   angleY 0.948
   m_sAttachmentGroupName "USSR_0_0_1_STOP"
+  m_bEnableMoveOnFreeze 1
  }
  Ural4320_transport5 {
   coords 1084.123 2.787 6025.674
@@ -27,11 +31,13 @@ $grp Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   angleY -0.425
   angleZ 0.007
   m_sAttachmentGroupName "USSR_0_0_1_STOP"
+  m_bEnableMoveOnFreeze 1
  }
  Ural4320_transport6 {
   coords 1073.196 2.718 6025.225
   angleY 2.118
   m_sAttachmentGroupName "USSR_0_0_1_STOP"
+  m_bEnableMoveOnFreeze 1
  }
  Ural4320_transport7 {
   coords 1078.839 2.763 6025.642
@@ -39,11 +45,13 @@ $grp Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   angleY 1.166
   angleZ -0.895
   m_sAttachmentGroupName "USSR_0_0_1_STOP"
+  m_bEnableMoveOnFreeze 1
  }
  Ural4320_transport8 {
   coords 988.235 2.843 6041.104
   angleY 97.31
   m_sAttachmentGroupName "USSR_0_0_2_STOP"
+  m_bEnableMoveOnFreeze 1
  }
  Ural4320_transport9 {
   coords 4905.016 28.593 11969.464
@@ -186,7 +194,7 @@ GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_
  coords 4910.608 28.593 11864.027
  angleY -90.042
 }
-$grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad_p.et" {
+$grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad_P.et" {
  USSR_0_0_0_STOP {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -298,7 +306,7 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
     }
    }
   }
-  coords 1061.249 2.719 6027.549
+  coords 1061.708 2.719 6023.626
   angleY 9.714
   m_aUnitPrefabSlots {
    "{23AFC29074BBA605}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Officer.et"
@@ -420,7 +428,7 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
   coords 1051.757 2.719 6027.696
   angleY 0.741
   m_aUnitPrefabSlots {
-   "{83C2F0AD85ED988A}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SL.et" "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et" "{66145B5DAD4B6B34}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Driver.et" "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et" "{66145B5DAD4B6B34}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Driver.et" "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et" "{66145B5DAD4B6B34}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Driver.et" "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et"
+   "{83C2F0AD85ED988A}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SL.et" "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et" "{66145B5DAD4B6B34}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Driver.et" "{48C93CF154FFB9EF}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SR.et" "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et" "{66145B5DAD4B6B34}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Driver.et" "{48C93CF154FFB9EF}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SR.et" "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et" "{66145B5DAD4B6B34}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Driver.et" "{48C93CF154FFB9EF}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SR.et" "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et" "{66145B5DAD4B6B34}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Driver.et"
   }
   m_bDeleteWhenEmpty 0
  }
@@ -2357,7 +2365,7 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
   coords 997.773 2.687 6022.098
   angleY 5.917
   m_aUnitPrefabSlots {
-   "{83C2F0AD85ED988A}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SL.et" "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et" "{66145B5DAD4B6B34}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Driver.et" "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et" "{66145B5DAD4B6B34}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Driver.et" "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et" "{66145B5DAD4B6B34}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Driver.et" "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et"
+   "{83C2F0AD85ED988A}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SL.et" "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et" "{66145B5DAD4B6B34}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Driver.et" "{48C93CF154FFB9EF}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SR.et" "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et" "{66145B5DAD4B6B34}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Driver.et" "{48C93CF154FFB9EF}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SR.et" "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et" "{66145B5DAD4B6B34}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Driver.et" "{48C93CF154FFB9EF}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SR.et" "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et" "{66145B5DAD4B6B34}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Driver.et"
   }
   m_bDeleteWhenEmpty 0
  }

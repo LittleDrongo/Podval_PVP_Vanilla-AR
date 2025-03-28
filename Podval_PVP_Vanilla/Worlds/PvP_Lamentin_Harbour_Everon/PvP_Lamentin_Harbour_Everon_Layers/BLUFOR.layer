@@ -1,3 +1,7 @@
+SCR_AIGroup US_3_0_0 : "{119A3C5BF9D14C80}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_MG_Squad.et" {
+ coords 1009.034 2.688 6023.91
+ angleY 3.329
+}
 $grp Vehicle : "{137DCF41459A89BE}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_empty.et" {
  UH1H_gunship1 {
   coords 1117.028 41.779 11528.681
