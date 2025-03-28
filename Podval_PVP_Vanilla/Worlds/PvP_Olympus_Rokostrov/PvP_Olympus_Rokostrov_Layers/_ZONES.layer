@@ -10,7 +10,7 @@ PolylineShapeEntity {
     "US"
    }
    m_aHideOnGameModeStates {
-    0 1
+    0 1 3
    }
   }
  }
