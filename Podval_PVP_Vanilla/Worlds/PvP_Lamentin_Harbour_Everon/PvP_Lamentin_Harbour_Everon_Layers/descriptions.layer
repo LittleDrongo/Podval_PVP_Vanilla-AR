@@ -43,7 +43,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  USSR {
   coords 5534.418 43.503 10540.239
   m_sTitle "#PS-Description_HeaderUSSR"
-  m_sTextData "Наша задача не позволить противнику захватить опорный пункт и поменять флаг."
+  m_sTextData "Занять административное здание Ламантина и штаб в порту."
   m_aVisibleForFactions {
    "USSR"
   }
@@ -51,7 +51,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  USA {
   coords 5626.204 38.464 10536.691
   m_sTitle "#PS-Description_HeaderUS"
-  m_sTextData "Наша задача выбить противника из опорного пункта и поменять флаг."
+  m_sTextData "Нам необходимо удержать административное здание Ламантина и штаб в порту."
   m_aVisibleForFactions {
    "US"
   }
