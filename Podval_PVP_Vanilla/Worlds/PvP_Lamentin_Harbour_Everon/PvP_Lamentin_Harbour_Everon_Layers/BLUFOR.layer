@@ -1,4 +1,9 @@
 SCR_AIGroup US_3_0_0 : "{119A3C5BF9D14C80}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_MG_Squad.et" {
+ components {
+  PS_GroupCallsignAssigner "{64607D040E149AD9}" {
+   m_iCompanyCallsign 3
+  }
+ }
  coords 1009.034 2.688 6023.91
  angleY 3.329
 }
