@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{CBC803554A61CD61}Prefabs/Props/Military/AmmoBoxes/drg_Table_82_200mines_HE.et"
+ Name "{6AE0184B9AAA256D}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_82mm_mortar_3rnd_HE_test.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

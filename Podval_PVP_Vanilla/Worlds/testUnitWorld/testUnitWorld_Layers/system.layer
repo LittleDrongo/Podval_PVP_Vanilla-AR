@@ -28,22 +28,12 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
  }
 }
-SCR_ChimeraCharacter : "{ADDE38E4119816AB}Prefabs/InitialPlayer_Version2.et" {
- components {
-  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
-   components {
-    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
-     InitialStorageSlots {
-      SCR_EquipmentStorageSlot WristwatchSlot {
-       Prefab "{74AA3854E16D9D56}Prefabs/MenuRadio.et"
-      }
-     }
-    }
-   }
-  }
-  SCR_VoNComponent "{520EA1D2F659C856}" {
-   Enabled 0
-  }
- }
- coords 154.057 1 104.954
+GenericEntity : "{CC03E3F4B1E5E1B8}Prefabs/Items/Bulba_basic.et" {
+ coords 126.584 1 141.531
+}
+GenericEntity : "{DAE1063D0AF1A9C4}Prefabs/Props/Military/HolyShitAmmoBox/draggableBox.et" {
+ coords 127.874 1 142.286
+}
+GenericEntity : "{F00C519B88D539ED}Prefabs/Props/Military/AmmoBoxes/test_drg_AmmoBox_82mm_mortar_3rnd_HE.et" {
+ coords 124.852 1 142.084
 }

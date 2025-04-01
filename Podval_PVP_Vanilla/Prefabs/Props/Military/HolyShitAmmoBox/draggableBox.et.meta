@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{C14049374B59215A}Prefabs/Props/Military/AmmoBoxes/drg_10_82mm_Smoke.et"
+ Name "{DAE1063D0AF1A9C4}Prefabs/Props/Military/HolyShitAmmoBox/draggableBox.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

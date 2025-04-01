@@ -8,7 +8,7 @@ class PS_BulbaComponentClass: ScriptComponentClass
 class PS_BulbaComponent : ScriptComponent
 {
 	IEntity m_cOwner;
-	SCR_MineInventoryItemComponent m_Inventory;
+	InventoryItemComponent m_Inventory;
 	
 	IEntity m_cInventoryOwner;
 	SCR_ChimeraCharacter m_cInventoryCharacter;
@@ -19,7 +19,7 @@ class PS_BulbaComponent : ScriptComponent
 	override void OnPostInit(IEntity owner)
 	{
 		m_cOwner = owner;
-		m_Inventory = SCR_MineInventoryItemComponent.Cast(m_cOwner.FindComponent(SCR_MineInventoryItemComponent));
+		m_Inventory = InventoryItemComponent.Cast(m_cOwner.FindComponent(InventoryItemComponent));
 		m_Inventory.m_OnParentSlotChangedInvoker.Insert(SlotChange);
 	}
 	
