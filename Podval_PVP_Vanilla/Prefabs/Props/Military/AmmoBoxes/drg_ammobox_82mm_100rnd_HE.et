@@ -21,7 +21,7 @@ GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x
    MultiSlots {
     MultiSlotConfiguration "{5EBE9BE3CEFB5AFA}" {
      SlotTemplate InventoryStorageSlot Saline {
-      Prefab "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+      Prefab "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et"
      }
      NumSlots 100
     }
