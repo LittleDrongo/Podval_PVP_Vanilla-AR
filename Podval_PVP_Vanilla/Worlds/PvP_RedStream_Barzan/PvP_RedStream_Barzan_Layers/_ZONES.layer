@@ -200,6 +200,7 @@ $grp PolylineShapeEntity {
     Position -888.684 -0.457 297.496
    }
   }
+  LineColor 0 0.502 0.502 1
  }
  FREEZE {
   components {
