@@ -132,14 +132,17 @@ $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
  BTR1 {
   coords 2548.737 15.593 2789.599
   angleY -179.418
+  m_sAttachmentGroupName "USSR_1_0_0_DEF"
  }
  BTR2 {
   coords 2548.582 15.594 2774.318
   angleY -179.418
+  m_sAttachmentGroupName "USSR_1_0_1_DEF"
  }
  BTR3 {
   coords 2548.414 15.593 2757.823
   angleY -179.418
+  m_sAttachmentGroupName "USSR_1_0_2_DEF"
  }
 }
 $grp SCR_AIGroup : "{C1F556377EBDFCAF}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_ReconSquad.et" {
