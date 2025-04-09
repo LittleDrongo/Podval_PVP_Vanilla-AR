@@ -103,6 +103,26 @@ $grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad
   }
   m_bDeleteWhenEmpty 0
  }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation " "
+   }
+   PS_GroupCallsignAssigner "{5F0CF2CA5860FA6D}" {
+    m_iCompanyCallsign 7
+    m_iSquadCallsign 0
+   }
+  }
+  coords 5974.575 293.192 13988.61
+  angleX -4.532
+  angleY 135.769
+  angleZ 8.09
+  m_aUnitPrefabSlots {
+   "{89ADBFC29CB60444}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rebel_TL.et" "{9B6601E2024F9BE9}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rebel_P_v5.et" "{7EFA4D1B0EAA0C82}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rebel_P_v4.et" "{43CE68237BC685B5}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rebel_P_v3.et" "{6FC401AA6604AD96}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rebel_P.et" "{43CE68237BC685B5}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rebel_P_v3.et" "{9B6601E2024F9BE9}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rebel_P_v5.et" "{7EFA4D1B0EAA0C82}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rebel_P_v4.et"
+  }
+  m_bDeleteWhenEmpty 0
+  m_sCustomNameSet "Строители добровольцы"
+ }
 }
 $grp SCR_AIGroup : "{CA73F9230999408B}Prefabs/Groups/INDFOR/Group_FIA_PlatoonHQ_P.et" {
  {

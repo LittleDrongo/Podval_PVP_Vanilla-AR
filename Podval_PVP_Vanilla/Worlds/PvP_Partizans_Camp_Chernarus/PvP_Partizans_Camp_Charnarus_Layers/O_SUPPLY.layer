@@ -1,18 +1,26 @@
-GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign.et" {
- coords 4190.489 339.126 10586.53
- angleY 62.777
+$grp GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign.et" {
  {
-  PS_ManualMarker def_4 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
-   coords 0 0 0
-   angleY 27.223
-   m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
-   m_sImageSetGlow ""
-   m_sQuadName "SupplyDepot"
-   m_fWorldSize 35
-   m_sDescription "Ресурсы"
-   m_bUseWorldScale 0
-   m_bVisibleForEmptyFaction 1
-   m_bShowForAnyFaction 1
+  coords 4190.489 339.126 10586.53
+  angleY 62.777
+  {
+   PS_ManualMarker def_4 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    angleY 27.223
+    m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+    m_sImageSetGlow ""
+    m_sQuadName "SupplyDepot"
+    m_fWorldSize 35
+    m_sDescription "Ресурсы"
+    m_bUseWorldScale 0
+    m_bVisibleForEmptyFaction 1
+    m_bShowForAnyFaction 1
+   }
   }
+ }
+ {
+  coords 5968.205 294.273 13996.071
+  angleX -5.684
+  angleY 135.033
+  angleZ 9.361
  }
 }
