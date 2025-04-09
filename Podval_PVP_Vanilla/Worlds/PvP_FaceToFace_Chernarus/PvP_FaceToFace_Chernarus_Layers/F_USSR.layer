@@ -103,6 +103,18 @@ $grp GenericEntity : "{645F518F95682567}Prefabs/Props/Military/AmmoBoxes/drg_amm
   angleZ -0.294
  }
 }
+SCR_AIGroup : "{6CD75003D4565B9C}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_MG_Squad.et" {
+ components {
+  PS_GroupCallsignAssigner "{645CD4FCA5EDAF11}" {
+   m_iCompanyCallsign 4
+  }
+ }
+ coords 4328.251 330.107 5540.349
+ angleY -58.134
+ m_aUnitPrefabSlots {
+  "{83C2F0AD85ED988A}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SL.et" "{BC5DDFA8D9262E7A}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_MG.et" "{8D15D76B163B42E6}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_MGA_B.et" "{15453D336EC875EF}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_MGA.et" "{BC5DDFA8D9262E7A}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_MG.et" "{15453D336EC875EF}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_MGA.et" "{8D15D76B163B42E6}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_MGA_B.et"
+ }
+}
 Vehicle Ural4320_transport_covered_closed1 : "{9DD4FD3527CB46C8}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_closed.et" {
  coords 3475.383 246.147 4927.887
  angleX 0.75

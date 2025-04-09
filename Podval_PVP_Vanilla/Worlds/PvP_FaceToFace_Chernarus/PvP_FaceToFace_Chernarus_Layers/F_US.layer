@@ -1,3 +1,12 @@
+SCR_AIGroup MG_SQUAD : "{119A3C5BF9D14C80}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_MG_Squad.et" {
+ components {
+  PS_GroupCallsignAssigner "{64607D040E149AD9}" {
+   m_iCompanyCallsign 4
+  }
+ }
+ coords 4838.005 331.782 7797.007
+ angleY -35.208
+}
 Vehicle M923A1_transport_covered_closed1 : "{48A6D4372444B85A}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered_closed.et" {
  coords 5236.402 341.227 8621.076
  angleX 5.426

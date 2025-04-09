@@ -1,15 +1,15 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  {
-  coords 5235.2 341.332 8619.941
-  angleX 3.664
-  angleY -7.73
-  angleZ 0.405
+  coords 5236.402 341.227 8621.076
+  angleX 5.426
+  angleY -7.555
+  angleZ 0.181
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.016 0.552 0.905 1
   m_sQuadName "Truck"
   m_fWorldSize 4.123
-  m_sDescription "#AR-Vehicle_M923A1_Transport_Name"
+  m_sDescription "#AR-Vehicle_M923A1_Transport_Covered_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
    "FIA" "US" "USSR"
@@ -19,6 +19,23 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    1
   }
   m_iZOrder 0
+ }
+ US_G_400_M {
+  coords 4838.005 331.782 7797.007
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "(#DRG-Sq-MachineGunnerSquad) Игл 1–1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
  }
  US_G_500_M {
   coords 5236.485 341.181 8625.013
@@ -38,7 +55,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
  US_G_000_M {
-  coords 4833.684 331.515 7793.941
+  coords 4833.684 331.517 7794.016
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -157,16 +174,16 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
  {
-  coords 3476.012 246.157 4927.303
-  angleX 0.667
-  angleY 221.887
-  angleZ 0.598
+  coords 3475.383 246.147 4927.887
+  angleX 0.75
+  angleY 213.07
+  angleZ 0.488
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.855 0.031 0.028 1
   m_sQuadName "Truck"
   m_fWorldSize 3.722
-  m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
+  m_sDescription "#AR-Vehicle_Ural4320_Transport_Covered_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
    "FIA" "US" "USSR"
@@ -304,6 +321,23 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sQuadName "undefined"
   m_fWorldSize 50
   m_sDescription "(#DRG-Sq-CompanyHQ) Актив 1–1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ USSR_G_400_M {
+  coords 4328.251 330.107 5540.349
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "(#DRG-Sq-MachineGunnerSquad) Эбонит 1–1"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "FIA" "US" "USSR"
