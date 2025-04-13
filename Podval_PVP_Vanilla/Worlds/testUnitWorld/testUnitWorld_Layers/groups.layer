@@ -1,6 +1,17 @@
+$grp SCR_AIGroup : "{2797EDBC47A47C2F}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_CompanyHQ.et" {
+ {
+  coords 8.787 1 24.281
+ }
+ {
+  coords 15.061 1 21.349
+ }
+}
 Vehicle M923A1_engineer1 : "{2D74C39A650A3030}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer.et" {
  coords 123.217 1 151.644
 }
 SCR_AIGroup : "{35CEA72A9217DC57}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_PlatoonHQ.et" {
  coords 129.14 1 142.197
+}
+SCR_AIGroup : "{F76E780A7F24ED76}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_MedicalTeam.et" {
+ coords 11.6 1 16.734
 }

@@ -3,6 +3,9 @@ modded class SCR_FlagComponent
 	[RplProp(onRplName: "OnCurrentMaterialChange")]
 	protected ResourceName m_sCurrentMaterial;
 	
+	[Attribute(desc: "Objectives names which need to be switched", uiwidget: UIWidgets.EditBox)]
+	ref array<string> m_aObjectiveNames;
+	
 	[RplProp(), Attribute()]
 	protected ref array<ref PS_FlagData> m_aFlagData;
 	
@@ -11,12 +14,14 @@ modded class SCR_FlagComponent
 		
 	override void EOnInit(IEntity owner)
 	{
-	SCR_FlagComponentClass prefabData = SCR_FlagComponentClass.Cast(GetComponentData(GetOwner()));
-		if (m_sCurrentMaterial == "")
-		m_sCurrentMaterial = prefabData.GetDefaultMaterial();
+		SCR_FlagComponentClass prefabData = SCR_FlagComponentClass.Cast(GetComponentData(GetOwner()));
+		if (m_sCurrentMaterial == "") 
+			m_sCurrentMaterial = prefabData.GetDefaultMaterial();
 		ChangeMaterial(m_sCurrentMaterial);
+		
+		GetGame().GetCallqueue().Call(SwitchObjectivesStatus);
 	}
-	
+		
 	override void ChangeMaterial(ResourceName flagResource, ResourceName resourceMLOD = string.Empty)
 	{
 		m_sCurrentMaterial = flagResource;
@@ -31,6 +36,16 @@ modded class SCR_FlagComponent
 	array<ref PS_FlagData> GetFlagData(){
 		return m_aFlagData;
 	}
+	
+	void SwitchObjectivesStatus(){
+		
+        foreach (string objectiveName : m_aObjectiveNames){ 
+			PS_Objective objective = PS_Objective.Cast(GetGame().GetWorld().FindEntityByName(objectiveName));		
+			objective.SetCompleted(objective.GetFactionKey() == m_sFactionKey);
+		};
+		
+	};
+	
 }
 
 [BaseContainerProps()]
@@ -99,7 +114,7 @@ class PS_FlagChangeAction : ScriptedUserAction
 		Faction faction = factionAffiliationComponent.GetDefaultAffiliatedFaction();
 		
 		if (faction.GetFactionKey() == m_FlagComponent.m_sFactionKey) {
-			SetCannotPerformReason("Это ваш флаг");
+			SetCannotPerformReason("#DRG_ItsYourFlag");
 			return false;
 		}
 		
@@ -111,7 +126,7 @@ class PS_FlagChangeAction : ScriptedUserAction
 				if (flagItemData.m_iCaptureCounter != 0){
 					return true;
 				}
-				SetCannotPerformReason("Перезахват запрещен");
+				SetCannotPerformReason("#DRG_FlagChangeForbidden");
 				return false;
 			}
 		}
@@ -142,6 +157,14 @@ class PS_FlagChangeAction : ScriptedUserAction
 			}
 		}
 		
+		// ------------
 		
+		m_FlagComponent.SwitchObjectivesStatus();
+		/*
+			foreach (string objectiveName : m_FlagComponent.m_aObjectiveNames){ 
+			PS_Objective objective = PS_Objective.Cast(GetGame().GetWorld().FindEntityByName(objectiveName));		
+			objective.SetCompleted(objective.GetFactionKey() == faction.GetFactionKey());
+		};
+		*/
 	}
 };

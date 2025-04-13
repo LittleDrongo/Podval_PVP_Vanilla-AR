@@ -5,35 +5,14 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
  coords 113.126 1 124.397
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
- components {
-  SCR_AdditionalGameModeSettingsComponent "{6170E11C3C452ACC}" {
-   m_bProjectileBallisticInfoVisibility 0
-  }
- }
- m_iFreezeTime 20000
- {
-  SCR_FactionManager "5EE8949D46B62B0A" {
-   ID "5ED9088735FF2D8B"
-   Factions {
-    SCR_Faction "{56DEAC40D2DBC8B1}" {
-     m_bIsPlayable 1
-    }
-    SCR_Faction "{56DEAC40D3C2E623}" {
-     m_bIsPlayable 1
-    }
-    SCR_Faction "{56DEAC40D132400B}" {
-     m_bIsPlayable 1
-    }
-   }
-  }
- }
+ coords 1.572 1 8.417
+}
+GenericEntity {
+ coords 124.852 1 142.084
 }
 GenericEntity : "{CC03E3F4B1E5E1B8}Prefabs/Items/Bulba_basic.et" {
  coords 126.584 1 141.531
 }
 GenericEntity : "{DAE1063D0AF1A9C4}Prefabs/Props/Military/HolyShitAmmoBox/draggableBox.et" {
  coords 127.874 1 142.286
-}
-GenericEntity : "{F00C519B88D539ED}Prefabs/Props/Military/AmmoBoxes/test_drg_AmmoBox_82mm_mortar_3rnd_HE.et" {
- coords 124.852 1 142.084
 }

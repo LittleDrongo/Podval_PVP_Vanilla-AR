@@ -1,0 +1,36 @@
+GenericEntity : "{57B12FD37B85696C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_US_Campaign.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_aObjectiveNames {
+    "US_FLAG_OBJ" "USSR_FLAG_OBJ"
+   }
+   m_aFlagData {
+    PS_FlagData "{645F1E9A073A79F0}" {
+     m_iCaptureCounter 4
+    }
+    PS_FlagData "{645F1E9A06DECEAA}" {
+     m_iCaptureCounter 4
+    }
+   }
+  }
+ }
+ coords 21.289 1 19.845
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ endTime {
+  coords 4.47 1 23.768
+  m_sTitle "Timer end"
+  m_sFactionKey "NULL"
+  m_bAdvanceWhenTriggered 1
+ }
+ USSR_FLAG_OBJ {
+  coords 4.47 1 23.768
+  m_sTitle "FLAG 1"
+  m_sFactionKey "USSR"
+ }
+ US_FLAG_OBJ {
+  coords 4.47 1 23.768
+  m_sTitle "FLAG 1"
+  m_sFactionKey "US"
+ }
+}

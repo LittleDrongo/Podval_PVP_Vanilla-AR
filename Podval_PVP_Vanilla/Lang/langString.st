@@ -425,6 +425,22 @@ StringTable {
    Author "hasta"
    LastChanged "hasta"
   }
+  CustomStringTableItem "{651B0835C9CB5A9D}" {
+   Id "DRG_FlagChangeForbidden"
+   Target_en_us "Change forbidden"
+   Target_ru_ru "Смена флага запрещена"
+   Modified 1696273832
+   Author "hasta"
+   LastChanged "hasta"
+  }
+  CustomStringTableItem "{651B0835E5136035}" {
+   Id "DRG_ItsYourFlag"
+   Target_en_us "Its your flag"
+   Target_ru_ru "Это ваш флаг"
+   Modified 1696273764
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{6328C0238BB9D206}" {
    Id "DRG_Role_TV"
    Target_en_us "Yuri Vladimirovich (TV presenter)"

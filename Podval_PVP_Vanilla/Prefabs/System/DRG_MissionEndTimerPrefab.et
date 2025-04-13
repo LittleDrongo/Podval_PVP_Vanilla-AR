@@ -1,0 +1,8 @@
+GenericEntity {
+ ID "651B0839512EF81A"
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+  }
+ }
+ coords -1.954 1 7.152
+}
