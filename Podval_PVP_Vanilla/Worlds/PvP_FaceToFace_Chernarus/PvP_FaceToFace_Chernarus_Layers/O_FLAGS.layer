@@ -59,10 +59,10 @@ GenericEntity : "{071B55C2A5E0346F}PrefabsEditable/Auto/Structures/Military/Flag
   RplComponent "{5EF0BDF2D0DC330C}" : "{B193E926C1935A4C}Prefabs/Editor/Components/Default_RplComponent.ct" {
   }
  }
- coords 4786.732 276.346 6799.536
- angleX 24.733
- angleY -77.878
- angleZ -20.874
+ coords 4790.884 274.959 6798.143
+ angleX 9.478
+ angleY -109.464
+ angleZ -46.893
 }
 GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR.et" {
  components {
