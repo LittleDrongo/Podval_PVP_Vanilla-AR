@@ -1,15 +1,17 @@
+PS_Objective END_TIME_OBJ : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ coords 4.47 1 23.768
+ m_sTitle "Timer end"
+ m_sFactionKey "NULL"
+ m_bAdvanceWhenTriggered 1
+}
 GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
  components {
   DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
    m_iMissionTime 20
    m_aObjectiveNames {
-    "endTime"
+    "END_TIME_OBJ"
    }
-   m_aTimeLeftWarningTimers {
-    20 5
-   }
-   m_sTimesLeftMessage "Осталось %1"
   }
  }
- coords 7.185 1 6.507
+ coords 16.937 1 11.065
 }

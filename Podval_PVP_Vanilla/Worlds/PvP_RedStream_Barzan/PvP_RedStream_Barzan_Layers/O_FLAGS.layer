@@ -2,6 +2,9 @@ $grp GenericEntity : "{37FF769500E5C13C}PrefabsEditable/Auto/Structures/Military
  {
   components {
    SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "FLAG_2_US" "FLAG_2_USSR"
+    }
     m_aFlagData {
      PS_FlagData "{64CB51E16EBB244F}" {
       m_sFactionKey "USSR"
@@ -23,6 +26,9 @@ $grp GenericEntity : "{37FF769500E5C13C}PrefabsEditable/Auto/Structures/Military
  {
   components {
    SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "FLAG_1_US" "FLAG_1_USSR"
+    }
     m_aFlagData {
      PS_FlagData "{64CB51E16EBB244F}" {
       m_sFactionKey "USSR"
