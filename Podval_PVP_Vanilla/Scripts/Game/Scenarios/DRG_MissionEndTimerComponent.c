@@ -29,8 +29,10 @@ class DRG_MissionEndTimerComponent : ScriptComponent
 	PS_GameModeCoop m_GameModeCoop;	
 	
 	override void OnPostInit(IEntity owner){	
-		m_GameModeCoop = PS_GameModeCoop.Cast(GetGame().GetGameMode());
-		GetGame().GetCallqueue().CallLater(CheckIsFreezeTimeEnd, 500, true);
+		if (Replication.IsServer()){
+			m_GameModeCoop = PS_GameModeCoop.Cast(GetGame().GetGameMode());
+			GetGame().GetCallqueue().CallLater(CheckIsFreezeTimeEnd, 500, true);	
+		};		
 	};	
 	
 	void CheckIsFreezeTimeEnd(){		
