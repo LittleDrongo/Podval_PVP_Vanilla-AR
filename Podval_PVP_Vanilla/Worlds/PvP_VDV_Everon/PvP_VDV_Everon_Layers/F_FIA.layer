@@ -141,6 +141,24 @@ $grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad
   }
   m_sCustomNameSet "Отряд ополченцев"
  }
+ FIA_5_0_1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation " "
+   }
+   PS_GroupCallsignAssigner "{5F0CF2CA5860FA6D}" {
+    m_iCompanyCallsign 5
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5284.333 26.602 9369.447
+  angleY -87.863
+  angleZ -0.003
+  m_aUnitPrefabSlots {
+   "{89ADBFC29CB60444}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rebel_TL.et" "{A65224DA772312DE}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rebel_P_v2.et" "{43CE68237BC685B5}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rebel_P_v3.et" "{7EFA4D1B0EAA0C82}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rebel_P_v4.et" "{9B6601E2024F9BE9}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rebel_P_v5.et"
+  }
+  m_sCustomNameSet "Отряд ополченцев"
+ }
 }
 $grp Vehicle : "{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et" {
  BTR70_FIA1 {

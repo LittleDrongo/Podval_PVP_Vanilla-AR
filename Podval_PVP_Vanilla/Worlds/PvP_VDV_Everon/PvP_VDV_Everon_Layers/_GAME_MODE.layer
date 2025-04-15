@@ -6,6 +6,22 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  components {
+  PS_ObjectiveManager "{60846DEA6E152749}" {
+   m_aObjectiveLavels {
+    PS_ObjectiveLevel "{60BA84346F79B79E}" {
+     m_iScore 90
+    }
+    PS_ObjectiveLevel "{60BA84343AC819B2}" {
+     m_iScore 90
+    }
+    PS_ObjectiveLevel "{60BA8437C52AEEC4}" {
+     m_iScore 90
+    }
+    PS_ObjectiveLevel "{60BA8437C9F5791C}" {
+     m_iScore 90
+    }
+   }
+  }
   SCR_InitWeatherComponent "{61B68227C35BFE9A}" {
    m_sInitialStartingWeatherId "Clear"
   }

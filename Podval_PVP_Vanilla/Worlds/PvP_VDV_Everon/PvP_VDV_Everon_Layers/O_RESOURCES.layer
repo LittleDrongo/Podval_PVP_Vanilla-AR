@@ -1,8 +1,6 @@
 GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign.et" {
- coords 11009.55 23.895 11696.482
- angleX 3.943
- angleY -146.803
- angleZ -2.757
+ coords 11366.563 62.031 11235.799
+ angleY -61.201
  {
   GenericEntity {
    ID "5D4539393E1536C3"
@@ -92,7 +90,6 @@ GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_
   }
   PS_ManualMarker flag3 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
    coords 0 0 0
-   angleX 0
    angleY -123.222
    m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
    m_sImageSetGlow ""

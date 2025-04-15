@@ -1,26 +1,20 @@
 $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
- USSR_1 {
-  coords 1609.265 14.084 1574.584
-  m_sTitle "Удержан один флаг"
-  m_iScore 75
+ FLAG_1_USSR {
+  m_sTitle "Диспетчерская вышка"
   m_sFactionKey "USSR"
  }
- FIA_1 {
-  coords 8494.292 257.691 2403.939
-  m_sTitle "Захвачен один флаг"
-  m_iScore 75
+ FLAG_1_FIA {
+  m_sTitle "Диспетчерская вышка"
+  m_iScore 50
  }
- FIA_2 {
-  coords 8494.292 257.691 2403.939
+ FLAG_2_FIA {
   m_sTitle "Захвачены один флаг"
   m_iOrder 1
-  m_iScore 25
+  m_iScore 50
  }
- USSR_2 {
-  coords 1609.265 14.084 1574.584
+ FLAG_2_USSR {
   m_sTitle "Удержаны два флага"
   m_iOrder 1
-  m_iScore 25
   m_sFactionKey "USSR"
  }
 }
