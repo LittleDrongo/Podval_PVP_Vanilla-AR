@@ -45,19 +45,7 @@ class DRG_MissionEndTimerComponent : ScriptComponent
 		}	
 	}	
 };
-	/*
-	void CheckIsFreezeTimeEnd(){		
-		if (m_GameModeCoop.IsFreezeTimeEnd()) {
-			GetGame().GetCallqueue().Remove(CheckIsFreezeTimeEnd);
-			GetGame().GetCallqueue().CallLater(OnMissionTimeEnd, (m_iMissionTime * 1000), false);		
-			
-			foreach (int time : m_aTimeLeftWarningTimers){
-				GetGame().GetCallqueue().CallLater(NotifyPlayersAboutTimeLeft, ((m_iMissionTime - time) * 1000), false, time);		
-			}	
-		};	
-	};
 	
-	*/
 	void OnMissionTimeEnd(){
 		NotifyPlayersMissionEnd();		
 	};

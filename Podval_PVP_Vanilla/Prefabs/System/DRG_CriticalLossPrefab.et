@@ -1,0 +1,8 @@
+GenericEntity {
+ ID "65213D369B4208A3"
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+  }
+ }
+ coords 14.719 1 13.618
+}

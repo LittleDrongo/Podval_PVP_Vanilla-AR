@@ -1,0 +1,21 @@
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aCriticalLosses {
+    CriticalLossLogic "{6521498665182AA0}" {
+     m_aFactionLosses {
+      FactionLoss "{6521498668EEB32A}" {
+      }
+      FactionLoss "{6521498676E5D497}" {
+       m_sFactionKey "FIA"
+      }
+     }
+     m_sObjectiveNames {
+      "US_KILL_ENEMY"
+     }
+    }
+   }
+  }
+ }
+ coords 15.809 1 9.709
+}
