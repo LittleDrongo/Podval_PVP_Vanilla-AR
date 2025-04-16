@@ -13,13 +13,6 @@ class DRG_MissionEndTimerComponent : ScriptComponent
 	[Attribute(desc: "Objectives names which need to be switched", uiwidget: UIWidgets.EditBox, category: "Settings")]
 	protected ref array<string> m_aObjectiveNames;
 	
-	/*
-	[Attribute(defvalue:"", desc: "List of winning factions", category: "Settings")]
-	protected ref array<FactionKey> m_aWinnersFactions;
-
-	[Attribute(defvalue:"", desc: "List of losers factions", category: "Settings")]
-	protected ref array<FactionKey> m_aLosersFactions;
-	*/
 	[Attribute(defvalue:"", desc: "Notifications", category: "Mission second left")]
 	protected ref array<int> m_aTimeLeftWarningTimers;
 	
@@ -35,6 +28,24 @@ class DRG_MissionEndTimerComponent : ScriptComponent
 		};		
 	};	
 	
+	void CheckIsFreezeTimeEnd(){	
+	if (!m_GameModeCoop)
+	{
+		m_GameModeCoop = PS_GameModeCoop.Cast(GetGame().GetGameMode());
+		if (!m_GameModeCoop)
+			return; // still not ready, try again next call
+	}
+
+	if (m_GameModeCoop.IsFreezeTimeEnd()) {
+		GetGame().GetCallqueue().Remove(CheckIsFreezeTimeEnd);
+		GetGame().GetCallqueue().CallLater(OnMissionTimeEnd, (m_iMissionTime * 1000), false);		
+		
+		foreach (int time : m_aTimeLeftWarningTimers){
+			GetGame().GetCallqueue().CallLater(NotifyPlayersAboutTimeLeft, ((m_iMissionTime - time) * 1000), false, time);		
+		}	
+	}	
+};
+	/*
 	void CheckIsFreezeTimeEnd(){		
 		if (m_GameModeCoop.IsFreezeTimeEnd()) {
 			GetGame().GetCallqueue().Remove(CheckIsFreezeTimeEnd);
@@ -46,6 +57,7 @@ class DRG_MissionEndTimerComponent : ScriptComponent
 		};	
 	};
 	
+	*/
 	void OnMissionTimeEnd(){
 		NotifyPlayersMissionEnd();		
 	};
@@ -56,22 +68,7 @@ class DRG_MissionEndTimerComponent : ScriptComponent
 		SCR_ChatPanelManager chatPanelManager = SCR_ChatPanelManager.GetInstance();
 		ChatCommandInvoker invoker = chatPanelManager.GetCommandInvoker("smsg");
 		string message;
-		/*
-		string winnersString;
-		foreach (FactionKey factionKey : m_aWinnersFactions){
-			winnersString = (winnersString + " " + factionKey);
-		};
 		
-		string losersString;
-		foreach (FactionKey factionKey : m_aLosersFactions){
-			
-			FactionManager factionManager = GetGame().GetFactionManager();
-			
-			Faction faction = factionManager.GetFactionByKey(factionKey);
-			
-			losersString = (losersString + " " + faction.GetFactionName());
-		};
-		*/
 		message = (m_sMessage);
 		
 		invoker.Invoke(null, message);
