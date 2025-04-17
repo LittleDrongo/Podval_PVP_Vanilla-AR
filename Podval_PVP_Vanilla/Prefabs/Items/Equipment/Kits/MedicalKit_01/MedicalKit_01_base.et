@@ -36,5 +36,33 @@ GenericEntity : "{C95E11C60810F432}Prefabs/Items/Core/Item_Base.et" {
     }
    }
   }
+  SCR_FilteredInventoryStorageComponent "{6522A12C3562546F}" {
+   Attributes SCR_ItemAttributeCollection "{6522A12C3FCFDA1D}" {
+    ItemDisplayName SCR_InventoryUIInfo "{64F707D10A95B574}" {
+     Name "Медицина"
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{64F707D10A95B578}" {
+     AnimationAttachments {
+      AnimationAttachmentInfo "{64F707D10A95B566}" {
+      }
+     }
+     HandAdditiveRotation 180 90 90
+     HandAdditiveTranslation 0 -0.03 0.07
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{64F707D10A95B562}" {
+     }
+     CharacterModifierAttributes "{64F707D10A95B560}" {
+     }
+    }
+   }
+   MultiSlots {
+    MultiSlotConfiguration "{6522A12C1EB3112E}" {
+     SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+      Prefab "{C98FCC6CA6C56069}Prefabs/Items/Medicine/AspirinBottle.et"
+     }
+    }
+   }
+  }
  }
 }

@@ -36,7 +36,7 @@ class DRG_CriticalLossComponent : ScriptComponent
 			if (!m_bUseTestingMode) {
 				CheckLosses();
 				HandleLogic();
-			} else if (playersOnStart > m_iTestingPlayerCounts && !m_bUseTestingMode) {
+			} else if (playersOnStart > m_iTestingPlayerCounts && m_bUseTestingMode) {
 				CheckLosses();
 				HandleLogic();
 			} else {			

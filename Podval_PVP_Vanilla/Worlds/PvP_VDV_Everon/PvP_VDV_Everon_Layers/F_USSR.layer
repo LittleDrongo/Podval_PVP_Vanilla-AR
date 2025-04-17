@@ -224,3 +224,65 @@ Vehicle Ural4320_repair1 : "{A5647958579A4149}Prefabs/Vehicles/Wheeled/Ural4320/
  angleY 129.901
  angleZ 1.834
 }
+$grp GenericEntity : "{F1FDD5669F4C26B2}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_545.et" {
+ {
+  coords 11073.507 21.125 11758.562
+  angleY -41.096
+ }
+ {
+  coords 11074.064 21.125 11757.922
+  angleY -41.096
+ }
+ {
+  coords 11082.845 21.138 11767.991
+  angleY -50.907
+ }
+ {
+  coords 11083.503 21.138 11767.456
+  angleY -50.907
+ }
+ {
+  coords 11064.781 21.093 11749.387
+  angleY -42.201
+ }
+ {
+  coords 11065.351 21.093 11748.758
+  angleY -42.201
+ }
+ {
+  coords 11058.37 20.811 11741.445
+  angleX -1.037
+  angleY -52.424
+  angleZ -3.053
+ }
+ {
+  coords 11059.043 20.828 11740.927
+  angleX -1.037
+  angleY -52.424
+  angleZ -3.053
+ }
+ {
+  coords 10933.181 23.673 11814.202
+  angleY -42.201
+ }
+ {
+  coords 10932.611 23.673 11814.831
+  angleY -42.201
+ }
+ {
+  coords 10922.796 23.878 11822.976
+  angleY -52.475
+ }
+ {
+  coords 10922.121 23.878 11823.49
+  angleY -52.475
+ }
+ {
+  coords 10910.518 24.117 11832.814
+  angleY -55.755
+ }
+ {
+  coords 10909.815 24.117 11833.293
+  angleY -55.755
+ }
+}

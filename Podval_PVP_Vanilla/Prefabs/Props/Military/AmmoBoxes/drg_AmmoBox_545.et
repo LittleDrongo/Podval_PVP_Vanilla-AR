@@ -15,6 +15,7 @@ GenericEntity : "{3BFC0E1A2D0062CA}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_
      HandAdditiveTranslation 0 -0.03 0.07
     }
    }
+   MaxCumulativeVolume 3000
    MultiSlots {
     MultiSlotConfiguration "{64F707D11FA7A94D}" {
      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
@@ -28,6 +29,9 @@ GenericEntity : "{3BFC0E1A2D0062CA}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_
      }
      NumSlots 10
     }
+   }
+   m_aAllowedItemTypes {
+    "AMMO"
    }
   }
  }
