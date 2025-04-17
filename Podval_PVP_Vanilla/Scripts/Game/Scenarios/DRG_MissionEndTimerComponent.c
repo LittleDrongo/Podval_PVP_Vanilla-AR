@@ -42,9 +42,9 @@ class DRG_MissionEndTimerComponent : ScriptComponent
 		
 		foreach (int time : m_aTimeLeftWarningTimers){
 			GetGame().GetCallqueue().CallLater(NotifyPlayersAboutTimeLeft, ((m_iMissionTime - time) * 1000), false, time);		
+			}	
 		}	
-	}	
-};
+	};
 	
 	void OnMissionTimeEnd(){
 		NotifyPlayersMissionEnd();		

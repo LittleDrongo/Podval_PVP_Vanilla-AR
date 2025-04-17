@@ -1,21 +1,57 @@
 GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
  components {
   DRG_CriticalLossComponent "{65213D368F1BD792}" {
-   m_aCriticalLosses {
-    CriticalLossLogic "{6521498665182AA0}" {
-     m_aFactionLosses {
-      FactionLoss "{6521498668EEB32A}" {
+   m_iAdvanceAfterSec 5
+   m_iTestingPlayerCounts 1
+   m_aLossLogics {
+    LossLogic "{6521498C5B7F5518}" {
+     m_aLosses {
+      FactionLoss "{6521498C5EEF7E0A}" {
+       m_iCriticalLossCount 2
       }
-      FactionLoss "{6521498676E5D497}" {
+      FactionLoss "{65214995E83F1BDE}" {
+       m_iCriticalLossCount 1
        m_sFactionKey "FIA"
       }
      }
      m_sObjectiveNames {
-      "US_KILL_ENEMY"
+      "USSR_DEAD"
      }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+    }
+    LossLogic "{6521499A8D7C78B7}" {
+     m_aLosses {
+      FactionLoss "{6521499AFF8CC0E9}" {
+       m_iCriticalLossCount 1
+       m_sFactionKey "US"
+      }
+     }
+     m_sObjectiveNames {
+      "BLUE_DEAD" "BLUE_DEAD_FOR_FIA"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "Победа обороны: Атака понесла серьёзные потери"
     }
    }
   }
  }
- coords 15.809 1 9.709
+ coords 28.358 1 8.596
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ BLUE_DEAD {
+  coords 45.058 1 26.451
+  m_sTitle "Уничтожить противника"
+  m_sFactionKey "USSR"
+ }
+ USSR_DEAD {
+  coords 45.058 1 26.451
+  m_sTitle "Уничтожить противника"
+  m_sFactionKey "US"
+ }
+ BLUE_DEAD_FOR_FIA {
+  coords 45.058 1 26.451
+  m_sTitle "Уничтожить противника"
+ }
 }

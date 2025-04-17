@@ -4,26 +4,120 @@ class DRG_CriticalLossComponentClass : ScriptComponentClass
 
 class DRG_CriticalLossComponent : ScriptComponent
 {
+	
+	[Attribute(defvalue: "10", desc: "Advance game state after N second.", uiwidget: UIWidgets.EditBox, category: "Settings")]
+	int m_iAdvanceAfterSec;
+	
+	[Attribute(defvalue: "3", desc: "Number of players participating in tests.", uiwidget: UIWidgets.EditBox, category: "Testing")]
+	int m_iTestingPlayerCounts;
+	
+	[Attribute(defvalue: "true", desc: "Use TestingMode", uiwidget: UIWidgets.EditBox, category: "Testing")]
+	bool m_bUseTestingMode;
+	
+	
 	[Attribute(category: "Critical Losses Logic")]
-	protected ref array<ref LossLogic> m_aLossLogics;			
+	ref array<ref LossLogic> m_aLossLogics;			
 	
 	PS_GameModeCoop m_GameModeCoop;
 	
 	
+	override void OnPostInit(IEntity owner){		
+		if (Replication.IsServer()){
+			m_GameModeCoop = PS_GameModeCoop.Cast(GetGame().GetGameMode());
+			GetGame().GetCallqueue().CallLater(handle, 500, true);
+		};		
+	};	
 	
 	
+	void handle(){
+		//if (GetGame().GetPlayerManager().GetPlayerCount() > m_iTestingPlayerCounts && !m_bUseTestingMode){
+		if (CheckIsFreezeTimeEnd()) {			
+			CheckLosses();
+			HandleLogic();
+		};
+	};
 	
 	
+
+	
+	bool CheckIsFreezeTimeEnd(){	
+		if (!m_GameModeCoop)
+		{
+			m_GameModeCoop = PS_GameModeCoop.Cast(GetGame().GetGameMode());
+			if (!m_GameModeCoop){		
+				return false; // still not ready, try again next call
+			};
+		};
+		
+		return m_GameModeCoop.IsFreezeTimeEnd();
+	};
+	
+	void CheckLosses(){		
+		foreach (LossLogic lossLogic : m_aLossLogics){
+			foreach (FactionLoss lossFaction : lossLogic.m_aLosses) {
+				if (CountAliveCharacter(lossFaction.m_sFactionKey) <= lossFaction.m_iCriticalLossCount){
+					lossFaction.m_iIsLossTaken = true;
+				} else {
+					lossFaction.m_iIsLossTaken = false; // Возможн стоит пересмотреть такой подход
+				}			
+			}
+		}		
+	};
+	
+	void HandleLogic(){
+		
+		foreach (LossLogic logic : m_aLossLogics){			
+			if (logic.IsLossTaken()){			
+				
+				
+				SwitchObjective(logic.m_sObjectiveNames, true);
+					
+				if (logic.m_bUseMessage){
+				   NotifyPlayers(logic.m_bEventMessage);
+				}
+				
+				if (logic.m_bAdvanceGameStage){
+					GetGame().GetCallqueue().CallLater(AdvanceState, m_iAdvanceAfterSec*1000, false);	
+				}
+				
+				GetGame().GetCallqueue().Remove(handle);
+			}
+		}
+		
+	};
+	
+	void AdvanceState(){	
+		m_GameModeCoop.AdvanceGameState(SCR_EGameModeState.GAME);
+	};
 	
 	
+	int CountAliveCharacter(FactionKey factionKey)
+	{
+		int iAliveCount = 0;
+		
+ 		PS_PlayableManager manager = PS_PlayableManager.GetInstance();		
+ 		array<PS_PlayableContainer> playables = manager.GetPlayablesSorted();		
+		
+		
+		foreach(PS_PlayableContainer playable : playables)
+		{			
+			if (factionKey == playable.GetFactionKey() && playable.GetDamageState() != EDamageState.DESTROYED){
+				iAliveCount++;				
+			}					
+		}		
+			
+		return iAliveCount;	
+	};
 	
-	
-	
-	
-	
-	
-	
+	void SwitchObjective(array<string> objectivesNames, bool flag){
+		
+		foreach (string objName : objectivesNames){
+				PS_Objective objective = PS_Objective.Cast(GetGame().GetWorld().FindEntityByName(objName));		
+		objective.SetCompleted(flag);
+		};	
+	};
 }
+
 
 [BaseContainerProps()]
 class LossLogic
@@ -31,33 +125,57 @@ class LossLogic
 	//─────────[ FactionLoss ]───────────
 	
 	[Attribute(category: "Faction loss")]
-	protected ref array<ref FactionLoss> m_aLosses;
+	ref array<ref FactionLoss> m_aLosses;
 	
 	//─────────[ Objectives ]───────────
 	
 	[Attribute(defvalue: "", desc: "Specify the objective names to be switched in the debriefing section.", uiwidget: UIWidgets.EditBox)]
-	protected array<string> m_sObjectiveNames;
+	ref array<string> m_sObjectiveNames; 
 	
 	[Attribute(defvalue: "false", desc: "Advanced game stage to AAR (Debrifieng)", uiwidget: UIWidgets.EditBox)]
-	protected bool m_bAdvanceGameStage;
+	bool m_bAdvanceGameStage;
 	
 	//─────────[ Notifications ]───────────
 	
     [Attribute(defvalue: "false", desc: "Is use notification message for this event.", uiwidget: UIWidgets.EditBox)]
-	protected bool m_bUseMessage;
+	bool m_bUseMessage;
 	
 	[Attribute(defvalue: "Победа атаки: Оборона понесла серьёзные потери", desc: "Notification message.", uiwidget: UIWidgets.EditBoxMultiline)]
-	protected string m_bEventMessage;
+	string m_bEventMessage;
 	
 	//─────────[ Private Variable ]───────────
+	
+	bool IsLossTaken(){				
+		foreach (FactionLoss loss : m_aLosses) {			
+			if (loss.m_iIsLossTaken == false) {
+				return false;
+			}
+		}
+		
+		return true;
+	};	
 }
 
 [BaseContainerProps()]
 class FactionLoss
 {	
 	[Attribute(defvalue: "5", desc: "Critical losses for the faction.", uiwidget: UIWidgets.EditBox, category: "Settings")]
-	protected int m_iCriticalLossCount;
+	int m_iCriticalLossCount;
 	
 	[Attribute(defvalue: "USSR", desc: "For which faction does this rule apply.", uiwidget: UIWidgets.EditBox, category: "Settings")]
-	protected FactionKey m_sFactionKey;
+	FactionKey m_sFactionKey;
+	
+	bool m_iIsLossTaken;
 }
+
+
+void NotifyPlayers(string msg){
+		
+		SCR_ChatPanelManager chatPanelManager = SCR_ChatPanelManager.GetInstance();
+		ChatCommandInvoker invoker = chatPanelManager.GetCommandInvoker("smsg");
+		
+		invoker.Invoke(null, msg);
+};	
+
+
+

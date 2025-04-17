@@ -7,9 +7,3 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  coords 1.572 1 8.417
 }
-GenericEntity : "{CC03E3F4B1E5E1B8}Prefabs/Items/Bulba_basic.et" {
- coords 126.584 1 141.531
-}
-GenericEntity : "{DAE1063D0AF1A9C4}Prefabs/Props/Military/HolyShitAmmoBox/draggableBox.et" {
- coords 127.874 1 142.286
-}
