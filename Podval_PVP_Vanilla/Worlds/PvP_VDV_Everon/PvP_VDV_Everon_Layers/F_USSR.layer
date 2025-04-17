@@ -86,10 +86,10 @@ $grp Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   angleZ -1.859
  }
  Ural4320_transport2 {
-  coords 10949.752 35.395 11895.593
-  angleX -2.734
-  angleY 131.865
-  angleZ -3.645
+  coords 10971.047 24.511 11879.781
+  angleX -3.328
+  angleY 131.896
+  angleZ -2.981
  }
 }
 SCR_AIGroup USSR_0_0_0 : "{2797EDBC47A47C2F}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_CompanyHQ.et" {
