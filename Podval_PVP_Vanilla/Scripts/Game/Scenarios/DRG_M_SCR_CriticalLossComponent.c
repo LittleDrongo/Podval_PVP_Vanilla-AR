@@ -31,11 +31,16 @@ class DRG_CriticalLossComponent : ScriptComponent
 	
 	void handle(){
 		if (CheckIsFreezeTimeEnd()) {
-			if (GetGame().GetPlayerManager().GetPlayerCount() > m_iTestingPlayerCounts && !m_bUseTestingMode){
+			int playersOnStart = GetGame().GetPlayerManager().GetPlayerCount();
+			
+			if (!m_bUseTestingMode) {
+				CheckLosses();
+				HandleLogic();
+			} else if (playersOnStart > m_iTestingPlayerCounts && !m_bUseTestingMode) {
 				CheckLosses();
 				HandleLogic();
 			} else {			
-				NotifyPlayers("Внимание! Режим тестирования сценария. Логика завершения по потерям выключена. Игроков должно быть > "+ m_iTestingPlayerCounts.ToString());
+				NotifyPlayers("Режим тестирования сценария. Логика завершения по потерям выключена. Игроков должно быть > "+ m_iTestingPlayerCounts.ToString() + " сейчас " + playersOnStart);
 				GetGame().GetCallqueue().Remove(handle);
 			}
 		}
