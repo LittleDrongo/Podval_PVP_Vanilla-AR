@@ -1,16 +1,5 @@
-$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
- CRITICAL_LOSS_DESC {
-  coords 0 0 0
-  m_sTitle "Тест2"
-  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
-  m_sTextData ""
-  m_bEmptyFactionVisibility 1
-  m_bShowForAnyFaction 1
-  m_iOrder 9
- }
- {
-  coords 69.329 1 25.508
- }
+PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ coords 69.329 1 25.508
 }
 GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
  components {
@@ -55,5 +44,13 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
  coords 28.358 1 8.596
 }
 GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 20
+   m_aTimeLeftWarningTimers {
+    5
+   }
+  }
+ }
  coords 67.362 1 24.916
 }

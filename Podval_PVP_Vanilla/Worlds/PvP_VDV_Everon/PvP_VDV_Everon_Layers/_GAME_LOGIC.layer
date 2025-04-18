@@ -34,22 +34,10 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
  }
  coords 4884.188 28.592 11783.262
 }
-PS_Objective TIMER_OBJ : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
- m_sTitle "Конец миссии"
- m_iScore 0
- m_sFactionKey "NULL"
- m_bAdvanceWhenTriggered 1
-}
 GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
  components {
   DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
-   m_iMissionTime 3603
-   m_aObjectiveNames {
-    "TIMER_OBJ"
-   }
-   m_aTimeLeftWarningTimers {
-    3600
-   }
+   m_iMissionTime 3000
   }
  }
 }

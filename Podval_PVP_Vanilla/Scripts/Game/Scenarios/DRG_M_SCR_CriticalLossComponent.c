@@ -18,6 +18,11 @@ class DRG_CriticalLossComponent : ScriptComponent
 	[Attribute(category: "Critical Losses Logic")]
 	ref array<ref LossLogic> m_aLossLogics;		
 
+	[Attribute(defvalue: "true", desc: "", uiwidget: UIWidgets.EditBox, category: "Description")]
+	bool m_bUseDescriptionGenerator;
+	
+	[Attribute(defvalue: "Критические потери", desc: "", uiwidget: UIWidgets.EditBox, category: "Description")]
+	string m_sDescriptionTitle;
 
 	PS_GameModeCoop m_GameModeCoop;
 		
@@ -36,18 +41,21 @@ class DRG_CriticalLossComponent : ScriptComponent
 	
 	void GenerateMissionDesc(){
 		
+		if (!m_bUseDescriptionGenerator){
+			return;
+		}
+		
 		protected ResourceName m_rStartLayout = "{41DAF7B7061DC0BC}UI/MissionDescription/DescriptionEditable.layout";		
 		Resource descResource = Resource.Load("{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et");		
 		PS_MissionDescription m_MissionDescription = PS_MissionDescription.Cast(GetGame().SpawnEntityPrefab(descResource));
 
-		m_MissionDescription.SetTitle("Критические потери");
+		m_MissionDescription.SetTitle(m_sDescriptionTitle);
 		m_MissionDescription.SetVisibleForEmptyFaction(true);		
 		m_MissionDescription.RegisterToDescriptionManager();
 		m_MissionDescription.SetLayout(m_rStartLayout);
 		
-		// -- //
-		m_MissionDescription.m_bShowForAnyFaction = true;
-		m_MissionDescription.m_iOrder = 101;
+		m_MissionDescription.SetShowForAnyFaction(true);
+		m_MissionDescription.SetOrder(200);
 		
 		int counter;
 		

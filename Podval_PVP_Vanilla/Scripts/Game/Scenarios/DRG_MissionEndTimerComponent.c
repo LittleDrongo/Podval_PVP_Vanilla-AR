@@ -10,14 +10,23 @@ class DRG_MissionEndTimerComponent : ScriptComponent
 	[Attribute(defvalue: "Время на миссию вышло!", desc: "Time is given for the mission", uiwidget: UIWidgets.EditBox, category: "Settings")]
 	protected string m_sMessage;
 	
+	/*
 	[Attribute(desc: "Objectives names which need to be switched", uiwidget: UIWidgets.EditBox, category: "Settings")]
 	protected ref array<string> m_aObjectiveNames;
+	*/
 	
 	[Attribute(defvalue:"", desc: "Notifications", category: "Mission second left")]
 	protected ref array<int> m_aTimeLeftWarningTimers;
 	
-	[Attribute(defvalue: "Время на миссию %1", desc: "---", uiwidget: UIWidgets.EditBox, category: "Mission second left")]
+	[Attribute(defvalue: "Осталось времени на миссию %1", desc: "---", uiwidget: UIWidgets.EditBox, category: "Mission second left")]
 	protected string m_sTimesLeftMessage;
+	
+	
+	[Attribute(defvalue: "true", desc: "", uiwidget: UIWidgets.EditBox, category: "Description")]
+	bool m_bUseDescriptionGenerator;
+	
+	[Attribute(defvalue: "Завершение по времении", desc: "", uiwidget: UIWidgets.EditBox, category: "Description")]
+	string m_sDescriptionTitle;
 		
 	PS_GameModeCoop m_GameModeCoop;	
 	
@@ -34,16 +43,21 @@ class DRG_MissionEndTimerComponent : ScriptComponent
 	
  	void GenerateMissionDesc(){
 		
+		if (!m_bUseDescriptionGenerator){
+			return;
+		}
+		
 		protected ResourceName m_rStartLayout = "{41DAF7B7061DC0BC}UI/MissionDescription/DescriptionEditable.layout";		
 		Resource descResource = Resource.Load("{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et");		
 		PS_MissionDescription m_MissionDescriptionTime = PS_MissionDescription.Cast(GetGame().SpawnEntityPrefab(descResource));
 
-		m_MissionDescriptionTime.SetTitle("Завершение по времении");
+		m_MissionDescriptionTime.SetTitle(m_sDescriptionTitle);
 		m_MissionDescriptionTime.SetVisibleForEmptyFaction(true);		
-		m_MissionDescriptionTime.m_bShowForAnyFaction = true;
 		m_MissionDescriptionTime.RegisterToDescriptionManager();		
 		m_MissionDescriptionTime.SetLayout(m_rStartLayout);
-		m_MissionDescriptionTime.m_iOrder = 100;
+		
+		m_MissionDescriptionTime.SetShowForAnyFaction(true);
+		m_MissionDescriptionTime.SetOrder(200);
 		
 		
 		int seconds = Math.Mod(m_iMissionTime, 60);
@@ -52,7 +66,7 @@ class DRG_MissionEndTimerComponent : ScriptComponent
 		minutes = Math.Mod(minutes, 60);
 		string timeLeft = string.Format("%1:%2:%3", hours.ToString(2), minutes.ToString(2), seconds.ToString(2));
 		
-		string text = "Внимание! В миссии присутствует модуль завершения по времени";
+		string text = "Внимание! В миссии присутствует модуль завершения по времени, который сам завершит сценарий.";
 		text = text + "\n\nВремя на миссию: " + timeLeft;
 	
 		
@@ -93,14 +107,14 @@ class DRG_MissionEndTimerComponent : ScriptComponent
 		
 		invoker.Invoke(null, message);
 		
-		// Меняет у Objective статус
-		foreach (string objectiveName : m_aObjectiveNames){
-			PS_Objective objective = PS_Objective.Cast(GetGame().GetWorld().FindEntityByName(objectiveName));		
-			objective.SetCompleted(true);
-		};		
+		AdvanceState();	
 		
 		
 	};	
+	
+	void AdvanceState(){	
+		m_GameModeCoop.AdvanceGameState(SCR_EGameModeState.GAME);
+	};
 	
 	void NotifyPlayersAboutTimeLeft(int timeSeconds){
 		
