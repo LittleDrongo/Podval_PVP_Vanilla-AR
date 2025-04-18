@@ -449,5 +449,37 @@ StringTable {
    Author "hasta"
    LastChanged "hasta"
   }
+  CustomStringTableItem "{6525161D81D03BF2}" {
+   Id "DRG_Scripts_CriticalLossComparation"
+   Target_en_us ": less or equal "
+   Target_ru_ru ": менее или равно "
+   Modified 1696931456
+   Author "hasta"
+   LastChanged "hasta"
+  }
+  CustomStringTableItem "{6525161D19BE9A2D}" {
+   Id "DRG_Scripts_CriticalLossCondition"
+   Target_en_us "\n\nCondition: #"
+   Target_ru_ru "\n\nУсловие: #"
+   Modified 1696931311
+   Author "hasta"
+   LastChanged "hasta"
+  }
+  CustomStringTableItem "{6525161D3087DB0B}" {
+   Id "DRG_Scripts_CriticalLossSubtitle"
+   Target_en_us "#Attention!\nThe mission contains a critical loss module that will automatically end the scenario.\n\nMission completion options:"
+   Target_ru_ru "Внимание!\nВ миссии присутствует модуль критических потерь, который сам завершит сценарий.\n\nВарианты завершения миссии:"
+   Modified 1696931219
+   Author "hasta"
+   LastChanged "hasta"
+  }
+  CustomStringTableItem "{6525161AC5EB16FB}" {
+   Id "DRG_Scripts_CriticalLossTitle"
+   Target_en_us "Критические потери"
+   Target_ru_ru "Критические потери"
+   Modified 1696931101
+   Author "hasta"
+   LastChanged "hasta"
+  }
  }
 }

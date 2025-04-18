@@ -862,6 +862,44 @@ $grp Vehicle : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
   m_sAttachmentGroupName "S_US_7_1_0"
  }
 }
+$grp Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
+ {
+  components {
+   PS_GroupAttachmentComponent "{6524F16E690E1D48}" {
+    m_sAttachmentGroupName "F_US_0_1_0"
+   }
+  }
+  coords 1742.943 39.012 2891.365
+  angleY -15.892
+ }
+ {
+  components {
+   PS_GroupAttachmentComponent "{6524F16E690E1D48}" {
+    m_sAttachmentGroupName "F_US_0_1_1"
+   }
+  }
+  coords 1738.073 39 2890.199
+  angleY -13.538
+ }
+ {
+  components {
+   PS_GroupAttachmentComponent "{6524F16E690E1D48}" {
+    m_sAttachmentGroupName "F_US_0_1_2"
+   }
+  }
+  coords 1733.932 39.014 2889.202
+  angleY -13.538
+ }
+ {
+  components {
+   PS_GroupAttachmentComponent "{6524F16E690E1D48}" {
+    m_sAttachmentGroupName "F_US_0_1_3"
+   }
+  }
+  coords 1728.971 39 2888.007
+  angleY -13.538
+ }
+}
 $grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
  M923A1_transport_covered1 {
   coords 1569.761 39 2830.181

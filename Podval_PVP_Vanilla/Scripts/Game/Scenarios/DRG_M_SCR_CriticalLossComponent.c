@@ -21,7 +21,7 @@ class DRG_CriticalLossComponent : ScriptComponent
 	[Attribute(defvalue: "true", desc: "", uiwidget: UIWidgets.EditBox, category: "Description")]
 	bool m_bUseDescriptionGenerator;
 	
-	[Attribute(defvalue: "Критические потери", desc: "", uiwidget: UIWidgets.EditBox, category: "Description")]
+	[Attribute(defvalue: "#DRG_Scripts_CriticalLossTitle", desc: "", uiwidget: UIWidgets.EditBox, category: "Description")]
 	string m_sDescriptionTitle;
 
 	PS_GameModeCoop m_GameModeCoop;
@@ -44,6 +44,7 @@ class DRG_CriticalLossComponent : ScriptComponent
 		if (!m_bUseDescriptionGenerator){
 			return;
 		}
+			
 		
 		protected ResourceName m_rStartLayout = "{41DAF7B7061DC0BC}UI/MissionDescription/DescriptionEditable.layout";		
 		Resource descResource = Resource.Load("{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et");		
@@ -59,19 +60,55 @@ class DRG_CriticalLossComponent : ScriptComponent
 		
 		int counter;
 		
-		string text = "Внимание! В миссии присутствует модуль критических потерь, который сам завершит сценарий.\n\nВарианты заверения миссии:";
+		string text = "Внимание!\nВ миссии присутствует модуль критических потерь, который сам завершит сценарий.\n\nВарианты завершения миссии:";
 		
 		foreach (LossLogic lossLogic : m_aLossLogics){
 			counter++;
-			text = text + "\n\nУсловие: #" + counter.ToString();
+						
+			
+			text = text + "\n\n<color name=\"orange\">Условие #" + counter.ToString()+"<color name>";
 			
 			foreach (FactionLoss lossFaction : lossLogic.m_aLosses) {
 				
-				string line = "\n-" + lossFaction.m_sFactionKey + ":" + lossFaction.m_iCriticalLossCount.ToString();
+				FactionManager factionManager = GetGame().GetFactionManager();				
+				Faction faction = factionManager.GetFactionByKey(lossFaction.m_sFactionKey);				
+				string factionName = faction.GetFactionName();
+				
+				string playersWorld;
+				string leftWorld;
+				string countWorld = lossFaction.m_iCriticalLossCount.ToString();
+				
+				int count = lossFaction.m_iCriticalLossCount;
+			
+			
+				if (count == 0)
+				{				
+					countWorld = "";				
+					leftWorld = ": не осталось игроков";
+					playersWorld = "";
+				} else 				
+				if (count == 1)
+				{					
+					leftWorld = ": остался ";
+					playersWorld = " игрок";
+				
+				} else 
+				if (count >= 2 && count <= 4)
+				{
+					leftWorld = ": осталось ";
+					playersWorld = " игрока";
+				} else				        
+				{
+				leftWorld = ": осталось ";
+				      playersWorld = " игроков"; 
+				}
+
+
+				string line = "\n — " + factionName + leftWorld + countWorld + playersWorld;
 				text = text + line;	
 			}
-		}		
-		
+		}
+					
 		m_MissionDescription.SetTextData(text);
     };
 	
@@ -81,7 +118,7 @@ class DRG_CriticalLossComponent : ScriptComponent
 		if (CheckIsFreezeTimeEnd()) {
 			int playersOnStart = GetGame().GetPlayerManager().GetPlayerCount();
 			
-			
+		
 			if (!m_bUseTestingMode) {
 				CheckLosses();
 				HandleLogic();
@@ -159,7 +196,8 @@ class DRG_CriticalLossComponent : ScriptComponent
 		{			
 			if (factionKey == playable.GetFactionKey() && playable.GetDamageState() != EDamageState.DESTROYED){
 				iAliveCount++;				
-			}					
+			}
+						
 		}		
 			
 		return iAliveCount;	
