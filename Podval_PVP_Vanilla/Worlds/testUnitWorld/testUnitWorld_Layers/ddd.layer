@@ -18,48 +18,6 @@ GenericEntity : "{46FD263F0F368A92}Prefabs/Items/Equipment/Kits/MedicalKit_01/Me
 GenericEntity : "{50A242E5D9742C62}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1Tracer.et" {
  coords 58.834 1 29.143
 }
-GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
- components {
-  DRG_CriticalLossComponent "{65213D368F1BD792}" {
-   m_iAdvanceAfterSec 5
-   m_iTestingPlayerCounts 1
-   m_bUseTestingMode 0
-   m_aLossLogics {
-    LossLogic "{6521498C5B7F5518}" {
-     m_aLosses {
-      FactionLoss "{6521498C5EEF7E0A}" {
-       m_iCriticalLossCount 2
-      }
-      FactionLoss "{65214995E83F1BDE}" {
-       m_iCriticalLossCount 1
-       m_sFactionKey "FIA"
-      }
-     }
-     m_sObjectiveNames {
-      "USSR_DEAD"
-     }
-     m_bAdvanceGameStage 1
-     m_bUseMessage 1
-    }
-    LossLogic "{6521499A8D7C78B7}" {
-     m_aLosses {
-      FactionLoss "{6521499AFF8CC0E9}" {
-       m_iCriticalLossCount 1
-       m_sFactionKey "US"
-      }
-     }
-     m_sObjectiveNames {
-      "BLUE_DEAD" "BLUE_DEAD_FOR_FIA"
-     }
-     m_bAdvanceGameStage 1
-     m_bUseMessage 1
-     m_bEventMessage "Победа обороны: Атака понесла серьёзные потери"
-    }
-   }
-  }
- }
- coords 28.358 1 8.596
-}
 $grp GenericEntity : "{8F17290FBF410605}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_82mm_mortar_10rnd_HE.et" {
  {
   components {

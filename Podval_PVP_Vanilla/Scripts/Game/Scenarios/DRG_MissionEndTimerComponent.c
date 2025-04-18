@@ -22,11 +22,43 @@ class DRG_MissionEndTimerComponent : ScriptComponent
 	PS_GameModeCoop m_GameModeCoop;	
 	
 	override void OnPostInit(IEntity owner){	
-		if (Replication.IsServer()){
-			m_GameModeCoop = PS_GameModeCoop.Cast(GetGame().GetGameMode());
-			GetGame().GetCallqueue().CallLater(CheckIsFreezeTimeEnd, 500, true);	
-		};		
+		if (!Replication.IsServer()){
+			return;
+		}
+		
+		m_GameModeCoop = PS_GameModeCoop.Cast(GetGame().GetGameMode());
+		GetGame().GetCallqueue().Call(GenerateMissionDesc);	
+		GetGame().GetCallqueue().CallLater(CheckIsFreezeTimeEnd, 500, true);	
+			
 	};	
+	
+ 	void GenerateMissionDesc(){
+		
+		protected ResourceName m_rStartLayout = "{41DAF7B7061DC0BC}UI/MissionDescription/DescriptionEditable.layout";		
+		Resource descResource = Resource.Load("{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et");		
+		PS_MissionDescription m_MissionDescriptionTime = PS_MissionDescription.Cast(GetGame().SpawnEntityPrefab(descResource));
+
+		m_MissionDescriptionTime.SetTitle("Завершение по времении");
+		m_MissionDescriptionTime.SetVisibleForEmptyFaction(true);		
+		m_MissionDescriptionTime.m_bShowForAnyFaction = true;
+		m_MissionDescriptionTime.RegisterToDescriptionManager();		
+		m_MissionDescriptionTime.SetLayout(m_rStartLayout);
+		m_MissionDescriptionTime.m_iOrder = 100;
+		
+		
+		int seconds = Math.Mod(m_iMissionTime, 60);
+		int minutes = (m_iMissionTime / 60);
+		int hours = (minutes / 60);
+		minutes = Math.Mod(minutes, 60);
+		string timeLeft = string.Format("%1:%2:%3", hours.ToString(2), minutes.ToString(2), seconds.ToString(2));
+		
+		string text = "Внимание! В миссии присутствует модуль завершения по времени";
+		text = text + "\n\nВремя на миссию: " + timeLeft;
+	
+		
+		m_MissionDescriptionTime.SetTextData(text);
+    };
+	
 	
 	void CheckIsFreezeTimeEnd(){	
 	if (!m_GameModeCoop)

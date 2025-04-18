@@ -16,22 +16,63 @@ class DRG_CriticalLossComponent : ScriptComponent
 	
 	
 	[Attribute(category: "Critical Losses Logic")]
-	ref array<ref LossLogic> m_aLossLogics;			
-	
+	ref array<ref LossLogic> m_aLossLogics;		
+
+
 	PS_GameModeCoop m_GameModeCoop;
+		
 	
 	
 	override void OnPostInit(IEntity owner){		
-		if (Replication.IsServer()){
-			m_GameModeCoop = PS_GameModeCoop.Cast(GetGame().GetGameMode());
-			GetGame().GetCallqueue().CallLater(handle, 500, true);
-		};		
+		if (!Replication.IsServer()){
+			return;
+		}
+		
+		m_GameModeCoop = PS_GameModeCoop.Cast(GetGame().GetGameMode());
+		GetGame().GetCallqueue().Call(GenerateMissionDesc);	
+		GetGame().GetCallqueue().CallLater(handle, 500, true);
+	
 	};	
+	
+	void GenerateMissionDesc(){
+		
+		protected ResourceName m_rStartLayout = "{41DAF7B7061DC0BC}UI/MissionDescription/DescriptionEditable.layout";		
+		Resource descResource = Resource.Load("{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et");		
+		PS_MissionDescription m_MissionDescription = PS_MissionDescription.Cast(GetGame().SpawnEntityPrefab(descResource));
+
+		m_MissionDescription.SetTitle("Критические потери");
+		m_MissionDescription.SetVisibleForEmptyFaction(true);		
+		m_MissionDescription.RegisterToDescriptionManager();
+		m_MissionDescription.SetLayout(m_rStartLayout);
+		
+		// -- //
+		m_MissionDescription.m_bShowForAnyFaction = true;
+		m_MissionDescription.m_iOrder = 101;
+		
+		int counter;
+		
+		string text = "Внимание! В миссии присутствует модуль критических потерь, который сам завершит сценарий.\n\nВарианты заверения миссии:";
+		
+		foreach (LossLogic lossLogic : m_aLossLogics){
+			counter++;
+			text = text + "\n\nУсловие: #" + counter.ToString();
+			
+			foreach (FactionLoss lossFaction : lossLogic.m_aLosses) {
+				
+				string line = "\n-" + lossFaction.m_sFactionKey + ":" + lossFaction.m_iCriticalLossCount.ToString();
+				text = text + line;	
+			}
+		}		
+		
+		m_MissionDescription.SetTextData(text);
+    };
+	
 	
 	
 	void handle(){
 		if (CheckIsFreezeTimeEnd()) {
 			int playersOnStart = GetGame().GetPlayerManager().GetPlayerCount();
+			
 			
 			if (!m_bUseTestingMode) {
 				CheckLosses();
@@ -46,8 +87,6 @@ class DRG_CriticalLossComponent : ScriptComponent
 		}
 	};
 	
-	
-
 	
 	bool CheckIsFreezeTimeEnd(){	
 		if (!m_GameModeCoop)
