@@ -1,8 +1,8 @@
-class DRG_MissionEndTimerComponentClass : ScriptComponentClass
+class DRG_MissionEndTimerComponentClass : DRG_MissionModuleComponentClass
 {
 }
 
-class DRG_MissionEndTimerComponent : ScriptComponent
+class DRG_MissionEndTimerComponent : DRG_MissionModuleComponent
 {
 	[Attribute(defvalue: "3600", desc: "Time is given for the mission", uiwidget: UIWidgets.EditBox, category: "Settings")]
 	protected int m_iMissionTime;
@@ -10,23 +10,11 @@ class DRG_MissionEndTimerComponent : ScriptComponent
 	[Attribute(defvalue: "Время на миссию вышло!", desc: "Time is given for the mission", uiwidget: UIWidgets.EditBox, category: "Settings")]
 	protected string m_sMessage;
 	
-	/*
-	[Attribute(desc: "Objectives names which need to be switched", uiwidget: UIWidgets.EditBox, category: "Settings")]
-	protected ref array<string> m_aObjectiveNames;
-	*/
-	
 	[Attribute(defvalue:"", desc: "Notifications", category: "Mission second left")]
 	protected ref array<int> m_aTimeLeftWarningTimers;
 	
 	[Attribute(defvalue: "Осталось времени на миссию %1", desc: "---", uiwidget: UIWidgets.EditBox, category: "Mission second left")]
 	protected string m_sTimesLeftMessage;
-	
-	
-	[Attribute(defvalue: "true", desc: "", uiwidget: UIWidgets.EditBox, category: "Description")]
-	bool m_bUseDescriptionGenerator;
-	
-	[Attribute(defvalue: "Завершение по времении", desc: "", uiwidget: UIWidgets.EditBox, category: "Description")]
-	string m_sDescriptionTitle;
 		
 	PS_GameModeCoop m_GameModeCoop;	
 	
@@ -35,42 +23,26 @@ class DRG_MissionEndTimerComponent : ScriptComponent
 			return;
 		}
 		
-		m_GameModeCoop = PS_GameModeCoop.Cast(GetGame().GetGameMode());
-		GetGame().GetCallqueue().Call(GenerateMissionDesc);	
+		m_GameModeCoop = PS_GameModeCoop.Cast(GetGame().GetGameMode());	
+		DRG_MissionManagerComponent.BumpDescription();	
 		GetGame().GetCallqueue().CallLater(CheckIsFreezeTimeEnd, 500, true);	
 			
 	};	
 	
- 	void GenerateMissionDesc(){
-		
+ 	override void FillDescription(out string desc){
+				
 		if (!m_bUseDescriptionGenerator){
 			return;
 		}
-		
-		protected ResourceName m_rStartLayout = "{41DAF7B7061DC0BC}UI/MissionDescription/DescriptionEditable.layout";		
-		Resource descResource = Resource.Load("{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et");		
-		PS_MissionDescription m_MissionDescriptionTime = PS_MissionDescription.Cast(GetGame().SpawnEntityPrefab(descResource));
-
-		m_MissionDescriptionTime.SetTitle(m_sDescriptionTitle);
-		m_MissionDescriptionTime.SetVisibleForEmptyFaction(true);		
-		m_MissionDescriptionTime.RegisterToDescriptionManager();		
-		m_MissionDescriptionTime.SetLayout(m_rStartLayout);
-		
-		m_MissionDescriptionTime.SetShowForAnyFaction(true);
-		m_MissionDescriptionTime.SetOrder(200);
-		
-		
+					
 		int seconds = Math.Mod(m_iMissionTime, 60);
 		int minutes = (m_iMissionTime / 60);
 		int hours = (minutes / 60);
 		minutes = Math.Mod(minutes, 60);
 		string timeLeft = string.Format("%1:%2:%3", hours.ToString(2), minutes.ToString(2), seconds.ToString(2));
 		
-		string text = "Внимание! В миссии присутствует модуль завершения по времени, который сам завершит сценарий.";
-		text = text + "\n\nВремя на миссию: " + timeLeft;
-	
-		
-		m_MissionDescriptionTime.SetTextData(text);
+		desc = desc + "<color hex=\"0xFFE2A74F\">" +"Параметры завершения по времени" + "<color name>\n";
+		desc = desc + "Время на миссию: " + timeLeft + "\n\n";
     };
 	
 	

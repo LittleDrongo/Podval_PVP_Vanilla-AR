@@ -1,8 +1,8 @@
-class DRG_CriticalLossComponentClass : ScriptComponentClass
+class DRG_CriticalLossComponentClass : DRG_MissionModuleComponentClass
 {
 }
 
-class DRG_CriticalLossComponent : ScriptComponent
+class DRG_CriticalLossComponent : DRG_MissionModuleComponent
 {
 	
 	[Attribute(defvalue: "10", desc: "Advance game state after N second.", uiwidget: UIWidgets.EditBox, category: "Settings")]
@@ -18,12 +18,6 @@ class DRG_CriticalLossComponent : ScriptComponent
 	[Attribute(category: "Critical Losses Logic")]
 	ref array<ref LossLogic> m_aLossLogics;		
 
-	[Attribute(defvalue: "true", desc: "", uiwidget: UIWidgets.EditBox, category: "Description")]
-	bool m_bUseDescriptionGenerator;
-	
-	[Attribute(defvalue: "#DRG_Scripts_CriticalLossTitle", desc: "", uiwidget: UIWidgets.EditBox, category: "Description")]
-	string m_sDescriptionTitle;
-
 	PS_GameModeCoop m_GameModeCoop;
 		
 	
@@ -33,46 +27,31 @@ class DRG_CriticalLossComponent : ScriptComponent
 			return;
 		}
 		
-		m_GameModeCoop = PS_GameModeCoop.Cast(GetGame().GetGameMode());
-		GetGame().GetCallqueue().Call(GenerateMissionDesc);	
+		m_GameModeCoop = PS_GameModeCoop.Cast(GetGame().GetGameMode());		
+		DRG_MissionManagerComponent.BumpDescription();	
 		GetGame().GetCallqueue().CallLater(handle, 500, true);
 	
 	};	
 	
-	void GenerateMissionDesc(){
 		
-		if (!m_bUseDescriptionGenerator){
-			return;
-		}
-			
+	
+	override void FillDescription(out string desc){
 		
-		protected ResourceName m_rStartLayout = "{41DAF7B7061DC0BC}UI/MissionDescription/DescriptionEditable.layout";		
-		Resource descResource = Resource.Load("{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et");		
-		PS_MissionDescription m_MissionDescription = PS_MissionDescription.Cast(GetGame().SpawnEntityPrefab(descResource));
-
-		m_MissionDescription.SetTitle(m_sDescriptionTitle);
-		m_MissionDescription.SetVisibleForEmptyFaction(true);		
-		m_MissionDescription.RegisterToDescriptionManager();
-		m_MissionDescription.SetLayout(m_rStartLayout);
+		int counter;		
 		
-		m_MissionDescription.SetShowForAnyFaction(true);
-		m_MissionDescription.SetOrder(200);
-		
-		int counter;
-		
-		string text = "Внимание!\nВ миссии присутствует модуль критических потерь, который сам завершит сценарий.\n\nВарианты завершения миссии:";
+		desc = desc + "<color hex=\"0xFFE2A74F\">" +"Параметры завершения по потерям" + "<color name>\n";
 		
 		foreach (LossLogic lossLogic : m_aLossLogics){
 			counter++;
-						
-			
-			text = text + "\n\n<color name=\"orange\">Условие #" + counter.ToString()+"<color name>";
+									
+			desc = desc + "Условие #" + counter.ToString()+"\n";
 			
 			foreach (FactionLoss lossFaction : lossLogic.m_aLosses) {
 				
 				FactionManager factionManager = GetGame().GetFactionManager();				
 				Faction faction = factionManager.GetFactionByKey(lossFaction.m_sFactionKey);				
 				string factionName = faction.GetFactionName();
+
 				
 				string playersWorld;
 				string leftWorld;
@@ -104,14 +83,12 @@ class DRG_CriticalLossComponent : ScriptComponent
 				}
 
 
-				string line = "\n — " + factionName + leftWorld + countWorld + playersWorld;
-				text = text + line;	
+				string line = "— " + factionName + leftWorld + countWorld + playersWorld + "\n\n";
+				desc = desc + line;	
 			}
-		}
-					
-		m_MissionDescription.SetTextData(text);
-    };
-	
+		}	
+		
+	};
 	
 	
 	void handle(){
