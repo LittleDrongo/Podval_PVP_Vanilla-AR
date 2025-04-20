@@ -11,9 +11,30 @@ modded class SCR_FlagComponent
 	
 	[RplProp(), Attribute()]
 	FactionKey m_sFactionKey;
+	
+	[Attribute(defvalue: "false", desc: "", uiwidget: UIWidgets.EditBox, category: "GameMode")]
+	bool m_bUseAdvanceGameState;
+	
+	[Attribute(defvalue: "5", desc: "Advance game state after N second.", uiwidget: UIWidgets.EditBox, category: "GameMode")]
+	int m_iAdvanceAfterSec;
+	
+	[Attribute(defvalue: "false", desc: "", uiwidget: UIWidgets.EditBox, category: "Notification")]
+	bool m_sUseNotification;
+
+	[Attribute(defvalue: "Флаг захвачен фракцией %1", desc: "", uiwidget: UIWidgets.EditBox, category: "Notification")]
+	string m_sNotificationText;
+	
+	PS_GameModeCoop m_GameModeCoop;
+		
 		
 	override void EOnInit(IEntity owner)
 	{
+		if (!Replication.IsServer()){
+			return;
+		}
+		
+		m_GameModeCoop = PS_GameModeCoop.Cast(GetGame().GetGameMode());
+		
 		SCR_FlagComponentClass prefabData = SCR_FlagComponentClass.Cast(GetComponentData(GetOwner()));
 		if (m_sCurrentMaterial == "") 
 			m_sCurrentMaterial = prefabData.GetDefaultMaterial();
@@ -44,6 +65,10 @@ modded class SCR_FlagComponent
 			objective.SetCompleted(objective.GetFactionKey() == m_sFactionKey);
 		};
 		
+	};
+	
+	void AdvanceState(){	
+		m_GameModeCoop.AdvanceGameState(SCR_EGameModeState.GAME);
 	};
 	
 }
@@ -134,6 +159,12 @@ class PS_FlagChangeAction : ScriptedUserAction
 		return true;
 	};
 	
+	
+	void AdvanceState(){	
+			m_FlagComponent.m_GameModeCoop.AdvanceGameState(SCR_EGameModeState.GAME);
+		};
+	
+	
 	override void PerformAction(IEntity pOwnerEntity, IEntity pUserEntity)
 	{	
 		if (!CanBePerformedScript(pUserEntity))
@@ -160,11 +191,23 @@ class PS_FlagChangeAction : ScriptedUserAction
 		// ------------
 		
 		m_FlagComponent.SwitchObjectivesStatus();
-		/*
-			foreach (string objectiveName : m_FlagComponent.m_aObjectiveNames){ 
-			PS_Objective objective = PS_Objective.Cast(GetGame().GetWorld().FindEntityByName(objectiveName));		
-			objective.SetCompleted(objective.GetFactionKey() == faction.GetFactionKey());
-		};
-		*/
+		
+		
+		if (m_FlagComponent.m_sUseNotification){
+				// Определяю имя фрации захватившего	
+				FactionManager factionManager = GetGame().GetFactionManager();				
+				Faction fac = factionManager.GetFactionByKey(m_FlagComponent.m_sFactionKey);				
+				string factionNameFlag = fac.GetFactionName();
+			
+				string text = string.Format(m_FlagComponent.m_sNotificationText, factionNameFlag);
+			
+				// Отпр уведомлениие.
+				NotifyPlayers(text);
+		}
+		
+		if (m_FlagComponent.m_bUseAdvanceGameState){
+			GetGame().GetCallqueue().CallLater(AdvanceState, m_FlagComponent.m_iAdvanceAfterSec*1000, false);
+		}		
+		
 	}
 };
