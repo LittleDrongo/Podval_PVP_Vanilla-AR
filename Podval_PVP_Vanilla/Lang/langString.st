@@ -105,6 +105,14 @@ StringTable {
    Author "hasta"
    LastChanged "hasta"
   }
+  CustomStringTableItem "{652AF36112DE7463}" {
+   Id "DRG-Role_AirSpotter"
+   Target_en_us "Air Spotter"
+   Target_ru_ru "Авиакорректировщик"
+   Modified 1697317210
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{61B543EF74F189EC}" {
    Id "DRG-Role_AntiTank"
    Target_en_us "Anti-Tank Specialist"
