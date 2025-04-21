@@ -1,6 +1,22 @@
 StringTable {
  ItemClassName "CustomStringTableItem"
  Items {
+  CustomStringTableItem "{6529112CBD590F73}" {
+   Id "DRG-Role-AntiTank"
+   Target_en_us "Rifleman AT"
+   Target_ru_ru "Гранатомётчик"
+   Modified 1697207597
+   Author "hasta"
+   LastChanged "hasta"
+  }
+  CustomStringTableItem "{6529112C755F13A2}" {
+   Id "DRG-Role-AssistantAT"
+   Target_en_us "Assistant Anti-Tank"
+   Target_ru_ru "Помощник гранатомётчика"
+   Modified 1697190820
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{645CD4E1DBBC868D}" {
    Id "DRG-Role-Driver"
    Target_en_us "Driver"
@@ -35,33 +51,33 @@ StringTable {
   }
   CustomStringTableItem "{645CD4E0A9C7C030}" {
    Id "DRG-Role-Mortar-TL"
-   Target_en_us "Mortar crew commander"
+   Target_en_us "Mortar Crew Commander"
    Target_ru_ru "Командир миномётного расчёта"
-   Modified 1683827693
+   Modified 1697205883
    Author "hasta"
    LastChanged "hasta"
   }
   CustomStringTableItem "{64CE753FE04B854D}" {
    Id "DRG-Role-MortarAmmoBearer"
-   Target_en_us "Mortar ammo bearer"
+   Target_en_us "Mortar Ammo Bearer"
    Target_ru_ru "Подносчик миномётного расчёта"
-   Modified 1691257217
+   Modified 1697205892
    Author "hasta"
    LastChanged "hasta"
   }
   CustomStringTableItem "{645CD4E36B461D5A}" {
    Id "DRG-Role-MortarGunner"
-   Target_en_us "Mortar gunner"
+   Target_en_us "Mortar Gunner"
    Target_ru_ru "Наводчик миномёта"
-   Modified 1683827796
+   Modified 1697205897
    Author "hasta"
    LastChanged "hasta"
   }
   CustomStringTableItem "{645CD4E348803A0C}" {
    Id "DRG-Role-MortarLoader"
-   Target_en_us "Mortar loader"
+   Target_en_us "Mortar Loader"
    Target_ru_ru "Заряжающий миномёта"
-   Modified 1683827857
+   Modified 1697205901
    Author "hasta"
    LastChanged "hasta"
   }
@@ -113,6 +129,14 @@ StringTable {
    Author "hasta"
    LastChanged "hasta"
   }
+  CustomStringTableItem "{6529112BC5E5937A}" {
+   Id "DRG-Role_CrewCommanderV"
+   Target_en_us "Crew Commander"
+   Target_ru_ru "Командир экипажа"
+   Modified 1697193366
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{61B543D639D70EE4}" {
    Id "DRG-Role_CrewDriver"
    Target_en_us "Crew Driver"
@@ -125,7 +149,7 @@ StringTable {
    Id "DRG-Role_CrewGunner"
    Target_en_us "Crew Gunner"
    Target_ru_ru "Наводчик-оператор"
-   Modified 1639319788
+   Modified 1697193476
    Author "hasta"
    LastChanged "hasta"
   }
@@ -315,9 +339,9 @@ StringTable {
   }
   CustomStringTableItem "{645CD4E0F71BE16C}" {
    Id "DRG-Sq-MortarCrew"
-   Target_en_us "Mortar crew"
+   Target_en_us "Mortar Crew"
    Target_ru_ru "Миномётный расчёт"
-   Modified 1683827547
+   Modified 1697205906
    Author "hasta"
    LastChanged "hasta"
   }
@@ -446,30 +470,6 @@ StringTable {
    Target_en_us "Yuri Vladimirovich (TV presenter)"
    Target_ru_ru "Юрий Владимирович (Телеведущий)"
    Modified 1663630906
-   Author "hasta"
-   LastChanged "hasta"
-  }
-  CustomStringTableItem "{6525161D81D03BF2}" {
-   Id "DRG_Scripts_CriticalLossComparation"
-   Target_en_us ": less or equal "
-   Target_ru_ru ": менее или равно "
-   Modified 1696931456
-   Author "hasta"
-   LastChanged "hasta"
-  }
-  CustomStringTableItem "{6525161D19BE9A2D}" {
-   Id "DRG_Scripts_CriticalLossCondition"
-   Target_en_us "\n\nCondition: #"
-   Target_ru_ru "\n\nУсловие: #"
-   Modified 1696931311
-   Author "hasta"
-   LastChanged "hasta"
-  }
-  CustomStringTableItem "{6525161D3087DB0B}" {
-   Id "DRG_Scripts_CriticalLossSubtitle"
-   Target_en_us "#Attention!\nThe mission contains a critical loss module that will automatically end the scenario.\n\nMission completion options:"
-   Target_ru_ru "Внимание!\nВ миссии присутствует модуль критических потерь, который сам завершит сценарий.\n\nВарианты завершения миссии:"
-   Modified 1696931219
    Author "hasta"
    LastChanged "hasta"
   }
