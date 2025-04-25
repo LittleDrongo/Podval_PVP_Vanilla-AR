@@ -339,9 +339,9 @@ StringTable {
   }
   CustomStringTableItem "{645CD4FDFD85EC84}" {
    Id "DRG-Sq-MedicalTeam"
-   Target_en_us "Medic team"
+   Target_en_us "Medic Team"
    Target_ru_ru "Медицинское отделение"
-   Modified 1683829162
+   Modified 1697839944
    Author "hasta"
    LastChanged "hasta"
   }
@@ -363,9 +363,9 @@ StringTable {
   }
   CustomStringTableItem "{64F127C553117A4D}" {
    Id "DRG-Sq-Rebels"
-   Target_en_us "Rebel squad"
+   Target_en_us "Rebel Squad"
    Target_ru_ru "Отряд партизан"
-   Modified 1693543266
+   Modified 1697839947
    Author "hasta"
    LastChanged "hasta"
   }
@@ -395,9 +395,9 @@ StringTable {
   }
   CustomStringTableItem "{645CD4FA36B5C7A3}" {
    Id "DRG-Sq-RifleSquad"
-   Target_en_us "Rifle squad"
+   Target_en_us "Rifle Squad"
    Target_ru_ru "Стрелковое отделение"
-   Modified 1683832267
+   Modified 1697839953
    Author "hasta"
    LastChanged "hasta"
   }
