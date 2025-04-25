@@ -83,9 +83,10 @@ class DRG_CriticalLossComponent : DRG_MissionModuleComponent
 				}
 
 
-				string line = "— " + factionName + leftWorld + countWorld + playersWorld + "\n\n";
+				string line = "— " + factionName + leftWorld + countWorld + playersWorld + "\n";
 				desc = desc + line;	
 			}
+			desc = desc + "\n";
 		}	
 		
 	};

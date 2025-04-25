@@ -109,7 +109,8 @@ StringTable {
    Id "DRG-Role_AirSpotter"
    Target_en_us "Air Spotter"
    Target_ru_ru "Авиакорректировщик"
-   Modified 1697317210
+   Target_uk_ua "вфывфыфы"
+   Modified 1697841835
    Author "hasta"
    LastChanged "hasta"
   }
