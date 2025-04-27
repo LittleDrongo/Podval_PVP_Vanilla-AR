@@ -19,7 +19,7 @@ $grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad
   angleY -102.091
   angleZ 2.624
   m_aUnitPrefabSlots {
-   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et" "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_MG_P.et" "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AMG_P.et" "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AT_P.et" "{91602AC724D27762}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SR_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et" "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et" "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et"
+   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et" "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_MG_P.et" "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AMG_P.et" "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AT_P.et" "{91602AC724D27762}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SR_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et" "{0A8F0A806F9AB5B4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewGunner.et" "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et"
   }
  }
  FIA_1_0_1 {
@@ -37,7 +37,7 @@ $grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad
   angleY -95.231
   angleZ 2.835
   m_aUnitPrefabSlots {
-   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et" "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_MG_P.et" "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AMG_P.et" "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AT_P.et" "{91602AC724D27762}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SR_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et" "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et" "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et"
+   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et" "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_MG_P.et" "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AMG_P.et" "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AT_P.et" "{91602AC724D27762}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SR_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et" "{0A8F0A806F9AB5B4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewGunner.et" "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et"
   }
  }
  FIA_1_0_2 {
@@ -54,7 +54,7 @@ $grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad
   angleY -98.048
   angleZ 2.907
   m_aUnitPrefabSlots {
-   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et" "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_MG_P.et" "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AMG_P.et" "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AT_P.et" "{91602AC724D27762}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SR_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et" "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et" "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et"
+   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et" "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_MG_P.et" "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AMG_P.et" "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AT_P.et" "{91602AC724D27762}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SR_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et" "{0A8F0A806F9AB5B4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewGunner.et" "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et"
   }
  }
  FIA_2_0_0 {
@@ -71,7 +71,7 @@ $grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad
   angleY -96.367
   angleZ 0.989
   m_aUnitPrefabSlots {
-   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et" "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_MG_P.et" "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AMG_P.et" "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AT_P.et" "{91602AC724D27762}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SR_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et" "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et" "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et"
+   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et" "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_MG_P.et" "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AMG_P.et" "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AT_P.et" "{91602AC724D27762}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SR_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et" "{0A8F0A806F9AB5B4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewGunner.et" "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et"
   }
  }
  FIA_2_0_1 {
@@ -88,7 +88,7 @@ $grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad
   angleY -96.65
   angleZ 1.778
   m_aUnitPrefabSlots {
-   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et" "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_MG_P.et" "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AMG_P.et" "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AT_P.et" "{91602AC724D27762}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SR_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et" "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et" "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et"
+   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et" "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_MG_P.et" "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AMG_P.et" "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AT_P.et" "{91602AC724D27762}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SR_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et" "{0A8F0A806F9AB5B4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewGunner.et" "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et"
   }
  }
  FIA_2_0_2 {
@@ -102,7 +102,7 @@ $grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad
   angleY -104.687
   angleZ 1.731
   m_aUnitPrefabSlots {
-   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et" "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_MG_P.et" "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AMG_P.et" "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AT_P.et" "{91602AC724D27762}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SR_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et" "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et" "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et"
+   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SL_P.et" "{6EF882860DCD77D1}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_MG_P.et" "{E691995C5D7CD7A4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AMG_P.et" "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_AT_P.et" "{91602AC724D27762}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_SR_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Rifleman_P.et" "{0A8F0A806F9AB5B4}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewGunner.et" "{0A8F0A806F9AB5B3}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_CrewDriver.et"
   }
  }
  FIA_4_0_0 {
@@ -204,22 +204,48 @@ $grp Vehicle : "{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et" {
   m_sAttachmentGroupName "FIA_2_0_0"
  }
 }
-SCR_AIGroup FIA_0_0_0 : "{CA73F9230999408B}Prefabs/Groups/INDFOR/Group_FIA_PlatoonHQ_P.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation " "
+$grp SCR_AIGroup : "{CA73F9230999408B}Prefabs/Groups/INDFOR/Group_FIA_PlatoonHQ_P.et" {
+ FIA_0_0_0 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation " "
+   }
+  }
+  coords 6556.199 81.94 5478.688
+  angleY -104.92
+  m_aUnitPrefabSlots {
+   "{156CA8B61F1F1CD7}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Officer_P.et"
   }
  }
- coords 6556.199 81.94 5478.688
- angleY -104.92
- m_aUnitPrefabSlots {
-  "{156CA8B61F1F1CD7}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Officer_P.et" "{F93D2B11566D65A9}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Medic_P.et" "{F93D2B11566D65A9}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Medic_P.et"
+ FIA_0_0_1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation " "
+   }
+   PS_GroupCallsignAssigner "{5F0CD1CD80B4F049}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 6557.485 82.357 5471.549
+  angleX -0.371
+  angleY -100.897
+  angleZ 2.804
+  m_aUnitPrefabSlots {
+   "{F93D2B11566D65A9}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Medic_P.et" "{F93D2B11566D65A9}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Medic_P.et"
+  }
  }
 }
 Vehicle Ural4320_FIA_command1 : "{E6AEC014D162D686}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_command.et" {
- coords 6548.445 81.923 5477.125
- angleX -2.826
- angleY -15.771
- angleZ -0.131
+ coords 6547.456 81.665 5482.298
+ angleX -2.809
+ angleY -11.529
+ angleZ -0.34
  m_sAttachmentGroupName "FIA_0_0_0"
+}
+Vehicle UAZ452_ambulance_FIA1 : "{F0EC3EFF70B174B0}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance_FIA.et" {
+ coords 6550.289 82.275 5470.893
+ angleX -2.816
+ angleY -13.108
+ angleZ -0.262
+ m_sAttachmentGroupName "FIA_0_0_1"
 }
