@@ -1,7 +1,0 @@
-GenericEntity {
- ID "651B0839512EF81A"
- components {
-  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
-  }
- }
-}
