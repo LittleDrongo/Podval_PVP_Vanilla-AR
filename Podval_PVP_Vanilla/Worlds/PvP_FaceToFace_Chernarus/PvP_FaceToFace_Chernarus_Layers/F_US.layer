@@ -44,7 +44,7 @@ $grp SCR_AIGroup : "{8D21AAF73F41E8F6}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_Ri
     m_iCompanyCallsign 1
    }
   }
-  coords 4793.086 270.187 6795.418
+  coords 4793.086 270.187 6795.417
   angleY 141.75
  }
  {
