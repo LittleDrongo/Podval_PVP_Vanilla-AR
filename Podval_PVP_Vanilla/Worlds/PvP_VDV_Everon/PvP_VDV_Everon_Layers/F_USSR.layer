@@ -196,12 +196,12 @@ $grp Vehicle : "{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed
  Mi8MT_armed2 {
   coords 11059.944 21.156 11831.086
   angleY -50.761
-  m_sAttachmentGroupName "USSR_6_0_1"
+  m_sAttachmentGroupName "USSR_7_0_0"
  }
  Mi8MT_armed3 {
   coords 11098.466 21.125 11883.956
   angleY -50.761
-  m_sAttachmentGroupName "USSR_6_0_3"
+  m_sAttachmentGroupName "USSR_7_0_1"
  }
 }
 $grp Vehicle : "{98225ED6D5F724D7}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_empty.et" {

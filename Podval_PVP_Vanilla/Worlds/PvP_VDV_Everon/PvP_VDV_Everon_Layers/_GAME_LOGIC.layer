@@ -1,7 +1,7 @@
 GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
  components {
   DRG_CriticalLossComponent "{65213D368F1BD792}" {
-   m_iTestingPlayerCounts 2
+   m_iTestingPlayerCounts 6
    m_aLossLogics {
     LossLogic "{6521499EAAF6CC48}" {
      m_aLosses {
