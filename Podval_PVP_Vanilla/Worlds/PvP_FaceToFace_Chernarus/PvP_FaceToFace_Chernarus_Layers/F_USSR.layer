@@ -77,32 +77,6 @@ SCR_AIGroup : "{2797EDBC47A47C2F}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_Compan
   "{7D463C5B3BBFD8E0}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_CL.et"
  }
 }
-GenericEntity : "{5A5A35F2937802B8}Prefabs/Props/Military/AmmoBoxes/drg_ammobox_82mm_100rnd_Smoke.et" {
- coords 3475.514 246.196 4930.976
- angleX 1.233
- angleY 31.896
- angleZ -0.287
-}
-$grp GenericEntity : "{645F518F95682567}Prefabs/Props/Military/AmmoBoxes/drg_ammobox_82mm_100rnd_HE.et" {
- {
-  coords 3474.474 246.195 4931.622
-  angleX 0
-  angleY 31.59
-  angleZ 0
- }
- {
-  coords 3474.929 246.192 4931.342
-  angleX 1.231
-  angleY 31.584
-  angleZ -0.294
- }
- {
-  coords 3474.011 246.186 4931.906
-  angleX 1.231
-  angleY 31.584
-  angleZ -0.294
- }
-}
 SCR_AIGroup : "{6CD75003D4565B9C}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_MG_Squad.et" {
  components {
   PS_GroupCallsignAssigner "{645CD4FCA5EDAF11}" {
@@ -113,6 +87,136 @@ SCR_AIGroup : "{6CD75003D4565B9C}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_MG_Squ
  angleY -58.134
  m_aUnitPrefabSlots {
   "{83C2F0AD85ED988A}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_SL.et" "{BC5DDFA8D9262E7A}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_MG.et" "{8D15D76B163B42E6}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_MGA_B.et" "{15453D336EC875EF}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_MGA.et" "{BC5DDFA8D9262E7A}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_MG.et" "{15453D336EC875EF}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_MGA.et" "{8D15D76B163B42E6}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_MGA_B.et"
+ }
+}
+$grp GenericEntity : "{8F17290FBF410605}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_82mm_mortar_10rnd_HE.et" {
+ {
+  coords 3476.17 246.213 4930.574
+  angleX -0.256
+  angleY 33.345
+  angleZ -1.24
+  {
+   $grp GenericEntity : "{8F17290FBF410605}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_82mm_mortar_10rnd_HE.et" {
+    {
+     coords 0 0.097 -0
+     angleX 0.018
+     angleZ 0.023
+    }
+    {
+     coords -0.002 0.195 -0.001
+     angleX 0.035
+     angleZ 0.046
+    }
+    {
+     coords -0.004 0.293 -0.001
+     angleX 0.052
+     angleY -0
+     angleZ 0.069
+    }
+    {
+     coords -0.005 0.39 -0
+     angleX 0.07
+     angleY -0
+     angleZ 0.092
+    }
+   }
+  }
+ }
+ {
+  coords 3475.72 246.206 4930.869
+  angleX -0.748
+  angleY 33.349
+  angleZ -0.492
+  {
+   $grp GenericEntity : "{8F17290FBF410605}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_82mm_mortar_10rnd_HE.et" {
+    {
+     coords -0.002 0.195 -0.001
+     angleX 0.035
+     angleZ 0.046
+    }
+    {
+     coords -0.004 0.293 -0.001
+     angleX 0.052
+     angleY -0
+     angleZ 0.069
+    }
+    {
+     coords -0.005 0.39 -0
+     angleX 0.07
+     angleY -0
+     angleZ 0.092
+    }
+    {
+     coords 0 0.097 -0
+     angleX 0.018
+     angleZ 0.023
+    }
+   }
+  }
+ }
+ {
+  coords 3475.197 246.2 4931.214
+  angleX -0.748
+  angleY 33.349
+  angleZ -0.492
+  {
+   $grp GenericEntity : "{8F17290FBF410605}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_82mm_mortar_10rnd_HE.et" {
+    {
+     coords -0.002 0.195 -0.001
+     angleX 0.035
+     angleZ 0.046
+    }
+    {
+     coords -0.004 0.293 -0.001
+     angleX 0.052
+     angleY -0
+     angleZ 0.069
+    }
+    {
+     coords -0.005 0.39 -0
+     angleX 0.07
+     angleY -0
+     angleZ 0.092
+    }
+    {
+     coords 0 0.097 -0
+     angleX 0.018
+     angleZ 0.023
+    }
+   }
+  }
+ }
+ {
+  coords 3474.662 246.194 4931.566
+  angleX -0.748
+  angleY 33.349
+  angleZ -0.492
+  {
+   $grp GenericEntity : "{8F17290FBF410605}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_82mm_mortar_10rnd_HE.et" {
+    {
+     coords -0.002 0.195 -0.001
+     angleX 0.035
+     angleZ 0.046
+    }
+    {
+     coords -0.004 0.293 -0.001
+     angleX 0.052
+     angleY -0
+     angleZ 0.069
+    }
+    {
+     coords -0.005 0.39 -0
+     angleX 0.07
+     angleY -0
+     angleZ 0.092
+    }
+    {
+     coords 0 0.097 -0
+     angleX 0.018
+     angleZ 0.023
+    }
+   }
+  }
  }
 }
 Vehicle Ural4320_transport_covered_closed1 : "{9DD4FD3527CB46C8}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_closed.et" {

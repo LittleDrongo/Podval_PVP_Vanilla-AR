@@ -1,3 +1,93 @@
+$grp GenericEntity : "{039F825B8B83B86D}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_81mm_mortar_10rnd_HE.et" {
+ {
+  coords 5237.648 341.035 8623.514
+  angleX -4.544
+  angleY 82.754
+  angleZ -0.322
+  {
+   $grp GenericEntity : "{039F825B8B83B86D}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_81mm_mortar_10rnd_HE.et" {
+    {
+     coords 0 -0 -0.166
+    }
+    {
+     coords -0.001 -0.001 -0.347
+    }
+    {
+     coords -0.002 -0.001 -0.525
+    }
+    {
+     coords -0.001 -0 -0.709
+    }
+   }
+  }
+ }
+ {
+  coords 5236.496 341.128 8623.366
+  angleX -4.544
+  angleY 82.754
+  angleZ -0.322
+  {
+   $grp GenericEntity : "{039F825B8B83B86D}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_81mm_mortar_10rnd_HE.et" {
+    {
+     coords -0.001 -0.001 -0.347
+    }
+    {
+     coords -0.002 -0.001 -0.525
+    }
+    {
+     coords -0.001 -0 -0.709
+    }
+    {
+     coords 0 -0 -0.166
+    }
+   }
+  }
+ }
+ {
+  coords 5235.3 341.224 8623.214
+  angleX -4.544
+  angleY 82.754
+  angleZ -0.322
+  {
+   $grp GenericEntity : "{039F825B8B83B86D}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_81mm_mortar_10rnd_HE.et" {
+    {
+     coords -0.001 -0.001 -0.347
+    }
+    {
+     coords -0.002 -0.001 -0.525
+    }
+    {
+     coords -0.001 -0 -0.709
+    }
+    {
+     coords 0 -0 -0.166
+    }
+   }
+  }
+ }
+ {
+  coords 5233.886 341.337 8623.034
+  angleX -4.544
+  angleY 82.754
+  angleZ -0.322
+  {
+   $grp GenericEntity : "{039F825B8B83B86D}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_81mm_mortar_10rnd_HE.et" {
+    {
+     coords -0.001 -0.001 -0.347
+    }
+    {
+     coords -0.002 -0.001 -0.525
+    }
+    {
+     coords -0.001 -0 -0.709
+    }
+    {
+     coords 0 -0 -0.166
+    }
+   }
+  }
+ }
+}
 SCR_AIGroup MG_SQUAD : "{119A3C5BF9D14C80}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_MG_Squad.et" {
  components {
   PS_GroupCallsignAssigner "{64607D040E149AD9}" {
@@ -21,7 +111,7 @@ SCR_AIGroup : "{68D5E3B6F7C86BD0}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_Company
   }
  }
  coords 4833.684 331.517 7794.016
- angleY 146.298
+ angleY -33.88
  m_aUnitPrefabSlots {
   "{F81AEF796B932D96}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_CL.et"
  }
@@ -119,30 +209,4 @@ SCR_AIGroup US_5_0_0 : "{983EB2C5F6E84CD7}Prefabs/Groups/BLUFOR/Campaign/F_US_dr
  angleX -0.617
  angleY 172.076
  angleZ -4.424
-}
-$grp GenericEntity : "{CD62F06653C03448}Prefabs/Props/Military/AmmoBoxes/drg_ammobox_81mm_100rnd_HE.et" {
- {
-  coords 5237.591 341.109 8623.079
-  angleX 0.089
-  angleY -12.426
-  angleZ 4.554
- }
- {
-  coords 5237.148 341.145 8622.981
-  angleX 0.089
-  angleY -12.426
-  angleZ 4.554
- }
- {
-  coords 5238.033 341.072 8623.177
-  angleX 0.28
-  angleY -12.408
-  angleZ 5.422
- }
-}
-GenericEntity : "{D6D8F271391B1A6E}Prefabs/Props/Military/AmmoBoxes/drg_ammobox_81mm_100rnd_Smoke.et" {
- coords 5236.369 341.21 8622.828
- angleX 0
- angleY -13.969
- angleZ 0
 }
