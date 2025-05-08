@@ -499,11 +499,11 @@ StringTable {
   CustomStringTableItem "{652A901C54A4F697}" {
    Id "DRG-Role_ReconGrenadier"
    Target_en_us "Recon Grenadier"
-   Target_ru_ru "Равзедчик-гранатомётчик"
+   Target_ru_ru "Разведчик-гранатомётчик"
    Target_uk_ua "Розвідник-гранатометник"
-   Modified 1697855366
+   Modified 1699662074
    Author "hasta"
-   LastChanged "rezni"
+   LastChanged "hasta"
   }
   CustomStringTableItem "{652A7167E8C9C749}" {
    Id "DRG-Role_ReconMachineGunner"
@@ -943,6 +943,14 @@ StringTable {
    Target_ru_ru "Зам. командира взвода"
    Target_uk_ua "Заступник командира взводу"
    Modified 1686317388
+   Author "hasta"
+   LastChanged "hasta"
+  }
+  CustomStringTableItem "{654F2E002B74E218}" {
+   Id "DRG_DeputyPlatoonLeader"
+   Target_en_us "Deputy Platoon Leader"
+   Target_ru_ru "Зам.ком взвода"
+   Modified 1699689152
    Author "hasta"
    LastChanged "hasta"
   }
