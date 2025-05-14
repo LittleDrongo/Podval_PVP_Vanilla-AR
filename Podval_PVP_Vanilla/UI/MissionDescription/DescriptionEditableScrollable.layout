@@ -10,6 +10,7 @@ FrameWidgetClass {
   ScrollLayoutWidgetClass "{609140F0AF047EE5}" {
    Name "ScrollLayout0"
    Slot FrameWidgetSlot "{609140F0AF047E41}" {
+    Anchor 0 0 0 0
     PositionX 15
     OffsetLeft 15
     PositionY 15
@@ -23,6 +24,7 @@ FrameWidgetClass {
     RichTextWidgetClass "{609140F0A6021357}" {
      Name "RichTextEditable"
      Slot AlignableSlot "{609140F0AFDAAA55}" {
+      Padding 0 0 0 15
      }
      Text ""
      "Font Size" 20

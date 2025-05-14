@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{E5C70AA4C9807F1D}Prefabs/Items/Equipment/Accessories/Holster_M12/leafTree.et"
+ Name "{AB1C8B5457DC8010}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_ReconPatronVehicle.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

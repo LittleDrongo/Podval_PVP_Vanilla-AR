@@ -811,6 +811,15 @@ StringTable {
    Author "hasta"
    LastChanged "rezni"
   }
+  CustomStringTableItem "{655C6D9C790CA10F}" {
+   Id "DRG-Sq-ReconPatrolTeam"
+   Target_en_us "Recon Patrol Team"
+   Target_ru_ru "Развед.патруль"
+   Target_uk_ua "Розвід.патруль"
+   Modified 1700564272
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{645CD4F5F35E47AF}" {
    Id "DRG-Sq-ReconPlatoonHQ"
    Target_en_us "Recon Platoon HQ"
