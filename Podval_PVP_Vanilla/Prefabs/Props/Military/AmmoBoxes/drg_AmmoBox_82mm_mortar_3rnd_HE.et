@@ -99,6 +99,7 @@ GenericEntity : "{42894F191BC9EDE1}Prefabs/Props/Core/AmmoBox_Base.et" {
    }
    additionalActions {
     SCR_PickUpItemAction "{61B0B8739F7C1E29}" : "{F39A4E9B190C1846}Prefabs/Characters/Core/Actions/PickUpItemAction.conf" {
+     "Sort Priority" 5
     }
     SCR_LoadItemsAction "{61B0B8637EFDC52A}" : "{E4FDAEDC13236003}Prefabs/Characters/Core/Actions/LoadItemsAction.conf" {
     }

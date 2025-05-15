@@ -44,6 +44,32 @@ $grp SCR_AIGroup : "{1C713293986AFC2C}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_M
   m_sCustomNameSet "Наблюдательный пункт"
  }
 }
+$grp GenericEntity : "{2256990396BB6E86}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_762_PKM.et" {
+ {
+  coords 7377.776 310.167 521.851
+  angleX 1.132
+  angleY 5.386
+  angleZ 0.107
+ }
+ {
+  coords 7377.664 310.143 520.661
+  angleX 1.132
+  angleY 5.386
+  angleZ 0.107
+ }
+ {
+  coords 7378.021 309.851 507.504
+  angleX 1.137
+  angleY -1.087
+  angleZ -0.022
+ }
+ {
+  coords 7377.998 309.874 508.699
+  angleX 1.137
+  angleY -1.087
+  angleZ -0.022
+ }
+}
 $grp Vehicle : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
  BRDM1 {
   coords 7383.689 310.958 622.63
@@ -592,5 +618,37 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   angleZ 0.071
   m_sAttachmentGroupName "USSR_5_0_0"
   m_bEnableMoveOnFreeze 1
+ }
+}
+$grp GenericEntity : "{F1FDD5669F4C26B2}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_545.et" {
+ {
+  coords 7378.501 310.75 565.179
+ }
+ {
+  coords 7378.482 310.75 564.215
+ }
+ {
+  coords 7377.911 310.75 549.979
+ }
+ {
+  coords 7377.892 310.75 549.015
+ }
+ {
+  coords 7377.86 310.473 535.703
+ }
+ {
+  coords 7377.841 310.473 534.739
+ }
+ {
+  coords 7377.273 308.927 464.107
+  angleX 1.137
+  angleY 0.006
+  angleZ 0.284
+ }
+ {
+  coords 7377.292 308.946 465.07
+  angleX 1.137
+  angleY 0.006
+  angleZ 0.284
  }
 }
