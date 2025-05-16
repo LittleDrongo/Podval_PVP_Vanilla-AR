@@ -1294,6 +1294,14 @@ StringTable {
    Author "hasta"
    LastChanged "rezni"
   }
+  CustomStringTableItem "{656083F08EF0A6B8}" {
+   Id "DRG_Sqd_BrdmCrew"
+   Target_en_us "Crew BRDM"
+   Target_ru_ru "Экипаж БРДМ"
+   Modified 1700827856
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{64C271FBAF39752F}" {
    Id "DRG_Sqd_Engineer"
    Target_en_us "Engineer and sapper section."
@@ -1320,6 +1328,14 @@ StringTable {
    Modified 1697854579
    Author "hasta"
    LastChanged "rezni"
+  }
+  CustomStringTableItem "{656083F1304CF82B}" {
+   Id "DRG_Sqd_LavCrew"
+   Target_en_us "Crew LAV-25"
+   Target_ru_ru "Экипаж LAV-25"
+   Modified 1700826856
+   Author "hasta"
+   LastChanged "hasta"
   }
   CustomStringTableItem "{64C271F937C5724C}" {
    Id "DRG_Sqd_Mg"
