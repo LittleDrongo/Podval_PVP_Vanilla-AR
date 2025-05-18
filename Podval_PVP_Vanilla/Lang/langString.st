@@ -586,6 +586,15 @@ StringTable {
    Author "hasta"
    LastChanged "hasta"
   }
+  CustomStringTableItem "{65650E08122EAD6D}" {
+   Id "DRG-Role_Spotter"
+   Target_en_us "Spotter"
+   Target_ru_ru "Корректировщик"
+   Target_uk_ua "Корегувальник"
+   Modified 1701124675
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{6170D2157DE458A0}" {
    Id "DRG-Role_Watchman"
    Target_en_us "Old watchman"
