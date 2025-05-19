@@ -721,6 +721,14 @@ StringTable {
    Author "hasta"
    LastChanged "rezni"
   }
+  CustomStringTableItem "{65667AD83D96B178}" {
+   Id "DRG-Sq-AA_Team"
+   Target_en_us "Anti-Air Team"
+   Target_ru_ru "Зенитный расчёт"
+   Modified 1701215462
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{645CD4E75DF0E96F}" {
    Id "DRG-Sq-Battalion_HQ"
    Target_en_us "Battalion command"
@@ -1246,6 +1254,22 @@ StringTable {
    Target_ru_ru "Разведчик-радиотелефонист"
    Target_uk_ua "Розвідник-радіотелефоніст"
    Modified 1698361988
+   Author "hasta"
+   LastChanged "hasta"
+  }
+  CustomStringTableItem "{65668B696981F4A9}" {
+   Id "DRG_Roles_RHS_ScoutSniper"
+   Target_en_us "Scout Sniper"
+   Target_ru_ru "Разведчик-снайпер"
+   Modified 1701219793
+   Author "hasta"
+   LastChanged "hasta"
+  }
+  CustomStringTableItem "{65668B697EDF0CC3}" {
+   Id "DRG_Roles_RHS_ScoutSpotter"
+   Target_en_us "Scout Spotter"
+   Target_ru_ru "Разведчик-корректировщик"
+   Modified 1701219811
    Author "hasta"
    LastChanged "hasta"
   }
