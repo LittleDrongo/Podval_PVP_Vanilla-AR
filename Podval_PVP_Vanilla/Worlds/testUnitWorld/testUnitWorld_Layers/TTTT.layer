@@ -4,52 +4,6 @@ SCR_BaseGameMode GameMode_Base1 : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_B
 PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  coords 69.329 1 25.508
 }
-GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
- components {
-  DRG_CriticalLossComponent "{65213D368F1BD792}" {
-   m_iAdvanceAfterSec 5
-   m_iTestingPlayerCounts 1
-   m_bUseTestingMode 0
-   m_aLossLogics {
-    LossLogic "{6521498C5B7F5518}" {
-     m_aLosses {
-      FactionLoss "{6521498C5EEF7E0A}" {
-       m_iCriticalLossCount 2
-      }
-     }
-     m_sObjectiveNames {
-      "USSR_DEAD"
-     }
-     m_bAdvanceGameStage 1
-     m_bUseMessage 1
-    }
-    LossLogic "{6521499A8D7C78B7}" {
-     m_aLosses {
-      FactionLoss "{6521499AFF8CC0E9}" {
-       m_iCriticalLossCount 1
-       m_sFactionKey "US"
-      }
-     }
-     m_sObjectiveNames {
-      "BLUE_DEAD" "BLUE_DEAD_FOR_FIA"
-     }
-     m_bAdvanceGameStage 1
-     m_bUseMessage 1
-     m_bEventMessage "Победа обороны: Атака понесла серьёзные потери"
-    }
-    LossLogic "{65251611E0914F22}" {
-     m_aLosses {
-      FactionLoss "{65251611E6545758}" {
-       m_iCriticalLossCount 0
-       m_sFactionKey "FIA"
-      }
-     }
-    }
-   }
-  }
- }
- coords 28.358 1 8.596
-}
 GenericEntity : "{8528347E5F47F2A4}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_FIA.et" {
  components {
   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
@@ -59,15 +13,4 @@ GenericEntity : "{8528347E5F47F2A4}PrefabsEditable/Auto/Structures/Military/Flag
   }
  }
  coords 20.87 1 31.276
-}
-GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
- components {
-  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
-   m_iMissionTime 20
-   m_aTimeLeftWarningTimers {
-    5
-   }
-  }
- }
- coords 67.362 1 24.916
 }
