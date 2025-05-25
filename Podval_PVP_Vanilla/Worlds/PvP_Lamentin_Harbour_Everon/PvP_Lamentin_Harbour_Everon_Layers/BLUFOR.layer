@@ -1,4 +1,4 @@
-SCR_AIGroup US_3_0_0 : "{119A3C5BF9D14C80}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_MG_Squad.et" {
+SCR_AIGroup US_3_0_0_DEF : "{119A3C5BF9D14C80}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_MG_Squad.et" {
  components {
   PS_GroupCallsignAssigner "{64607D040E149AD9}" {
    m_iCompanyCallsign 3

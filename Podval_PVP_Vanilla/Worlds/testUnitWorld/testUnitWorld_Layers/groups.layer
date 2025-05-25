@@ -8,13 +8,33 @@ SCR_AIGroup : "{2797EDBC47A47C2F}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_Compan
   "{C8917EA9B578E2CE}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Medic.et" "{C8917EA9B578E2CE}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Medic.et" "{C8917EA9B578E2CE}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Medic.et"
  }
 }
+SCR_ChimeraCharacter : "{4B1D9425F61975B3}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_CrewDriver_Uniform.et" {
+ coords 20.437 1 22.369
+}
+$grp SCR_ChimeraCharacter : "{6384D776BB9EFE30}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_CrewGunner_Uniform.et" {
+ {
+  coords 18.218 1 22.159
+ }
+ {
+  coords 24.664 1 23.117
+ }
+}
 SCR_ChimeraCharacter : "{749CC8EDA102C70D}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_BaseLoadout.et" {
  coords 54.951 1 47.647
 }
-SCR_AIGroup : "{8AE885D9508D0CB7}Prefabs/Groups/BLUFOR/Campaign/S_US_drg_ReconSquad.et" {
- coords 19.948 1 29.183
- m_aUnitPrefabSlots {
-  "{8A242D399692B223}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_SeniorRifleman.et" "{1757CD5AA2D8A4F8}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_AR.et" "{45A7044945C5D39D}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Rifleman_LAT.et" "{9E0647E647A7EFCE}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Medic.et"
+$grp SCR_AIGroup : "{8AE885D9508D0CB7}Prefabs/Groups/BLUFOR/Campaign/S_US_drg_ReconSquad.et" {
+ {
+  coords 19.948 1 29.183
+  m_aUnitPrefabSlots {
+   "{8A242D399692B223}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_SeniorRifleman.et" "{1757CD5AA2D8A4F8}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_AR.et" "{45A7044945C5D39D}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Rifleman_LAT.et" "{9E0647E647A7EFCE}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Medic.et"
+  }
+ }
+ {
+  coords 15.473 6.051 29.183
+  m_faction "USSR"
+  m_aUnitPrefabSlots {
+   "{96B44E4B03427129}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_CrewGunner.et" "{1757CD5AA2D8A4F8}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_AR.et" "{45A7044945C5D39D}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Rifleman_LAT.et" "{9E0647E647A7EFCE}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Medic.et"
+  }
  }
 }
 SCR_ChimeraCharacter : "{8FA01936BB0E985A}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_AirSpotter.et" {
@@ -23,10 +43,21 @@ SCR_ChimeraCharacter : "{8FA01936BB0E985A}Prefabs/Characters/Factions/OPFOR/USSR
 SCR_ChimeraCharacter : "{903097F658A99BE3}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman.et" {
  coords 45.701 1 45.293
 }
+$grp SCR_ChimeraCharacter : "{96B44E4B03427129}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_CrewGunner.et" {
+ {
+  coords 17.412 1 21.018
+ }
+ {
+  coords 25.24 1 23.338
+ }
+}
 SCR_ChimeraCharacter : "{C8917EA9B578E2CE}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Medic.et" {
  coords 44.427 1 52.324
 }
 SCR_AIGroup : "{CA73F9230999408B}Prefabs/Groups/INDFOR/Group_FIA_PlatoonHQ_P.et" {
  coords 35.631 1 36.898
  angleY -147.479
+}
+SCR_ChimeraCharacter : "{CF75C616AFC95FE8}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_CrewDriver.et" {
+ coords 22.772 1 23.722
 }

@@ -1,6 +1,4 @@
-StaticModelEntity : "{FA06509902D591F4}Prefabs/Compositions/Misc/SubCompositions/Tent_BarrackHQ_Cluttered_US_01.et" {
- coords 6830.217 360.015 4960.339
- angleX -1.147
- angleY -66.466
- angleZ 4.758
+StaticModelEntity : "{06DD0F7384BE4FDC}Prefabs/Compositions/Misc/SubCompositions/drg_Tent_BarrackHQ_Cluttered_US_01.et" {
+ coords 6831.011 360.41 4960.241
+ angleY -67.149
 }
