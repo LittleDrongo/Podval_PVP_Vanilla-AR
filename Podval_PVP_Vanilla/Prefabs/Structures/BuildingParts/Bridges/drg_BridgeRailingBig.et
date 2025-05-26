@@ -16,7 +16,7 @@ GenericEntity : "{533AC2E8A0F5272A}Prefabs/Structures/BuildingParts/BuildingPart
      "Explosive multiplier" 3
     }
    }
-   m_fBaseHealth 12000
+   m_fBaseHealth 20000
    m_fForceToDamageScale 300
    m_fDamageThresholdMaximum 50000
    m_bPassDamageToChildren 1
@@ -38,7 +38,7 @@ GenericEntity : "{533AC2E8A0F5272A}Prefabs/Structures/BuildingParts/BuildingPart
    m_bDeleteAfterFinalPhase 0
    m_aDamagePhases {
     SCR_DamagePhaseData "{6574A4EDD920B385}" {
-     m_fPhaseHealth 4000
+     m_fPhaseHealth 6000
      m_PhaseModel "{99C67B3CE4C37349}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/DST/BridgeRailingConcrete_01_pole_dst_01.xob"
      m_PhaseDestroySpawnObjects {
       SCR_DebrisSpawnable "{6574A4EDD920B382}" {

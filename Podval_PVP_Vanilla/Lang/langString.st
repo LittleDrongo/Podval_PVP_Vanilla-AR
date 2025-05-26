@@ -334,6 +334,22 @@ StringTable {
    Author "hasta"
    LastChanged "hasta"
   }
+  CustomStringTableItem "{6574F43AAD225088}" {
+   Id "DRG-Role-UK-Section_2iC"
+   Target_en_us "Section Second Commander"
+   Target_ru_ru "Командир 2-й секции"
+   Modified 1702164725
+   Author "hasta"
+   LastChanged "hasta"
+  }
+  CustomStringTableItem "{6574F43A414B60DB}" {
+   Id "DRG-Role-UK-SectionCommander"
+   Target_en_us "Section Commander"
+   Target_ru_ru "Командир секции"
+   Modified 1702164628
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{652AF36112DE7463}" {
    Id "DRG-Role_AirSpotter"
    Target_en_us "Air Spotter"
@@ -773,6 +789,14 @@ StringTable {
    Modified 1697849736
    Author "hasta"
    LastChanged "rezni"
+  }
+  CustomStringTableItem "{6574F43A2B6F710C}" {
+   Id "DRG-Sq-InfantrySection"
+   Target_en_us "Infantry Section"
+   Target_ru_ru "Пехотная секция"
+   Modified 1702164461
+   Author "hasta"
+   LastChanged "hasta"
   }
   CustomStringTableItem "{645CD4FC990D7C47}" {
    Id "DRG-Sq-MachineGunnerSquad"
