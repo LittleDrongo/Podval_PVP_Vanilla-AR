@@ -73,6 +73,14 @@ StringTable {
    Author "hasta"
    LastChanged "rezni"
   }
+  CustomStringTableItem "{65754027CCB3D070}" {
+   Id "DRG-Description_HeaderUK"
+   Target_en_us "Tasks for the UK"
+   Target_ru_ru "Задачи для Великобритании"
+   Modified 1702186153
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{60477B7A1CFA3768}" {
    Id "DRG-DRIVER"
    Target_en_us "Crew-driver"
