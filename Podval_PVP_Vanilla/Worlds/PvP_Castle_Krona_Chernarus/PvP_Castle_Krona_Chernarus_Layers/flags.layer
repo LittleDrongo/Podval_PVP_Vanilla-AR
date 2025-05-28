@@ -1,6 +1,9 @@
 GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR.et" {
  components {
   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_aObjectiveNames {
+    "FLAG_FIA" "FLAG_USSR"
+   }
    m_aFlagData {
     PS_FlagData "{62C2EE8603628CD7}" {
      m_sFactionKey "USSR"
@@ -11,6 +14,8 @@ GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flag
     }
    }
    m_sFactionKey "USSR"
+   m_bUseAdvanceGameState 1
+   m_sUseNotification 1
   }
  }
  coords 1378.095 335.474 9257.705

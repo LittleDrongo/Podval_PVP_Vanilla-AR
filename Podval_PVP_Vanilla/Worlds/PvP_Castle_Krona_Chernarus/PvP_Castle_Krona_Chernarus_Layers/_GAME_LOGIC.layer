@@ -1,0 +1,44 @@
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{6578E94332EE337D}" {
+     m_aLosses {
+      FactionLoss "{6578E9433E3F952F}" {
+       m_iCriticalLossCount 3
+      }
+     }
+     m_sObjectiveNames {
+      "KILL_USSR"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "#drg_ModuleCriticalLoss_ConditionMet_AttackWin"
+    }
+    LossLogic "{6578E94333551999}" {
+     m_aLosses {
+      FactionLoss "{6578E94336C039CC}" {
+       m_iCriticalLossCount 3
+       m_sFactionKey "FIA"
+      }
+     }
+     m_sObjectiveNames {
+      "KILL_FIA"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "#drg_ModuleCriticalLoss_ConditionMet_DefendWin"
+    }
+   }
+  }
+ }
+ coords 1479.785 299.242 9202.804
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2100
+  }
+ }
+ coords 1484.389 298.331 9200.731
+}
