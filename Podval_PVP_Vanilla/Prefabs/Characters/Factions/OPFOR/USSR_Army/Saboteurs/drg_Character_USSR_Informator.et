@@ -6,6 +6,7 @@ SCR_ChimeraCharacter : "{88BA74796F909E17}Prefabs/Characters/Factions/OPFOR/USSR
     SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
      InitialStorageSlots {
       SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
       }
      }
     }
@@ -32,7 +33,7 @@ SCR_ChimeraCharacter : "{88BA74796F909E17}Prefabs/Characters/Factions/OPFOR/USSR
      Prefab "{537FD11C135757AC}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey_Dirty.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{AC298BA8A7D27007}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+     Prefab "{B31D9C2465D00D93}Prefabs/Items/Equipment/Radios/Radio_R107M_pl.et"
     }
    }
   }
@@ -45,9 +46,13 @@ SCR_ChimeraCharacter : "{88BA74796F909E17}Prefabs/Characters/Factions/OPFOR/USSR
      }
     }
     ItemsInitConfigurationItem "{652B2B5D9606FB09}" {
-     TargetStorage "Back/Backpack_Medical_Soviet_NoCross_01.et"
+     TargetStorage "Jacket/Shirt_Turtleneck_01_grey_Dirty.et"
      PrefabsToSpawn {
-      "{6492196F107687BC}Prefabs/Items/Equipment/Radios/Radio_R148_SL.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6582D8D8AE93DBD3}" {
+     TargetStorage "Back/Backpack_Kolobok.et"
+     PrefabsToSpawn {
      }
     }
    }
