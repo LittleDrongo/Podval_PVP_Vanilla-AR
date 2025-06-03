@@ -1591,6 +1591,14 @@ StringTable {
    Author "hasta"
    LastChanged "rezni"
   }
+  CustomStringTableItem "{6587590B6DB0EF2C}" {
+   Id "DRG_TKR_Roles_Sniper"
+   Target_en_us "Rebel sniper"
+   Target_ru_ru "Боевик снайпер"
+   Modified 1703370762
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{61D2C051A78E14B7}" {
    Id "DRG_TKR_Roles_TL"
    Target_en_us "Rebel Team Leader"
