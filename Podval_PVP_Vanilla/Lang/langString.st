@@ -4,9 +4,19 @@ StringTable {
   CustomStringTableItem "{60D69CEAC1E9BFB9}" {
    Id "DRG-AT_SSO"
    Target_en_us "Scout anti-tank"
+   Target_fr_fr "test"
+   Target_it_it "test"
+   Target_de_de "test"
+   Target_es_es "test"
+   Target_cs_cz "test"
+   Target_pl_pl "test"
    Target_ru_ru "Разведчик-гранатомётчик"
+   Target_ja_jp "test"
+   Target_ko_kr "test"
+   Target_pt_br "test"
+   Target_zh_cn "test"
    Target_uk_ua "Розвідник-гранатометник"
-   Modified 1624681510
+   Modified 1703352218
    Author "hasta"
    LastChanged "hasta"
   }
