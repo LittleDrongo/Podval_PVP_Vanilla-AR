@@ -601,6 +601,14 @@ StringTable {
    Author "hasta"
    LastChanged "hasta"
   }
+  CustomStringTableItem "{6586FC5C84F164F9}" {
+   Id "DRG-Role_Recruit"
+   Target_en_us "Recruit"
+   Target_ru_ru "Новобранец"
+   Modified 1703348114
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{652A716A212D3FAA}" {
    Id "DRG-Role_SeniorRecon"
    Target_en_us "Senior Recon"
