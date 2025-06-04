@@ -91,6 +91,14 @@ StringTable {
    Author "hasta"
    LastChanged "hasta"
   }
+  CustomStringTableItem "{65880D6E28DEB752}" {
+   Id "DRG-Description_HeaderUSSR"
+   Target_en_us "Task for USSR"
+   Target_ru_ru "Задачи для СССР"
+   Modified 1703415180
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{60477B7A1CFA3768}" {
    Id "DRG-DRIVER"
    Target_en_us "Crew-driver"
