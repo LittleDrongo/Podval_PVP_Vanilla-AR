@@ -39,10 +39,10 @@ SCR_ChimeraCharacter : "{4438AEFF45A8CE9E}Prefabs/Characters/Factions/BLUFOR/US_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61B75C986066B4C1}" {
-     TargetStorage "Vest/Vest_ALICE_GL.et"
+     TargetStorage "Jacket/Jacket_US_BDU_02.et"
     }
     ItemsInitConfigurationItem "{61B87867EA32507F}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Jacket_US_BDU_02.et"
+     TargetStorage "Jacket/Jacket_US_BDU_02.et"
      PrefabsToSpawn {
       "{DB03C02C4AB1E0F0}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_SL.et" "{B8764E1CDC4F4F22}Prefabs/Weapons/Attachments/Optics/Optic_AP2k/Collim_AP2k_OliveGreen_Solid.et"
      }

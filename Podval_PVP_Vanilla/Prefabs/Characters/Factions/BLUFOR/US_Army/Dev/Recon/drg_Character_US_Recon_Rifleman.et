@@ -53,7 +53,7 @@ SCR_ChimeraCharacter : "{749CC8EDA102C70E}Prefabs/Characters/Factions/BLUFOR/US_
      TargetStorage "Pants/Pants_US_M65.et"
     }
     ItemsInitConfigurationItem "{61B75C986066B4C1}" {
-     TargetStorage "Vest/Vest_ALICE_rifleman.et"
+     TargetStorage "Jacket/Jacket_US_BDU_02.et"
     }
     ItemsInitConfigurationItem "{61B87867EA32507F}" {
      TargetStorage "Jacket/Jacket_US_BDU_02.et"
