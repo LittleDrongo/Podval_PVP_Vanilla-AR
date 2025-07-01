@@ -1173,6 +1173,54 @@ StringTable {
    Author "hasta"
    LastChanged "hasta"
   }
+  CustomStringTableItem "{65C29CDA1AC1A165}" {
+   Id "DRG_Role-Saboteur"
+   Target_en_us "Saboteur"
+   Target_ru_ru "Диверсант"
+   Modified 1707255157
+   Author "hasta"
+   LastChanged "hasta"
+  }
+  CustomStringTableItem "{65C29CDA4C34F14F}" {
+   Id "DRG_Role-Saboteur_SL"
+   Target_en_us "Saboteur SquadLeader"
+   Target_ru_ru "Командир ДРГ"
+   Modified 1707255277
+   Author "hasta"
+   LastChanged "hasta"
+  }
+  CustomStringTableItem "{65C29CDBD702F036}" {
+   Id "DRG_Role-SaboteurDemolition"
+   Target_en_us "Saboteur Demolition"
+   Target_ru_ru "Диверсант-подрывник"
+   Modified 1707255955
+   Author "hasta"
+   LastChanged "hasta"
+  }
+  CustomStringTableItem "{65C2B1537EB6B044}" {
+   Id "DRG_Role-SaboteurGrenadier"
+   Target_en_us "Saboteur Grenadier"
+   Target_ru_ru "Диверсант-гренадёр"
+   Modified 1707259743
+   Author "hasta"
+   LastChanged "hasta"
+  }
+  CustomStringTableItem "{65C2B1521E065E07}" {
+   Id "DRG_Role-SaboteurRPO"
+   Target_en_us "Saboteur Flamethrower"
+   Target_ru_ru "Диверсант-огнемётчик"
+   Modified 1707259277
+   Author "hasta"
+   LastChanged "hasta"
+  }
+  CustomStringTableItem "{65C29CDADFF0B9E8}" {
+   Id "DRG_Role-SaboteurSniper"
+   Target_en_us "Saboteur Sniper"
+   Target_ru_ru "Диверсант-снайпер"
+   Modified 1707255513
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{633283561F8E584A}" {
    Id "DRG_Role_AT_TeamLeader"
    Target_en_us "TeamLeader AT Squad"
