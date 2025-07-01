@@ -1181,6 +1181,14 @@ StringTable {
    Author "hasta"
    LastChanged "hasta"
   }
+  CustomStringTableItem "{65C30090B4DBB40C}" {
+   Id "DRG_Role-Saboteur_AT"
+   Target_en_us "Saboteur AT"
+   Target_ru_ru "Диверсант-гранатомётчик"
+   Modified 1707281516
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{65C29CDA4C34F14F}" {
    Id "DRG_Role-Saboteur_SL"
    Target_en_us "Saboteur SquadLeader"

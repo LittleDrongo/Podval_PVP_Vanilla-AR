@@ -1,3 +1,12 @@
+Vehicle M923A1_engineer_mines1 : "{08D6BDBA15947EB0}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer_mines.et" {
+ coords 54.615 1 221.89
+}
+Vehicle M923A1_engineer1 : "{2D74C39A650A3030}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer.et" {
+ coords 35.601 1 216.292
+}
+Vehicle Ural4320_engineer1 : "{6E9142CD2471741C}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer.et" {
+ coords 39.777 1 217.023
+}
 SCR_ChimeraCharacter : "{902088D220925A16}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Regulars/Character_UK_1989_Regulars_BaseLoadout.et" {
  coords 123.627 1 137.908
 }
@@ -15,4 +24,7 @@ $grp SCR_ChimeraCharacter : "{D18907EB472956F5}Prefabs/Characters/Factions/INDFO
  {
   coords 68.806 1 184.874
  }
+}
+Vehicle Ural4320_engineer_mine1 : "{FB95FB39F0AE06E9}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer_mine.et" {
+ coords 50.319 1 222.2
 }
