@@ -1,0 +1,70 @@
+GenericEntity : "{8F17290FBF410605}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_82mm_mortar_10rnd_HE.et" {
+ ID "F0DBA538AC2A0552"
+ coords 8149.333 99.875 5928.006
+ angleY -26.461
+ {
+  $grp GenericEntity : "{8F17290FBF410605}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_82mm_mortar_10rnd_HE.et" {
+   {
+    ID "65C3672F30E4480C"
+    coords -0.003 0.485 0.001
+    angleX 0.087
+    angleY -0.001
+    angleZ 0.115
+   }
+   {
+    ID "65C3672F30E4554D"
+    coords -0.002 0.388 0.001
+    angleX 0.07
+    angleY -0.001
+    angleZ 0.092
+   }
+   {
+    ID "65C3672F30E4CB57"
+    coords -0.003 0.582 0.002
+    angleX 0.105
+    angleY -0.001
+    angleZ 0.138
+   }
+   {
+    ID "65C3672F30E599E1"
+    coords -0.002 0.194 0.001
+    angleX 0.035
+    angleZ 0.046
+   }
+   {
+    ID "65C3672F30E599E6"
+    coords -0.002 0.291 0.001
+    angleX 0.052
+    angleY -0.001
+    angleZ 0.069
+   }
+   {
+    ID "65C3672F30E5FF35"
+    coords -0.001 0.097 0
+    angleX 0.018
+    angleZ 0.023
+   }
+   {
+    ID "65C3672F30E743B9"
+    coords -0.003 0.873 0.002
+    angleX 0.157
+    angleY -0
+    angleZ 0.207
+   }
+   {
+    ID "65C3672F30E75498"
+    coords -0.003 0.679 0.002
+    angleX 0.123
+    angleY -0
+    angleZ 0.161
+   }
+   {
+    ID "65C3672F30E7549B"
+    coords -0.003 0.775 0.002
+    angleX 0.14
+    angleY -0
+    angleZ 0.184
+   }
+  }
+ }
+}
