@@ -931,6 +931,14 @@ StringTable {
    Author "hasta"
    LastChanged "rezni"
   }
+  CustomStringTableItem "{65CED0134AD0A29B}" {
+   Id "DRG-Sq-SniperTeam"
+   Target_en_us "Sniper Team"
+   Target_ru_ru "Снайперский расчёт"
+   Modified 1708054533
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{645CD4E6C4179AF9}" {
    Id "DRG-Sq-SupplyTeam"
    Target_en_us "Supply team"
