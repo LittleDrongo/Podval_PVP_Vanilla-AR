@@ -1,4 +1,4 @@
-Vehicle M923A1_command1 : "{36BDCC88B17B3BFA}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command.et" {
+Vehicle TARGET : "{36BDCC88B17B3BFA}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command.et" {
  components {
   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
    FuelNodes {

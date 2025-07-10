@@ -1,24 +1,24 @@
 $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
- USSR_1 {
+ FLAG_USSR {
   coords 1609.265 14.084 1574.584
   m_sTitle "Узел связи «Олимп» под контролем"
   m_iScore 50
   m_sFactionKey "USSR"
  }
- US_1 {
+ FLAG_US {
   coords 8494.292 257.691 2403.939
   m_sTitle "Узел связи «Олимп» под контролем"
   m_iScore 50
   m_sFactionKey "US"
  }
- US_2 {
+ MHQ_DESTR {
   coords 8494.292 257.691 2403.939
   m_sTitle "Уничтожено секретное оборудование"
   m_iOrder 1
   m_iScore 50
   m_sFactionKey "US"
  }
- USSR_2 {
+ MHQ_SAVED {
   coords 1609.265 14.084 1574.584
   m_sTitle "Секретное оборудование уцелело."
   m_iOrder 1
