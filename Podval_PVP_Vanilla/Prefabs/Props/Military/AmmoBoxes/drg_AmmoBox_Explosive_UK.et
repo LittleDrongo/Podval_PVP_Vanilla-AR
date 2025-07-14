@@ -10,12 +10,12 @@ GenericEntity : "{C910458D7E66D662}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_
    MultiSlots {
     MultiSlotConfiguration "{64F707D11FA7A94D}" {
      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-      Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
+      Prefab "{74369C511864A660}Prefabs/Weapons/Explosives/Mine_L9A1_Barmine/Mine_L9A1_Barmine.et"
      }
     }
     MultiSlotConfiguration "{6502C64ED28D7103}" {
      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-      Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
+      Prefab "{74369C511864A660}Prefabs/Weapons/Explosives/Mine_L9A1_Barmine/Mine_L9A1_Barmine.et"
      }
     }
    }

@@ -99,6 +99,14 @@ StringTable {
    Author "hasta"
    LastChanged "hasta"
   }
+  CustomStringTableItem "{65D6C127ABFC7C83}" {
+   Id "DRG-Description_HeaderVCA"
+   Target_en_us "Task For Viet Cong Army"
+   Target_ru_ru "Задачи для Армии Вьетконга"
+   Modified 1708574158
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{60477B7A1CFA3768}" {
    Id "DRG-DRIVER"
    Target_en_us "Crew-driver"
@@ -357,6 +365,14 @@ StringTable {
    Target_ru_ru "Старший инженер"
    Target_uk_ua "Старший інженер"
    Modified 1694019164
+   Author "hasta"
+   LastChanged "hasta"
+  }
+  CustomStringTableItem "{65D6B185041076C6}" {
+   Id "DRG-Role-SubmachineGunner"
+   Target_en_us "Submachine Gunner"
+   Target_ru_ru "Автоматчик"
+   Modified 1708570413
    Author "hasta"
    LastChanged "hasta"
   }
@@ -1072,6 +1088,22 @@ StringTable {
    Modified 1697853856
    Author "hasta"
    LastChanged "rezni"
+  }
+  CustomStringTableItem "{65D57E59737FB707}" {
+   Id "DRG_FactionVCA"
+   Target_en_us "Viet Cong Army"
+   Target_ru_ru "Армия Вьетконга"
+   Modified 1708524546
+   Author "hasta"
+   LastChanged "hasta"
+  }
+  CustomStringTableItem "{65D57E59A7C88FFF}" {
+   Id "DRG_FactionVCAUpper"
+   Target_en_us "VIET CONG ARMY"
+   Target_ru_ru "АРМИЯ ВЬЕТКОНГА"
+   Modified 1708524524
+   Author "hasta"
+   LastChanged "hasta"
   }
   CustomStringTableItem "{651B0835C9CB5A9D}" {
    Id "DRG_FlagChangeForbidden"
