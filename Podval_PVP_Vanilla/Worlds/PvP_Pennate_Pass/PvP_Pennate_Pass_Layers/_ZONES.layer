@@ -64,7 +64,7 @@ $grp PolylineShapeEntity {
     Position 1245.021 242.436 156.169
    }
    ShapePoint "{6146D717DB6B0F04}" {
-    Position 862.3 6.259 -160.266
+    Position 892.651 6.04 -328.808
    }
    ShapePoint "{6146D7182593D828}" {
     Position 249.906 -7.584 -307.75
@@ -207,7 +207,7 @@ $grp PolylineShapeEntity {
      m_fKillTime 30
     }
     m_bReversed 1
-    m_sGroupKey "RES"
+    m_sFactionKey "USSR"
    }
   }
  }

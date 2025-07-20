@@ -1,7 +1,10 @@
 $grp GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR.et" {
- {
+ FLAG_1 {
   components {
    SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "FLAG_1_USSR" "FLAG_1_FIA"
+    }
     m_aFlagData {
      PS_FlagData "{62C494296A2606B8}" {
       m_sFactionKey "USSR"
@@ -19,9 +22,12 @@ $grp GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military
   angleY 28.637
   angleZ -31.832
  }
- {
+ FLAG_2 {
   components {
    SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "FLAG_2_USSR" "FLAG_2_FIA"
+    }
     m_aFlagData {
      PS_FlagData "{62C494296A2606B8}" {
       m_sFactionKey "USSR"
@@ -36,9 +42,12 @@ $grp GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military
   }
   coords 8085.917 375.322 2748.378
  }
- {
+ FLAG_3 {
   components {
    SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "FLAG_3_USSR" "FLAG_3_FIA"
+    }
     m_aFlagData {
      PS_FlagData "{62C494296A2606B8}" {
       m_sFactionKey "USSR"
@@ -53,9 +62,12 @@ $grp GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military
   }
   coords 8490.495 309.688 2272.723
  }
- {
+ FLAG_4 {
   components {
    SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "FLAG_4_USSR" "FLAG_4_FIA"
+    }
     m_aFlagData {
      PS_FlagData "{62C494296A2606B8}" {
       m_sFactionKey "USSR"
