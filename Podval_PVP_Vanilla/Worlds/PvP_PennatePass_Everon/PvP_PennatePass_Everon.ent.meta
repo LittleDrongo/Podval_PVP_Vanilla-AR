@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{D08EE15B32F5C865}Worlds/PvP_Pennate_Pass/PvP_Pennate_Pass.ent"
+ Name "{69629DD4A711D152}Worlds/PvP_PennatePass_Everon/PvP_PennatePass_Everon.ent"
  Configurations {
   ENTResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   ENTResourceClass PS5 : PC {
   }
   ENTResourceClass HEADLESS : PC {
+  }
+  ENTResourceClass Xbox : PC {
   }
  }
 }
