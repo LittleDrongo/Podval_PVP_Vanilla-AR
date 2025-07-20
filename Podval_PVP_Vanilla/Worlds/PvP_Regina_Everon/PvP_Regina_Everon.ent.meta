@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{5AB0BE4B22CF168B}Worlds/PvP_Regina/PvP_Regina.ent"
+ Name "{06886307CDC02B24}Worlds/PvP_Regina_Everon/PvP_Regina_Everon.ent"
  Configurations {
   ENTResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   ENTResourceClass PS5 : PC {
   }
   ENTResourceClass HEADLESS : PC {
+  }
+  ENTResourceClass Xbox : PC {
   }
  }
 }
