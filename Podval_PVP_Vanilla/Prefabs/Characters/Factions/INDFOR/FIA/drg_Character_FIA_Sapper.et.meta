@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{CE2C005A0F9D7E23}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AAT_P.et"
+ Name "{B63BF32359017C54}Prefabs/Characters/Factions/INDFOR/FIA/drg_Character_FIA_Sapper.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -9,9 +9,9 @@ MetaFileClass {
   }
   EntityTemplateResourceClass PS4 : PC {
   }
-  EntityTemplateResourceClass HEADLESS : PC {
-  }
   EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
   }
   EntityTemplateResourceClass Xbox : PC {
   }

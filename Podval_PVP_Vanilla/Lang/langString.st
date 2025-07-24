@@ -1720,5 +1720,13 @@ StringTable {
    Author "hasta"
    LastChanged "rezni"
   }
+  CustomStringTableItem "{65F132EAC8466527}" {
+   Id "DRG_VictorTroska"
+   Target_en_us "Victor Troska"
+   Target_ru_ru "Виктор Трошка"
+   Modified 1710306483
+   Author "hasta"
+   LastChanged "hasta"
+  }
  }
 }
