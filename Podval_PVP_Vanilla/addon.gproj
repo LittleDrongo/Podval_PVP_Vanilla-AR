@@ -1,7 +1,7 @@
 GameProject {
- ID "PodvalPVPVanillaDev"
+ ID "Podval PvP Missions"
  GUID "7777777777777777"
- TITLE "Podval_PVP_Vanilla"
+ TITLE "Podval PvP Missions"
  Dependencies {
  }
  Configurations {
@@ -78,6 +78,8 @@ GameProject {
    PlatformHardware PS5
   }
   GameProjectConfig HEADLESS {
+  }
+  GameProjectConfig Xbox {
   }
  }
 }
