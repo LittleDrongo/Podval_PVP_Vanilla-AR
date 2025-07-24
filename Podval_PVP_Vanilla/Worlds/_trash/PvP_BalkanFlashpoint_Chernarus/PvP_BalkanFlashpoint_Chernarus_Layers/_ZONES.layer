@@ -1,0 +1,96 @@
+PolylineShapeEntity {
+ components {
+  PS_PolyZone "{65754025B1A6A534}" {
+   m_mPolygonTexture ""
+   m_cPolygonColor 1 1 1 0
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 0 0 0 1
+   m_fPolygonBorderWidth 5
+   m_aVisibleForFactions {
+    "RHS_AFRF" "UK" ""
+   }
+  }
+ }
+ coords 673.04 285.032 6679.114
+ Points {
+  ShapePoint "{657540255137CF5A}" {
+   Position 0 0 0
+  }
+  ShapePoint "{6575402553F5E250}" {
+   Position -278.75 7.993 340.825
+  }
+  ShapePoint "{6575402557D52EC5}" {
+   Position -359.282 3.964 671.829
+  }
+  ShapePoint "{65754025545DC29A}" {
+   Position -392.658 15.66 1067.609
+  }
+  ShapePoint "{6575402555CCE150}" {
+   Position -402.048 15.678 1400.784
+  }
+  ShapePoint "{657540255A9E8ADC}" {
+   Position -437.693 -13.375 1780.135
+  }
+  ShapePoint "{6575402559146C9C}" {
+   Position -509.825 31.535 2085.53
+  }
+  ShapePoint "{657540255943E170}" {
+   Position -539.432 43.55 2364.638
+  }
+  ShapePoint "{657540255FA5D90F}" {
+   Position -439.345 17.568 2648.531
+  }
+  ShapePoint "{657540255C158248}" {
+   Position -236.983 22.016 2831.229
+  }
+  ShapePoint "{65754025A2036EC1}" {
+   Position 236.198 40.649 2954.39
+  }
+  ShapePoint "{65754025A3B09D11}" {
+   Position 630.109 -45.094 2682.049
+  }
+  ShapePoint "{65754025A05A5B8B}" {
+   Position 786.776 14.562 2234.345
+  }
+  ShapePoint "{65754025A65C2462}" {
+   Position 868.654 29.813 1792.273
+  }
+  ShapePoint "{65754025AABBCA0B}" {
+   Position 934.25 16.876 1297.752
+  }
+  ShapePoint "{65754025A88840F8}" {
+   Position 934.544 8.274 798.864
+  }
+  ShapePoint "{65754025A9F6E4D3}" {
+   Position 869.712 -16.85 502.032
+  }
+  ShapePoint "{65754025AE3C3E80}" {
+   Position 576.617 -111.669 148.097
+  }
+  ShapePoint "{65754025AE8AE1E2}" {
+   Position 232.761 -92.556 7.367
+  }
+ }
+ IsClosed 1
+ {
+  PS_PolyZoneTrigger {
+   components {
+    Hierarchy "{614548BDF998E12B}" {
+    }
+   }
+   TriggerShapeType Polyline
+   SphereRadius 9223372036854775808
+   "Polyline Height" 3000
+   TriggerActivationType "All changes"
+   PeriodicQueries 1
+   UpdatePeriod 1
+   ClassesFilter {
+    "SCR_ChimeraCharacter"
+   }
+   m_polyZoneEffect PS_PolyZoneEffectRestricted "{614548BC046ADB65}" {
+    m_fKillTime 35
+   }
+   m_bReversed 1
+  }
+ }
+}

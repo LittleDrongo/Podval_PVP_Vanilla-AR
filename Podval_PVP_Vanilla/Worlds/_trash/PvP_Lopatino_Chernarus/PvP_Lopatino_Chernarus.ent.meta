@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{D1CED26B5FA663A3}Worlds/PvP_Lopatino_Chernarus/PvP_Lopatino_Chernarus.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+  ENTResourceClass Xbox : PC {
+  }
+ }
+}

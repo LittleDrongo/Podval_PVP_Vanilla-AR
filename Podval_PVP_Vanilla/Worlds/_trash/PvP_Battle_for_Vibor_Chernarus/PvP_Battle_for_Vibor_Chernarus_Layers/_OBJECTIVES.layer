@@ -1,0 +1,50 @@
+$grp PS_Objective {
+ FLAG_2_CDF {
+  components {
+   RplComponent "{6238766729F75615}" {
+   }
+   Hierarchy "{623876676AE494C1}" {
+   }
+  }
+  coords 2951.533 279.693 11464.642
+  m_sTitle "Штаб удержан"
+  m_iScore 50
+  m_sFactionKey "Ses_CDF"
+ }
+ FLAG_1_CDF {
+  components {
+   RplComponent "{623876672B674C7E}" {
+   }
+   Hierarchy "{62387667693FF94E}" {
+   }
+  }
+  coords 3205.411 355.615 10891.354
+  m_sTitle "Администрация под контроем"
+  m_iScore 50
+  m_sFactionKey "Ses_CDF"
+ }
+ FLAG_1_AFRF {
+  components {
+   RplComponent "{623876672489E83A}" {
+   }
+   Hierarchy "{623876676FF82BEB}" {
+   }
+  }
+  coords 3205.411 355.615 10891.354
+  m_sTitle "Администрация захвчена"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+ FLAG_2_AFRF {
+  components {
+   RplComponent "{6238766726190126}" {
+   }
+   Hierarchy "{623876677369D01B}" {
+   }
+  }
+  coords 3205.411 355.615 10891.354
+  m_sTitle "Штаб захвачен"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+}

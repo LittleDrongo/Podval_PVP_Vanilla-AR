@@ -1,0 +1,266 @@
+$grp SCR_DestructibleBuildingEntity : "{10EE756510336431}PrefabLibrary/Props/Cultural/GraveFence_E_01.et" {
+ {
+  coords 3038.927 -0.001 7852.248
+  angleX 0.333
+  angleY 29.733
+  angleZ 1.221
+ }
+ {
+  coords 3037.682 -0 7852.943
+  angleX 0.777
+  angleY 29.732
+  angleZ 0.444
+ }
+ {
+  coords 3036.37 -0 7853.661
+  angleX 0.777
+  angleY 29.732
+  angleZ 0.444
+ }
+ {
+  coords 3035.126 0 7854.354
+  angleX -2.659
+  angleY 29.845
+  angleZ -2.554
+ }
+ {
+  coords 3041.573 -0 7856.988
+  angleX -11.075
+  angleY 29.777
+  angleZ -0.224
+ }
+ {
+  coords 3040.328 -0 7857.683
+  angleX -11.075
+  angleY 29.778
+  angleZ -0.224
+ }
+ {
+  coords 3039.016 0 7858.401
+  angleX -11.689
+  angleY 30.321
+  angleZ -2.724
+ }
+ {
+  coords 3037.773 -0 7859.093
+  angleX -10.366
+  angleY 30.523
+  angleZ -5.043
+ }
+ {
+  coords 3044.476 0.025 7862.049
+  angleX -9.031
+  angleY 29.702
+  angleZ -2.076
+ }
+ {
+  coords 3043.231 -0.015 7862.744
+  angleX -9.031
+  angleY 29.703
+  angleZ -2.076
+ }
+ {
+  coords 3041.919 -0.021 7863.462
+  angleX -7.939
+  angleY 30.286
+  angleZ -0.515
+ }
+ {
+  coords 3040.677 -0.017 7864.155
+  angleX -7.937
+  angleY 30.5
+  angleZ -0.544
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{70CD78BCB2DCFE20}PrefabLibrary/Props/Cultural/GraveStone_E_02_D.et" {
+ {
+  coords 3037.195 0 7852.261
+  angleX -0.468
+  angleY 31.519
+  angleZ 0.763
+ }
+ {
+  coords 3035.885 -0.001 7852.976
+  angleX 0.468
+  angleY 31.519
+  angleZ -0.763
+ }
+ {
+  coords 3038.441 0 7851.563
+  angleX -1.231
+  angleY 31.519
+  angleZ 0.295
+ }
+ {
+  coords 3034.64 0 7853.669
+  angleX 0.468
+  angleY 31.519
+  angleZ -0.763
+ }
+ {
+  coords 3039.841 0 7857.001
+  angleX -10.146
+  angleY 31.876
+  angleZ -2.125
+ }
+ {
+  coords 3038.531 0 7857.716
+  angleX -10.145
+  angleY 31.912
+  angleZ -2.131
+ }
+ {
+  coords 3041.087 -0 7856.302
+  angleX -11.062
+  angleY 31.617
+  angleZ -0.577
+ }
+ {
+  coords 3037.286 0 7858.408
+  angleX -7.789
+  angleY 32.377
+  angleZ -5.952
+ }
+ {
+  coords 3042.744 0.027 7862.063
+  angleX -10.146
+  angleY 31.876
+  angleZ -2.125
+ }
+ {
+  coords 3041.434 0.002 7862.776
+  angleX -10.145
+  angleY 31.912
+  angleZ -2.131
+ }
+ {
+  coords 3043.99 0.022 7861.364
+  angleX -10.157
+  angleY 31.584
+  angleZ -2.073
+ }
+ {
+  coords 3040.189 -0.005 7863.47
+  angleX -7.445
+  angleY 32.367
+  angleZ -1.552
+ }
+}
+$grp Tree : "{C44F51A81AC2B063}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_3s.et" {
+ {
+  coords 3051 -0.001 7851.152
+  angleX 2.53
+  angleY 341.158
+  angleZ 2.47
+  scale 0.684
+ }
+ {
+  coords 3030.598 -0 7859.776
+  angleX 2.53
+  angleY 341.158
+  angleZ 2.47
+  scale 0.52
+ }
+ {
+  coords 3027.176 -0.001 7826.486
+  angleX 2.53
+  angleY 341.158
+  angleZ 2.47
+  scale 1.224
+ }
+ {
+  coords 3047.79 -0 7838.498
+  angleX 2.53
+  angleY 341.158
+  angleZ 2.47
+  scale 0.506
+ }
+ {
+  coords 3045.665 -0.269 7860.345
+  angleX 2.53
+  angleY 341.158
+  angleZ 2.47
+  scale 0.465
+ }
+ {
+  coords 3022.197 0 7835.487
+  angleX 2.53
+  angleY 341.158
+  angleZ 2.47
+  scale 0.52
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{FA6DD871B6278529}PrefabLibrary/Props/Cultural/Grave_E_01_Frame.et" {
+ {
+  coords 3035.172 0 7854.614
+  angleX 2.688
+  angleY -150.824
+  angleZ 2.523
+ }
+ {
+  coords 3037.726 0 7853.205
+  angleX -0.783
+  angleY -150.936
+  angleZ -0.435
+ }
+ {
+  coords 3036.418 -0 7853.914
+  angleX -0.783
+  angleY -150.936
+  angleZ -0.435
+ }
+ {
+  coords 3038.97 -0 7852.51
+  angleX -0.348
+  angleY -150.935
+  angleZ -1.217
+ }
+ {
+  coords 3040.372 -0 7857.945
+  angleX 11.077
+  angleY -150.917
+  angleZ 0.091
+ }
+ {
+  coords 3039.064 0 7858.654
+  angleX 11.721
+  angleY -150.376
+  angleZ 2.583
+ }
+ {
+  coords 3041.616 0 7857.25
+  angleX 11.077
+  angleY -150.917
+  angleZ 0.091
+ }
+ {
+  coords 3037.818 0 7859.353
+  angleX 10.424
+  angleY -150.159
+  angleZ 4.92
+ }
+ {
+  coords 3043.275 -0.022 7863.006
+  angleX 6.751
+  angleY -150.97
+  angleZ 0.688
+ }
+ {
+  coords 3041.967 -0.023 7863.714
+  angleX 6.745
+  angleY -150.443
+  angleZ 0.75
+ }
+ {
+  coords 3044.519 0.013 7862.311
+  angleX 9.9
+  angleY -150.926
+  angleZ 0.432
+ }
+ {
+  coords 3040.721 -0.03 7864.414
+  angleX 7.943
+  angleY -150.179
+  angleZ 0.45
+ }
+}

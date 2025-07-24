@@ -1,0 +1,6 @@
+SCR_AIGroup : "{CD846FA46575E036}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_ShowCase_Vietnam.et" {
+ coords 115.648 1 209.404
+ m_aUnitPrefabSlots {
+  "{2C3E11CA45CC467B}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_Rifleman_V.et" "{318BD8D29F92DF2E}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_TL_V.et" "{E953678D10B094EA}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_SL.et" "{890EE8B3D5835FD3}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_GL.et" "{704DDE140D57A57A}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_PL.et" "{17D7AB7BAEE2D480}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_CL.et" "{5C73FF535BBD28A5}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_AT.et" "{7F3BCC8438C56F1F}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_AAT.et" "{D6CC48884C7B221A}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_MG.et" "{74FE14DCCAE467DD}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_MGAB.et" "{852AE111B73A8B86}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_MGA.et" "" "" "" "" ""
+ }
+}

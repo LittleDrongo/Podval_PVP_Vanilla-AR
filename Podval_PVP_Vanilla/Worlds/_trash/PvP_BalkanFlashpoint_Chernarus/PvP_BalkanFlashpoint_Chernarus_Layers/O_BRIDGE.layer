@@ -1,0 +1,154 @@
+$grp StaticModelEntity : "{528AB2322A646026}Prefabs/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_forest_wave.et" {
+ {
+  coords 934.428 173.928 7851.87
+  angleY 58.245
+  scale 1.21
+ }
+ {
+  coords 937.928 173.952 7847.693
+  angleX 0.046
+  angleY 42.492
+  angleZ -2.952
+  scale 1.21
+ }
+ {
+  coords 948.001 174.444 7844.678
+  angleX -2.232
+  angleY -7.503
+  angleZ -1.933
+  scale 1.21
+ }
+}
+$grp GenericEntity : "{ADB764EA160A1A4E}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_10ft_grey.et" {
+ collision_block {
+  coords 684.125 187.861 8704.742
+  angleX 89.27
+  angleY 156.482
+  angleZ 178.352
+  scale 0.67
+ }
+ collision_block2 {
+  coords 690.275 187.857 8689.793
+  angleX 89.27
+  angleY 156.482
+  angleZ 178.352
+  scale 0.67
+ }
+ collision_block3 {
+  coords 693.352 187.755 8682.309
+  angleX 89.27
+  angleY 156.482
+  angleZ 178.352
+  scale 0.67
+ }
+ collision_block4 {
+  coords 699.477 187.859 8684.846
+  angleX 89.27
+  angleY 156.482
+  angleZ 178.352
+  scale 0.67
+ }
+ collision_block5 {
+  coords 696.451 187.863 8692.323
+  angleX 89.27
+  angleY 156.482
+  angleZ 178.352
+  scale 0.67
+ }
+ collision_block6 {
+  coords 690.252 187.859 8707.246
+  angleX 89.27
+  angleY 156.482
+  angleZ 178.352
+  scale 0.67
+ }
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{C2D897A275076309}PrefabLibrary/Rocks/Granite/GraniteCliff_02/GraniteCliff_02.et" {
+ {
+  coords 1216.29 200.562 9321.677
+  angleX -83.984
+  angleY -144.085
+  angleZ -80.866
+  scale 1.659
+ }
+ {
+  coords 693.121 184.959 8678.521
+  angleX -86.545
+  angleY -34.242
+  angleZ 74.053
+  scale 1.095
+ }
+ {
+  coords 689.461 177.282 8680.477
+  angleX 4.415
+  angleY -55.211
+  angleZ 88.661
+  scale 1.095
+ }
+ {
+  coords 689.998 178.157 8668.277
+  angleX 43.474
+  angleY -87.874
+  angleZ 97.804
+  scale 1.095
+ }
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{E3972F6F29774671}PrefabLibrary/Rocks/Granite/GraniteSurfaceStone_04.et" {
+ {
+  coords 956.683 173.343 7852.748
+  angleY 47.033
+  scale 1.583
+ }
+ {
+  coords 942.471 171.956 7867.474
+  angleY 94.622
+  scale 1.583
+ }
+ {
+  coords 929.624 172.095 7832.297
+  angleX -5.768
+  angleY -141.794
+  angleZ -179.209
+  scale 1.583
+ }
+ {
+  coords 687.089 183.766 8714.538
+  angleX 3.543
+  angleY -35.232
+  angleZ -2.306
+  scale 1.754
+ }
+ {
+  coords 683.042 182.48 8708.081
+  angleX 3.543
+  angleY -35.232
+  angleZ -2.306
+  scale 1.754
+ }
+}
+$grp GenericEntity : "{EAFB8BCEE733517E}Prefabs/Structures/BuildingParts/Bridges/drg_BridgeRailingBig.et" {
+ OPORA_1 {
+  coords 684.479 188.188 8703.932
+  angleY -22.378
+ }
+ OPORA_2 {
+  coords 690.631 188.188 8688.99
+  angleY -22.378
+ }
+ OPORA_3 {
+  coords 693.709 188.188 8681.513
+  angleY -22.378
+ }
+ OPORA_4 {
+  coords 690.565 188.188 8706.438
+  angleY -22.378
+ }
+ OPORA_5 {
+  coords 696.762 188.188 8691.515
+  angleY -22.378
+ }
+ OPORA_6 {
+  coords 699.84 188.188 8684.037
+  angleY -22.378
+ }
+}

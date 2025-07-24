@@ -1,0 +1,24 @@
+GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_AFRF.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_aObjectiveNames {
+    "FLAG_1" "FLAG_2"
+   }
+   m_aFlagData {
+    PS_FlagData "{6578FD1B731D3130}" {
+     m_sFactionKey "Ses_CDF"
+     m_iCaptureCounter 1
+    }
+    PS_FlagData "{6578FD1B70A2EA9F}" {
+     m_sFactionKey "RHS_AFRF"
+    }
+   }
+   m_bUseAdvanceGameState 1
+   m_sUseNotification 1
+  }
+ }
+ coords 4049.657 382.182 11703.281
+ angleX 19.35
+ angleY -7.705
+ angleZ -37.811
+}

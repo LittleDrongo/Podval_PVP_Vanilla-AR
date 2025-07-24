@@ -1,0 +1,24 @@
+GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_US.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_aObjectiveNames {
+    "FLAG_PIR_CONTROL" "FLAG_US_CONTROL"
+   }
+   m_aFlagData {
+    PS_FlagData "{651CCDC821184CDF}" {
+     m_sFactionKey "RHS_USAF"
+     m_iCaptureCounter -1
+    }
+    PS_FlagData "{651CCDC824860392}" {
+     m_sFactionKey "Drg_PIR"
+     m_iCaptureCounter -1
+    }
+   }
+   m_sFactionKey "RHS_USAF"
+  }
+ }
+ coords 1177.576 95.242 1843.552
+ angleX 20.957
+ angleY -146.255
+ angleZ -28.164
+}

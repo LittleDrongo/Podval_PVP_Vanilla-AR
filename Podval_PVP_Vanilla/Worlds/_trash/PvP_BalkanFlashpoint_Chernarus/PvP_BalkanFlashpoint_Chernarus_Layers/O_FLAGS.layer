@@ -1,0 +1,29 @@
+GenericEntity : "{46B71B9E370BE7C0}Prefabs/Props/Forest/WoodPile/WoodPile_01_End_B.et" {
+ coords 976.463 193.049 7630.314
+ angleX -1.223
+ angleY -6.264
+ angleZ 0.021
+}
+GenericEntity FLAG : "{A80E80B60FEAE52D}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_UK.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_aObjectiveNames {
+    "FLAG_CAPTURE" "FLAG_SAVE"
+   }
+   m_aFlagData {
+    PS_FlagData "{65751094FE9A018C}" {
+     m_sFactionKey "RHS_AFRF"
+     m_iCaptureCounter 1
+    }
+    PS_FlagData "{65751094FEE242D2}" {
+     m_sFactionKey "UK"
+    }
+   }
+   m_sFactionKey "UK"
+   m_bUseAdvanceGameState 1
+   m_sUseNotification 1
+   m_sNotificationText "Победа ВС РФ! Логистический узел под контролем."
+  }
+ }
+ coords 974.553 197.14 7633.387
+}

@@ -1,0 +1,125 @@
+Vehicle M998_covered_long_USAF2 : "{23FB589C8BF6EC6E}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_USAF.et" {
+ coords 2874.582 269.335 9687.276
+ angleX 5.028
+ angleY 50.555
+ angleZ 0.488
+ m_sAttachmentGroupName "USMC_4_0_0"
+}
+$grp GenericEntity : "{2BD8F0769429AC4A}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_81mm_MortarCluster_100rnd_HE.et" {
+ {
+  coords 2870.486 269.271 9689.959
+  angleX 0.203
+  angleY -41.937
+  angleZ -3.787
+ }
+ {
+  coords 2870.026 269.226 9689.593
+  angleX 0.27
+  angleY -41.941
+  angleZ -5.044
+ }
+}
+Vehicle LAV25_RHS1 : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
+ coords 2897.4 271.094 9729.679
+ angleY -36.444
+ m_sAttachmentGroupName "USMC_3_0_0"
+}
+$grp SCR_AIGroup : "{52BDFDE2760DBA5C}Prefabs/Groups/BLUFOR/drg_Group_RHS_USMC_RifleSquad.et" {
+ USMC_1_0_0 {
+  coords 2862.204 271.105 9768.718
+  angleX 0.53
+  angleY 53.689
+  angleZ 0.721
+ }
+ USMC_1_0_1 {
+  components {
+   PS_GroupCallsignAssigner "{653B380EA1EEA021}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2879.582 271.094 9747.566
+  angleY 50.891
+  m_aUnitPrefabSlots +{
+  }
+ }
+ USMC_1_0_2 {
+  components {
+   PS_GroupCallsignAssigner "{653B380EA1EEA021}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2854.546 269.572 9713.265
+  angleY -130.1
+  m_aUnitPrefabSlots +{
+  }
+ }
+ USMC_0_0_0 {
+  components {
+   PS_GroupCallsignAssigner "{653B380EA1EEA021}" {
+    m_iCompanyCallsign 0
+   }
+  }
+  coords 2879.337 270.647 9706.473
+  angleX 3.749
+  angleY 53.713
+  angleZ 0.574
+  m_aUnitPrefabSlots {
+   "{E27728230693A7FE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/drg_Role_RHS_USAF_USMC_CL.et"
+  }
+ }
+}
+Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
+ components {
+  PS_GroupAttachmentComponent "{653B38170511D293}" {
+   m_sAttachmentGroupName "USMC_4_0_0"
+  }
+ }
+ coords 2872.116 269.361 9690.157
+ angleX 5.043
+ angleY 48.356
+ angleZ 0.295
+}
+$grp SCR_AIGroup : "{F158417A26ADA84B}Prefabs/Groups/BLUFOR/drg_Group_RHS_USMC_LavCrew.et" {
+ USMC_3_0_0 {
+  components {
+   PS_GroupCallsignAssigner "{653B380C1005AA0C}" {
+    m_iCompanyCallsign 3
+   }
+  }
+  coords 2893.883 271.104 9729.344
+  angleX -0.533
+  angleY 53.487
+  angleZ -0.72
+  m_aUnitPrefabSlots {
+   "{F86EE25EE40D35C4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/drg_Role_RHS_USAF_USMC_CrewCommander.et" "{6FACD2886CD590B4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/drg_Role_RHS_USAF_USMC_CrewGunner.et" "{8887756844229919}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/drg_Role_RHS_USAF_USMC_CrewDriver.et"
+  }
+ }
+ USMC_4_0_0 {
+  components {
+   PS_GroupCallsignAssigner "{653B380C1005AA0C}" {
+    m_iCompanyCallsign 4
+   }
+  }
+  coords 2866.034 269.103 9691.499
+  angleX 3.79
+  angleY 47.282
+  angleZ 0.151
+  m_aUnitPrefabSlots {
+   "{FD52ACF7D4E6563B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/drg_Role_RHS_USAF_USMC_MortarCommander.et" "{1137AEC2D13B0177}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/drg_Role_RHS_USAF_USMC_MortarGunner.et" "{D5D41FEAC0B56FAB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/drg_Role_RHS_USAF_USMC_MortarLoader.et"
+  }
+ }
+}
+SCR_AIGroup USMC_2_0_0 : "{FE3EB0683DD1C6DD}Prefabs/Groups/BLUFOR/drg_Group_RHS_SOCOM_Team.et" {
+ components {
+  PS_GroupCallsignAssigner "{653B380F33F8D93C}" {
+   m_iCompanyCallsign 2
+  }
+ }
+ coords 2896.275 271.094 9747.552
+ angleY 141.516
+ m_aUnitPrefabSlots {
+  "{9B04B586930EFE2D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SOCOM/drg_Role_RHS_USAF_SOCOM_SL.et" "{9FBBBCD632861C8A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SOCOM/drg_Role_RHS_USAF_SOCOM_Scout.et" "{9FBBBCD632861C8A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SOCOM/drg_Role_RHS_USAF_SOCOM_Scout.et" "{D1FC452D48AB3333}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SOCOM/drg_Role_RHS_USAF_SOCOM_ScoutSapper.et" "{57CDCD5C503ABF3E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SOCOM/drg_Role_RHS_USAF_SOCOM_Scout_Medic.et" "{6135ECC9CA1BB4E7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SOCOM/drg_Role_RHS_USAF_SOCOM_Marksman.et"
+ }
+}

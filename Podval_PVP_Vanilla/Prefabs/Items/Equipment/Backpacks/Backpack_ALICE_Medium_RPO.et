@@ -1,0 +1,90 @@
+GenericEntity : "{09D6A1C9543E4A95}Prefabs/Items/Core/Backpack_Base.et" {
+ ID "511E9C6ADE70F798"
+ components {
+  ClothNodeStorageComponent "{65292AF2F77A0D6B}" {
+   Attributes SCR_ItemAttributeCollection "{65292AF2F77A0D52}" {
+    ItemDisplayName UIInfo "{65292AF2F77A0D50}" {
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{65292AF2F77A0D5D}" {
+     Weight 1.5
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{65292AF2F77A0D59}" {
+      CameraPreset Back
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1
+      FOV 20
+      PreviewModel "{1F2390C7C31666DE}Assets/Items/Equipment/Backpacks/Backpack_ALICE_Medium/Backpack_ALICE_Medium_frame.xob"
+     }
+    }
+    m_Size SLOT_2x2
+    m_SlotType SLOT_BACKPACK
+   }
+  }
+  InventoryItemComponent "{65292AF2F77A0D43}" {
+   Attributes ItemAttributeCollection "{65292AF2F77A0D41}" {
+    ItemDisplayName UIInfo "{65292AF2F77A0D40}" {
+     Name "#AR-Backpack_ALICE_Medium_Frame_Name"
+     Description "#AR-Backpack_ALICE_Medium_Frame_Description"
+    }
+   }
+  }
+  MeshObject "{511E9C6ADE70F7BD}" {
+   Object "{1F2390C7C31666DE}Assets/Items/Equipment/Backpacks/Backpack_ALICE_Medium/Backpack_ALICE_Medium_frame.xob"
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB03A40528FA}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{5222CB039E9715D1}" {
+   }
+  }
+  BaseLoadoutClothComponent "{511E9C6ADE70F7BB}" {
+   Slots {
+    LoadoutSlotInfo RPO_Slot1 {
+    }
+   }
+   WornModel "{1F2390C7C31666DE}Assets/Items/Equipment/Backpacks/Backpack_ALICE_Medium/Backpack_ALICE_Medium_frame.xob"
+   ItemModel "{9AC0BBEED8F6417C}Assets/Items/Equipment/Backpacks/Backpack_ALICE_Medium/Backpack_ALICE_Medium_frame_item.xob"
+   SoundInt 815
+  }
+  ActionsManagerComponent "{511E9C6ADE70F786}" {
+   ActionContexts {
+    UserActionContext "{511E9C6ADE70F788}" {
+     Position PointInfo "{511E9C6ADE70F78D}" {
+      Offset 0 0.1584 0.0436
+     }
+    }
+   }
+  }
+  RHS_HelmetNodeStorageComponent "{65292AF36743C272}" {
+   Attributes SCR_ItemAttributeCollection "{65292AF36E6BC49A}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_6B47_Name"
+     Description "#RHS-Headgear_6B47_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5DB13C575AD680C2}" {
+     Weight 1.5
+     SizeSetupStrategy Manual
+     ItemDimensions 20 20 20
+     ItemVolume 2500
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB13C57226FEA81}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 2
+      FOV 10
+      AspectRatio 1
+     }
+     RHS_CustomAttributes "{5DB8F5B9ACB547EA}" {
+      m_sShortName "#RHS-Headgear_6B47_Name"
+     }
+    }
+   }
+   Priority 150
+   StoragePurpose 64
+  }
+ }
+ coords 1220.652 38.011 2841.177
+}

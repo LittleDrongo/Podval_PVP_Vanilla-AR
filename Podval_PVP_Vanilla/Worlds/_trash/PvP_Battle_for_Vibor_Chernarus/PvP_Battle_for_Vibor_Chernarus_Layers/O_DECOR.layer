@@ -1,0 +1,130 @@
+GenericEntity : "{06DAF1B1AF15A1CF}Prefabs/Props/Civil/Posters/Poster_Cinema_09.et" {
+ coords 3845.882 312.277 8839.303
+ angleY 26.063
+}
+GenericEntity : "{0BB8D349B16E5CD1}Prefabs/Props/Civil/Posters/Poster_Cinema_17.et" {
+ coords 3843.704 313.194 8840.372
+ angleY 26.063
+}
+GenericEntity : "{10E68F21F9083C8F}Prefabs/Props/Civil/Posters/Poster_Cinema_04.et" {
+ coords 3846.886 312.444 8838.808
+ angleY 26.15
+}
+GenericEntity : "{1B6E12C91CA87504}Prefabs/Props/Civil/Posters/Poster_Cinema_25.et" {
+ coords 3841.39 312.974 8841.512
+ angleY 26.563
+}
+GenericEntity : "{265A37F169C4FC33}Prefabs/Props/Civil/Posters/Poster_Cinema_22.et" {
+ coords 3842.352 312.997 8841.039
+ angleY 26.063
+}
+GenericEntity : "{2DD2AA198C64B5B8}Prefabs/Props/Civil/Posters/Poster_Cinema_03.et" {
+ coords 3847.28 313.137 8838.615
+ angleX 0.235
+ angleY 25.872
+}
+GenericEntity : "{368CF671C402D5E6}Prefabs/Props/Civil/Posters/Poster_Cinema_10.et" {
+ coords 3845.814 312.966 8839.338
+ angleX -0.354
+ angleY 26.063
+}
+GenericEntity : "{4A0E0311D500731D}Prefabs/Props/Civil/Posters/Poster_Cinema_21.et" {
+ coords 3842.727 312.603 8840.854
+ angleY 26.063
+}
+GenericEntity : "{5AD8C29178C65AC8}Prefabs/Props/Civil/Posters/Poster_Cinema_13.et" {
+ coords 3844.862 312.575 8839.804
+ angleY 26.063
+}
+GenericEntity : "{67ECE7A90DAAD3FF}Prefabs/Props/Civil/Posters/Poster_Cinema_14.et" {
+ coords 3844.709 313.314 8839.878
+ angleY 26.063
+}
+GenericEntity : "{6D7B62F337215A8F}PrefabLibrary/Infrastructure/Sings/SignBusStop_01.et" {
+ coords 3849.949 311.203 8841.822
+ angleY 27.452
+}
+GenericEntity : "{71D099395BB74EBF}Prefabs/Props/Civil/Posters/Poster_Cinema_19.et" {
+ coords 3843.213 312.599 8840.614
+ angleY 26.063
+}
+GenericEntity : "{773A2629A06CFA2A}Prefabs/Props/Civil/Posters/Poster_Cinema_26.et" {
+ coords 3841.215 312.376 8841.6
+ angleY 26.063
+}
+GenericEntity : "{7CB2BBC145CCB3A1}Prefabs/Props/Civil/Posters/Poster_Cinema_07.et" {
+ coords 3846.396 312.522 8839.049
+ angleY 26.063
+}
+GenericEntity : "{8270AB50014F4494}Prefabs/Props/Civil/Posters/Poster_Cinema_15.et" {
+ coords 3844.285 312.531 8840.086
+ angleY 26.063
+}
+GenericEntity : "{92A66AD0AC896D41}Prefabs/Props/Civil/Posters/Poster_Cinema_27.et" {
+ coords 3843.72 312.599 8840.373
+ angleY 26.063
+}
+GenericEntity : "{944CD5C05752D9D4}Prefabs/Props/Civil/Posters/Poster_Cinema_18.et" {
+ coords 3843.253 313.179 8840.593
+ angleY 26.063
+}
+GenericEntity : "{992EF738492924CA}Prefabs/Props/Civil/Posters/Poster_Cinema_06.et" {
+ coords 3841.77 312.445 8841.326
+ angleY 25.917
+}
+GenericEntity : "{A41AD2003C45ADFD}Prefabs/Props/Civil/Posters/Poster_Cinema_01.et" {
+ coords 3847.686 312.813 8838.417
+ angleY 26.652
+}
+GenericEntity : "{AF924FE8D9E5E476}Prefabs/Props/Civil/Posters/Poster_Cinema_20.et" {
+ coords 3842.85 313.204 8840.793
+ angleY 26.063
+}
+GenericEntity : "{BEA0CE4F25C2505B}Prefabs/Items/Equipment/RangeCard/Money.et" {
+ coords 3846.11 310.975 8840.103
+ angleY -122.723
+}
+GenericEntity : "{BF448E687423CDA3}Prefabs/Props/Civil/Posters/Poster_Cinema_12.et" {
+ coords 3845.321 313.171 8839.578
+ angleX -0.4
+ angleY 26.618
+ angleZ -0.004
+}
+GenericEntity : "{C3C67B0865216B58}Prefabs/Props/Civil/Posters/Poster_Cinema_23.et" {
+ coords 3842.237 312.374 8841.097
+ angleY 26.063
+}
+GenericEntity : "{C84EE6E0808122D3}Prefabs/Props/Civil/Posters/Poster_Cinema_02.et" {
+ coords 3847.424 312.267 8838.545
+ angleY 26.292
+}
+SCR_DestructibleBuildingEntity : "{CFC6D015E767C5F8}PrefabsEditable/Auto/Structures/Commercial/E_PosterColumn_01.et" {
+ coords 3840.086 0.153 8845.02
+}
+GenericEntity : "{D310BA88C8E7428D}Prefabs/Props/Civil/Posters/Poster_Cinema_11.et" {
+ coords 3845.375 312.575 8839.55
+ angleY 26.063
+}
+GenericEntity : "{E346BD48A3F036A4}Prefabs/Props/Civil/Posters/Poster_Cinema_08.et" {
+ coords 3846.282 313.18 8839.105
+ angleX -0.458
+ angleY 26.896
+ angleZ -0.007
+}
+SCR_DestructibleBuildingEntity : "{EC7E166DAC213EBA}Prefabs/Infrastructure/Bus/Bussheds/Bus Shed 02.et" {
+ coords 3852.22 0.146 8838.573
+ angleY -154.052
+}
+GenericEntity : "{EE249FB0BD8BCBBA}Prefabs/Props/Civil/Posters/Poster_Cinema_16.et" {
+ coords 3844.143 313.209 8840.156
+ angleY 26.063
+}
+GenericEntity : "{F57AC3D8F5EDABE4}Prefabs/Props/Civil/Posters/Poster_Cinema_05.et" {
+ coords 3846.825 313.135 8838.839
+ angleX -0.289
+ angleY 26.615
+}
+GenericEntity : "{FEF25E30104DE26F}Prefabs/Props/Civil/Posters/Poster_Cinema_24.et" {
+ coords 3841.843 313.271 8841.289
+ angleY 26.063
+}

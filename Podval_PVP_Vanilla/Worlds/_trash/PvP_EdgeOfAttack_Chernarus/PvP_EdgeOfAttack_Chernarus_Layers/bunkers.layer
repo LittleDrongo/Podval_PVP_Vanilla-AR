@@ -1,0 +1,14 @@
+$grp SCR_DestructibleBuildingEntity : "{8A8A7A558772D718}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_small.et" {
+ {
+  coords 3612.123 336.223 6911.476
+  angleX 0.403
+  angleY -48.041
+  angleZ 7.542
+ }
+ {
+  coords 3564.378 337.42 6958
+  angleX 1.123
+  angleY 134.077
+  angleZ -8.904
+ }
+}

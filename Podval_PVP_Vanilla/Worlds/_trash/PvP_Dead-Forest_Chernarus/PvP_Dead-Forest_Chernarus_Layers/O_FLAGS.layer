@@ -1,0 +1,46 @@
+$grp GenericEntity : "{071B55C2A5E0346F}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V2_US.et" {
+ FLAG_1 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{15AB376863D1724E}Assets/Props/Fabric/Flags/Data/Flag_1_2_Russia.emat"
+    m_aObjectiveNames {
+     "AFRF_1" "IGF_1"
+    }
+    m_aFlagData {
+     PS_FlagData "{64C89A5BE502D7A9}" {
+      m_sFactionKey "RHS_AFRF"
+     }
+     PS_FlagData "{64C89A5BE521A7C5}" {
+      m_sFactionKey "Drg_IGF"
+      m_iCaptureCounter 1
+     }
+    }
+    m_sFactionKey "RHS_AFRF"
+   }
+  }
+  coords 691.621 315.686 6533.499
+  angleY -88.599
+ }
+ FLAG_2 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{15AB376863D1724E}Assets/Props/Fabric/Flags/Data/Flag_1_2_Russia.emat"
+    m_aObjectiveNames {
+     "AFRF_2" "IGF_2"
+    }
+    m_aFlagData {
+     PS_FlagData "{64C89A5BE502D7A9}" {
+      m_sFactionKey "RHS_AFRF"
+     }
+     PS_FlagData "{64C89A5BE521A7C5}" {
+      m_sFactionKey "Drg_IGF"
+      m_iCaptureCounter 1
+     }
+    }
+    m_sFactionKey "RHS_AFRF"
+   }
+  }
+  coords 668.138 306.876 6604.353
+  angleY -88.599
+ }
+}

@@ -1,0 +1,53 @@
+$grp GenericEntity : "{F9EBA10CC445ED63}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V1_CDF_Editable.et" {
+ FLAG_1 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "FLAG_1_AFRF" "FLAG_1_CDF"
+    }
+    m_aFlagData {
+     PS_FlagData "{64C271FFEBE04AC9}" {
+      m_sFactionKey "RHS_AFRF"
+      m_iCaptureCounter 1
+     }
+     PS_FlagData "{64C271FFEB5C0CB1}" {
+      m_sFactionKey "RHS_USAF"
+      m_iCaptureCounter 0
+     }
+     PS_FlagData "{64C271FFEB16C160}" {
+      m_sFactionKey "Ses_CDF"
+      m_iCaptureCounter 0
+     }
+    }
+    m_sFactionKey "Ses_CDF"
+   }
+  }
+  coords 3759.004 316.287 8910.209
+  angleX 36.12
+  angleY 24.771
+  angleZ 5.164
+ }
+ FLAG_2 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "FLAG_2_AFRF" "FLAG_2_CDF"
+    }
+    m_aFlagData {
+     PS_FlagData "{64C271FF049631D2}" {
+      m_sFactionKey "RHS_AFRF"
+      m_iCaptureCounter 1
+     }
+     PS_FlagData "{64C271FF07F64DA3}" {
+      m_sFactionKey "RHS_USAF"
+     }
+     PS_FlagData "{64C271FF00AF889D}" {
+      m_sFactionKey "Ses_CDF"
+     }
+    }
+    m_sFactionKey "Ses_CDF"
+   }
+  }
+  coords 3846.225 319.266 8942.852
+ }
+}

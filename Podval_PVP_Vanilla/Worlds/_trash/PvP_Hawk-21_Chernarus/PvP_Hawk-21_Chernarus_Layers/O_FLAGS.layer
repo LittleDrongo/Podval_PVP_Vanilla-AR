@@ -1,0 +1,42 @@
+$grp GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_AFRF.et" {
+ FLAG_1 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "FLAG_1_AFRF" "FLAG_1_USAF"
+    }
+    m_aFlagData {
+     PS_FlagData "{65650E094BC41C07}" {
+      m_sFactionKey "FLAG_AFRF"
+     }
+     PS_FlagData "{65650E094BFF60BA}" {
+      m_sFactionKey "FLAG_USAF"
+      m_iCaptureCounter 1
+     }
+    }
+   }
+  }
+  coords 4216.544 342.398 11042.626
+ }
+ FLAG_2 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "FLAG_2_AFRF" "FLAG_2_USAF"
+    }
+    m_aFlagData {
+     PS_FlagData "{65650E094BC41C07}" {
+      m_sFactionKey "FLAG_AFRF"
+     }
+     PS_FlagData "{65650E094BFF60BA}" {
+      m_sFactionKey "FLAG_USAF"
+      m_iCaptureCounter 1
+     }
+    }
+   }
+  }
+  coords 4047.831 382.222 11706.433
+  angleY -13.237
+  angleZ -31.021
+ }
+}

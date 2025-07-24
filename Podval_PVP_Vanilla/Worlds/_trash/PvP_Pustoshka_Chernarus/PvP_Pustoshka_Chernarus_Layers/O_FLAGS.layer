@@ -1,0 +1,14 @@
+GenericEntity FLAG : "{2A20E8E4B2BC7171}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V2_CDF_Editable.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_aObjectiveNames {
+    "FLAG_AFRF" "FLAG_USAF"
+   }
+   m_sFactionKey "Ses_CDF"
+  }
+ }
+ coords 3025.583 320.128 7846.99
+ angleX 16.278
+ angleY 63.241
+ angleZ -31.547
+}

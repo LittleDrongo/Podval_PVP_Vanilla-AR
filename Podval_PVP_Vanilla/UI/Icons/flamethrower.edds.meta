@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{4D1BE7A821BBAC55}UI/Icons/flamethrower.edds"
+ Name "{4D1BE7A821BBAC54}UI/Icons/flamethrower.edds"
  Configurations {
   PNGResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
   }

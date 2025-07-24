@@ -1,0 +1,315 @@
+SCR_AIGroup AFRF_0_0_0 : "{13508F514A2A2CA6}Prefabs/Groups/OPFOR/drg_RHS_Army_HQ.et" {
+ coords 4884.287 339.125 9779.41
+ angleY 76.614
+ m_aUnitPrefabSlots {
+  "{83EC1FC85CC0AADE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Officer.et" "{D9234F6644B47143}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Medic.et"
+ }
+}
+Vehicle Ural4320_command1 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
+ coords 4881.293 339.125 9780.884
+ angleY 73.189
+ m_sAttachmentGroupName "AFRF_0_0_0"
+}
+Vehicle Ural4320_transport_covered_camo1 : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
+ coords 4900.603 339.125 9758.485
+ angleY -17.806
+ m_sAttachmentGroupName "AFRF_4_0_0"
+ m_bEnableMoveOnFreeze 1
+}
+SCR_AIGroup AFRF_4_0_0 : "{3CD2AD148685CB67}Prefabs/Groups/OPFOR/drg_RHS_Army_MortarTeam.et" {
+ components {
+  PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+   m_iCompanyCallsign 4
+  }
+ }
+ coords 4905.324 339.125 9757.555
+ angleY -106.804
+ m_aUnitPrefabSlots {
+  "{27B55B400E8E81F4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MortarLeader.et" "{8AB4462F24F21DCD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MortarGunner.et" "{4E57F707357C7311}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MortarLoader.et" "{1EE1253262037F41}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_RER.et"
+ }
+}
+$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ BTR70_AFRF1 {
+  coords 4913.726 339.125 9796.854
+  angleY -15.307
+  m_sAttachmentGroupName "AFRF_2_0_0"
+  m_bEnableMoveOnFreeze 1
+ }
+ BTR70_AFRF2 {
+  coords 4910.271 339.125 9809.215
+  angleY -15.307
+  m_sAttachmentGroupName "AFRF_2_0_1"
+  m_bEnableMoveOnFreeze 1
+ }
+ BTR70_AFRF3 {
+  coords 4906.929 339.125 9822.28
+  angleY -15.307
+  m_sAttachmentGroupName "AFRF_2_0_2"
+  m_bEnableMoveOnFreeze 1
+ }
+ BTR70_AFRF4 {
+  coords 4923.068 339.125 9772.443
+  angleY -15.307
+  m_sAttachmentGroupName "AFRF_1_0_2"
+  m_bEnableMoveOnFreeze 1
+ }
+ BTR70_AFRF5 {
+  coords 4926.409 339.125 9759.378
+  angleY -15.307
+  m_sAttachmentGroupName "AFRF_1_0_1"
+  m_bEnableMoveOnFreeze 1
+ }
+ BTR70_AFRF6 {
+  coords 4929.864 339.125 9747.018
+  angleY -15.307
+  m_sAttachmentGroupName "AFRF_1_0_0"
+  m_bEnableMoveOnFreeze 1
+ }
+}
+$grp Vehicle : "{7A16FB788DAD3992}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD_Green.et" {
+ GAZ_TIGR_v2_KORD_Green1 {
+  coords 4885.634 339.125 9813.242
+  angleY -17.6
+  m_sAttachmentGroupName "AFRF_3_0_1"
+  m_bEnableMoveOnFreeze 1
+ }
+ GAZ_TIGR_v2_KORD_Green2 {
+  coords 4890.299 339.125 9798.254
+  angleY -17.6
+  m_sAttachmentGroupName "AFRF_3_0_2"
+  m_bEnableMoveOnFreeze 1
+ }
+ GAZ_TIGR_v2_KORD_Green3 {
+  coords 4881.09 339.125 9827.889
+  angleY -17.6
+  m_sAttachmentGroupName "AFRF_3_0_0"
+  m_bEnableMoveOnFreeze 1
+ }
+}
+$grp GenericEntity : "{8F17290FBF410605}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_82mm_mortar_10rnd_HE.et" {
+ {
+  coords 4904.484 339.125 9755.279
+  angleY -12.207
+  {
+   $grp GenericEntity : "{8F17290FBF410605}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_82mm_mortar_10rnd_HE.et" {
+    {
+     coords 0 0.097 0
+     angleX 0.018
+     angleZ 0.023
+    }
+    {
+     coords 0 0.195 0
+     angleX 0.035
+     angleZ 0.046
+    }
+    {
+     coords 0 0.292 0
+     angleX 0.052
+     angleZ 0.069
+    }
+    {
+     coords 0 0.389 0
+     angleX 0.07
+     angleZ 0.092
+    }
+    {
+     coords 0 0.486 0
+     angleX 0.087
+     angleZ 0.115
+    }
+    {
+     coords 0 0.583 0
+     angleX 0.105
+     angleZ 0.138
+    }
+    {
+     coords 0 0.68 0
+     angleX 0.123
+     angleZ 0.161
+    }
+    {
+     coords 0 0.777 0
+     angleX 0.14
+     angleZ 0.184
+    }
+    {
+     coords 0 0.874 0
+     angleX 0.157
+     angleZ 0.207
+    }
+    {
+     coords 0 0.971 -0.001
+     angleX 0.175
+     angleZ 0.23
+    }
+   }
+  }
+ }
+ {
+  coords 4904.289 339.125 9756.162
+  angleY -12.207
+  {
+   $grp GenericEntity : "{8F17290FBF410605}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_82mm_mortar_10rnd_HE.et" {
+    {
+     coords 0 0.195 0
+     angleX 0.035
+     angleZ 0.046
+    }
+    {
+     coords 0 0.292 0
+     angleX 0.052
+     angleZ 0.069
+    }
+    {
+     coords 0 0.389 0
+     angleX 0.07
+     angleZ 0.092
+    }
+    {
+     coords 0 0.486 0
+     angleX 0.087
+     angleZ 0.115
+    }
+    {
+     coords 0 0.583 0
+     angleX 0.105
+     angleZ 0.138
+    }
+    {
+     coords 0 0.68 0
+     angleX 0.123
+     angleZ 0.161
+    }
+    {
+     coords 0 0.777 0
+     angleX 0.14
+     angleZ 0.184
+    }
+    {
+     coords 0 0.874 0
+     angleX 0.157
+     angleZ 0.207
+    }
+    {
+     coords 0 0.971 -0.001
+     angleX 0.175
+     angleZ 0.23
+    }
+    {
+     coords 0 0.097 0
+     angleX 0.018
+     angleZ 0.023
+    }
+   }
+  }
+ }
+}
+Turret : "{D1FFE458E8AC4BDB}Prefabs/Weapons/Mortars/2B14/Mortar_2B14.et" {
+ components {
+  PS_GroupAttachmentComponent "{653B38114EC61E0E}" {
+   m_sAttachmentGroupName "AFRF_4_0_0"
+  }
+ }
+ coords 4903.231 339.125 9761.833
+ angleY -3.498
+}
+$grp SCR_AIGroup : "{F06FB64E53D6E4AE}Prefabs/Groups/OPFOR/drg_RHS_Recon_Squad.et" {
+ AFRF_3_0_0 {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 3
+   }
+  }
+  coords 4885.552 339.126 9827.7
+  angleY -107.989
+  m_aUnitPrefabSlots {
+   "{964F7C7E17A618E4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_SquadLeader.et" "{89072075B73F4C52}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_SeniorRifleman.et" "{1AB049064B53BD02}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Grenadier.et" "{DF973A765CF4CE88}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Rifle_GM94.et" "{2BB6F9C635CFFE8B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Sniper.et"
+  }
+ }
+ AFRF_3_0_1 {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4890.377 339.126 9812.094
+  angleY -107.989
+  m_aUnitPrefabSlots {
+   "{964F7C7E17A618E4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_SquadLeader.et" "{89072075B73F4C52}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_SeniorRifleman.et" "{1AB049064B53BD02}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Grenadier.et" "{DF973A765CF4CE88}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Rifle_GM94.et" "{2BB6F9C635CFFE8B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Sniper.et"
+  }
+ }
+ AFRF_3_0_2 {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 2
+   }
+  }
+  coords 4895.108 339.125 9797.212
+  angleY -107.989
+  m_aUnitPrefabSlots {
+   "{964F7C7E17A618E4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_SquadLeader.et" "{89072075B73F4C52}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_SeniorRifleman.et" "{1AB049064B53BD02}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Grenadier.et" "{DF973A765CF4CE88}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Rifle_GM94.et" "{2BB6F9C635CFFE8B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Sniper.et"
+  }
+ }
+}
+$grp SCR_AIGroup : "{FB6E7CB4014BE2C8}Prefabs/Groups/OPFOR/drg_RHS_Army_RifleSquad.et" {
+ AFRF_1_0_0 {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 4924.969 339.125 9742.765
+  angleY -108.327
+ }
+ AFRF_1_0_1 {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4921.19 339.125 9754.175
+  angleY -108.327
+ }
+ AFRF_1_0_2 {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 4917.408 339.125 9765.589
+  angleY -108.327
+ }
+ AFRF_2_0_0 {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 4910.555 339.125 9792.079
+  angleY -105.289
+ }
+ AFRF_2_0_2 {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 4903.523 339.125 9815.935
+  angleY -106.457
+ }
+ AFRF_2_0_1 {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4907.092 339.125 9803.884
+  angleY -105.868
+ }
+}

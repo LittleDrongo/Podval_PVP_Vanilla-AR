@@ -1,0 +1,116 @@
+$grp SCR_AIGroup : "{0E84EF3D585F1560}Prefabs/Groups/BLUFOR/UK/drg_Group_UK_InfantrySection.et" {
+ UK_0_0_0 {
+  coords 1158.407 185.406 7245.438
+  angleY -2.49
+  m_aUnitPrefabSlots {
+   "{D21D1064AC476000}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_CL.et"
+  }
+  m_sCustomNameSet "#DRG-Sq-CompanyHQ"
+ }
+ UK_1_0_0 {
+  components {
+   PS_GroupCallsignAssigner "{6574F439E9435B4D}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 1153.789 185.406 7257.748
+  angleY 178.513
+  m_aUnitPrefabSlots {
+   "{2C99DC921215206A}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_SL.et" "{EC99CB97AE9C9A84}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_LWS.et" "{7CAD9664386A1600}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_Rifleman.et" "{7CAD9664386A1600}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_Rifleman.et" "{C660EA9094E2A3F4}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_TL.et" "{1306F3974EDE969A}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_MG.et" "{7CAD9664386A1600}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_Rifleman.et" "{7CAD9664386A1600}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_Rifleman.et"
+  }
+ }
+ UK_1_0_1 {
+  components {
+   PS_GroupCallsignAssigner "{6574F439E9435B4D}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1168.103 185.406 7258.722
+  angleY -154.156
+  m_aUnitPrefabSlots {
+   "{2C99DC921215206A}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_SL.et" "{EC99CB97AE9C9A84}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_LWS.et" "{7CAD9664386A1600}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_Rifleman.et" "{7CAD9664386A1600}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_Rifleman.et" "{C660EA9094E2A3F4}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_TL.et" "{1306F3974EDE969A}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_MG.et" "{7CAD9664386A1600}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_Rifleman.et" "{7CAD9664386A1600}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_Rifleman.et"
+  }
+ }
+ UK_1_0_2 {
+  components {
+   PS_GroupCallsignAssigner "{6574F439E9435B4D}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1168.71 185.406 7246.005
+  angleY -90.997
+  m_aUnitPrefabSlots {
+   "{2C99DC921215206A}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_SL.et" "{EC99CB97AE9C9A84}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_LWS.et" "{7CAD9664386A1600}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_Rifleman.et" "{7CAD9664386A1600}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_Rifleman.et" "{C660EA9094E2A3F4}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_TL.et" "{1306F3974EDE969A}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_MG.et" "{7CAD9664386A1600}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_Rifleman.et" "{7CAD9664386A1600}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_Rifleman.et"
+  }
+ }
+ UK_1_0_3 {
+  components {
+   PS_GroupCallsignAssigner "{6574F439E9435B4D}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 1168.908 185.406 7234.599
+  angleY -90.997
+  m_aUnitPrefabSlots {
+   "{2C99DC921215206A}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_SL.et" "{EC99CB97AE9C9A84}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_LWS.et" "{7CAD9664386A1600}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_Rifleman.et" "{7CAD9664386A1600}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_Rifleman.et" "{C660EA9094E2A3F4}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_TL.et" "{1306F3974EDE969A}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_MG.et" "{7CAD9664386A1600}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_Rifleman.et" "{7CAD9664386A1600}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_Rifleman.et"
+  }
+ }
+ UK_1_0_4 {
+  components {
+   PS_GroupCallsignAssigner "{6574F439E9435B4D}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 4
+   }
+  }
+  coords 1168.706 185.406 7230.375
+  angleY -90.997
+  m_aUnitPrefabSlots {
+   "{FDCDFF7A3B3D4211}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_SMAW.et" "{446115906D56CBDA}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_MAW_Assist.et" "{446115906D56CBDA}Prefabs/Characters/Factions/BLUFOR/UK_Army/Army/drg_Character_UK_Army_MAW_Assist.et"
+  }
+  m_sCustomNameSet "#DRG_Sqd_AT"
+ }
+}
+$grp SCR_AIGroup : "{88827B912FA33559}Prefabs/Groups/BLUFOR/UK/drg_Group_UK_SAS.et" {
+ UK_2_0_0 {
+  components {
+   PS_GroupCallsignAssigner "{6575082F14F9CEB8}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 973.731 181.156 7644.654
+  angleY -4.251
+ }
+ UK_2_0_1 {
+  components {
+   PS_GroupCallsignAssigner "{6575082F14F9CEB8}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 966.71 181.156 7644.131
+  angleY -4.251
+ }
+ UK_2_0_2 {
+  components {
+   PS_GroupCallsignAssigner "{6575082F14F9CEB8}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 958.339 181.156 7643.509
+  angleY -4.251
+ }
+ UK_2_0_3 {
+  components {
+   PS_GroupCallsignAssigner "{6575082F14F9CEB8}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 3
+   }
+  }
+  coords 967.57 181.062 7627.327
+  angleY -91.928
+ }
+}

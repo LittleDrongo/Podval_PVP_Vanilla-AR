@@ -1,0 +1,54 @@
+$grp PS_Objective {
+ {
+  components {
+   RplComponent "{61D770792CB54432}" {
+    Streamable Disabled
+   }
+   Hierarchy "{61D7707839C3C349}" {
+   }
+  }
+  coords 2834.407 12.151 2650.952
+  m_sTitle "Отбить рейд ВС США"
+  m_iScore 75
+  m_sFactionKey "Ses_TKG"
+ }
+ {
+  components {
+   RplComponent "{61D7707933FEA9D5}" {
+    Streamable Disabled
+   }
+   Hierarchy "{61D77078382F21B6}" {
+   }
+  }
+  coords 2825.303 14.726 2644.573
+  m_sTitle "Зачистить район"
+  m_iScore 75
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  components {
+   RplComponent "{61D770793718255C}" {
+    Streamable Disabled
+   }
+   Hierarchy "{61D770783A372064}" {
+   }
+  }
+  coords 2853.633 12.248 2655.34
+  m_sTitle "Главарь жив"
+  m_iScore 25
+  m_sFactionKey "Ses_TKG"
+ }
+ {
+  components {
+   RplComponent "{61D770793C195428}" {
+    Streamable Disabled
+   }
+   Hierarchy "{61D7707837DF13BD}" {
+   }
+  }
+  coords 2848.511 17.46 2636.997
+  m_sTitle "Главарь убит"
+  m_iScore 25
+  m_sFactionKey "RHS_USAF"
+ }
+}

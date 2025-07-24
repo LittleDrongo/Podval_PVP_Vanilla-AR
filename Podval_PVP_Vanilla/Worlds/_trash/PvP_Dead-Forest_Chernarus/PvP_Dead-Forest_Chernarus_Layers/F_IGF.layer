@@ -1,0 +1,160 @@
+$grp SCR_AIGroup : "{A13A0628A2760876}Prefabs/Groups/OPFOR/DRG_Group_RHS_AFRF_MSV.et" {
+ IGF_0_0_0 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation " "
+   }
+  }
+  coords 212.109 306.836 7645.096
+  angleY 79.71
+  m_faction "Drg_IGF"
+  m_aUnitPrefabSlots {
+   "{BC54A1D12CF2C650}Prefabs/Characters/Factions/INDFOR/IG/drg_Character_IG_PL.et"
+  }
+  m_bDeleteWhenEmpty 0
+ }
+ IGF_1_0_0 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation " "
+   }
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 211.282 307.641 7658.331
+  angleY 88.476
+  m_faction "Drg_IGF"
+  m_aUnitPrefabSlots {
+   "{00BAD80E479CF497}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_SL_Rand.et" "{228A0AC8AFF5556D}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_MG_Rand.et" "{32F8178356B5CE58}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_AT_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et" "{94E77D36CB435D3C}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_SeniorRifleman_Rand.et" "{228A0AC8AFF5556D}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_MG_Rand.et" "{32F8178356B5CE58}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_AT_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et"
+  }
+  m_bDeleteWhenEmpty 0
+ }
+ IGF_1_0_1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation " "
+   }
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 210.938 309.7 7671.254
+  angleX 0.165
+  angleY 88.494
+  angleZ 6.24
+  m_faction "Drg_IGF"
+  m_aUnitPrefabSlots {
+   "{00BAD80E479CF497}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_SL_Rand.et" "{228A0AC8AFF5556D}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_MG_Rand.et" "{32F8178356B5CE58}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_AT_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et" "{94E77D36CB435D3C}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_SeniorRifleman_Rand.et" "{228A0AC8AFF5556D}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_MG_Rand.et" "{32F8178356B5CE58}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_AT_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et"
+  }
+  m_bDeleteWhenEmpty 0
+ }
+ IGF_1_0_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation " "
+   }
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 213.141 311.192 7684.892
+  angleX -0.186
+  angleY 98.599
+  angleZ 7.178
+  m_faction "Drg_IGF"
+  m_aUnitPrefabSlots {
+   "{00BAD80E479CF497}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_SL_Rand.et" "{228A0AC8AFF5556D}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_MG_Rand.et" "{32F8178356B5CE58}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_AT_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et" "{94E77D36CB435D3C}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_SeniorRifleman_Rand.et" "{228A0AC8AFF5556D}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_MG_Rand.et" "{32F8178356B5CE58}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_AT_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et"
+  }
+  m_bDeleteWhenEmpty 0
+ }
+ IGF_2_0_0 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation " "
+   }
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 218.149 313.55 7712.621
+  angleY 92.465
+  m_faction "Drg_IGF"
+  m_aUnitPrefabSlots {
+   "{00BAD80E479CF497}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_SL_Rand.et" "{228A0AC8AFF5556D}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_MG_Rand.et" "{32F8178356B5CE58}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_AT_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et" "{94E77D36CB435D3C}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_SeniorRifleman_Rand.et" "{228A0AC8AFF5556D}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_MG_Rand.et" "{32F8178356B5CE58}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_AT_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et"
+  }
+  m_bDeleteWhenEmpty 0
+ }
+ IGF_2_0_1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation " "
+   }
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 218.461 313.55 7730.824
+  angleY 92.465
+  m_faction "Drg_IGF"
+  m_aUnitPrefabSlots {
+   "{00BAD80E479CF497}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_SL_Rand.et" "{228A0AC8AFF5556D}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_MG_Rand.et" "{32F8178356B5CE58}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_AT_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et" "{94E77D36CB435D3C}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_SeniorRifleman_Rand.et" "{228A0AC8AFF5556D}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_MG_Rand.et" "{32F8178356B5CE58}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_AT_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et"
+  }
+  m_bDeleteWhenEmpty 0
+ }
+ IGF_2_0_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation " "
+   }
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 218.978 313.844 7748.402
+  angleY 92.465
+  m_faction "Drg_IGF"
+  m_aUnitPrefabSlots {
+   "{00BAD80E479CF497}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_SL_Rand.et" "{228A0AC8AFF5556D}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_MG_Rand.et" "{32F8178356B5CE58}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_AT_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et" "{94E77D36CB435D3C}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_SeniorRifleman_Rand.et" "{228A0AC8AFF5556D}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_MG_Rand.et" "{32F8178356B5CE58}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_AT_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et"
+  }
+  m_bDeleteWhenEmpty 0
+ }
+ IGF_3_0_0 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation " "
+   }
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 3
+   }
+  }
+  coords 219.525 313.844 7761.097
+  angleY 92.465
+  m_faction "Drg_IGF"
+  m_aUnitPrefabSlots {
+   "{00BAD80E479CF497}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_SL_Rand.et" "{228A0AC8AFF5556D}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_MG_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et" "{94E77D36CB435D3C}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_SeniorRifleman_Rand.et" "{228A0AC8AFF5556D}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_MG_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et"
+  }
+  m_bDeleteWhenEmpty 0
+ }
+ IGF_4_0_0 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation " "
+   }
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 4
+   }
+  }
+  coords 218.725 313.844 7772.95
+  angleY 80.772
+  m_faction "Drg_IGF"
+  m_aUnitPrefabSlots {
+   "{00BAD80E479CF497}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_SL_Rand.et" "{228A0AC8AFF5556D}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_MG_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et" "{94E77D36CB435D3C}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_SeniorRifleman_Rand.et" "{228A0AC8AFF5556D}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_MG_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et" "{B7FAA035CFD28AAE}Prefabs/Characters/Factions/INDFOR/IG/Rand/drg_Character_IG_Rifleman_Rand.et"
+  }
+  m_bDeleteWhenEmpty 0
+ }
+}

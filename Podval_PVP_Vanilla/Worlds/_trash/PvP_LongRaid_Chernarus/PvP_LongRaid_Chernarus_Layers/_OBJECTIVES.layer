@@ -1,0 +1,22 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ KILL_USMC {
+  coords 1609.265 14.084 1574.584
+  m_sTitle "Разромить противника"
+  m_sFactionKey "Ses_CDF"
+ }
+ HELI_ATK {
+  coords 8494.292 257.691 2403.939
+  m_sTitle "Уничтожить вертолёты"
+  m_sFactionKey "RHS_USAF"
+ }
+ KILL_CDF {
+  coords 1609.265 14.084 1574.584
+  m_sTitle "Разромить противника"
+  m_sFactionKey "RHS_USAF"
+ }
+ HELI_DEF {
+  coords 8494.292 257.691 2403.939
+  m_sTitle "Сохранить вертолёты"
+  m_sFactionKey "Ses_CDF"
+ }
+}
