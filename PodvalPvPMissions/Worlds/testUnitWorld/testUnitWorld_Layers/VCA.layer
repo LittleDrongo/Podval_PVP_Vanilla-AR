@@ -8,9 +8,6 @@ SCR_AIGroup : "{267668529664A418}Prefabs/Groups/INDFOR/Drg_VCA/drg_VCA_Showcase.
 SCR_ChimeraCharacter : "{883577F068D2E4D6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Storm/drg_Role_RHS_AFRF_Storm_Armored.et" {
  coords 101.921 1 202.745
 }
-Tree : "{A5DE58FC9FB6BA60}Prefabs/Vegetation/Bush/b_corylus_avellana_2.et" {
- coords 100.671 0 228.242
-}
 GameEntity : "{B7949476E3963738}Prefabs/Characters/HeadGear/Helmet_TOR2/variants/drg_Helmet_TOR2M_AMP_MC_SOBR.et" {
  coords 99.858 1 204.183
 }

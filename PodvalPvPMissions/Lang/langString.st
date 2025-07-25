@@ -1325,10 +1325,10 @@ StringTable {
   }
   CustomStringTableItem "{61CEB759F6CAB9E4}" {
    Id "DRG_Roles_RHS_AAT"
-   Target_en_us "Assistant anti-tank specialist"
+   Target_en_us "Assistant Anti-tank "
    Target_ru_ru "Помощник гранатомётчика"
    Target_uk_ua "Помічник гранатометника"
-   Modified 1640942422
+   Modified 1710420665
    Author "hasta"
    LastChanged "hasta"
   }
@@ -1343,10 +1343,10 @@ StringTable {
   }
   CustomStringTableItem "{61CEB75B55D06B5E}" {
    Id "DRG_Roles_RHS_AT"
-   Target_en_us "Anti-tank specialist"
+   Target_en_us "Anti-tank Soldier"
    Target_ru_ru "Гранатомётчик"
    Target_uk_ua "Гранатометник"
-   Modified 1640941314
+   Modified 1710420673
    Author "hasta"
    LastChanged "hasta"
   }

@@ -1,0 +1,7 @@
+SCR_AIGroup : "{1EF07174048BDC45}Prefabs/Groups/INDFOR/FIA/drg_FIA_ShowCase.et" {
+ coords 107.977 1 244.918
+ angleY 0
+ m_aUnitPrefabSlots + {
+  "{2697C48CA75CED17}Prefabs/Characters/Factions/INDFOR/FIA/Dev/drg_Character_FIA_Sniper.et" "{7D8D9DBD2181E401}Prefabs/Characters/Factions/INDFOR/FIA/Dev/drg_Character_FIA_CrewCommander.et" "{373FAF8F9F9BB4DA}Prefabs/Characters/Factions/INDFOR/FIA/Dev/drg_Character_FIA_CrewGunner.et" "{D014086FB76CBD77}Prefabs/Characters/Factions/INDFOR/FIA/Dev/drg_Character_FIA_CrewDriver.et"
+ }
+}
