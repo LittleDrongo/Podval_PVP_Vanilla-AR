@@ -1,8 +1,19 @@
 SCR_ChimeraCharacter : "{B3C42C9051BB2932}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_SR.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_ReconSL"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{F8C087F6610F8657}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_M203_BLOCK_II_SU230_suppr.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Back {
+     Prefab ""
+    }
     LoadoutSlotInfo Vest {
      Prefab "{8FF4A5E9BBEC83D1}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_MC_UBGL.et"
     }
