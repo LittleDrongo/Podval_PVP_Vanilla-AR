@@ -4,11 +4,20 @@ SCR_AIGroup : "{9520E7AB1B4FED25}Prefabs/Groups/OPFOR/drg_Group_RHS_AFRF_Sabotag
   "{C24587D5FF9E994E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Sabotage/drg_Role_RHS_AFRF_Sabotage_Rifleman.et" "{E02F7C3171C2735D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Sabotage/drg_Role_RHS_AFRF_Sabotage_Rifleman_2.et" "{BC56CF0102B189DB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Sabotage/drg_Role_RHS_AFRF_Sabotage_SL.et" "{BB91355064373318}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Sabotage/drg_Role_RHS_AFRF_Sabotage_TL.et" "{254876981F56B84B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Sabotage/drg_Role_RHS_AFRF_Sabotage_PL.et" "{8F2A7045847145F9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Sabotage/drg_Role_RHS_AFRF_Sabotage_RPO.et" "{7F6DBCE3E5DB83AA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Sabotage/drg_Role_RHS_AFRF_Sabotage_Sniper.et" "{B8608D7D947C984A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Sabotage/drg_Role_RHS_AFRF_Sabotage_Debolition.et" "{DC0B403FC78242E2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Sabotage/drg_Role_RHS_AFRF_Sabotage_GL.et"
  }
 }
+SCR_AIGroup : "{9C4C758203A42706}Prefabs/Groups/OPFOR/drg_AFRF_GRU.et" {
+ coords 108.16 1 208.807
+ m_aUnitPrefabSlots {
+  "{B46B17CBE79C9A5E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/drg_Role_RHS_AFRF_GRU_Unarmed.et" "{458F066DE1E8215E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_Rifleman.et" "" "{8A206FC53418171D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/drg_Role_RHS_AFRF_GRU_Armored.et" "{458F066DE1E8215F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/drg_Role_RHS_AFRF_GRU_Rifleman.et" "" "" "" "" "" "" "" "" ""
+ }
+}
 SCR_AIGroup : "{A2B2BA4E83C87880}Prefabs/Groups/OPFOR/drg_Group_RHS_AFRF_Shtom_Showcase.et" {
  coords 108.091 1 206.615
  m_aUnitPrefabSlots {
   "{883577F068D2E4D6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Storm/drg_Role_RHS_AFRF_Storm_Armored.et" "" "" ""
  }
+}
+SCR_ChimeraCharacter : "{B46B17CBE79C9A5E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/drg_Role_RHS_AFRF_GRU_Unarmed.et" {
+ coords 107.777 1 212.347
 }
 $grp SCR_AIGroup : "{F34EA9571C481A4D}Prefabs/Groups/OPFOR/drg_Group_RHS_AFRF_ShowCase.et" {
  {

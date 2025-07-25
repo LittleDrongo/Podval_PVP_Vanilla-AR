@@ -1,0 +1,6 @@
+SCR_AIGroup : "{3EDA372443FD105F}Prefabs/Groups/OPFOR/drg_AFRF_RifleSquad.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+ }
+}
