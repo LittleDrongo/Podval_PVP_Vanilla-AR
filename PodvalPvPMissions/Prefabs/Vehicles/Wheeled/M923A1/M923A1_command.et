@@ -1,4 +1,4 @@
-Vehicle : "{36BDCC88B17B3BFA}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command.et" {
+Vehicle : "{9A0D72816DFFDB7F}Prefabs/Vehicles/Wheeled/M923A1/M923A1.et" {
  ID "5206D4E79715C115"
  components {
   BaseRadioComponent "{51EAE034CD7B7A2C}" {
