@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{8EB701DD2C373871}Prefabs/Items/Equipment/Radios/IDF_Radio_RF10.et"
+ Name "{AB1C8B5457DC8010}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_ReconPatrolTeam.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

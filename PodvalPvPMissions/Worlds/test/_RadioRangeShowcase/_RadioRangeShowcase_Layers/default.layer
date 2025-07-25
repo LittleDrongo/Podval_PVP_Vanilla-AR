@@ -1,0 +1,16 @@
+Vehicle Ural4320_command1 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
+ coords 5344.398 109.312 11016.266
+ angleY 131.73
+}
+StaticModelEntity : "{4D6EF868C5113C11}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/drg_RadioRelayTower_TRK.et" {
+ coords 6955.908 631.516 3964.83
+ angleY 54.817
+}
+SCR_AIGroup : "{AB1C8B5457DC8010}Prefabs/Groups/OPFOR/Campaign/S_USSR_drg_ReconPatronVehicle.et" {
+ coords 5340.801 109.313 11037.007
+ angleY 130.723
+}
+SCR_AIGroup : "{FD47A0A8CE51D3BE}Prefabs/Groups/INDFOR/TGK/drg_TKR_RifleSquad.et" {
+ coords 6795.601 616.961 3705.361
+ angleY 0
+}
