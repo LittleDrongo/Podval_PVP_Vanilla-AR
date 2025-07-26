@@ -57,8 +57,7 @@ $grp SCR_AIGroup : "{728E2FD8168A5314}Prefabs/Groups/OPFOR/drg_Group_USSR_Squad.
    }
    PS_GroupCallsignAssigner "{61B543EBC5B38209}" {
     Enabled 1
-    m_iCompanyCallsign 1
-    m_iSquadCallsign 4
+    m_iCompanyCallsign 3
    }
   }
   coords 7205.46 136.758 2332.583
