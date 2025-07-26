@@ -29,6 +29,11 @@ $grp SCR_AIGroup : "{FD47A0A8CE51D3BE}Prefabs/Groups/INDFOR/TGK/drg_TKR_RifleSqu
   m_sCustomNameSet ""
  }
  TKR_0_0_0 {
+  components {
+   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
+    m_iCompanyCallsign 0
+   }
+  }
   coords 2909.462 15.497 2575.708
   angleY -148.297
   m_aUnitPrefabSlots {
