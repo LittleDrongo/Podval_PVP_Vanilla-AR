@@ -8,7 +8,7 @@ PS_GameModeCoop : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
  m_bMarkersOnlyOnBriefing 1
  m_bRemoveRedundantUnits 1
  m_bRemoveSquadMarkers 1
- m_iDisableTime 10000
+ m_iFreezeTime 300000
  m_bDisableChat 1
  m_bReserveSlots 1
  m_bDisableVanillaGroupMenu 1
