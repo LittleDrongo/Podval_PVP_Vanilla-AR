@@ -6,7 +6,6 @@ SCR_ChimeraCharacter : "{6344FAB9EEF674E7}Prefabs/Characters/Factions/OPFOR/RHS_
     SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
      InitialStorageSlots {
       SCR_EquipmentStorageSlot WristwatchSlot {
-       Prefab "{57C7E2D1FB25A85E}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo_green.et"
       }
      }
     }
@@ -61,7 +60,8 @@ SCR_ChimeraCharacter : "{6344FAB9EEF674E7}Prefabs/Characters/Factions/OPFOR/RHS_
      }
     }
     ItemsInitConfigurationItem "{6528F2E079033878}" {
-     TargetStorage "Vest/drg_Vest_TV115_Rifleman_OD_Sab.et"
+     TargetStorage "Jacket/Goblin_jacket_GRN.et"
+     TargetPurpose 64
     }
    }
   }

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{F72651F932E425B6}Prefabs/Weapons/Rifles/AK74/Rifle_AK74N_Camo.et"
+ Name "{6B8928FA4A47C395}Prefabs/Items/Equipment/Patches/Patch_Base_Antenna.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }
