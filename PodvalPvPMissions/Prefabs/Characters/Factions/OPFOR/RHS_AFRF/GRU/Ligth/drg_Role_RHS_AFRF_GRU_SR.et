@@ -17,5 +17,12 @@ SCR_ChimeraCharacter : "{458F066DE1E8215E}Prefabs/Characters/Factions/OPFOR/RHS_
     Name "#DRG-Role_SeniorRecon"
    }
   }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{FB5A7B01CB68F134}Prefabs/Characters/Heads/Head_White_03_Camo.et"
+    }
+   }
+  }
  }
 }

@@ -45,7 +45,7 @@ SCR_ChimeraCharacter : "{6344FAB9EEF674E7}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{1A1584785389F088}Prefabs/Characters/Vests/Vest_TV115/variants/drg_Vest_TV115_Rifleman_OD_radio.et"
     }
     LoadoutSlotInfo HandWear {
-     Prefab "{0C1BB6A39D86979F}Prefabs/Characters/Handwear/Gloves_oackleyV2/OackleyV2_TAN.et"
+     Prefab "{E9BD1B8888B6F37D}Prefabs/Characters/Handwear/Ratnik_gloves/Ratnik_gloves.et"
     }
    }
   }

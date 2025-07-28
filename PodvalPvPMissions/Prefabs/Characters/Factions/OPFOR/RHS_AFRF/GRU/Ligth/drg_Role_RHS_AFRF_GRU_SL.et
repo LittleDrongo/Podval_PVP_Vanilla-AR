@@ -17,10 +17,17 @@ SCR_ChimeraCharacter : "{458F066DE1E8215E}Prefabs/Characters/Factions/OPFOR/RHS_
     Name "#DRG-Role_ReconSL"
    }
   }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{DAEA2176AC082B5E}Prefabs/Characters/Heads/Head_White_08_Camo.et"
+    }
+   }
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Back {
-     Prefab "{B31D9C2465D00D93}Prefabs/Items/Equipment/Radios/Radio_R107M_PL.et"
+     Prefab "{3503D3AD9D93F2EA}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/drg_Backpack_Wartech_BB102_EMR_RADIO.et"
     }
    }
   }
