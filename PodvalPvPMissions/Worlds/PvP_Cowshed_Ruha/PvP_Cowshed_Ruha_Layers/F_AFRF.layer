@@ -1,16 +1,16 @@
-$grp Vehicle : "{2C9B4D8196812513}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed.et" {
- GAZ_TIGR_v2_Unarmed1 {
-  coords 4998.155 55.834 4219.51
-  angleX 0.038
-  angleY 78.218
-  angleZ 4.555
+$grp Vehicle : "{7B4BBFD80FB91FF0}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD_SPP_Green.et" {
+ GAZ_TIGR_v2_KORD_SPP_Green1 {
+  coords 4997.794 55.82 4219.001
+  angleX -4.734
+  angleY 73.574
+  angleZ 6.023
   m_sAttachmentGroupName "RR_4_1"
  }
- GAZ_TIGR_v2_Unarmed2 {
-  coords 5006.895 55.648 4221.332
-  angleX -1.017
-  angleY 78.147
-  angleZ 3.866
+ GAZ_TIGR_v2_KORD_SPP_Green2 {
+  coords 5007.272 55.667 4221.795
+  angleX -0.724
+  angleY 73.851
+  angleZ 3.931
   m_sAttachmentGroupName "RR_4_0"
  }
 }

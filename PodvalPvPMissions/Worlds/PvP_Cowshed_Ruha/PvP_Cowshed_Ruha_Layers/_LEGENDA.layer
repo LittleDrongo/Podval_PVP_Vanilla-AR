@@ -42,16 +42,16 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 4998.155 55.834 4219.51
-  angleX 0.038
-  angleY 168.218
-  angleZ 4.555
+  coords 4997.794 55.82 4219.001
+  angleX -4.734
+  angleY 163.574
+  angleZ 6.023
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.855 0.031 0.028 1
   m_sQuadName "Car"
   m_fWorldSize 2.974
-  m_sDescription "#TF-Vehicle-Gaz233014 - #TF-Vehicle-Color-Camo (#TF-Vehicle-Weapon-Unarmed)"
+  m_sDescription "#TF-Vehicle-Gaz233114 - #TF-Vehicle-Color-Green (#TF-Vehicle-Weapons-KORD #TF-Attachment-SPP)"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
    "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA" "Drg_IGF" "Drg_PIR" "UK" "USSR" "US" "FIA" "Drg_VCA"
@@ -63,16 +63,16 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 5006.895 55.648 4221.332
-  angleX -1.017
-  angleY 168.147
-  angleZ 3.866
+  coords 5007.272 55.667 4221.795
+  angleX -0.724
+  angleY 163.851
+  angleZ 3.931
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.855 0.031 0.028 1
   m_sQuadName "Car"
   m_fWorldSize 2.974
-  m_sDescription "#TF-Vehicle-Gaz233014 - #TF-Vehicle-Color-Camo (#TF-Vehicle-Weapon-Unarmed)"
+  m_sDescription "#TF-Vehicle-Gaz233114 - #TF-Vehicle-Color-Green (#TF-Vehicle-Weapons-KORD #TF-Attachment-SPP)"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
    "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA" "Drg_IGF" "Drg_PIR" "UK" "USSR" "US" "FIA" "Drg_VCA"
@@ -220,8 +220,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
  {
-  coords 2458.688 61.906 2648.428
-  angleY 102.807
+  coords 1788.012 63.656 844.171
+  angleY 131.308
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.025 0.61 0.446 1
@@ -239,10 +239,10 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 2454.254 61.726 2636.258
-  angleX 1.18
-  angleY 113.819
-  angleZ -0.457
+  coords 1777.764 63.602 832.54
+  angleX 0.696
+  angleY 129.009
+  angleZ 0.563
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.025 0.61 0.446 1
@@ -260,10 +260,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 2447.483 61.334 2623.226
-  angleX 2.499
-  angleY 125.974
-  angleZ -0.397
+  coords 1767.99 63.563 822.16
+  angleY 131.921
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.025 0.61 0.446 1
@@ -397,7 +395,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  Ses_CDF_G_000_M {
-  coords 2458.625 62.031 2666.049
+  coords 1795.617 63.719 858.955
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -414,7 +412,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
  Ses_CDF_G_100_M {
-  coords 2455.989 61.937 2654.115
+  coords 1787.545 63.656 849.601
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -431,7 +429,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
  Ses_CDF_G_101_M {
-  coords 2452.357 61.807 2641.617
+  coords 1776.786 63.625 837.417
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -448,7 +446,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
  Ses_CDF_G_102_M {
-  coords 2446.246 61.488 2628.519
+  coords 1767.896 63.576 827.001
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -565,5 +563,24 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_aHideOnGameModeStates {
   }
   m_iZOrder 10
+ }
+ {
+  coords 1796.72 63.687 853.641
+  angleY 133.121
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "Truck"
+  m_fWorldSize 3.722
+  m_sDescription "#AR-Vehicle_Ural4320_Comms_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA" "Drg_IGF" "Drg_PIR" "UK" "USSR" "US" "FIA" "Drg_VCA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
  }
 }
