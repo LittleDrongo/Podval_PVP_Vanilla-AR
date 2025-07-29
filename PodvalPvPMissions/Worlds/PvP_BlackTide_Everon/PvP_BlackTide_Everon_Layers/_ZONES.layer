@@ -1,0 +1,60 @@
+PolylineShapeEntity {
+ components {
+  PS_PolyZone "{65FB302F39742D01}" {
+   m_mPolygonTexture "{B072704FB1A499B7}UI/layouts/Textures/Grid6b.edds"
+   m_cPolygonColor 0.071 0.192 0.561 1
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 0.071 0.192 0.561 1
+   m_fPolygonBorderWidth 5
+   m_aVisibleForFactions {
+    "US" "USSR" ""
+   }
+  }
+ }
+ coords 7929.386 -45.582 10162.996
+ Points {
+  ShapePoint "{65FB302ED815CF42}" {
+   Position 0 -0.005 0
+  }
+  ShapePoint "{65FB302F327FFCCC}" {
+   Position 615.117 0 102.405
+  }
+  ShapePoint "{65FB302F31911AA0}" {
+   Position 556.893 0 302.294
+  }
+  ShapePoint "{65FB302ED81486DD}" {
+   Position -170.256 -21.202 179.438
+  }
+  ShapePoint "{65FB302ED9B82145}" {
+   Position -1018.755 0 -499.057
+  }
+  ShapePoint "{65FB302EDE77507D}" {
+   Position -1658.333 0 -945.448
+  }
+  ShapePoint "{65FB302EDF889F74}" {
+   Position -2150.356 0 -1229.425
+  }
+  ShapePoint "{65FB302EDC209911}" {
+   Position -4428.271 0 -1369.14
+  }
+  ShapePoint "{65FB302EDCEA32C2}" {
+   Position -5884.461 0 -1385.358
+  }
+  ShapePoint "{65FB302EDDC2A221}" {
+   Position -5915.304 0 -1839.837
+  }
+  ShapePoint "{65FB302F229EE493}" {
+   Position -4408.636 0 -1783.618
+  }
+  ShapePoint "{65FB302F23D973FB}" {
+   Position -2196.79 0 -1511.433
+  }
+  ShapePoint "{65FB302F21645872}" {
+   Position -1555.484 0 -1136.664
+  }
+  ShapePoint "{65FB302F2709C1CC}" {
+   Position -863.618 0 -650.84
+  }
+ }
+ IsClosed 1
+}
