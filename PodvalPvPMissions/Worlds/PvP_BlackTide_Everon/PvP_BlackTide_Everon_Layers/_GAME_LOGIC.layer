@@ -9,6 +9,12 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
        m_sFactionKey "US"
       }
      }
+     m_sObjectiveNames {
+      "FLAG_USSR" "KILL_US"
+     }
+     m_sFailedObjectiveNames {
+      "FLAG_US" "KILL_USSR"
+     }
      m_bAdvanceGameStage 1
      m_bUseMessage 1
      m_bEventMessage "Победа обороны! Атака понесла серьёзные потери"
@@ -17,6 +23,12 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
      m_aLosses {
       FactionLoss "{652AF37EAC417D1C}" {
       }
+     }
+     m_sObjectiveNames {
+      "FLAG_US" "KILL_USSR"
+     }
+     m_sFailedObjectiveNames {
+      "FLAG_USSR" "KILL_US"
      }
      m_bAdvanceGameStage 1
      m_bUseMessage 1

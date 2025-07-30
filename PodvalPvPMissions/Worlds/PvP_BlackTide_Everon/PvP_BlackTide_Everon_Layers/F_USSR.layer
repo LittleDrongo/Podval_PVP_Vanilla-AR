@@ -1,13 +1,25 @@
-Vehicle Ural4320_command1 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
- coords 7431.031 7.875 6681.054
- angleY -23.798
+Vehicle Ural4320_command3 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
+ coords 4817.851 169.098 6947.215
+ angleY -14.536
  m_sAttachmentGroupName "USSR_0_0_0"
 }
 SCR_AIGroup USSR_0_0_0 : "{2797EDBC47A47C2F}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_CompanyHQ.et" {
- coords 7427.122 7.875 6681.334
- angleY 153.301
+ coords 4815.221 169.186 6951.34
+ angleY 98.581
  m_aUnitPrefabSlots {
   "{7D463C5B3BBFD8E0}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_CL.et"
+ }
+}
+$grp StaticModelEntity : "{3B0C9DF1FC321951}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/drg_RadioRelayTower_USSR.et" {
+ {
+  coords 7433.23 7.912 6733.022
+  angleY -53.698
+ }
+ {
+  coords 4984.175 28.315 11947.113
+  angleX -0.049
+  angleY -3.158
+  angleZ -0.894
  }
 }
 $grp SCR_AIGroup : "{7A8CA920227BCBA8}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_PlatoonHQ.et" {
@@ -26,8 +38,8 @@ $grp SCR_AIGroup : "{7A8CA920227BCBA8}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_P
     m_iCompanyCallsign 2
    }
   }
-  coords 4907.082 28.594 11915.157
-  angleY -91.627
+  coords 4968.375 28.594 11939.179
+  angleY -77.481
  }
 }
 $grp SCR_AIGroup : "{A092B100ABD2BFD5}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_RifleSquad_BTR.et" {
@@ -74,9 +86,9 @@ $grp SCR_AIGroup : "{A092B100ABD2BFD5}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_R
     m_iSquadCallsign 3
    }
   }
-  coords 4907.013 28.594 11878.092
+  coords 4959.25 28.594 11903.252
   angleX 0.895
-  angleY -90.197
+  angleY -76.051
   angleZ -0.003
  }
  USSR_2_0_1 {
@@ -86,21 +98,21 @@ $grp SCR_AIGroup : "{A092B100ABD2BFD5}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_R
     m_iSquadCallsign 1
    }
   }
-  coords 4906.946 28.597 11902.146
+  coords 4965.063 28.597 11926.595
   angleX 0.895
-  angleY -88.913
+  angleY -74.767
   angleZ 0.017
  }
  USSR_2_0_2 {
   components {
    PS_GroupCallsignAssigner "{645CD4FA3E492D2E}" {
-    m_iCompanyCallsign 1
+    m_iCompanyCallsign 2
     m_iSquadCallsign 2
    }
   }
-  coords 4906.893 28.594 11891.273
+  coords 4962.354 28.594 11916.063
   angleX -0.895
-  angleY -89.05
+  angleY -74.904
   angleZ -0.015
  }
 }
