@@ -13,10 +13,10 @@ SCR_ChimeraCharacter : "{D0A4FBFC3F2FBE5A}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
-     Prefab "{DFC5A8C3E0FED472}Prefabs/Characters/Uniforms/Crye_shirt/Crye_shirt_MC.et"
+     Prefab "{DFC5A8C3E0FED472}Prefabs/Characters/Uniforms/Crye_shirt/Crye_G3_Shirt_Base.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{E2858C97676911D0}Prefabs/Characters/Uniforms/Crye_pants/Crye_G3_pants.et"
+     Prefab "{E2858C97676911D0}Prefabs/Characters/Uniforms/Crye_pants/Crye_G3_Pants_Base.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{320FA1CD5B1D5601}Prefabs/Characters/Footwear/Boots_USMC_Combat/Footwear_USMC_Combat.et"
@@ -29,13 +29,13 @@ SCR_ChimeraCharacter : "{D0A4FBFC3F2FBE5A}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{652C93AEBD1EDE56}" {
-     TargetStorage "Pants/Crye_G3_pants.et"
+     TargetStorage "Pants/Crye_G3_Pants_Base.et"
     }
     ItemsInitConfigurationItem "{652C93AE8849C9D9}" {
-     TargetStorage "Pants/Crye_G3_pants.et"
+     TargetStorage "Pants/Crye_G3_Pants_Base.et"
     }
     ItemsInitConfigurationItem "{652C93AFA7C32F0A}" {
-     TargetStorage "Jacket/Crye_shirt_MC.et"
+     TargetStorage "Jacket/Crye_G3_Shirt_Base.et"
      TargetPurpose 64
     }
    }

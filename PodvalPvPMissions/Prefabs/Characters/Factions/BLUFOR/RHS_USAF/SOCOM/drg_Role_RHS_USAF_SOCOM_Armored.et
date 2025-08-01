@@ -24,7 +24,14 @@ SCR_ChimeraCharacter : "{7C660B3D3930EEC0}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{652C93AEBD1EDE56}" {
+     TargetStorage "Pants/Crye_G3_Pants_Base.et"
+    }
+    ItemsInitConfigurationItem "{652C93AE8849C9D9}" {
+     TargetStorage "Pants/Crye_G3_Pants_Base.et"
+    }
     ItemsInitConfigurationItem "{652C93AFA7C32F0A}" {
+     TargetStorage "Jacket/Crye_G3_Shirt_Base.et"
     }
     ItemsInitConfigurationItem "{653AC5F64B26F232}" {
      TargetStorage "Vest/Vest_JPC_nobelt_Coy.et/radio/Pouch_AVS_MBITR_Radio_Coy.et"
@@ -33,7 +40,7 @@ SCR_ChimeraCharacter : "{7C660B3D3930EEC0}Prefabs/Characters/Factions/BLUFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{653AC5E0B3E596A2}" {
-     TargetStorage "Jacket/Crye_shirt_MC.et"
+     TargetStorage "Jacket/Crye_G3_Shirt_Base.et"
      PrefabsToSpawn {
       "{B1798B0F1258B765}Prefabs/Items/Equipment/Navigation/DAGR/DAGR.et"
      }
