@@ -7,12 +7,12 @@ SCR_ChimeraCharacter : "{6344FAB9EEF674E7}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{295E09CA923E7C61}Prefabs/Characters/HeadGear/Balaclavas/LShZ_Balaclava/Balaclava_LShZ_black_VAR2.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{809EE1037B57DFD4}Prefabs/Characters/Uniforms/Gorka_jacket/Gorka_jacket_base.et"
+     Prefab "{FCA156A0893654A4}Prefabs/Characters/Uniforms/Gorka_jacket/Gorka_jacket_base.et"
     }
     LoadoutSlotInfo ArmoredVest {
     }
     LoadoutSlotInfo Pants {
-     Prefab "{0C0677BAF0B7A644}Prefabs/Characters/Uniforms/Gorka_pants/Gorka_pants_base.et"
+     Prefab "{AEA8D05BF2DC8CF2}Prefabs/Characters/Uniforms/Gorka_pants/Gorka_pants_base.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{660952F979E8EBF2}Prefabs/Characters/Footwear/Boots_solomon_ultra_x/Footwear_Altama_Boots.et"

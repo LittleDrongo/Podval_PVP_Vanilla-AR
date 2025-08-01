@@ -18,6 +18,9 @@ SCR_ChimeraCharacter : "{493F72102D5E0F98}Prefabs/Characters/Factions/OPFOR/RHS_
 SCR_ChimeraCharacter : "{76A05D157195B968}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_MG.et" {
  coords 101.579 1 227.217
 }
+SCR_ChimeraCharacter : "{91D300C88D1121DE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Sabotage/drg_Role_RHS_AFRF_Sabotage_Unnarmed.et" {
+ coords 102.185 1 204.253
+}
 SCR_AIGroup : "{9520E7AB1B4FED25}Prefabs/Groups/OPFOR/drg_Group_RHS_AFRF_Sabotage_Showcase.et" {
  coords 108.114 1 204.282
  m_aUnitPrefabSlots {
@@ -43,6 +46,12 @@ SCR_AIGroup : "{A2B2BA4E83C87880}Prefabs/Groups/OPFOR/drg_Group_RHS_AFRF_Shtom_S
  m_aUnitPrefabSlots {
   "{883577F068D2E4D6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Storm/drg_Role_RHS_AFRF_Storm_Armored.et" "" "" ""
  }
+}
+GameEntity : "{AEA8D05BF2DC8CF2}Prefabs/Characters/Uniforms/Gorka_pants/Gorka_pants_base.et" {
+ coords 100.623 1 204.896
+}
+SCR_ChimeraCharacter : "{B46B17CBE79C9A5E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/drg_Role_RHS_AFRF_GRU_Unarmed.et" {
+ coords 104.124 1 207.676
 }
 $grp SCR_AIGroup : "{F34EA9571C481A4D}Prefabs/Groups/OPFOR/drg_Group_RHS_AFRF_ShowCase.et" {
  {
@@ -72,4 +81,7 @@ $grp SCR_AIGroup : "{F34EA9571C481A4D}Prefabs/Groups/OPFOR/drg_Group_RHS_AFRF_Sh
 }
 SCR_ChimeraCharacter : "{FC1FEACE6653B3D7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_AT.et" {
  coords 106.323 1 226.743
+}
+GameEntity : "{FCA156A0893654A4}Prefabs/Characters/Uniforms/Gorka_jacket/Gorka_jacket_base.et" {
+ coords 101.244 1 204.446
 }
