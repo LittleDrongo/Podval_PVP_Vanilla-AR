@@ -249,7 +249,7 @@ $grp SCR_AIGroup : "{8E561C342F17E360}Prefabs/Groups/OPFOR/DRG_Group_RHS_RF_MSV_
    }
    PS_GroupCallsignAssigner "{62387672B7C7F14A}" {
     m_iCompanyCallsign 2
-    m_iSquadCallsign 1
+    m_iSquadCallsign 2
    }
   }
   coords 1474.177 49.954 1891.984
