@@ -7,7 +7,7 @@ GenericEntity : "{5879D8E9C56E358D}Prefabs/Items/Core/Radio_base.et" {
    Transceivers {
     RadioTransceiver "{61CEFE92722E2F0D}" {
      ChannelFrequency 38000
-     "Transmitting Range" 500
+     "Transmitting Range" 1000
      "Min tunable frequency" 27000
      "Max tunable frequency" 52000
      "Frequency resolution" 100
@@ -80,8 +80,8 @@ GenericEntity : "{5879D8E9C56E358D}Prefabs/Items/Core/Radio_base.et" {
    }
   }
   SCR_RadioComponent "{5A30BAE7673C63D4}" {
-   m_bIsVisibleEquipped 1
    m_eAnimVariable R148
+   m_bIsVisibleEquipped 1
    m_iRadioType R187P1
   }
   ActionsManagerComponent "{508AB5952B584B2E}" {
@@ -102,7 +102,7 @@ GenericEntity : "{5879D8E9C56E358D}Prefabs/Items/Core/Radio_base.et" {
     }
    }
    additionalActions {
-    SCR_EquipGadgetAction "{553AEBE8806A957C}" : "{068D8D646964D12A}Prefabs/Characters/Core/Actions/EquipGadgetAction.conf" {
+    SCR_EquipItemAction "{553AEBE8806A957C}" : "{068D8D646964D12A}Prefabs/Characters/Core/Actions/EquipGadgetAction.conf" {
     }
     SCR_RadioTuningUserAction "{61CEFE92722E10CC}" {
      ParentContextList {

@@ -1,0 +1,17 @@
+Turret : "{3EA26CFD7A202636}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV_SPP.et" {
+ coords 128.108 1 126.907
+}
+Turret : "{66B35D82EB9B4E28}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6T7_NSV_SPP.et" {
+ coords 130.387 1 127.067
+}
+SCR_AIGroup : "{C12833523E6F043D}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_BRDMCrew.et" {
+ coords 127.895 1 123.986
+}
+$grp Turret : "{F12983FA2F0A61A0}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6T7_NSV.et" {
+ {
+  coords 131.915 1 127.445
+ }
+ {
+  coords 124.727 1 125.843
+ }
+}
