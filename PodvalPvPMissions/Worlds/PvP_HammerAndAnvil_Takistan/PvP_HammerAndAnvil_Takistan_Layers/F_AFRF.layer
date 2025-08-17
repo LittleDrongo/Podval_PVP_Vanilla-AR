@@ -69,52 +69,52 @@ SCR_AIGroup AFRF_0_0_0 : "{52DBD8AD794AA412}Prefabs/Groups/OPFOR/drg_AFRF_Compan
 }
 $grp Vehicle : "{53475444C47993E1}Prefabs/Vehicles/Wheeled/TIGR/KORD/drg_GAZ_TIGR_v2_KORD_SPP_Tan_FLAG.et" {
  drg_GAZ_TIGR_v2_KORD_SPP_Tan_FLAG1 {
-  coords 7603.921 319.845 2097.855
-  angleX 3.058
-  angleY -21.803
+  coords 7602.324 319.817 2096.662
+  angleX 3.057
+  angleY -20.025
+  angleZ 0.095
  }
  drg_GAZ_TIGR_v2_KORD_SPP_Tan_FLAG2 {
-  coords 7610.298 318.92 2074.191
-  angleX 1.724
-  angleY -5.307
-  angleZ 0.125
+  coords 7608.382 318.929 2074.177
+  angleX 1.728
+  angleY -9.521
+  angleZ -0.002
   m_sAttachmentGroupName "AFRF_1_0_2"
  }
  drg_GAZ_TIGR_v2_KORD_SPP_Tan_FLAG3 {
-  coords 7611.165 318.317 2050.07
-  angleX 1.441
-  angleY 5.141
-  angleZ -0.156
+  coords 7610.286 318.32 2050.348
+  angleX 1.42
+  angleY 1.88
+  angleZ 0.047
   m_sAttachmentGroupName "AFRF_1_0_3"
  }
  drg_GAZ_TIGR_v2_KORD_SPP_Tan_FLAG4 {
-  coords 7607.583 317.775 2025.167
-  angleX 1.125
-  angleY 8.126
-  angleZ 0.161
-  m_sAttachmentGroupName "AFRF_1_0_4"
+  coords 7607.608 317.792 2025.983
+  angleX 1.12
+  angleY 9.913
+  angleZ 0.196
  }
 }
 $grp Vehicle : "{696C9C593D6097D0}Prefabs/Vehicles/Wheeled/TIGR/AGS/drg_GAZ_TIGR_v2_AGS17_Tan_PAG17_FLAG.et" {
  drg_GAZ_TIGR_v2_AGS17_Tan_PAG17_FLAG1 {
-  coords 7606.718 319.433 2089.708
-  angleX 1.655
-  angleY -14.141
-  angleZ 0.755
+  coords 7604.846 319.409 2088.602
+  angleX 2.268
+  angleY -15.067
+  angleZ -0.316
   m_sAttachmentGroupName "AFRF_1_0_1"
  }
  drg_GAZ_TIGR_v2_AGS17_Tan_PAG17_FLAG2 {
-  coords 7610.821 318.727 2066.74
-  angleX 1.414
-  angleY -5.481
-  angleZ -0.136
+  coords 7609.392 318.708 2065.793
+  angleX 1.439
+  angleY -4.571
+  angleZ 0.17
   m_sAttachmentGroupName "AFRF_1_0_2"
  }
  drg_GAZ_TIGR_v2_AGS17_Tan_PAG17_FLAG3 {
-  coords 7610.431 318.155 2042.732
-  angleX 1.16
-  angleY 5.976
-  angleZ -0.164
+  coords 7609.618 318.14 2041.93
+  angleX 1.129
+  angleY 6.828
+  angleZ 0.135
   m_sAttachmentGroupName "AFRF_1_0_3"
  }
 }

@@ -61,8 +61,19 @@ Vehicle : "{AC12E5669B411D57}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD
      Prefab "{664F99E63CD88231}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/TIGR_KORD_Turret_Tan.et"
     }
     EntitySlotInfo Flag {
-     Offset 0.2494 1.2452 -2.6274
-     Prefab "{345DDE242E94CB10}Prefabs/Structures/Military/Flags/FlagPole_02/drg_FlagPole_Metal_AFRF.et"
+     Offset 0.7374 3.8787 -2.0233
+     Prefab "{0338C21739980995}Prefabs/Props/Fabric/Flags/drg_Flag_1_2_AFRF_0.et"
+     DisablePhysicsInteraction 1
+    }
+    EntitySlotInfo Palka1 {
+     Offset -0.0211 -0.1169 -2.3837
+     Prefab "{7DB0F50FF4E59ADA}Prefabs/Vehicles/Tracked/T14/VehParts/Era/t14_antenna1.et"
+     DisablePhysicsInteraction 1
+    }
+    EntitySlotInfo Palka2 {
+     Offset -0.0212 0.5889 -2.3837
+     Prefab "{7DB0F50FF4E59ADA}Prefabs/Vehicles/Tracked/T14/VehParts/Era/t14_antenna1.et"
+     DisablePhysicsInteraction 1
     }
    }
   }
