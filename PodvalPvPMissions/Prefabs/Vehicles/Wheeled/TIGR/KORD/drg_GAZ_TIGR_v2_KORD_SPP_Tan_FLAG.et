@@ -1,0 +1,14 @@
+Vehicle : "{EB1805C9B001DE8D}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD_SPP_Tan.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo Flag {
+     Offset 0.2494 1.2452 -2.6274
+     Prefab "{345DDE242E94CB10}Prefabs/Structures/Military/Flags/FlagPole_02/drg_FlagPole_Metal_AFRF.et"
+    }
+   }
+  }
+ }
+ m_sAttachmentGroupName "AFRF_1_0_1"
+}

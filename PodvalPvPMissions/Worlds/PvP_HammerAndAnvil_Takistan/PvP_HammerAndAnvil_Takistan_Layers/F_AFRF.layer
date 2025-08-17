@@ -67,6 +67,34 @@ SCR_AIGroup AFRF_0_0_0 : "{52DBD8AD794AA412}Prefabs/Groups/OPFOR/drg_AFRF_Compan
   "{7FC44DF88B7C8DB0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_CL.et"
  }
 }
+$grp Vehicle : "{53475444C47993E1}Prefabs/Vehicles/Wheeled/TIGR/KORD/drg_GAZ_TIGR_v2_KORD_SPP_Tan_FLAG.et" {
+ drg_GAZ_TIGR_v2_KORD_SPP_Tan_FLAG1 {
+  coords 7603.921 319.845 2097.855
+  angleX 3.058
+  angleY -21.803
+ }
+ drg_GAZ_TIGR_v2_KORD_SPP_Tan_FLAG2 {
+  coords 7610.298 318.92 2074.191
+  angleX 1.724
+  angleY -5.307
+  angleZ 0.125
+  m_sAttachmentGroupName "AFRF_1_0_2"
+ }
+ drg_GAZ_TIGR_v2_KORD_SPP_Tan_FLAG3 {
+  coords 7611.165 318.317 2050.07
+  angleX 1.441
+  angleY 5.141
+  angleZ -0.156
+  m_sAttachmentGroupName "AFRF_1_0_3"
+ }
+ drg_GAZ_TIGR_v2_KORD_SPP_Tan_FLAG4 {
+  coords 7607.583 317.775 2025.167
+  angleX 1.125
+  angleY 8.126
+  angleZ 0.161
+  m_sAttachmentGroupName "AFRF_1_0_4"
+ }
+}
 $grp Vehicle : "{696C9C593D6097D0}Prefabs/Vehicles/Wheeled/TIGR/AGS/drg_GAZ_TIGR_v2_AGS17_Tan_PAG17_FLAG.et" {
  drg_GAZ_TIGR_v2_AGS17_Tan_PAG17_FLAG1 {
   coords 7606.718 319.433 2089.708
@@ -88,35 +116,5 @@ $grp Vehicle : "{696C9C593D6097D0}Prefabs/Vehicles/Wheeled/TIGR/AGS/drg_GAZ_TIGR
   angleY 5.976
   angleZ -0.164
   m_sAttachmentGroupName "AFRF_1_0_3"
- }
-}
-$grp Vehicle : "{97E8F1B9B70AF2BA}Prefabs/Vehicles/Wheeled/TIGR/KORD/drg_GAZ_TIGR_v2_KORD_Tan_FLAG.et" {
- drg_GAZ_TIGR_v2_KORD_Tan_FLAG1 {
-  coords 7604.01 319.824 2097.464
-  angleX 3.058
-  angleY -21.542
-  angleZ 0.014
-  m_sAttachmentGroupName "AFRF_1_0_1"
- }
- drg_GAZ_TIGR_v2_KORD_Tan_FLAG2 {
-  coords 7609.832 318.951 2075.178
-  angleX 1.727
-  angleY -7.451
-  angleZ 0.061
-  m_sAttachmentGroupName "AFRF_1_0_2"
- }
- drg_GAZ_TIGR_v2_KORD_Tan_FLAG3 {
-  coords 7611.138 318.345 2051.198
-  angleX 1.438
-  angleY 4.008
-  angleZ -0.198
-  m_sAttachmentGroupName "AFRF_1_0_3"
- }
- drg_GAZ_TIGR_v2_KORD_Tan_FLAG4 {
-  coords 7606.851 317.768 2024.987
-  angleX 1.451
-  angleY 10.859
-  angleZ -0.025
-  m_sAttachmentGroupName "AFRF_1_0_4"
  }
 }
