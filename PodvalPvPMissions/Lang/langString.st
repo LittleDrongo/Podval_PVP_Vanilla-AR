@@ -1596,6 +1596,14 @@ StringTable {
    Author "hasta"
    LastChanged "rezni"
   }
+  CustomStringTableItem "{662328938EBD4FE2}" {
+   Id "DRG_TKR_Roles_Ammobearer"
+   Target_en_us "Reber Ammobearer"
+   Target_ru_ru "Боевик подносчик"
+   Modified 1713584886
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{61D2C04C20454E0C}" {
    Id "DRG_TKR_Roles_AT"
    Target_en_us "Rebel AT"
@@ -1604,6 +1612,14 @@ StringTable {
    Modified 1697854814
    Author "hasta"
    LastChanged "rezni"
+  }
+  CustomStringTableItem "{662328924905428A}" {
+   Id "DRG_TKR_Roles_CG"
+   Target_en_us "Rebet AT-MAWS"
+   Target_ru_ru "Боевик гранатомётчик MAWS"
+   Modified 1713584337
+   Author "hasta"
+   LastChanged "hasta"
   }
   CustomStringTableItem "{61D2C04B3C2294F6}" {
    Id "DRG_TKR_Roles_CL"

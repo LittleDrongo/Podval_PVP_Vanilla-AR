@@ -49,7 +49,7 @@ $grp Vehicle : "{3918E970430281EA}Prefabs/Vehicles/Wheeled/M1240A1_MATV/drg_M124
  }
 }
 SCR_AIGroup USAF_0_0_0 : "{4A02B745F553821E}Prefabs/Groups/BLUFOR/drg_USAF_CompanyHQ.et" {
- coords 7452.495 168.81 8451.517
+ coords 7453.913 168.807 8452.232
  angleX -1.252
  angleY 61.749
  angleZ 0.673
@@ -61,7 +61,7 @@ $grp SCR_AIGroup : "{CB79DA5FE5AC31AB}Prefabs/Groups/BLUFOR/drg_USAF_RifleSquad.
     m_iCompanyCallsign 1
    }
   }
-  coords 7447.07 168.758 8461.772
+  coords 7448.489 168.755 8462.488
   angleX -0.125
   angleY 63.222
   angleZ 0.382
