@@ -46,7 +46,6 @@ $grp Vehicle : "{3918E970430281EA}Prefabs/Vehicles/Wheeled/M1240A1_MATV/drg_M124
   angleX 2.29
   angleY 150.061
   angleZ -0.008
-  m_sAttachmentGroupName "USAF_1_0_3"
  }
 }
 SCR_AIGroup USAF_0_0_0 : "{4A02B745F553821E}Prefabs/Groups/BLUFOR/drg_USAF_CompanyHQ.et" {

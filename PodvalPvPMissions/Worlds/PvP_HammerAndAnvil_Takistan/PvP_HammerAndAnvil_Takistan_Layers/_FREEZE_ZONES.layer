@@ -6,13 +6,13 @@ $grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/Restri
     m_bFollowTerrain 1
    }
   }
-  coords 4254.922 349.884 558.115
+  coords 8918.385 292.678 5309.444
   angleX -1.42
   angleY -0.07
   angleZ 0.57
-  m_fWarnRadius 180
-  m_fZoneRadius 250
-  m_fZoneTeleportedRadius 260
+  m_fWarnRadius 150
+  m_fZoneRadius 160
+  m_fZoneTeleportedRadius 165
   {
    GenericEntity {
     ID "59D673B36B893D84"
@@ -20,7 +20,7 @@ $grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/Restri
      SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
       m_fHeight 2
       m_bFollowTerrain 1
-      m_fRadius 180
+      m_fRadius 150
      }
     }
    }
@@ -33,13 +33,13 @@ $grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/Restri
     m_bFollowTerrain 1
    }
   }
-  coords 5205.509 177.451 6120.902
+  coords 7437.131 165.005 8521.37
   angleX -1.42
   angleY -0.07
   angleZ 0.57
-  m_fWarnRadius 180
-  m_fZoneRadius 250
-  m_fZoneTeleportedRadius 260
+  m_fWarnRadius 150
+  m_fZoneRadius 160
+  m_fZoneTeleportedRadius 165
   {
    GenericEntity {
     ID "59D673B36B893D84"
@@ -47,7 +47,7 @@ $grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/Restri
      SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
       m_fHeight 2
       m_bFollowTerrain 1
-      m_fRadius 180
+      m_fRadius 150
      }
     }
    }
@@ -60,13 +60,13 @@ $grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/Restri
     m_bFollowTerrain 1
    }
   }
-  coords 6156.02 108.765 11601.99
+  coords 7605.16 318.191 2044.498
   angleX -1.42
   angleY -0.07
   angleZ 0.57
-  m_fWarnRadius 180
-  m_fZoneRadius 250
-  m_fZoneTeleportedRadius 260
+  m_fWarnRadius 150
+  m_fZoneRadius 160
+  m_fZoneTeleportedRadius 165
   {
    GenericEntity {
     ID "59D673B36B893D84"
@@ -74,7 +74,7 @@ $grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/Restri
      SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
       m_fHeight 2
       m_bFollowTerrain 1
-      m_fRadius 180
+      m_fRadius 150
      }
     }
    }

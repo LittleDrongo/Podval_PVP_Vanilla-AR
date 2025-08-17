@@ -13,6 +13,9 @@ Vehicle : "{DE32642254476DD5}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_
     }
    }
   }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "US"
+  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     EntitySlotInfo Flag {
@@ -24,4 +27,5 @@ Vehicle : "{DE32642254476DD5}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_
   }
  }
  coords 111.087 1 226.353
+ m_sAttachmentGroupName "USAF_1_0_3"
 }
