@@ -6,6 +6,7 @@ SCR_ChimeraCharacter : "{FAC6AB61E4CA97F5}Prefabs/Characters/Factions/OPFOR/RHS_
     SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
      InitialStorageSlots {
       SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab ""
       }
      }
     }

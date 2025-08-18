@@ -372,9 +372,15 @@ $grp Turret : "{BC52FAAFB89D51AA}Prefabs/Weapons/Tripods/6G10/Tripod_6G10_AGS17_
   angleX 0
  }
 }
+SCR_ChimeraCharacter : "{D11B9352BBF28368}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Spotter.et" {
+ coords 119.896 1 221.849
+}
 Turret : "{D1FFE458E8AC4BDB}Prefabs/Weapons/Mortars/2B14/Mortar_2B14.et" {
  coords 139.382 1 228.708
 }
 SCR_AIGroup : "{F7F7682FD696D05B}Prefabs/Groups/OPFOR/drg_Group_RHS_AFRF_Desert_ShowCase.et" {
  coords 127.867 1 213.587
+ m_aUnitPrefabSlots {
+  "{3029E2F540F16EBC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Unnarmed.et" "{7983C2C66F11BD38}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Rifleman.et" "{FC586DF650BDF143}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_SR.et" "{AC1A8DCB72982C6F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_SL_opt.et" "{8140810E352ECDDA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_SL.et" "{7983C2C66F11BD38}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Rifleman.et" "{D1ED2D9916E44751}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_PLD.et" "{185E389728C9FC4A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_PL.et" "{95A788D3A0886E96}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_MGAB.et" "{95A788D3A0886E95}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_MGA.et" "{BEDFAE0B69E57B2A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_MG.et" "{7FC44DF88B7C8DB0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_CL.et" "{E11D0E30F01D06E3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_GL.et" "{346019D07E237195}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_AT.et" "{E8C470C171B6AC50}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_AAT.et" "{B23B863B251B5566}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Medic.et" "{36D1E050A6BF40F1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Sniper.et" "{D11B9352BBF28368}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Spotter.et" "" "" "" "" "" "" "" "" ""
+ }
 }

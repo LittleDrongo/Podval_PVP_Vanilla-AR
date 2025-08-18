@@ -42,16 +42,16 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 4997.794 55.82 4219.001
-  angleX -4.734
-  angleY 163.574
-  angleZ 6.023
+  coords 5007.11 55.71 4222.35
+  angleX -0.484
+  angleY 163.965
+  angleZ 4.785
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.855 0.031 0.028 1
   m_sQuadName "Car"
   m_fWorldSize 2.974
-  m_sDescription "#TF-Vehicle-Gaz233114 - #TF-Vehicle-Color-Green (#TF-Vehicle-Weapons-KORD #TF-Attachment-SPP)"
+  m_sDescription "#TF-Vehicle-Gaz233114 - #TF-Vehicle-Color-Green (#TF-Weapon-PKP-Name)"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
    "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA" "Drg_IGF" "Drg_PIR" "UK" "USSR" "US" "FIA" "Drg_VCA"
@@ -63,16 +63,16 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 5007.272 55.667 4221.795
-  angleX -0.724
-  angleY 163.851
-  angleZ 3.931
+  coords 4998.321 55.854 4219.824
+  angleX -0.73
+  angleY 163.949
+  angleZ 3.93
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.855 0.031 0.028 1
   m_sQuadName "Car"
   m_fWorldSize 2.974
-  m_sDescription "#TF-Vehicle-Gaz233114 - #TF-Vehicle-Color-Green (#TF-Vehicle-Weapons-KORD #TF-Attachment-SPP)"
+  m_sDescription "#TF-Vehicle-Gaz233114 - #TF-Vehicle-Color-Green (#TF-Weapon-PKP-Name)"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
    "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA" "Drg_IGF" "Drg_PIR" "UK" "USSR" "US" "FIA" "Drg_VCA"
