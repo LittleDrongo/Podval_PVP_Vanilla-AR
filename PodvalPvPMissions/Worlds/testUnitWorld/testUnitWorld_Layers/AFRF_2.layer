@@ -1,23 +1,379 @@
-GenericEntity : "{345DDE242E94CB10}Prefabs/Structures/Military/Flags/FlagPole_02/drg_FlagPole_Metal_AFRF.et" {
+GenericEntity {
  coords 130.239 1 226.775
 }
-$grp Vehicle : "{3918E970430281EA}Prefabs/Vehicles/Wheeled/M1240A1_MATV/drg_M1240A1_MATV_Turret_Tan1_FLAG.et" {
- drg_M1240A1_MATV_Turret_Tan1_FLAG1 {
-  coords 113.166 1 222.535
-  angleY 90.006
+$grp GenericEntity : "{293AED86B0AD71C9}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/Weapons/AGS/AGS17_Pintle_TIGR_PAG17.et" {
+ {
+  components {
+   WeaponSoundComponent "{5A8685198A9AEEDD}" {
+    Filenames +{
+    }
+   }
+   SCR_BaseHUDComponent "{65FEAB7975482BD6}" {
+    InfoDisplays {
+     SCR_MortarInfo "{65FEAB79797481A6}" {
+      m_aHandlers {
+       SCR_InfoDisplayLayerHandler "{64DAB54AFD7EA2C5}" {
+        m_bCanUpdate 0
+        m_sLayerName ""
+       }
+      }
+     }
+    }
+   }
+   TurretComponent "{6D6D283BE816D8C3}" {
+    components {
+     SCR_2DSightsComponent "{6552A15F3DF9EF09}" {
+      SightsPosition PointInfo "{62D699FEFB066906}" {
+       PivotID "slot_optic"
+       Offset -0.0659 0.0853 0.0776
+       Angles -2 0 0
+      }
+      SightsFOVInfo SCR_SightsZoomFOVInfo "{62D699FEFE7A8420}" {
+       m_fBaseZoom 2.5
+       m_fZoomMax 2.5
+       m_fStepZoomSize 0.1
+       m_fInterpolationSpeed 100
+      }
+      SightsPointFront PointInfo "{62D699FEF2515FAA}" {
+       PivotID "slot_optic"
+       Offset -0.0659 0.0853 0.0776
+       Angles -0.2 0.0606 -0.029
+      }
+      SightsPointRear PointInfo "{62D699FEF4A887BC}" {
+       PivotID "slot_optic"
+       Offset -0.0211 0.0859 -0.0908
+       Angles -0.2 0.0606 -0.029
+      }
+      CameraRecoilAmount -0.9
+      SightsPriority 1
+      m_sReticleTexture "{38922DDA59111BCF}UI/Textures/Sights/PAG17/PAG17_Reticle.edds"
+      m_sReticleGlowTexture "{38922DDA59111BCF}UI/Textures/Sights/PAG17/PAG17_Reticle.edds"
+      m_bHasIllumination 1
+      m_cReticleTextureIllumination 0.804 0.02 0.02 1
+      m_fMagnification 2.5
+      m_fReticleAngularSize 3.612
+      m_fReticlePortion 0.297
+      m_fObjectiveFov 12
+      m_bShouldHideParentObject 0
+      m_fMisalignmentDampingSpeed 5
+      m_fVignetteMoveSpeed 3
+      m_eZeroingType EPZ_NONE
+     }
+    }
+    CameraAdsAttachment PointInfo "{56B4E2BA9BEFA450}" {
+     Offset 0 0 0
+    }
+    ikTargets {
+     AnimationIKTargetInfo "{52A8F6FBFC729D0C}" {
+      PositionInfo PointInfo "{52A8F6FBF92A2E39}" {
+       PivotID "w_hand_L_target"
+       Offset -0.0165 0.0371 -0.0798
+       Angles 88.2178 -98.2336 81.7706
+      }
+     }
+     AnimationIKTargetInfo "{52A8F6FBFD4FABD2}" {
+      PositionInfo PointInfo "{52A8F6FBF1B039F8}" {
+       PivotID "w_hand_R_target"
+       Offset 0.0153 0.0191 -0.0989
+       Angles -80.20409 0 180
+      }
+     }
+    }
+   }
+   WeaponComponent "{CFBAA4B706BA66E8}" {
+    components {
+     AttachmentSlotComponent "{B502E4DC8A9E835E}" {
+      AttachmentSlot EquipmentStorageSlot optics {
+       PivotID "slot_optic"
+       Offset 0.0397 0 0
+       Enabled 1
+       Prefab "{B623482E2704B69B}Prefabs/Weapons/Attachments/Optics/Optic_PAG17/Optic_PAG17.et"
+       InspectionWidgetOffset 0 0 0
+      }
+     }
+     SightsComponent "{BB23A637957CFFF8}" {
+      Enabled 0
+     }
+     MuzzleComponent "{50F64C4591CD7AA6}" {
+      MuzzleEndPositions {
+       PointInfo "{B80A64F4B6CFB9BF}" {
+        PivotID "slot_barrel_muzzle"
+       }
+      }
+      ProjectileSpawnPositions {
+       PointInfo "{50F64C476EC435CA}" {
+        PivotID "barrel_chamfer"
+       }
+      }
+      DispersionRange 300
+     }
+    }
+   }
+  }
+  coords 138.05 1 228.58
  }
- drg_M1240A1_MATV_Turret_Tan1_FLAG2 {
-  coords 124.337 1 223.149
-  angleY 90.006
+ {
+  coords 136.575 1 228.795
  }
+ {
+  coords 138.943 1 226.667
+ }
+}
+Turret : "{2F0DE5DE8B7C8786}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/TIGR_AGS17_PAG17.et" {
+ components {
+  SCR_BaseHUDComponent "{51ACD09C5E194510}" {
+   InfoDisplays {
+    SCR_MortarInfo "{65FEAB78216AD6EF}" {
+     InfoDisplays {
+      SCR_MortarAzimuthDisplay "{60DEAB9C0F58EA52}" {
+       m_LayoutPath "{96A8E7C972516000}UI/layouts/HUD/MortarInfo/WeaponAzimuthInfo.layout"
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 143.926 1 226.405
 }
 Vehicle drg_GAZ_TIGR_v2_AGS17_Tan_PAG17_FLAG1 : "{696C9C593D6097D0}Prefabs/Vehicles/Wheeled/TIGR/AGS/drg_GAZ_TIGR_v2_AGS17_Tan_PAG17_FLAG.et" {
- coords 122.77 1 232.104
+ coords 134.318 1 219.502
  angleY 89.577
 }
-Vehicle drg_GAZ_TIGR_v2_KORD_Tan_FLAG1 : "{97E8F1B9B70AF2BB}Prefabs/Vehicles/Wheeled/TIGR/KORD/drg_GAZ_TIGR_v2_KORD_Tan_FLAG.et" {
- coords 119.569 1 235.883
- angleY 90.017
+Turret : "{724FDBFFB6D84A79}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/TIGR_AGS17_PAG17_Tan.et" {
+ components {
+  SCR_BaseHUDComponent "{51ACD09C5E194510}" {
+   InfoDisplays {
+    SCR_MortarInfo "{65FEAB78216AD6EF}" {
+     InfoDisplays {
+      SCR_MortarAzimuthDisplay "{60DEAB9C0F58EA52}" {
+       m_LayoutPath "{96A8E7C972516000}UI/layouts/HUD/MortarInfo/WeaponAzimuthInfo.layout"
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 135.075 1 228.274
+}
+$grp Turret : "{BC52FAAFB89D51AA}Prefabs/Weapons/Tripods/6G10/Tripod_6G10_AGS17_PAG17.et" {
+ {
+  components {
+   MeshObject "{51ACD09C4E0B7D16}" {
+    Object "{EDF5BAA2230835D2}Assets/Weapons/Tripods/6T10/AR_6T10_Tripod.xob"
+    Materials {
+     MaterialAssignClass "{62E2ADBCD26AACEF}" {
+      SourceMaterial "AGS17_Tripod"
+      AssignedMaterial "{50EB304766A59EE1}Assets/Weapons/Launchers/AGS17/Data/AGS17_Tripod.emat"
+     }
+    }
+   }
+   ProcAnimComponent "{51ACD09DB14C45C0}" {
+    Parameters {
+     ProcAnimParams "{5B10DCF63177AAE6}" {
+      ResourceName "{024E6928DAA816AB}proc/Tripod_6T10.pap"
+      BoneNames {
+      }
+      SimulationDistance 1000
+     }
+    }
+   }
+   SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+    CompartmentSlots {
+     TurretCompartmentSlot TurretCompartment {
+      PassengerPositionInfo EntitySlotInfo "{51ACFBB1D6C27024}" {
+       Offset 0.052 0.0123 -0.887
+      }
+     }
+    }
+   }
+   SCR_BaseHUDComponent "{51ACD09C5E194510}" {
+    InfoDisplays {
+     SCR_WeaponInfoVehicle "{5194B831C2F89FB5}" {
+      m_bIsEnabled 1
+     }
+     SCR_MortarInfo "{65FEAB79601F71CB}" {
+      InfoDisplays {
+       SCR_MortarAzimuthDisplay "{60DEAB9C0F58EA52}" {
+        m_LayoutPath "{96A8E7C972516000}UI/layouts/HUD/MortarInfo/WeaponAzimuthInfo.layout"
+       }
+       SCR_MortarElevationDisplay "{60DEAB9DDA1BC0E8}" {
+        m_LayoutPath "{624089FD20D3F2BA}UI/layouts/HUD/MortarInfo/WeaponElevationInfo.layout"
+        m_sParentSlot "m_Elevation"
+        m_bAdaptiveOpacity 0
+        m_eShow IN_ADS
+        m_fMils 6000
+        m_aPaddingWidgetNames +{
+        }
+        m_aHalfPaddingWidgetNames +{
+        }
+       }
+      }
+     }
+    }
+   }
+   SCR_EditableVehicleComponent "{58FE9E4F05DC95A3}" {
+    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+     m_Image "{FBE7CFE36E2AACFF}UI/Textures/EditorPreviews/Weapons/Tripods/6G10/Tripod_AGS17_PAG17.edds"
+     m_aAuthoredLabels +{
+     }
+    }
+   }
+   SCR_PreviewEntityComponent "{62D699F26CA5C2B1}" {
+    m_bRuntime 0
+    m_aEntries {
+     SCR_BasePreviewEntry "{62D699F26CA5C2B4}" {
+      m_iParentID -1
+      m_Mesh "{13AFBB0D97F4666E}Assets/Weapons/Tripods/6T7/Tripod_6T7.xob"
+      m_Flags EDITABLE
+      m_Shape MESH
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{62D699F26CA5C2A9}" {
+      m_iParentID 0
+      m_Mesh "{1C372CC3C2897372}Assets/Weapons/HeavyWeapons/NSV/NSV_body.xob"
+      m_Flags 0
+      m_Shape MESH
+      m_iPivotID "slot_gun"
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{62D699F26CA5C2AF}" {
+      m_iParentID 1
+      m_Mesh "{9D5EE41AF59F1FD9}Assets/Weapons/Attachments/Mounts/Dovetail_NSV/Dovetail_NSV.xob"
+      m_Flags 0
+      m_Shape MESH
+      m_iPivotID "hw_root"
+      m_vScale 1 1 1
+      m_vPosition -0.027 0.1 -0.046
+      m_vAngles 0 0 0
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+    Attributes SCR_ItemAttributeCollection "{608AEB5D9B2FFDB4}" {
+     ItemDisplayName WeaponUIInfo "{608AEB5D9EBB403C}" {
+      Name "#TF-Weapon-AGS17 - #TF-EditableEntity-Tripod"
+     }
+    }
+    InitialStorageSlots {
+     InventoryStorageSlot Magazine_1 {
+      Prefab "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et"
+     }
+     InventoryStorageSlot Magazine_2 {
+      Prefab "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et"
+     }
+     InventoryStorageSlot Magazine_3 {
+      Prefab "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et"
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{59107AF83E654ABA}" {
+    "faction affiliation" "USSR"
+   }
+   TurretControllerComponent "{51ACD09C61C183E4}" {
+    LimitsHoriz -50 50
+    LimitsVert -20 72
+    LimitsHorizProne -25 25
+    LimitsVertProne -20 72
+   }
+   TurretComponent "{5B10DCF63177AACC}" {
+    components {
+     SCR_2DSightsComponent "{62DAB70D678EC6B8}" {
+      SightsPosition PointInfo "{62DAB70E9C3A08A0}" {
+       PivotID "slot_gun"
+       Offset -0.0377 0.0832 -0.085
+       Angles -2.45 0 0
+      }
+      SightsRangesDefaultIndex 0
+      SightsFOVInfo SCR_SightsZoomFOVInfo "{62DAB70EB979DE59}" {
+       m_fBaseZoom 2.5
+       m_fZoomMax 2.5
+      }
+      SightsPointFront PointInfo "{62DAB70EB04DC8F4}" {
+       PivotID "slot_gun"
+       Offset -0.0377 0.0832 -0.085
+       Angles -0.45 0 0
+      }
+      SightsPointRear PointInfo "{62DAB70EB3F6D03A}" {
+       PivotID "slot_gun"
+       Offset 0.0082 0.0815 -0.24
+       Angles -0.45 0 0
+      }
+      CameraRecoilAmount 0.307
+      SightsPriority 1
+      m_sReticleTexture "{38922DDA59111BCF}UI/Textures/Sights/PAG17/PAG17_Reticle.edds"
+      m_sReticleGlowTexture "{38922DDA59111BCF}UI/Textures/Sights/PAG17/PAG17_Reticle.edds"
+      m_bHasIllumination 1
+      m_cReticleTextureIllumination 0.804 0.02 0.02 1
+      m_fMagnification 2.5
+      m_fReticleAngularSize 3.612
+      m_fReticlePortion 0.297
+      m_fObjectiveFov 12
+      m_bShouldHideParentObject 0
+      m_fMisalignmentDampingSpeed 5
+      m_fVignetteMoveSpeed 3
+      m_eZeroingType EPZ_NONE
+     }
+     SightsComponent "{5B10DCF63177AAB1}" {
+      Enabled 0
+      SightsPosition PointInfo "{5B10DCF63177AAB0}" {
+       PivotID "slot_gun"
+       Offset 0.0348 0.0853 -0.3726
+      }
+      SightsPriority 0
+     }
+    }
+    ikTargets {
+     AnimationIKTargetInfo "{5B10DCF63177AAB6}" {
+      PositionInfo PointInfo "{5B10DCF63177AAB9}" {
+       Angles 68.3866 -4.4573 175.2072
+      }
+     }
+     AnimationIKTargetInfo "{5B10DCF63177AAB8}" {
+      PositionInfo PointInfo "{5B10DCF63177AABB}" {
+       Angles -80.20409 0 180
+      }
+     }
+    }
+    aimRotationBones {
+    }
+    UseWeaponSights 0
+   }
+   WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+    AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+     InheritParentSkeleton 1
+    }
+    WeaponTemplate "{4623E37E10B358C3}Prefabs/Weapons/HeavyWeapons/AGS17/GMG_AGS17_PAG17.et"
+   }
+   ActionsManagerComponent "{51ACD09C7181BA0B}" {
+    ActionContexts {
+     UserActionContext "{51ACFBB064390C6E}" {
+      Position PointInfo "{51ACFBB061993925}" {
+       PivotID "Scene_Root"
+       Offset 0 0.5621 -0.4357
+      }
+     }
+    }
+   }
+   BaseItemAnimationComponent "{5242E42C7B4B2CEE}" {
+    AnimGraph "{3E44648DB74CBBA2}Assets/Weapons/HeavyWeapons/workspaces/M2HB_m151a2.agr"
+    AnimInstance "{080604593C99C8DB}Assets/Weapons/HeavyWeapons/workspaces/M2HB_Weapon_m151a2.asi"
+   }
+  }
+  coords 138.192 1 230.73
+  angleX 0
+ }
+ {
+  coords 136.995 1 227.072
+  angleX 0
+ }
+}
+Turret : "{D1FFE458E8AC4BDB}Prefabs/Weapons/Mortars/2B14/Mortar_2B14.et" {
+ coords 139.382 1 228.708
 }
 SCR_AIGroup : "{F7F7682FD696D05B}Prefabs/Groups/OPFOR/drg_Group_RHS_AFRF_Desert_ShowCase.et" {
  coords 127.867 1 213.587
