@@ -197,6 +197,26 @@ SCR_AIGroup USSR_6_0_0 : "{C1F556377EBDFCAF}Prefabs/Groups/OPFOR/Campaign/S_USSR
  m_aUnitPrefabSlots {
   "{C6960782BEAA6B07}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_SL.et" "{072F75BB5AA0200E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_SeniorScout.et" "{43CED484D075F274}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Rifleman.et" "{B6FE3479F0ED092C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_RTO.et" "{82040C2F7734F9B3}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Sapper.et" "{ACD9575EDC2C034D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Medic.et"
  }
+ {
+  PS_ManualMarker USSR_G_600_M : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+   coords 0 0 0.001
+   angleY -138.071
+   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+   m_sImageSetGlow ""
+   m_MarkerColor 1 1 1 1
+   m_sQuadName "undefined"
+   m_fWorldSize 50
+   m_sDescription "(#DRG-Sq-ReconSquad) Гейзер 1–1"
+   m_bUseWorldScale 0
+   m_aVisibleForFactions {
+    "USSR"
+   }
+   m_aHideOnGameModeStates {
+    3 6 0
+   }
+   m_iZOrder 10
+  }
+ }
 }
 $grp Vehicle : "{DBEC63C9DEE4358C}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_HEDP.et" {
  Mi8MT_armed_gunship_HEDP1 {

@@ -25,8 +25,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   coords 11139.203 781.518 4743.096
   m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
   m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 0.5
   m_sQuadName "Barracks"
-  m_fWorldSize 35
   m_sDescription "#2"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
@@ -39,8 +39,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   coords 9483.643 365.029 5942.871
   m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
   m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 0.5
   m_sQuadName "Barracks"
-  m_fWorldSize 35
   m_sDescription "#3"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
@@ -53,8 +53,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   coords 9660.885 447.382 7186.045
   m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
   m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 0.5
   m_sQuadName "Barracks"
-  m_fWorldSize 35
   m_sDescription "#4"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
@@ -67,8 +67,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   coords 12366.762 709.272 5849.129
   m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
   m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 0.5
   m_sQuadName "Barracks"
-  m_fWorldSize 35
   m_sDescription "#5"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
@@ -81,8 +81,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   coords 11519.408 512.144 7243.078
   m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
   m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 0.5
   m_sQuadName "Barracks"
-  m_fWorldSize 35
   m_sDescription "#1"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1

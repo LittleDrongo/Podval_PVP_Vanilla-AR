@@ -585,24 +585,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_iZOrder 10
  }
- USSR_G_600_M {
-  coords 11487.03 493.008 7347.83
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "(#DRG-Sq-ReconSquad) Гейзер 1–1"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "USSR"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   3 6 0
-  }
-  m_iZOrder 10
- }
  {
   coords 10513.834 285.111 6504.104
   angleY 264.867
