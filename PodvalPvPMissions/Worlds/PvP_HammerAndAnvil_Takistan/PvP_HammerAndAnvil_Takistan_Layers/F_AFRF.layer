@@ -48,7 +48,7 @@ $grp SCR_AIGroup : "{3EDA372443FD105F}Prefabs/Groups/OPFOR/drg_AFRF_RifleSquad.e
   components {
    PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
     m_iCompanyCallsign 1
-    m_iSquadCallsign 3
+    m_iSquadCallsign 4
    }
   }
   coords 7612.885 317.713 2021.975

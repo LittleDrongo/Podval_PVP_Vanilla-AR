@@ -10,7 +10,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "— Удержать более двух контрольных точек."\
   ""\
   "СПОСОБЫ ПОБЕДЫ ДЛЯ БОЕВИКОВ"\
-  "— Захватить более двух контрольных точек."
+  "— Захватить более двух контрольных точек."\
+  ""\
+  "ПРО ФЛАГИ"\
+  "— Захват осуществялется путём смены флага."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 1

@@ -372,6 +372,9 @@ $grp Turret : "{BC52FAAFB89D51AA}Prefabs/Weapons/Tripods/6G10/Tripod_6G10_AGS17_
   angleX 0
  }
 }
+SCR_ChimeraCharacter : "{CEDCC068342815AB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_SL.et" {
+ coords 105.991 1 224.705
+}
 SCR_ChimeraCharacter : "{D11B9352BBF28368}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_Spotter.et" {
  coords 119.896 1 221.849
 }

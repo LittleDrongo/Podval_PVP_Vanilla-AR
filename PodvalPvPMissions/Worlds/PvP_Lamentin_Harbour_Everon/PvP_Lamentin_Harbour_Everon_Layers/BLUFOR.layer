@@ -7,20 +7,18 @@ SCR_AIGroup US_3_0_0_DEF : "{119A3C5BF9D14C80}Prefabs/Groups/BLUFOR/Campaign/F_U
  coords 1009.034 2.688 6023.91
  angleY 3.329
 }
-$grp Vehicle : "{137DCF41459A89BE}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_empty.et" {
- UH1H_gunship1 {
-  coords 1117.028 41.779 11528.681
-  angleX -0.897
-  angleY -179.97
-  angleZ 4.466
-  m_sAttachmentGroupName "US_4_0_0"
- }
- UH1H_gunship2 {
-  coords 1154.534 43.878 11531.973
-  angleX 5.356
-  angleY -179.97
-  angleZ 0.003
+$grp Vehicle : "{21E9A875C0A3C409}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HE.et" {
+ UH1H_armed_gunship_HE1 {
+  coords 1153.65 43.525 11532.161
+  angleY 177.928
   m_sAttachmentGroupName "US_4_0_1"
+ }
+ UH1H_armed_gunship_HE2 {
+  coords 1117.982 41.836 11528.45
+  angleX 0.99
+  angleY 177.973
+  angleZ 2.65
+  m_sAttachmentGroupName "US_4_0_0"
  }
 }
 Vehicle M923A1_tanker1 : "{2BE1F8B9299B67C1}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker.et" {
