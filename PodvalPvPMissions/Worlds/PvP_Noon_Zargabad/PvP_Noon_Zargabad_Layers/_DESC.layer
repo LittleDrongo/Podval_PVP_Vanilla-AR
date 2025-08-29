@@ -6,14 +6,17 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "— Всем запрещено надевать форму, головные уборы, разгрузки, бронежилеты противника (рюкзаки можно) "\
   "— Битва завершается либо по потерям, либо по времени"\
   ""\
-  "СПОСОБЫ ПОБЕДЫ ДЛЯ ВС РФ "\
-  "— Удержать более двух контрольных точек."\
+  "ПРАВИЛА ДЛЯ БОЕВИКОВ"\
+  "— Всем кроме рейдовых групп (на БРДМ) запрещено покидать территорию города"\
+  ""\
+  "СПОСОБЫ ПОБЕДЫ ДЛЯ США"\
+  "— Захватить мечеть"\
   ""\
   "СПОСОБЫ ПОБЕДЫ ДЛЯ БОЕВИКОВ"\
-  "— Захватить более двух контрольных точек."\
+  "— Удержать мечеть"\
   ""\
-  "ПРО ФЛАГИ"\
-  "— Захват осуществялется путём смены флага."
+  "ПРО ЗАХВАТ"\
+  "— Захват осуществляется наличием пехоты в области отмеченной на карте, смотрите параметры миссии."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 1
@@ -21,70 +24,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  "_0_ABOUT" {
   m_sTitle "#PS-Description_HeaderAboutMission"
   m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
-  m_sTextData "Атака боевиков на южный военный аэродром."
+  m_sTextData "Бой за город Заргабад"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
- }
-}
-$grp SCR_AIGroup : "{7DE1C37237295281}Prefabs/Groups/INDFOR/Ses_TKR/drg_TKR_RifleSquad.et" {
- TKR_1_0_4 {
-  components {
-   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
-    m_iCompanyCallsign 1
-   }
-  }
-  coords 3918.291 16.178 4089.275
-  angleX 3.586
-  angleY -21.168
-  angleZ -0.171
-  m_aUnitPrefabSlots {
-   "{1D2190752262203D}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_RTO.et"
-  }
-  m_sCustomNameSet ""
- }
- TKR_1_0_5 {
-  components {
-   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
-    m_iCompanyCallsign 1
-   }
-  }
-  coords 3916.175 16.227 4089.393
-  angleX 1.019
-  angleY 55.105
-  angleZ 3.443
-  m_aUnitPrefabSlots {
-   "{6B6FFA5A4E0E6959}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_MG_Rand.et"
-  }
-  m_sCustomNameSet ""
- }
- TKR_1_0_6 {
-  components {
-   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
-    m_iCompanyCallsign 1
-   }
-  }
-  coords 3915.418 16.288 4090.162
-  angleX -1.396
-  angleY 94.417
-  angleZ 3.308
-  m_aUnitPrefabSlots {
-   "{1323F2F67BEA5C34}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Sniper_Rand.et"
-  }
-  m_sCustomNameSet ""
- }
- TKR_1_0_7 {
-  components {
-   PS_GroupCallsignAssigner "{65154C1E6C2E8928}" {
-    m_iCompanyCallsign 1
-   }
-  }
-  coords 3898.646 16.308 4092.938
-  angleX -1.396
-  angleY 94.417
-  angleZ 3.308
-  m_aUnitPrefabSlots {
-   "{1323F2F67BEA5C34}Prefabs/Characters/Factions/INDFOR/TKR/drg_Character_Ses_TKR_Sniper_Rand.et"
-  }
-  m_sCustomNameSet ""
  }
 }

@@ -7,8 +7,9 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 15
-   m_iStartingMinutes 45
+   m_iStartingHours 9
+   m_iStartingMinutes 25
+   m_bRandomStartingDaytime 1
   }
  }
  {
