@@ -1,0 +1,62 @@
+Vehicle : "{0FBF8F010F81A4E5}Prefabs/Vehicles/Wheeled/LAV25/LAV25.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "LAV25 Mortar M252"
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{60488A9A95F85114}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62EC8473FD2FE307}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{62EC8473EB55CFBE}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{62EC8473DA7ACB18}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{6286B65912A66532}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{62C2BB5FC2DB12CF}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{62C2BB5FC2782DE3}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{62C2BB5FC38BCCF2}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{62C2BB5FC3D8B722}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{62C2BB5FC3172633}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{62C2BB5FC4AFFD6E}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{62C2BB5FC4E44E4D}" {
+     SlotTemplate InventoryStorageSlot m249 {
+      Prefab "{38BAE094333E31BF}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_HE_M821.et"
+     }
+     NumSlots 150
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset 0.0004 0.3228 -0.4502
+     MergePhysics 0
+     Prefab "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et"
+     DisablePhysicsInteraction 1
+    }
+   }
+  }
+ }
+ coords 8562.05 129.935 3302.027
+ angleY -46.38
+}
