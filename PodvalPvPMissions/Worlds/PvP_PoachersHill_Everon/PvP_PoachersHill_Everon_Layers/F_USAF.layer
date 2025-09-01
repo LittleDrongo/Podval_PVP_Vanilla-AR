@@ -20,6 +20,92 @@ Vehicle M923A1_tanker_MERDC1 : "{26013123314183EA}Prefabs/Vehicles/Wheeled/M923A
  angleY -71.103
  angleZ -1.983
 }
+$grp GenericEntity : "{2BD8F0769429AC4A}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_81mm_MortarCluster_100rnd_HE.et" {
+ {
+  coords 8570.849 125.962 3307.64
+  angleX 2.476
+  angleY -56.943
+  angleZ -0.524
+ }
+ {
+  coords 8570.525 125.957 3307.146
+  angleX 2.476
+  angleY -56.943
+  angleZ -0.524
+ }
+ {
+  coords 8561.631 126.613 3314.036
+  angleX 3.775
+  angleY -50.508
+  angleZ -0.364
+ }
+ {
+  coords 8562.008 126.616 3314.49
+  angleX 3.775
+  angleY -50.508
+  angleZ -0.364
+ }
+ {
+  coords 8562.008 126.616 3314.49
+  angleX 3.775
+  angleY -50.508
+  angleZ -0.364
+ }
+ {
+  coords 8562.008 126.616 3314.49
+  angleX 3.775
+  angleY -50.508
+  angleZ -0.364
+ }
+ {
+  coords 8562.008 126.616 3314.49
+  angleX 3.775
+  angleY -50.508
+  angleZ -0.364
+ }
+ {
+  coords 8562.008 126.616 3314.49
+  angleX 3.775
+  angleY -50.508
+  angleZ -0.364
+ }
+ {
+  coords 8562.008 126.616 3314.49
+  angleX 3.775
+  angleY -50.508
+  angleZ -0.364
+ }
+ {
+  coords 8561.631 126.613 3314.036
+  angleX 3.775
+  angleY -50.508
+  angleZ -0.364
+ }
+ {
+  coords 8561.631 126.613 3314.036
+  angleX 3.775
+  angleY -50.508
+  angleZ -0.364
+ }
+ {
+  coords 8561.631 126.613 3314.036
+  angleX 3.775
+  angleY -50.508
+  angleZ -0.364
+ }
+ {
+  coords 8561.631 126.613 3314.036
+  angleX 3.775
+  angleY -50.508
+  angleZ -0.364
+ }
+ {
+  coords 8561.631 126.613 3314.036
+  angleX 3.775
+  angleY -50.508
+  angleZ -0.364
+ }
+}
 $grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
  LAV25_RHS1 {
   coords 8538.058 129.951 3347.789
@@ -56,6 +142,22 @@ SCR_AIGroup USAF_0_0_0 : "{4A02B745F553821E}Prefabs/Groups/BLUFOR/drg_USAF_Compa
  angleY -82.946
  angleZ -5.315
 }
+$grp Vehicle : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et" {
+ M1 {
+  coords 8562.732 126.396 3309.189
+  angleX 3.766
+  angleY -51.821
+  angleZ -0.45
+  m_sAttachmentGroupName "USAF_4_0_0"
+ }
+ M2 {
+  coords 8568.281 125.97 3305.647
+  angleX 3.677
+  angleY -59.2
+  angleZ -0.93
+  m_sAttachmentGroupName "USAF_4_0_0"
+ }
+}
 $grp SCR_AIGroup : "{582AA92CC9105E2F}Prefabs/Groups/BLUFOR/drg_USAF_LAV25.et" {
  USAF_3_0_0 {
   components {
@@ -89,6 +191,30 @@ $grp SCR_AIGroup : "{582AA92CC9105E2F}Prefabs/Groups/BLUFOR/drg_USAF_LAV25.et" {
   angleX -0.534
   angleY -133.72
   angleZ -4.435
+ }
+}
+$grp Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
+ {
+  components {
+   PS_GroupAttachmentComponent "{6642D54F33F83D66}" {
+    m_sAttachmentGroupName "USAF_4_0_0"
+   }
+  }
+  coords 8564.969 126.343 3310.93
+  angleX 3.748
+  angleY -53.799
+  angleZ -0.58
+ }
+ {
+  components {
+   PS_GroupAttachmentComponent "{6642D54F383D076F}" {
+    m_sAttachmentGroupName "USAF_4_0_0"
+   }
+  }
+  coords 8568.64 126.08 3308.5
+  angleX 3.748
+  angleY -53.799
+  angleZ -0.58
  }
 }
 $grp SCR_AIGroup : "{88BE84A3E78CF73E}Prefabs/Groups/BLUFOR/drg_USAF_SniperTeam.et" {
