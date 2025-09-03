@@ -1,0 +1,110 @@
+$grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ {
+  components {
+   SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
+    m_fHeight 2
+    m_bFollowTerrain 1
+   }
+  }
+  coords 3241.81 37.813 7883.216
+  angleX -1.42
+  angleY -0.07
+  angleZ 0.57
+  m_fWarnRadius 150
+  m_fZoneRadius 160
+  m_fZoneTeleportedRadius 165
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fHeight 2
+      m_bFollowTerrain 1
+      m_fRadius 150
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
+    m_fHeight 2
+    m_bFollowTerrain 1
+   }
+  }
+  coords 4844.643 37.521 4618.655
+  angleX -1.42
+  angleY -0.07
+  angleZ 0.57
+  m_fWarnRadius 150
+  m_fZoneRadius 160
+  m_fZoneTeleportedRadius 165
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fHeight 2
+      m_bFollowTerrain 1
+      m_fRadius 150
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
+    m_fHeight 2
+    m_bFollowTerrain 1
+   }
+  }
+  coords 3409.14 12.378 2622.635
+  angleX -1.42
+  angleY -0.07
+  angleZ 0.57
+  m_fWarnRadius 150
+  m_fZoneRadius 160
+  m_fZoneTeleportedRadius 165
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fHeight 2
+      m_bFollowTerrain 1
+      m_fRadius 150
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
+    m_fHeight 2
+    m_bFollowTerrain 1
+   }
+  }
+  coords 3825.497 11.769 2790.3
+  angleX 0.49
+  angleY 67.766
+  angleZ -1.167
+  m_fWarnRadius 150
+  m_fZoneRadius 160
+  m_fZoneTeleportedRadius 165
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fHeight 2
+      m_bFollowTerrain 1
+      m_fRadius 150
+     }
+    }
+   }
+  }
+ }
+}
