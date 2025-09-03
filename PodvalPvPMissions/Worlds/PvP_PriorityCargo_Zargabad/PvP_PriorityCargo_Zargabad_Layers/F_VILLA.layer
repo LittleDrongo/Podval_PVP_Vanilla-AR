@@ -69,8 +69,8 @@ $grp GenericEntity : "{9696936C75FAA1E0}Prefabs/Structures/Lamp/Lamp_Street2_on.
   angleZ 1.323
  }
 }
-$grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
- {
+$grp GenericEntity : "{98313D1CA0F46F5C}Prefabs/Props/Military/Sandbags/drg_Sandbag_01_wall_solid_burlap_NoSand.et" {
+{
   coords 4829.793 37.819 4610.835
   angleY 89.753
   scale 1.134
