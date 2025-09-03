@@ -1,3 +1,42 @@
+$grp GenericEntity : "{754BF6213A318556}Prefabs/Props/Industrial/ConcretePanel_01_D.et" {
+ {
+  coords 4850.227 45.011 4601.644
+  angleY 43.819
+ }
+ {
+  coords 4848.904 45.011 4600.265
+  angleY 43.819
+ }
+ {
+  coords 4858.808 45.517 4586.678
+  angleX -45
+  angleY -90.817
+ }
+ {
+  coords 4858.753 45.517 4590.533
+  angleX -45
+  angleY -90.817
+ }
+ {
+  coords 4860.032 45.547 4590.533
+  angleX 45
+  angleY -90.817
+ }
+ {
+  coords 4860.086 45.547 4586.685
+  angleX 45
+  angleY -90.817
+ }
+}
+$grp GenericEntity : "{795552B887CD50E7}Prefabs/Props/Industrial/ConcretePanel_01_stack.et" {
+ {
+  coords 4859.704 45.015 4583.787
+ }
+ {
+  coords 4859.129 45.015 4594.37
+  angleY -88.514
+ }
+}
 $grp GenericEntity : "{9696936C75FAA1E0}Prefabs/Structures/Lamp/Lamp_Street2_on.et" {
  {
   coords 4881.79 37.523 4613.375
@@ -76,12 +115,12 @@ $grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_
   scale 1.134
  }
  {
-  coords 4849.692 41.527 4593.294
+  coords 4849.34 41.527 4593.62
   angleY -4.102
   scale 1.134
  }
  {
-  coords 4846.798 41.527 4593.086
+  coords 4846.773 41.527 4593.435
   angleY -4.102
   scale 1.134
  }
