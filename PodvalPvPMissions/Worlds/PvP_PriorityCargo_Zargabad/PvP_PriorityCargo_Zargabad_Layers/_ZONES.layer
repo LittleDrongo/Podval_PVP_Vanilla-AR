@@ -203,7 +203,7 @@ $grp PolylineShapeEntity {
     m_cPolygonBorderColor 0.093 0.255 0.741 1
     m_fPolygonBorderWidth 5
     m_aVisibleForFactions {
-     "Ses_TKR" "" "" ""
+     "Ses_TKR" "RHS_USAF" ""
     }
    }
   }
