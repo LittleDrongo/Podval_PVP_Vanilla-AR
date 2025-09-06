@@ -6,7 +6,7 @@ $grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/Restri
     m_bFollowTerrain 1
    }
   }
-  coords 4052.188 29.428 2547.821
+  coords 4016.72 29.781 2547.786
   angleX -1.42
   angleY -0.07
   angleZ 0.57

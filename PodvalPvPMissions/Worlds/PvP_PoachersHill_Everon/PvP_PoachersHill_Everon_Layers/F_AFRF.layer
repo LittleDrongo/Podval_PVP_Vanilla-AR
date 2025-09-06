@@ -45,6 +45,22 @@ $grp SCR_AIGroup : "{0FC09C311C951395}Prefabs/Groups/OPFOR/drg_AFRF_PlatoonHQ.et
   }
   m_sCustomNameSet "Расчёт БМ-21"
  }
+ AFRF_4_0_3 {
+  components {
+   PS_GroupCallsignAssigner "{6454F7D129837B5A}" {
+    m_iCompanyCallsign 4
+    m_iSquadCallsign 3
+   }
+  }
+  coords 4556.666 21.811 9732.725
+  angleX -0.468
+  angleY 103.029
+  angleZ -1.945
+  m_aUnitPrefabSlots {
+   "{53A7932FD6BDDF63}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL.et" "{2836211FE98BA458}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Rifleman.et"
+  }
+  m_sCustomNameSet "Расчёт БМ-21"
+ }
 }
 $grp Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
  Ural4320_transport1 {
@@ -109,10 +125,10 @@ $grp Vehicle : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_amm
   m_bEnableMoveOnFreeze 1
  }
  Ural4320_ammo2 {
-  coords 4555.07 22.017 9716.371
-  angleX -0.331
-  angleY -158.263
-  angleZ 0.831
+  coords 4556.311 22.036 9718.731
+  angleX -0.287
+  angleY -161.237
+  angleZ 0.847
   m_sAttachmentGroupName "AFRF_4_0_2"
   m_bEnableMoveOnFreeze 1
  }
@@ -197,20 +213,20 @@ SCR_AIGroup AFRF_0_0_0 : "{52DBD8AD794AA412}Prefabs/Groups/OPFOR/drg_AFRF_Compan
  coords 5768.201 217.558 7068.568
  angleY -163.232
 }
-$grp Vehicle : "{7A16FB788DAD3992}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD_Green.et" {
- GAZ_TIGR_v2_KORD_Green1 {
-  coords 5745.138 218.361 7068.577
-  angleX 2.822
-  angleY -75.431
-  angleZ -0.191
-  m_sAttachmentGroupName "AFRF_3_0_0"
- }
- GAZ_TIGR_v2_KORD_Green2 {
-  coords 5759.153 217.626 7065.458
-  angleX 2.408
-  angleY -75.415
-  angleZ -2.145
+$grp Vehicle : "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et" {
+ GAZ_TIGR_v2_Unarmed_Green1 {
+  coords 5759.323 217.646 7066.016
+  angleX 2.395
+  angleY -75.754
+  angleZ -2.16
   m_sAttachmentGroupName "AFRF_3_0_1"
+ }
+ GAZ_TIGR_v2_Unarmed_Green2 {
+  coords 5745.263 218.366 7069.154
+  angleX 2.821
+  angleY -75.755
+  angleZ -0.207
+  m_sAttachmentGroupName "AFRF_3_0_0"
  }
 }
 $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
@@ -239,7 +255,7 @@ $grp SCR_AIGroup : "{F06FB64E53D6E4AE}Prefabs/Groups/OPFOR/drg_RHS_Recon_Squad.e
   coords 5747.256 218.336 7072.406
   angleY -169.309
   m_aUnitPrefabSlots {
-   "{964F7C7E17A618E4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_SquadLeader.et" "{89072075B73F4C52}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_SeniorRifleman.et" "{86235954F1A463EC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_RTO.et" "{2BB6F9C635CFFE8B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Sniper.et" "{1EE1253262037F41}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_RER.et"
+   "{964F7C7E17A618E4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_SquadLeader.et" "{FA87DB28ECBB88A4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Rifleman.et" "{86235954F1A463EC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_RTO.et" "{2BB6F9C635CFFE8B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Sniper.et"
   }
  }
  AFRF_3_0_1 {
@@ -252,7 +268,7 @@ $grp SCR_AIGroup : "{F06FB64E53D6E4AE}Prefabs/Groups/OPFOR/drg_RHS_Recon_Squad.e
   coords 5761.97 217.675 7069.151
   angleY -166.012
   m_aUnitPrefabSlots {
-   "{964F7C7E17A618E4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_SquadLeader.et" "{89072075B73F4C52}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_SeniorRifleman.et" "{86235954F1A463EC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_RTO.et" "{2BB6F9C635CFFE8B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Sniper.et" "{1EE1253262037F41}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_RER.et"
+   "{964F7C7E17A618E4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_SquadLeader.et" "{FA87DB28ECBB88A4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Rifleman.et" "{86235954F1A463EC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_RTO.et" "{2BB6F9C635CFFE8B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/drg_Role_RHS_AFRF_Recon_Sniper.et"
   }
  }
 }
@@ -268,5 +284,21 @@ $grp Vehicle : "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU2
   angleX 3.618
   angleY -64.923
   angleZ 0.706
+ }
+ Ural4320_ZU3 {
+  coords 4560.666 21.56 9744.092
+  angleX 1.777
+  angleY -173.05
+  angleZ 0.217
+  m_sAttachmentGroupName "AFRF_4_0_3"
+  m_bEnableMoveOnFreeze 1
+ }
+ Ural4320_ZU4 {
+  coords 4558.995 21.841 9730.599
+  angleX 1.923
+  angleY -169.471
+  angleZ -0.553
+  m_sAttachmentGroupName "AFRF_4_0_3"
+  m_bEnableMoveOnFreeze 1
  }
 }

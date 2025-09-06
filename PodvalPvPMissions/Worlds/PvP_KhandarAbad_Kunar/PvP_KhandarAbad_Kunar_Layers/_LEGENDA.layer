@@ -118,57 +118,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_iZOrder 10
  }
- Ses_TKR_G_300_M {
-  coords 1974.853 127.813 2645.994
-  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "(#DRG_Sqd_RaidGroup) Kasrah Ahmr 1"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA" "Drg_IGF"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
- }
- Ses_TKR_G_301_M {
-  coords 1975.619 127.888 2636.838
-  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "(#DRG_Sqd_RaidGroup) Kasrah Ahmr 2"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA" "Drg_IGF"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
- }
- Ses_TKR_G_302_M {
-  coords 1975.219 127.855 2627.283
-  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "(#DRG_Sqd_RaidGroup) Kasrah Ahmr 3"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA" "Drg_IGF"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
- }
  {
   coords 2649.393 8.062 3060.077
   angleX 0.478

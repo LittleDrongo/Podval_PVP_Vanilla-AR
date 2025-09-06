@@ -10,6 +10,16 @@ GenericEntity : "{04B5CC36F933A2D4}Prefabs/System/DRG_DateTimeInjectorPrefab.et"
 }
 GenericEntity : "{3914BACD81F2F105}Prefabs/Items/sat_1.et" {
  coords 4846.467 41.527 4611.853
+ {
+  PS_ManualMarker {
+   ID "65C6A75114B06FB9"
+   m_aVisibleForFactions {
+   }
+   m_bVisibleForEmptyFaction 1
+   m_aHideOnGameModeStates {
+   }
+  }
+ }
 }
 GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
  components {
