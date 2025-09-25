@@ -58,11 +58,6 @@ SCR_AIGroup US_0_0_0 : "{68D5E3B6F7C86BD0}Prefabs/Groups/BLUFOR/Campaign/F_US_dr
 }
 $grp SCR_AIGroup : "{8D21AAF73F41E8F6}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_RifleSquad.et" {
  US_1_0_0 {
-  components {
-   PS_GroupCallsignAssigner "{646098080991B56F}" {
-    m_iCompanyCallsign 1
-   }
-  }
   coords 985.013 23.831 604.675
   angleY 105.453
  }

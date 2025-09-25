@@ -131,11 +131,27 @@ Vehicle Ural4320_command1 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320
  angleZ -0.387
  m_sAttachmentGroupName "USSR_0_0_0"
 }
-SCR_AIGroup USSR_5_0_0 : "{1C713293986AFC2C}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_MortarCrew.et" {
- coords 1216.928 6.918 2675.453
- angleX 0.197
- angleY 130.528
- angleZ 2.523
+$grp SCR_AIGroup : "{1C713293986AFC2C}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_MortarCrew.et" {
+ USSR_5_0_0 {
+  coords 1216.928 6.918 2675.453
+  angleX 0.197
+  angleY 130.528
+  angleZ 2.523
+ }
+ USSR_5_0_1 {
+  components {
+   PS_GroupCallsignAssigner "{645CD4E0FC0F406A}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1293.814 14.626 950.222
+  angleY 130.528
+  m_aUnitPrefabSlots {
+   "{5957E7D43F325378}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Spotter.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "Арт.корректировщик"
+ }
 }
 SCR_AIGroup USSR_0_0_0 : "{2797EDBC47A47C2F}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_CompanyHQ.et" {
  coords 1198.276 5.871 2651.481
