@@ -1,3 +1,4 @@
+/*
 modded class SCR_AIGroup
 {
 	[Attribute()]
@@ -204,12 +205,7 @@ class PS_MoveToVehicle
 }
 
 
-
-
-
-
-
-
+*/
 
 
 

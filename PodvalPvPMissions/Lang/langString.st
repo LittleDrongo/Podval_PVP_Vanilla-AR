@@ -1114,6 +1114,14 @@ StringTable {
    Author "hasta"
    LastChanged "hasta"
   }
+  CustomStringTableItem "{667D6413E949E9A4}" {
+   Id "DRG_HeavyMG_TL"
+   Target_en_us "Heavy MachineGunner"
+   Target_ru_ru "Пулемётчик НСВ"
+   Modified 1719496023
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{64D476D3BB2000B9}" {
    Id "DRG_IGF"
    Target_en_us "IGF"
