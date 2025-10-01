@@ -1,5 +1,5 @@
 $grp SCR_AIGroup : "{096E2AA151C3580D}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_RifleSquad.et" {
- USSR_1_0_0 {
+ USSR_1_0_0_DEF {
   components {
    PS_GroupCallsignAssigner "{645CD4F530E5119A}" {
     m_iCompanyCallsign 1
@@ -17,7 +17,7 @@ $grp SCR_AIGroup : "{096E2AA151C3580D}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_R
    "{4BFD7347345A2281}Prefabs/Characters/Factions/OPFOR/USSR_Army/Marines/drg_Character_USSR_MI_Rifleman.et"
   }
  }
- USSR_1_0_1 {
+ USSR_1_0_1_DEF {
   components {
    PS_GroupCallsignAssigner "{645CD4F530E5119A}" {
     m_iCompanyCallsign 1
@@ -36,7 +36,7 @@ $grp SCR_AIGroup : "{096E2AA151C3580D}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_R
    "{4BFD7347345A2281}Prefabs/Characters/Factions/OPFOR/USSR_Army/Marines/drg_Character_USSR_MI_Rifleman.et"
   }
  }
- USSR_2_0_0 {
+ USSR_2_0_0_DEF {
   components {
    PS_GroupCallsignAssigner "{645CD4F530E5119A}" {
     m_iCompanyCallsign 2
@@ -52,7 +52,7 @@ $grp SCR_AIGroup : "{096E2AA151C3580D}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_R
    "{1F3A3668A306655E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Marines/drg_Character_USSR_MI_Sniper.et"
   }
  }
- USSR_2_0_1 {
+ USSR_2_0_1_DEF {
   components {
    PS_GroupCallsignAssigner "{645CD4F530E5119A}" {
     m_iCompanyCallsign 2
@@ -71,7 +71,7 @@ $grp SCR_AIGroup : "{096E2AA151C3580D}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_R
    "{83A7AD831095DC79}Prefabs/Characters/Factions/OPFOR/USSR_Army/Marines/drg_Character_USSR_MI_GL.et"
   }
  }
- USSR_2_0_2 {
+ USSR_2_0_2_DEF {
   components {
    PS_GroupCallsignAssigner "{645CD4F530E5119A}" {
     m_iCompanyCallsign 2
@@ -90,7 +90,7 @@ $grp SCR_AIGroup : "{096E2AA151C3580D}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_R
    "{83A7AD831095DC79}Prefabs/Characters/Factions/OPFOR/USSR_Army/Marines/drg_Character_USSR_MI_GL.et"
   }
  }
- USSR_3_0_0 {
+ USSR_3_0_0_DEF {
   components {
    PS_GroupCallsignAssigner "{645CD4F530E5119A}" {
     m_iCompanyCallsign 3
@@ -105,7 +105,7 @@ $grp SCR_AIGroup : "{096E2AA151C3580D}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_R
   }
   m_sCustomNameSet "Расчёт НСВ"
  }
- USSR_2_0_3 {
+ USSR_2_0_3_DEF {
   components {
    PS_GroupCallsignAssigner "{645CD4F530E5119A}" {
     m_iCompanyCallsign 2
@@ -124,7 +124,7 @@ $grp SCR_AIGroup : "{096E2AA151C3580D}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_R
    "{83A7AD831095DC79}Prefabs/Characters/Factions/OPFOR/USSR_Army/Marines/drg_Character_USSR_MI_GL.et"
   }
  }
- USSR_3_0_1 {
+ USSR_3_0_1_DEF {
   components {
    PS_GroupCallsignAssigner "{645CD4F530E5119A}" {
     m_iCompanyCallsign 3
@@ -141,21 +141,38 @@ $grp SCR_AIGroup : "{096E2AA151C3580D}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_R
   m_sCustomNameSet "Расчёт НСВ"
  }
 }
-SCR_AIGroup USSR_0_0_0 : "{2797EDBC47A47C2F}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_CompanyHQ.et" {
+SCR_AIGroup USSR_0_0_0_DEF : "{2797EDBC47A47C2F}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_CompanyHQ.et" {
  coords 6958.171 438.208 6809.301
  angles 0 53.694 0
  m_aUnitPrefabSlots {
   "{1D7EEE4B6BF4572A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Marines/drg_Character_USSR_MI_CL.et"
  }
 }
+Vehicle M923A1_command_MERDC1 : "{38186F12F27A61C6}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command_MERDC.et" {
+ coords 8523.174 195.044 9004.202
+ angles 0.885 -98.814 -0.137
+ m_sAttachmentGroupName "US_0_0_0_DEF"
+}
+$grp Vehicle : "{3C6B3ED0C3AC30D5}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_HE.et" {
+ Mi8MT_armed_gunship_HE1 {
+  coords 2634.162 24.218 5511.974
+  angles 0 -177.331 0
+ }
+ Mi8MT_armed_gunship_HE2 {
+  coords 2635.224 24.219 5462.684
+  angles 0 179.959 0
+ }
+}
 $grp Vehicle : "{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et" {
  Mi8MT_armed1 {
   coords 2945.857 24.218 4736.319
   angles 0 141.17 0
+  m_sAttachmentGroupName "USSR_4_0_0"
  }
  Mi8MT_armed2 {
   coords 2917.021 24.218 4774.297
   angles 0 141.118 0
+  m_sAttachmentGroupName "USSR_4_0_1"
  }
 }
 $grp GenericEntity : "{A504591A07BDA272}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_762_NSV.et" {
