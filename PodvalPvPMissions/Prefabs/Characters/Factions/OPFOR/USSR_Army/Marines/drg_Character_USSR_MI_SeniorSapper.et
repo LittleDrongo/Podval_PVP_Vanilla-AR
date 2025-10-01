@@ -6,6 +6,13 @@ SCR_ChimeraCharacter : "{71B7AE0994292AB4}Prefabs/Characters/Factions/OPFOR/USSR
     Name "#DRG-Role_EngineerSeniorSapper"
    }
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{22963D69CA50EB9E}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_net.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{667D64167248F180}" {

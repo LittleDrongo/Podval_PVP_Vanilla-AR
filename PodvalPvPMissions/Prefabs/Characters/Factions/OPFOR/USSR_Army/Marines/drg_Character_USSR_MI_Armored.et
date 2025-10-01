@@ -10,7 +10,7 @@ SCR_ChimeraCharacter : "{8C381320937E8CCE}Prefabs/Characters/Factions/OPFOR/USSR
      Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{FD2EF7E70C8C0441}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_rifleman_Black.et"
+     Prefab "{08155E701A949620}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_rifleman.et"
     }
    }
   }

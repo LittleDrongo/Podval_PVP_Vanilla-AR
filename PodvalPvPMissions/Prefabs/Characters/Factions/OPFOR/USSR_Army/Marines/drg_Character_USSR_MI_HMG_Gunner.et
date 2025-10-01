@@ -20,6 +20,9 @@ SCR_ChimeraCharacter : "{4BFD7347345A2281}Prefabs/Characters/Factions/OPFOR/USSR
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A7E6D7ECD5F684D7}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01.et"
+    }
     LoadoutSlotInfo Back {
      Prefab "{DE6458E8239A3A4A}Prefabs/Items/Equipment/Tripods/6T7/Part_NSV_Gun_Optic.et"
     }

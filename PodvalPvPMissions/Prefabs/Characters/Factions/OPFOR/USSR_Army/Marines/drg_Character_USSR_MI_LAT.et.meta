@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{77FA2645D65E9BED}Prefabs/Characters/Factions/OPFOR/USSR_Army/Saboteurs/drg_Character_USSR_Informator.et"
+ Name "{0CA1F0613B16175C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Marines/drg_Character_USSR_MI_LAT.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

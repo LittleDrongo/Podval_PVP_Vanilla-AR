@@ -28,6 +28,8 @@ SCR_ChimeraCharacter : "{A7D3B64C72DC4A78}Prefabs/Characters/Factions/OPFOR/USSR
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{667D4D645DB25CC7}" {
+     PrefabsToSpawn {
+     }
     }
    }
   }

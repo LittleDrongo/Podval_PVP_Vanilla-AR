@@ -33,6 +33,9 @@ SCR_ChimeraCharacter : "{88BA74796F909E17}Prefabs/Characters/Factions/OPFOR/USSR
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B543E763DE9F7B}" {
+     TargetStorage "Pants/Pants_KZS.et"
+    }
     ItemsInitConfigurationItem "{6494961AFC14051F}" {
      TargetStorage "Prefabs/Characters/Uniforms/Jacket_KZS/Jacket_KZS.et"
     }
