@@ -1,0 +1,119 @@
+$grp GenericEntity : "{34EB1F16E01716A4}PrefabsEditable/EffectsModules/Mine/EffectModule_MineField_AP_Medium_USSR.et" {
+ {
+  coords 7117.722 390.4 7225.866
+ }
+ {
+  coords 7145.695 389.327 7221.807
+ }
+ {
+  coords 7101.383 390.399 7243.366
+ }
+ {
+  coords 7087.887 397.834 7260.866
+ }
+ {
+  coords 7089.215 405.265 7278.366
+ }
+ {
+  coords 7195.024 390.486 7213.383
+  angles 0 15.075 0
+ }
+ {
+  coords 7226.75 386.869 7206.656
+  angles 0 15.075 0
+ }
+ {
+  coords 7262.924 376.891 7196.289
+  angles 0 15.075 0
+ }
+ {
+  coords 7299.146 363.708 7189.98
+  angles 0 15.075 0
+ }
+ {
+  coords 7341.107 340.142 7170.783
+  angles 0 15.075 0
+ }
+ {
+  coords 7374.573 323.823 7167.473
+  angles 0 15.075 0
+ }
+ {
+  coords 7402.92 310.243 7159.652
+  angles 0 15.075 0
+ }
+ {
+  coords 7385.832 325.833 7190.423
+  angles 0 15.075 0
+ }
+ {
+  coords 7343.074 354.733 7207.699
+  angles 0 15.075 0
+ }
+ {
+  coords 7313.024 357.191 7211.175
+  angles 0 15.075 0
+ }
+ {
+  coords 7285.761 370.713 7216.7
+  angles 0 15.075 0
+ }
+ {
+  coords 7259.47 381.041 7226.826
+  angles 0 15.075 0
+ }
+ {
+  coords 7229.649 388.643 7231.198
+  angles 0 15.075 0
+ }
+ {
+  coords 7130.282 383.876 7253.735
+  angles 0 15.075 0
+ }
+ {
+  coords 7094.936 369.571 7276.096
+  angles 0 15.075 0
+ }
+ {
+  coords 7045.774 352.869 7283.815
+  angles 0 15.075 0
+ }
+}
+$grp GenericEntity : "{BA5F9852DD7255E4}PrefabsEditable/EffectsModules/Mine/BaseEffectModule_MineField_Large.et" {
+ {
+  coords 7883.491 302.321 8279.828
+  angles 0 -39.082 0
+ }
+ {
+  coords 7935.046 290.354 8263.958
+  angles 0 -39.082 0
+ }
+ {
+  coords 7991.542 261.268 8208.24
+  angles 0 -39.082 0
+ }
+ {
+  coords 7851.266 303.796 8317.092
+  angles 0 -39.082 0
+ }
+ {
+  coords 7801.929 304.809 8318.357
+  angles 0 -39.082 0
+ }
+ {
+  coords 7739.571 288.936 8317.598
+  angles 0 -39.082 0
+ }
+ {
+  coords 7841.836 299.917 8352.896
+  angles 0 -39.082 0
+ }
+ {
+  coords 7921.399 299.419 8317.698
+  angles 0 -39.082 0
+ }
+ {
+  coords 7933.136 283.044 8226.216
+  angles 0 -39.082 0
+ }
+}
