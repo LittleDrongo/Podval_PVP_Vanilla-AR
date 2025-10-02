@@ -56,6 +56,7 @@ $grp SCR_AIGroup : "{1FE5E74E0E2B6255}Prefabs/Groups/BLUFOR/Campaign/S_US_drg_Cr
    "{9E0647E647A7EFCE}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Medic.et"
    "{9E0647E647A7EFCD}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Sniper.et"
   }
+  m_sCustomNameSet ""
  }
  US_1_0_1_DEF {
   components {
@@ -73,6 +74,7 @@ $grp SCR_AIGroup : "{1FE5E74E0E2B6255}Prefabs/Groups/BLUFOR/Campaign/S_US_drg_Cr
    "{9E0647E647A7EFCE}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Medic.et"
    "{9E0647E647A7EFCD}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Sniper.et"
   }
+  m_sCustomNameSet ""
  }
  US_1_0_2_DEF {
   components {
@@ -90,6 +92,7 @@ $grp SCR_AIGroup : "{1FE5E74E0E2B6255}Prefabs/Groups/BLUFOR/Campaign/S_US_drg_Cr
    "{9E0647E647A7EFCE}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Medic.et"
    "{9E0647E647A7EFCD}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Sniper.et"
   }
+  m_sCustomNameSet ""
  }
  US_1_0_3_DEF {
   components {
@@ -107,6 +110,7 @@ $grp SCR_AIGroup : "{1FE5E74E0E2B6255}Prefabs/Groups/BLUFOR/Campaign/S_US_drg_Cr
    "{9E0647E647A7EFCE}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Medic.et"
    "{9E0647E647A7EFCD}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Sniper.et"
   }
+  m_sCustomNameSet ""
  }
  US_2_0_0_DEF {
   components {
@@ -123,6 +127,7 @@ $grp SCR_AIGroup : "{1FE5E74E0E2B6255}Prefabs/Groups/BLUFOR/Campaign/S_US_drg_Cr
    "{9E0647E647A7EFCE}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Medic.et"
    "{9E0647E647A7EFCD}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Sniper.et"
   }
+  m_sCustomNameSet ""
  }
  US_2_0_1_DEF {
   components {
@@ -140,6 +145,7 @@ $grp SCR_AIGroup : "{1FE5E74E0E2B6255}Prefabs/Groups/BLUFOR/Campaign/S_US_drg_Cr
    "{9E0647E647A7EFCE}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Medic.et"
    "{9E0647E647A7EFCD}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Sniper.et"
   }
+  m_sCustomNameSet ""
  }
  US_2_0_2_DEF {
   components {
@@ -157,6 +163,7 @@ $grp SCR_AIGroup : "{1FE5E74E0E2B6255}Prefabs/Groups/BLUFOR/Campaign/S_US_drg_Cr
    "{9E0647E647A7EFCE}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Medic.et"
    "{9E0647E647A7EFCD}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Sniper.et"
   }
+  m_sCustomNameSet ""
  }
  US_2_0_3_DEF {
   components {
@@ -174,6 +181,7 @@ $grp SCR_AIGroup : "{1FE5E74E0E2B6255}Prefabs/Groups/BLUFOR/Campaign/S_US_drg_Cr
    "{9E0647E647A7EFCE}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Medic.et"
    "{9E0647E647A7EFCD}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Sniper.et"
   }
+  m_sCustomNameSet ""
  }
  US_3_0_0_DEF {
   components {
@@ -190,6 +198,7 @@ $grp SCR_AIGroup : "{1FE5E74E0E2B6255}Prefabs/Groups/BLUFOR/Campaign/S_US_drg_Cr
    "{9E0647E647A7EFCE}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Medic.et"
    "{9E0647E647A7EFCD}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Sniper.et"
   }
+  m_sCustomNameSet ""
  }
  US_3_0_1_DEF {
   components {
@@ -207,6 +216,7 @@ $grp SCR_AIGroup : "{1FE5E74E0E2B6255}Prefabs/Groups/BLUFOR/Campaign/S_US_drg_Cr
    "{9E0647E647A7EFCE}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Medic.et"
    "{9E0647E647A7EFCD}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Sniper.et"
   }
+  m_sCustomNameSet ""
  }
 }
 SCR_AIGroup US_0_0_0_DEF : "{68D5E3B6F7C86BD0}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_CompanyHQ.et" {

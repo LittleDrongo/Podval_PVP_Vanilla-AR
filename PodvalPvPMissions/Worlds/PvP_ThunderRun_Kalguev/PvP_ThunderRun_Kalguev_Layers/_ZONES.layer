@@ -131,10 +131,13 @@ $grp PolylineShapeEntity {
     Position -1365.521 126.146 -584.938
    }
    ShapePoint "{668274F457DB0378}" {
-    Position -1073.63 129.909 -351.499
+    Position -1091.117 108.756 -282.069
+   }
+   ShapePoint "{66834D1BFE37A0FE}" {
+    Position -1016.597 117.943 -204.91
    }
    ShapePoint "{668274F4541643B6}" {
-    Position -848.898 128.658 -175.45
+    Position -892.865 120.754 -142.784
    }
    ShapePoint "{668274F45428CB23}" {
     Position -632.914 68.359 56.436
