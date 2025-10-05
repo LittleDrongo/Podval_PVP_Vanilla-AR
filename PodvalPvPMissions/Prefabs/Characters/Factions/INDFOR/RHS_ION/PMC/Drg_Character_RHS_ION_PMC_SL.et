@@ -3,6 +3,7 @@ SCR_ChimeraCharacter : "{95F147EA5C05015B}Prefabs/Characters/Factions/INDFOR/RHS
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG_ION_TeamLeader"
     Icon "{E6BCD59435D5DF18}UI/Icons/pmc_tl.edds"
    }
   }

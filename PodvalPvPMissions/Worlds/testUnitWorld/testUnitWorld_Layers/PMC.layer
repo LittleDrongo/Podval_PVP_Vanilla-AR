@@ -1,56 +1,9 @@
-GameEntity : "{1ACBEA34BC9743FD}Prefabs/Characters/HeadGear/Hat_BallCap/Hat_ballcap_MC_glass_gad.et" {
- coords 93.771 1 232.992
-}
-SCR_ChimeraCharacter : "{254630D5216235B9}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_v2.et" {
- components {
-  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
-   InitialInventoryItems {
-    ItemsInitConfigurationItem "{6674AB891E1F2396}" {
-    }
-   }
-  }
- }
- coords 96.319 1 231.792
-}
 SCR_AIGroup : "{40BA59ECD32F6347}Prefabs/Groups/BLUFOR/drg_Group_RHS_ION_PMC_Showcase.et" {
  coords 93.302 1 221.889
- m_aUnitPrefabSlots {
-  "{DE2B5F2836908469}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman.et" "{254630D5216235B9}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_v2.et" "{C0DA7C2C2D87A2D2}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_v3.et" "{FDEE591458EB2BE5}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_v4.et" "{E8E9AB1239963DC2}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SL.et" "{95F147EA5C05015B}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SR.et" "" "{67ACD9EE1E9B5CB7}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_AK_v1.et" "{0BF8ED0EA25FD399}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_AK_v2.et"
- }
 }
-SCR_ChimeraCharacter : "{67ACD9EE1E9B5CB7}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_AK_v1.et" {
- coords 94.581 1 234.434
+GenericEntity : "{5E48F2AEE83F80D5}Prefabs/Weapons/Rifles/M4A1/URG-I/drg_Rifle_M4A1_URGI_145_PMC.et" {
+ coords 98.207 1 235.587
 }
-GameEntity : "{7CA231DDB758BEAE}Prefabs/Characters/HeadGear/Hat_USMC_Boonie/Hat_USMC_Boonie_wd_Comtac.et" {
- coords 94.473 1.522 233.157
-}
-GenericEntity : "{841C3B5572D90802}Prefabs/Characters/Vests/Vest_AVS/Variants/ION/drg_Vest_AVS_Blk_NoBelt_Light.et" {
- coords 93.094 1 229.747
-}
-GenericEntity : "{98AE387F7E295E9C}Prefabs/Weapons/Rifles/AK200/variants/Rifle_AK200_T1.et" {
- coords 95.44 1.473 236.363
-}
-$grp GenericEntity : "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" {
- {
-  coords 94.923 1 236.341
- }
- {
-  coords 96.554 1.92 234.466
-  angleY 92.699
- }
-}
-SCR_ChimeraCharacter : "{C0DA7C2C2D87A2D2}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_v3.et" {
- coords 98.011 1 231.463
-}
-GameEntity : "{CC99CC29A9A6D0A8}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/drg_Hat_Boonie_ION_PMC.et" {
- coords 94.038 1.526 232.844
-}
-SCR_ChimeraCharacter : "{DE2B5F2836908469}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman.et" {
- coords 94.749 1 230.452
-}
-SCR_ChimeraCharacter : "{E8E9AB1239963DC2}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SL.et" {
- coords 101.612 1 231.395
-}
-SCR_ChimeraCharacter : "{FDEE591458EB2BE5}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_v4.et" {
- coords 99.415 1 231.298
+Projectile : "{C14C5DE6F97F06F0}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x51_Ball_M80.et" {
+ coords 89.528 1 239.769
 }

@@ -1,6 +1,11 @@
 SCR_ChimeraCharacter : "{352765E58A0E08C8}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Unarmed.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{14AE995347CE8E7E}UI/Icons/pmc.edds"
+   }
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{98AE387F7E295E9C}Prefabs/Weapons/Rifles/AK200/variants/Rifle_AK200_T1.et"
   }

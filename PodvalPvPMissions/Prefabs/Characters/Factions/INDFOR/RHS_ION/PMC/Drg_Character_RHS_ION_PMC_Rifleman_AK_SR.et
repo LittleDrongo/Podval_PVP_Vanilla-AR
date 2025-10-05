@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{DE2B5F2836908469}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman.et" {
+SCR_ChimeraCharacter : "{67ACD9EE1E9B5CB7}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_AK_v1.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -7,7 +7,7 @@ SCR_ChimeraCharacter : "{DE2B5F2836908469}Prefabs/Characters/Factions/INDFOR/RHS
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{29F9869637AC22D7}Prefabs/Weapons/Rifles/M4A1/URG-I/drg_Rifle_M4A1_URGI_145_PMC_opt.et"
+   WeaponTemplate "{DDFECAC92FBC04D4}Prefabs/Weapons/Rifles/AK200/variants/drg_Rifle_AK200_1p86.et"
   }
  }
 }
