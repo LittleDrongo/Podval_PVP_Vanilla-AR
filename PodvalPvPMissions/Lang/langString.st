@@ -3736,5 +3736,13 @@ StringTable {
    Author "hasta"
    LastChanged "hasta"
   }
+  CustomStringTableItem "{668CE9234A609831}" {
+   Id "Role-SaboteurMG"
+   Target_en_us "Saboteur MG"
+   Target_ru_ru "Диверсант-пулемётчик"
+   Modified 1720511412
+   Author "hasta"
+   LastChanged "hasta"
+  }
  }
 }

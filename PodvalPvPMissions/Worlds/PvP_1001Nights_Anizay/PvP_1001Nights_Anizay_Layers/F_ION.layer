@@ -1,0 +1,32 @@
+$grp Vehicle : "{053040D358C1DC44}Prefabs/Vehicles/Wheeled/M998/M1025_ION_armed_m2hb.et" {
+ M1025_ION_armed_m2hb1 {
+  coords 7387.094 115.68 5244.24
+  angleX -1.784
+  angleY 4.499
+  angleZ -0.14
+  m_sAttachmentGroupName "ION_0_0_1"
+ }
+ M1025_ION_armed_m2hb2 {
+  coords 7387.144 115.427 5252.316
+  angleX -1.786
+  angleY -3.674
+  angleZ 0.115
+  m_sAttachmentGroupName "ION_0_0_0"
+ }
+}
+$grp SCR_AIGroup : "{2D2EFB4EEFFA07C4}Prefabs/Groups/INDFOR/RHS_ION/DRG_Group_RHS_Riflesquad.et" {
+ ION_0_0_0 {
+  coords 7391.025 115.48 5250.631
+  angleY -91.668
+  m_aUnitPrefabSlots {
+   "{E8E9AB1239963DC2}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SL.et" "{95F147EA5C05015B}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SR.et" "{C0DA7C2C2D87A2D2}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_v3.et" "{BC3BF750DE15DF34}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_LAT_v4.et" "{A807C057A88855BD}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Sniper.et"
+  }
+ }
+ ION_0_0_1 {
+  coords 7390.601 115.758 5241.724
+  angleY -82.176
+  m_aUnitPrefabSlots {
+   "{E8E9AB1239963DC2}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SL.et" "{95F147EA5C05015B}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SR.et" "{E8E9AB1239963DC2}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SL.et" "{08C7AA711B584E46}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_LAT_v1.et" "{A807C057A88855BD}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Sniper.et"
+  }
+ }
+}
