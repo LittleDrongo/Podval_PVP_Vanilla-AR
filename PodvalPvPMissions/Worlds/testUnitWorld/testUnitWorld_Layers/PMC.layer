@@ -4,8 +4,9 @@ GenericEntity : "{0AD3E2DA8AC47BAF}Prefabs/Items/Equipment/RangeCard/RangeCard_L
 SCR_AIGroup : "{40BA59ECD32F6347}Prefabs/Groups/BLUFOR/drg_Group_RHS_ION_PMC_Showcase.et" {
  coords 93.302 1 221.889
 }
-GenericEntity : "{5E48F2AEE83F80D5}Prefabs/Weapons/Rifles/M4A1/URG-I/drg_Rifle_M4A1_URGI_145_PMC.et" {
- coords 98.207 1 235.587
+SCR_AIGroup : "{8AED9A3FBB9E2682}Prefabs/Groups/INDFOR/FIA/drg_IG_ShowCase.et" {
+ coords 99.577 1 240.75
+ angleY 0
 }
 Projectile : "{C14C5DE6F97F06F0}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x51_Ball_M80.et" {
  coords 89.528 1 239.769
