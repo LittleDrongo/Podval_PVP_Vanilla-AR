@@ -1,0 +1,26 @@
+$grp GenericEntity : "{28ECED0C0F3655DB}PrefabsEditable/EffectsModules/Mine/EffectModule_MineField_Large_USSR.et" {
+ {
+  coords 3538.695 300.091 6674.816
+  angles -6.389 -1.198 -6.951
+ }
+ {
+  coords 3541.489 310.566 6615.651
+  angles -6.599 -2.961 -6.752
+ }
+ {
+  coords 3540.526 309.231 6602.316
+  angles -9.17 -35.201 -2.21
+ }
+ {
+  coords 3559.137 296.901 6245.501
+  angles -9.415 -45.537 -0.537
+ }
+ {
+  coords 3512.111 297.019 6278.314
+  angles -9.415 -45.537 -0.537
+ }
+ {
+  coords 3469.241 285.531 6332.365
+  angles -9.035 -32.03 -2.712
+ }
+}

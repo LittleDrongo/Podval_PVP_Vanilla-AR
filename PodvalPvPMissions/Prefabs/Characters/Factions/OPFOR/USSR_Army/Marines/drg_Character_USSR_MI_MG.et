@@ -22,7 +22,7 @@ SCR_ChimeraCharacter : "{B4C8895D95F95D66}Prefabs/Characters/Factions/OPFOR/USSR
     ItemsInitConfigurationItem "{667D4D645CFAA944}" {
      TargetStorage "Vest/Vest_SovietHarness_MG.et/GrenadePouch/Pouch_Soviet_100rnd_PKM.et"
      PrefabsToSpawn {
-      "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{667D4D64ABB26DC6}" {
