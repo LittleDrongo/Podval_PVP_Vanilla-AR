@@ -4,6 +4,9 @@ SCR_AIGroup : "{40BA59ECD32F6347}Prefabs/Groups/BLUFOR/drg_Group_RHS_ION_PMC_Sho
 GenericEntity : "{5E48F2AEE83F80D5}Prefabs/Weapons/Rifles/M4A1/URG-I/drg_Rifle_M4A1_URGI_145_PMC.et" {
  coords 98.207 1 235.587
 }
+SCR_ChimeraCharacter : "{A807C057A88855BD}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Sniper.et" {
+ coords 81.003 1 213.173
+}
 Projectile : "{C14C5DE6F97F06F0}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x51_Ball_M80.et" {
  coords 89.528 1 239.769
 }

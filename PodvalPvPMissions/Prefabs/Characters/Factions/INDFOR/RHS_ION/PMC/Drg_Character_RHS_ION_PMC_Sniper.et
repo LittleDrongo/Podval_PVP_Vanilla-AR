@@ -1,6 +1,17 @@
 SCR_ChimeraCharacter : "{64939E91A79CC168}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_LAT_v2.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{03810BEF182ADA0B}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21.et"
+      }
+     }
+    }
+   }
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#DRG_ION_Sniper"
@@ -54,7 +65,7 @@ SCR_ChimeraCharacter : "{64939E91A79CC168}Prefabs/Characters/Factions/INDFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{6674AB891E1F2396}" {
-     TargetStorage "Jacket/drg_ACU_t-shirt_grey_OD.et"
+     TargetStorage "Back/Backpack_511_rush12_black.et"
      PrefabsToSpawn {
       "{0AD3E2DA8AC47BAF}Prefabs/Items/Equipment/RangeCard/RangeCard_L1A1.et"
      }
