@@ -1,6 +1,3 @@
-SCR_ChimeraCharacter : "{0AC0285F7CBB97B7}Prefabs/Characters/Factions/OPFOR/USSR_Army/Saboteurs/drg_Character_USSR_Saboteur.et" {
- coords 164.052 1 135.123
-}
 $grp GenericEntity : "{8F17290FBF410605}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_82mm_mortar_10rnd_HE.et" {
  {
   coords 162.588 1 126.545

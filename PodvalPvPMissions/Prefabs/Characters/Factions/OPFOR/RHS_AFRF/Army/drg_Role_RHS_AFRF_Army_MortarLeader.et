@@ -20,7 +20,7 @@ SCR_ChimeraCharacter : "{8AB4462F24F21DCD}Prefabs/Characters/Factions/OPFOR/RHS_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Back {
-     Prefab "{B31D9C2465D00D93}Prefabs/Items/Equipment/Radios/Radio_R107M_pl.et"
+     Prefab "{B31D9C2465D00D93}Prefabs/Items/Equipment/Radios/Radio_R107M_PL.et"
     }
    }
   }
@@ -36,6 +36,12 @@ SCR_ChimeraCharacter : "{8AB4462F24F21DCD}Prefabs/Characters/Factions/OPFOR/RHS_
      TargetStorage "Jacket/Field_Jacket_VKPO.et"
      PrefabsToSpawn {
       "{A55A815F28739FEC}Prefabs/Items/Equipment/Navigation/Orion/Orion.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66954EE2448E6645}" {
+     TargetStorage "Jacket/Field_Jacket_VKPO.et"
+     PrefabsToSpawn {
+      "{48B06B12F3BD7E9B}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_SL.et"
      }
     }
    }
