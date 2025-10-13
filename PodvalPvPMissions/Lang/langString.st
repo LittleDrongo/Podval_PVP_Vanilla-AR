@@ -1760,6 +1760,14 @@ StringTable {
    Author "hasta"
    LastChanged "rezni"
   }
+  CustomStringTableItem "{669A89B475D37AC8}" {
+   Id "DRG-Sq-HMGSquad"
+   Target_en_us "Heavy Machinegun Squad"
+   Target_ru_ru "Расчёт круп.кал. пулемёта"
+   Modified 1721404932
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{6574F43A2B6F710C}" {
    Id "DRG-Sq-InfantrySection"
    Target_en_us "Infantry Section"
@@ -2353,12 +2361,12 @@ StringTable {
    Target_es_es "Ametrallador pesado"
    Target_cs_cz "Tesky kulometcik"
    Target_pl_pl "Ciezki strzelec km"
-   Target_ru_ru "Пулемётчик НСВ"
+   Target_ru_ru "Наводчик пулемёта"
    Target_ja_jp "重機関銃手"
    Target_ko_kr "중기관총수"
    Target_pt_br "Metralhador pesado"
    Target_zh_cn "重机枪手"
-   Modified 1719496023
+   Modified 1721405965
    Author "hasta"
    LastChanged "hasta"
   }

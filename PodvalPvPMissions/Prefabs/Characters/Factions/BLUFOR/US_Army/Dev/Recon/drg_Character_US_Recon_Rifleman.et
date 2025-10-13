@@ -58,6 +58,9 @@ SCR_ChimeraCharacter : "{749CC8EDA102C70E}Prefabs/Characters/Factions/BLUFOR/US_
     ItemsInitConfigurationItem "{61B87867EA32507F}" {
      TargetStorage "Jacket/Jacket_US_BDU_02.et"
     }
+    ItemsInitConfigurationItem "{668274F01C31DCF7}" {
+     TargetStorage "Jacket/Jacket_US_BDU_02.et"
+    }
     ItemsInitConfigurationItem "{61B87CCDC52A0DBF}" {
      TargetStorage "Vest/Vest_ALICE_rifleman.et/MagPouch/Pouch_ALICE_30rnd_STANAG.et"
      PrefabsToSpawn {
