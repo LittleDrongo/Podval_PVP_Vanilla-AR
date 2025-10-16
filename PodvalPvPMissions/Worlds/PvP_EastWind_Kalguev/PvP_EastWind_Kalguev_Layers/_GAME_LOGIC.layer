@@ -3,8 +3,8 @@ GenericEntity : "{630742372D9304E8}Prefabs/System/DRG_ZoneControlPrefab.et" {
   DRG_ZoneControlComponent "{662B2CCC5DFEB26C}" {
    m_aControlLogics {
     DRG_ZoneControlLogic "{6682C5E24E8AED6F}" {
-     m_sZoneEntityName "base_zone"
-     m_sZonePreviewName "Опорный пункт"
+     m_sZoneEntityName "ZONE"
+     m_sZonePreviewName "Военная часть"
      m_bAdvanceGameStage 1
      m_sSuccessObjectiveNames {
       "BASE_USSR"
@@ -12,16 +12,16 @@ GenericEntity : "{630742372D9304E8}Prefabs/System/DRG_ZoneControlPrefab.et" {
      m_sFailedObjectiveNames {
       "BASE_US"
      }
-     m_sMessage "Победа атаки, база захвачена"
+     m_sMessage "Победа атаки! Военная часть захвачена."
      m_aConditions {
       DRG_ZoneControlCondition "{6682C5E2A93240DE}" {
        m_sFactionKey "US"
-       m_iOperator LESS_OR_EQUALS
-       m_iCount 2
-      }
-      DRG_ZoneControlCondition "{6682C5E2A92ABBAF}" {
        m_iOperator GREATER_OR_EQUALS
        m_iCount 4
+      }
+      DRG_ZoneControlCondition "{6682C5E2A92ABBAF}" {
+       m_iOperator LESS_OR_EQUALS
+       m_iCount 3
       }
      }
     }
@@ -37,7 +37,7 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
     LossLogic "{6682C5E327A24CBA}" {
      m_aLosses {
       FactionLoss "{6682C5E31F7FE20D}" {
-       m_iCriticalLossCount 4
+       m_iCriticalLossCount 3
       }
      }
      m_sObjectiveNames {
@@ -53,7 +53,7 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
     LossLogic "{6682C5E3252AC68C}" {
      m_aLosses {
       FactionLoss "{6682C5E32808B1EC}" {
-       m_iCriticalLossCount 4
+       m_iCriticalLossCount 3
        m_sFactionKey "US"
       }
      }

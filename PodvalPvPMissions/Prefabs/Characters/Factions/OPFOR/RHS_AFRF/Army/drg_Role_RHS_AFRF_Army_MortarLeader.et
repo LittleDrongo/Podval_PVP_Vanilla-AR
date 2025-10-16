@@ -26,6 +26,10 @@ SCR_ChimeraCharacter : "{8AB4462F24F21DCD}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{6528F2E136B3C43C}" {
+     PrefabsToSpawn {
+     }
+    }
     ItemsInitConfigurationItem "{65290674385BB88D}" {
      TargetStorage "Jacket/Field_Jacket_VKPO.et"
      PrefabsToSpawn {

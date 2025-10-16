@@ -1,6 +1,14 @@
 GenericEntity : "{0AD3E2DA8AC47BAF}Prefabs/Items/Equipment/RangeCard/RangeCard_L1A1.et" {
  coords 80.322 1 212.388
 }
+$grp SCR_ChimeraCharacter : "{27B55B400E8E81F4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_MortarLeader.et" {
+ {
+  coords 160.049 1 193.298
+ }
+ {
+  coords 154.056 1 200.39
+ }
+}
 SCR_AIGroup : "{40BA59ECD32F6347}Prefabs/Groups/BLUFOR/drg_Group_RHS_ION_PMC_Showcase.et" {
  coords 93.302 1 221.889
 }
@@ -10,4 +18,7 @@ SCR_AIGroup : "{8AED9A3FBB9E2682}Prefabs/Groups/INDFOR/FIA/drg_IG_ShowCase.et" {
 }
 Projectile : "{C14C5DE6F97F06F0}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x51_Ball_M80.et" {
  coords 89.528 1 239.769
+}
+SCR_ChimeraCharacter : "{F4EFDC82377DB6DF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/DRG_Character_RHS_AFRF_Mortar_TL.et" {
+ coords 161.03 1 193.659
 }

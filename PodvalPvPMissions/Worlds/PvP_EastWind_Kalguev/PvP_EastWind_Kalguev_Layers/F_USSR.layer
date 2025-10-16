@@ -158,10 +158,36 @@ $grp SCR_AIGroup : "{096E2AA151C3580D}Prefabs/Groups/OPFOR/Campaign/F_USSR_drg_R
   m_sCustomNameSet "Развед.патруль"
  }
 }
-Vehicle Ural4320_transport1 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
- coords 83.096 4 71.825
- angles 0 53.832 0
- m_bEnableMoveOnFreeze 1
+$grp Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+ Ural4320_transport1 {
+  coords 83.096 4 71.825
+  angles 0 53.832 0
+  m_bEnableMoveOnFreeze 1
+ }
+ Ural4320_transport2 {
+  coords 2686.294 24.219 5463.964
+  angles 0 179.878 0
+  m_sAttachmentGroupName "USSR_1_0_3_DEF"
+  m_bEnableMoveOnFreeze 1
+ }
+ Ural4320_transport3 {
+  coords 2686.273 24.219 5473.531
+  angles 0 179.878 0
+  m_sAttachmentGroupName "USSR_1_0_2_DEF"
+  m_bEnableMoveOnFreeze 1
+ }
+ Ural4320_transport4 {
+  coords 2686.252 24.219 5483.489
+  angles 0 179.878 0
+  m_sAttachmentGroupName "USSR_1_0_1_DEF"
+  m_bEnableMoveOnFreeze 1
+ }
+ Ural4320_transport5 {
+  coords 2686.232 24.219 5492.824
+  angles 0 179.878 0
+  m_sAttachmentGroupName "USSR_1_0_0_DEF"
+  m_bEnableMoveOnFreeze 1
+ }
 }
 $grp Vehicle : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
  Ural4320_command1 {
@@ -227,4 +253,8 @@ $grp Vehicle : "{3ADAB98297CE0203}Prefabs/Vehicles/Wheeled/Ural4320/BM 21-1_Ural
   coords 123.721 3.975 95.806
   angles -0.881 55.232 0.001
  }
+}
+StaticModelEntity : "{3B0C9DF1FC321951}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/drg_RadioRelayTower_USSR.et" {
+ coords 2943.694 24.218 5169.194
+ angles 0 -39.103 0
 }
