@@ -19,6 +19,9 @@ SCR_AIGroup : "{8AED9A3FBB9E2682}Prefabs/Groups/INDFOR/FIA/drg_IG_ShowCase.et" {
 Projectile : "{C14C5DE6F97F06F0}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x51_Ball_M80.et" {
  coords 89.528 1 239.769
 }
+GenericEntity : "{CCEEA6BC6177C51F}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_SL_CDF.et" {
+ coords 113.678 1 237.81
+}
 SCR_ChimeraCharacter : "{F4EFDC82377DB6DF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/DRG_Character_RHS_AFRF_Mortar_TL.et" {
  coords 161.03 1 193.659
 }
