@@ -8,6 +8,9 @@ $grp SCR_ChimeraCharacter : "{27B55B400E8E81F4}Prefabs/Characters/Factions/OPFOR
  {
   coords 154.056 1 200.39
  }
+ {
+  coords 103.36 1 206.219
+ }
 }
 SCR_AIGroup : "{40BA59ECD32F6347}Prefabs/Groups/BLUFOR/drg_Group_RHS_ION_PMC_Showcase.et" {
  coords 93.302 1 221.889

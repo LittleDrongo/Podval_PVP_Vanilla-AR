@@ -31,7 +31,7 @@ SCR_ChimeraCharacter : "{8AB4462F24F21DCD}Prefabs/Characters/Factions/OPFOR/RHS_
      }
     }
     ItemsInitConfigurationItem "{65290674385BB88D}" {
-     TargetStorage "Jacket/Field_Jacket_VKPO.et"
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/FirstAid/Pouch_Ratnik_appi_pouch.et"
      PrefabsToSpawn {
       "{B41607EAB58A4252}Prefabs/Items/Equipment/BalisticTable/BalisticTable_USSR.et"
      }
