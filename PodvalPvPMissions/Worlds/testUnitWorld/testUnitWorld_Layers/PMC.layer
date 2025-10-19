@@ -15,6 +15,9 @@ $grp SCR_ChimeraCharacter : "{27B55B400E8E81F4}Prefabs/Characters/Factions/OPFOR
 SCR_AIGroup : "{40BA59ECD32F6347}Prefabs/Groups/BLUFOR/drg_Group_RHS_ION_PMC_Showcase.et" {
  coords 93.302 1 221.889
 }
+SCR_ChimeraCharacter : "{53A7932FD6BDDF63}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL.et" {
+ coords 106.182 1 196.919
+}
 SCR_AIGroup : "{8AED9A3FBB9E2682}Prefabs/Groups/INDFOR/FIA/drg_IG_ShowCase.et" {
  coords 99.577 1 240.75
  angleY 0
