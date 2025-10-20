@@ -15,6 +15,9 @@ $grp SCR_ChimeraCharacter : "{27B55B400E8E81F4}Prefabs/Characters/Factions/OPFOR
 SCR_AIGroup : "{40BA59ECD32F6347}Prefabs/Groups/BLUFOR/drg_Group_RHS_ION_PMC_Showcase.et" {
  coords 93.302 1 221.889
 }
+SCR_ChimeraCharacter : "{44B364E3BE30218B}Prefabs/Characters/Factions/INDFOR/TKR/Rifleman/drg_Character_Ses_TKR_Rifleman_v8.et" {
+ coords 91.203 1 237.555
+}
 SCR_ChimeraCharacter : "{53A7932FD6BDDF63}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_SL.et" {
  coords 106.182 1 196.919
 }
@@ -27,6 +30,9 @@ Projectile : "{C14C5DE6F97F06F0}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x51_Ball_
 }
 GenericEntity : "{CCEEA6BC6177C51F}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_SL_CDF.et" {
  coords 113.678 1 237.81
+}
+SCR_ChimeraCharacter : "{DB47626A580CA48E}Prefabs/Characters/Factions/INDFOR/TKR/Rifleman/drg_Character_Ses_TKR_Rifleman_v7.et" {
+ coords 88.404 1 238.033
 }
 SCR_ChimeraCharacter : "{F4EFDC82377DB6DF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/DRG_Character_RHS_AFRF_Mortar_TL.et" {
  coords 161.03 1 193.659

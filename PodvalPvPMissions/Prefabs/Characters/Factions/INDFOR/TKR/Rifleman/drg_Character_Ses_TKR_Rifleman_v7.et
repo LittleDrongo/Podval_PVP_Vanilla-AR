@@ -20,7 +20,10 @@ SCR_ChimeraCharacter : "{BC59B0EFF0344FC8}Prefabs/Characters/Factions/INDFOR/TKR
      TargetStorage "Jacket/ChilabaFull04.et"
     }
     ItemsInitConfigurationItem "{6586FC580BD1FA4A}" {
-     TargetStorage "Vest/Vest_Type56.et"
+     TargetStorage "Jacket/ChilabaFull04.et"
+    }
+    ItemsInitConfigurationItem "{6586FC580BEFCB9E}" {
+     TargetStorage "Jacket/ChilabaFull04.et"
     }
     ItemsInitConfigurationItem "{6586FC5BBC416173}" {
      PrefabsToSpawn {
